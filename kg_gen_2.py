@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 """Utils files with all functions relevant to generation of KG."""
-
+import os
 from IPython.display import Image
 import logging
 import pickle
@@ -29,7 +29,6 @@ from IPython.display import display, HTML
 from IPython.display import Markdown, display
 
 logger = logging.getLogger("__name__")
-
 
 def searchDisease(name): 
     
@@ -86,25 +85,31 @@ def printmd(string, color=None):
     display(Markdown(colorstr))
 
 def GetQuery():
-    
+
+    from IPython.display import Image
+
+    image = mpimg.imread("C:\\Users\\reagon.karki\\Documents\\GitHub\\kgg\\data\\KGG.png")
+    plt.imshow(image)
+    plt.axis('off')
+    plt.show()
+
+    printmd("**Welcome to the KG Generator tool. In the following steps, we will need some inputs from your side.**",color = "blue")
+
     query = input('Please enter the disease you are interested in and we will try to find the best matches for you.' +'\n' + '\n' + 'Input: ')
     return(query)
 
-def Generate_KG():
-        
-    from IPython.display import Image    
-    printmd("**Welcome to the KG Generator tool. In the following steps, we will need a couple of inputs from your side.**",color = "blue")
-   
-    #Image(filename='data/KGG.png')
+def Generate_KG(query_disease):
+
+    #Image(filename='https://github.com/Fraunhofer-ITMP/kgg/blob/main/data/KGG.png?raw=true')
     
     #this is required to get above printed before the input is asked
     time.sleep(0.05)
     
     #dis = input('Please enter the disease you are interested in and we will try to find the best matches for you.' +'\n' + '\n' + 'Input: ')
     
-    dis = GetQuery()
+    #dis = GetQuery()
     
-    temp = searchDisease(dis)
+    temp = searchDisease(query_disease)
     #print(temp)
     #print('\n')
     if not temp.empty:
@@ -327,8 +332,8 @@ def KG_namespace_plot(final_kg):
     a.set(xlabel='Number',ylabel='Namespace',title= 'KG Namespace in numbers')
 
     plt.tight_layout()
-    #plt.savefig('data/export/test2.png',dpi=600)
-    plt.show()    
+    plt.savefig('test.png',dpi=600)
+    #plt.show()    
 
 def getAdverseEffectCount(chembl_id):
     
@@ -443,7 +448,7 @@ def GetAdverseEvents(chem_list):
             
     api_response.reset_index(drop=True, inplace=True)
     return(api_response)
-
+        
 def chembl2adverseEffect_rel(
     chembl_adveff_df,
     graph: BELGraph
@@ -465,25 +470,129 @@ def chembl2adverseEffect_rel(
         )
 
     return graph
+
+def GetViralProteins(query_disease):
     
+    # file downloaded from https://www.genome.jp/ftp/db/virushostdb Dated: 12/09/2023
+    virus = pd.read_csv('https://raw.githubusercontent.com/Fraunhofer-ITMP/kgg/main/data/virushostdb.csv')
+    
+    cols = ['virus tax id','virus name','DISEASE','host tax id']
+    virus = virus[cols]
+    
+    #print(virus)
+
+    #filter virus with host humans 
+    virus = virus.loc[virus['host tax id'] == 9606.0,:]
+    virus = virus.reset_index(drop=True)
+    
+    #replace 9606.0 to 9606
+    virus["host tax id"] = pd.to_numeric(virus["host tax id"], downcast='integer')
+    
+    #get the initial keyword for disease search
+    #disease = GetQuery()
+    
+    #subset df with disease keyword
+    virus_subset_1 = virus[virus['DISEASE'].str.contains(query_disease,na=False,case=False)]
+    
+    if not virus_subset_1.empty:
+
+        #print(disease)
+        print('\n')
+        print('The workflow has identified your query as a viral disease. Its proteins (SWISS-Prot) will be now represented in the KG.','\n')
+
+        time.sleep(0.1)
+
+        virus_name = input('Do you want to look further for a specific virus? Please type its name or skip it by typing \'no\': ')
+
+        #subset df with virus name
+        if virus_name.lower() != 'no':
+
+            virus_subset_2 = virus[virus['virus name'].str.contains(virus_name,na=False,case=False)]
+            #print(virus_subset_2)
+            #break
+        else:
+            virus_subset_2 = pd.DataFrame()
+
+        #merge subsets of df_1 and df_2
+        virus_subset_merge = pd.concat([virus_subset_1,virus_subset_2])
+
+        virus_subset_merge = virus_subset_merge.drop_duplicates(keep='first')
+
+        virus_subset_merge = virus_subset_merge.reset_index(drop=True)
+
+        virus_subset_merge['index'] = virus_subset_merge.index
+
+        virus_subset_merge.style.hide(axis='index')  
+
+        virus_subset_merge = virus_subset_merge[['index','virus tax id','virus name','DISEASE','host tax id']]
+        display(HTML(virus_subset_merge.to_html(index=False)))
+        
+
+        time.sleep(0.1)
+        temp_id = input('Enter the index value(s). If multiple, use space, for example -> 0 1 3: ')
+
+        print('\n')
+
+        temp_id = temp_id.split(' ')
+        temp_id = [int(x) for x in temp_id]
+        #print(virus_subset_merge.loc[0]['virus tax id'])
+
+        uprot_list = []
+
+        for item in temp_id:
+
+            tax_id = virus_subset_merge.loc[item]['virus tax id']
+            #print(tax_id)
+
+            #fetch tax id related proteins from Uniprot
+            #the link can be created from downloads option in uniprot
+            query_string = 'https://rest.uniprot.org/uniprotkb/stream?fields=accession%2Creviewed%2Cid%2Cgene_names%2Corganism_name%2Clength%2Cgene_primary%2Cprotein_name&format=tsv&query=%28%28taxonomy_id%3A'+str(tax_id)+'%29+AND+%28reviewed%3Atrue%29%29'
+
+            #query_string = 'https://rest.uniprot.org/uniprotkb/stream?fields=accession%2Creviewed%2Cid%2Cgene_names%2Corganism_name%2Clength%2Cgene_primary%2Cprotein_name&format=tsv&query=%28%28taxonomy_id%3A11676%29%29+AND+%28reviewed%3Atrue%29'
+
+            query_uniprot = requests.get(query_string)
+            query_uniprot = query_uniprot.text.split('\n')
+
+            query_uniprot_df = pd.DataFrame([x.strip().split('\t') for x in query_uniprot])
+            cols = query_uniprot_df.iloc[0]
+            #print(cols)
+            query_uniprot_df = query_uniprot_df[1:len(query_uniprot_df)-1]
+            query_uniprot_df.columns = cols
+            temp = list(query_uniprot_df['Entry'])
+            #print(len(temp))
+            uprot_list.append(temp)
+
+        uprot_list = [item for sublist in uprot_list for item in sublist]
+        
+        print('A total of',str(len(uprot_list)), 'viral proteins have been identified.','\n')
+        
+        return(uprot_list)
+    
+
 def createKG():
 
     #import matplotlib.pyplot as plt
     #import matplotlib.image as mpimg
-    image = mpimg.imread("data/KGG.png")
-    plt.imshow(image)
-    plt.axis('off')
-    plt.show()
+    # image = mpimg.imread("data/KGG.png")
+    # plt.imshow(image)
+    # plt.axis('off')
+    # plt.show()
     
-    doid = Generate_KG()
+    query = GetQuery()
+    
+    doid = Generate_KG(query)
+
+    #break
+    
     #print(doid)
     
     time.sleep(0.1)
     
     efo_id = int(input('Please enter the index value of your disease of interest. Input: '))
     #print(efo_id)
-    print('\n')
     
+    vir_prot = GetViralProteins(query)
+
     print('Please enter the clinical trial phase of chemicals which should be identified by the workflow. Use a number between 1 (early phase) and 4 (FDA approved). For example, if you use 3, the KG will fetch chemicals that are in phase 3. Also, remember that lower the input value, higher will be the number of identified chemicals and therefore the running time of workflow also increases.')
     
     time.sleep(0.05)
@@ -511,6 +620,9 @@ def createKG():
     
     uprot_ext = ExtractFromUniProt(df_dis2prot['UniProt'])
     
+    if vir_prot:
+        vir_uprot_ext = ExtractFromUniProt(vir_prot)
+    
     print('A total of ' + str(len(chembl_list)) + ' drugs have been identified. Now fetching relevant data')
     
     chembl2mech = RetMech(chembl_list)
@@ -527,6 +639,9 @@ def createKG():
     
     kg = uniprot_rel(uprot_ext, 'HGNC', kg)
     
+    if vir_prot:
+        kg = uniprot_rel(vir_uprot_ext,'VP',kg)
+    
     kg = chem2moa_rel(chembl2mech, 'HGNC', kg)
     kg = chem2act_rel(chembl2act, 'HGNC', kg)
     kg = gene2path_rel(chembl2uprot, 'HGNC', kg)
@@ -534,9 +649,42 @@ def createKG():
     adv_effect = GetAdverseEvents(chembl_list)
     kg = chembl2adverseEffect_rel(adv_effect,kg)
     
-    print('Your KG is now generated!')
+    print('Your KG is now generated!','\n')
+    
+    saveFiles(kg_name, df_dis2prot, adv_effect, kg)
     
     return(kg)
     
+def saveFiles(kgName, disease2protein, drugAdvEffect, final_kg):
+
+    print('Now let\'s save all the files that were created in the process.','\n')
     
+    print('Please enter the location (e.g. \'C:\\Users\\rkarki\\Documents\\kg\\\' ) where KG files should be stored. A folder will be created automatically.','\n')
+    
+    time.sleep(0.2)
+    
+    path = input('Input: ')
+    
+    path = path+kgName
+    
+    os.makedirs(path,exist_ok=True)
+    
+    os.chdir(path)
+    
+    disease2protein.to_csv('diseaseAssociatedProteins.csv',sep=',')
+    
+    drugAdvEffect.to_csv('adverseEffects.csv',sep=',')
+    
+    #to cytoscape compatible graphml 
+    pybel.to_graphml(final_kg,'test.graphml')
+
+    #to regular BEL format
+    pybel.dump(final_kg,'test.bel')
+
+    #to neo4j
+    pybel.to_csv(final_kg,'test.csv')
+    
+    #plot for namespace dist
+    KG_namespace_plot(final_kg)
+       
            

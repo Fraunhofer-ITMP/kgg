@@ -630,7 +630,7 @@ def uniprot_rel(
     :param graph:
     :return:
     """
-    for item in tqdm(named_uprotList):
+    for item in tqdm(named_uprotList,desc='Populating Uniprot edges'):
         fun = list(named_uprotList[item]['Function'].keys())
         bp = list(named_uprotList[item]['BioProcess'].keys())
         for f in fun:
