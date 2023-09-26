@@ -1,0 +1,599 @@
+bp(GOMF:"copper ion binding")	association	p(HGNC:SOD1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"copper ion binding")	association	p(HGNC:ANG)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:SOD1)	association	bp(GOMF:"copper ion binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:SOD1)	association	bp(GOMF:"identical protein binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:SOD1)	association	bp(GOMF:"ion binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:SOD1)	association	bp(GOMF:"protein phosphatase 2B binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:SOD1)	association	bp(GOMF:"protein-folding chaperone binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:SOD1)	association	bp(GOBP:"action potential initiation")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:SOD1)	association	bp(GOBP:"anterograde axonal transport")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:SOD1)	association	bp(GOBP:"apoptotic process")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:SOD1)	association	bp(GOBP:"auditory receptor cell stereocilium organization")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:SOD1)	association	bp(GOBP:"determination of adult lifespan")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"identical protein binding")	association	p(HGNC:SOD1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"identical protein binding")	association	p(HGNC:TARDBP)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"identical protein binding")	association	p(HGNC:UBQLN2)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"identical protein binding")	association	p(HGNC:FUS)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"identical protein binding")	association	p(HGNC:SQSTM1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"identical protein binding")	association	p(HGNC:TBK1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"identical protein binding")	association	p(HGNC:SETX)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"identical protein binding")	association	p(HGNC:OPTN)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"identical protein binding")	association	p(HGNC:ALS2)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"identical protein binding")	association	p(HGNC:SIGMAR1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"identical protein binding")	association	p(HGNC:MATR3)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"identical protein binding")	association	p(HGNC:HNRNPA1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"ion binding")	association	p(HGNC:SOD1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"protein phosphatase 2B binding")	association	p(HGNC:SOD1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"protein-folding chaperone binding")	association	p(HGNC:SOD1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"action potential initiation")	association	p(HGNC:SOD1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"anterograde axonal transport")	association	p(HGNC:SOD1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"apoptotic process")	association	p(HGNC:SOD1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"apoptotic process")	association	p(HGNC:SQSTM1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"auditory receptor cell stereocilium organization")	association	p(HGNC:SOD1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"determination of adult lifespan")	association	p(HGNC:SOD1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"DNA binding")	association	p(HGNC:TARDBP)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"DNA binding")	association	p(HGNC:FUS)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"DNA binding")	association	p(HGNC:SETX)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"DNA binding")	association	p(HGNC:ANG)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"DNA binding")	association	p(HGNC:HNRNPA1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:TARDBP)	association	bp(GOMF:"DNA binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:TARDBP)	association	bp(GOMF:"double-stranded DNA binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:TARDBP)	association	bp(GOMF:"identical protein binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:TARDBP)	association	bp(GOMF:"lipid binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:TARDBP)	association	bp(GOMF:"molecular condensate scaffold activity")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:TARDBP)	association	bp(GOBP:"3'-UTR-mediated mRNA destabilization")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:TARDBP)	association	bp(GOBP:"3'-UTR-mediated mRNA stabilization")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:TARDBP)	association	bp(GOBP:"amyloid fibril formation")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:TARDBP)	association	bp(GOBP:"mRNA processing")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:TARDBP)	association	bp(GOBP:"negative regulation by host of viral transcription")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"double-stranded DNA binding")	association	p(HGNC:TARDBP)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"lipid binding")	association	p(HGNC:TARDBP)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"molecular condensate scaffold activity")	association	p(HGNC:TARDBP)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"molecular condensate scaffold activity")	association	p(HGNC:UBQLN2)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"molecular condensate scaffold activity")	association	p(HGNC:FUS)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"molecular condensate scaffold activity")	association	p(HGNC:HNRNPA1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"3'-UTR-mediated mRNA destabilization")	association	p(HGNC:TARDBP)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"3'-UTR-mediated mRNA stabilization")	association	p(HGNC:TARDBP)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"amyloid fibril formation")	association	p(HGNC:TARDBP)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"amyloid fibril formation")	association	p(HGNC:FUS)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"amyloid fibril formation")	association	p(HGNC:HNRNPA1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"mRNA processing")	association	p(HGNC:TARDBP)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"negative regulation by host of viral transcription")	association	p(HGNC:TARDBP)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:UBQLN2)	association	bp(GOMF:"identical protein binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:UBQLN2)	association	bp(GOMF:"molecular condensate scaffold activity")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:UBQLN2)	association	bp(GOMF:"polyubiquitin modification-dependent protein binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:UBQLN2)	association	bp(GOBP:"autophagosome assembly")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:UBQLN2)	association	bp(GOBP:"negative regulation of clathrin-dependent endocytosis")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:UBQLN2)	association	bp(GOBP:"negative regulation of G protein-coupled receptor internalization")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:UBQLN2)	association	bp(GOBP:"positive regulation of ER-associated ubiquitin-dependent protein catabolic process")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:UBQLN2)	association	bp(GOBP:"regulation of autophagosome assembly")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"polyubiquitin modification-dependent protein binding")	association	p(HGNC:UBQLN2)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"polyubiquitin modification-dependent protein binding")	association	p(HGNC:OPTN)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"autophagosome assembly")	association	p(HGNC:UBQLN2)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"negative regulation of clathrin-dependent endocytosis")	association	p(HGNC:UBQLN2)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"negative regulation of G protein-coupled receptor internalization")	association	p(HGNC:UBQLN2)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"positive regulation of ER-associated ubiquitin-dependent protein catabolic process")	association	p(HGNC:UBQLN2)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"regulation of autophagosome assembly")	association	p(HGNC:UBQLN2)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"chromatin binding")	association	p(HGNC:FUS)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:FUS)	association	bp(GOMF:"chromatin binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:FUS)	association	bp(GOMF:"DNA binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:FUS)	association	bp(GOMF:"identical protein binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:FUS)	association	bp(GOMF:"metal ion binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:FUS)	association	bp(GOMF:"molecular condensate scaffold activity")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:FUS)	association	bp(GOBP:"amyloid fibril formation")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:FUS)	association	bp(GOBP:"mRNA stabilization")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:FUS)	association	bp(GOBP:"positive regulation of double-strand break repair via homologous recombination")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:FUS)	association	bp(GOBP:"protein homooligomerization")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:FUS)	association	bp(GOBP:"regulation of DNA-templated transcription")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"metal ion binding")	association	p(HGNC:FUS)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"metal ion binding")	association	p(HGNC:OPTN)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"mRNA stabilization")	association	p(HGNC:FUS)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"positive regulation of double-strand break repair via homologous recombination")	association	p(HGNC:FUS)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"protein homooligomerization")	association	p(HGNC:FUS)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"regulation of DNA-templated transcription")	association	p(HGNC:FUS)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"enzyme binding")	association	p(HGNC:SQSTM1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"enzyme binding")	association	p(HGNC:VAPB)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:SQSTM1)	association	bp(GOMF:"enzyme binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:SQSTM1)	association	bp(GOMF:"identical protein binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:SQSTM1)	association	bp(GOMF:"ionotropic glutamate receptor binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:SQSTM1)	association	bp(GOMF:"K63-linked polyubiquitin modification-dependent protein binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:SQSTM1)	association	bp(GOMF:"protein kinase binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:SQSTM1)	association	bp(GOBP:aggrephagy)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:SQSTM1)	association	bp(GOBP:"apoptotic process")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:SQSTM1)	association	bp(GOBP:autophagy)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:SQSTM1)	association	bp(GOBP:"autophagy of mitochondrion")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:SQSTM1)	association	bp(GOBP:"brown fat cell proliferation")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"ionotropic glutamate receptor binding")	association	p(HGNC:SQSTM1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"K63-linked polyubiquitin modification-dependent protein binding")	association	p(HGNC:SQSTM1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"K63-linked polyubiquitin modification-dependent protein binding")	association	p(HGNC:OPTN)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"protein kinase binding")	association	p(HGNC:SQSTM1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"protein kinase binding")	association	p(HGNC:DCTN1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"protein kinase binding")	association	p(HGNC:SPG11)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:aggrephagy)	association	p(HGNC:SQSTM1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:autophagy)	association	p(HGNC:SQSTM1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:autophagy)	association	p(HGNC:OPTN)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:autophagy)	association	p(HGNC:VCP)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:autophagy)	association	p(HGNC:CHMP2B)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:autophagy)	association	p(HGNC:C9orf72)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"autophagy of mitochondrion")	association	p(HGNC:SQSTM1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"brown fat cell proliferation")	association	p(HGNC:SQSTM1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"ATP binding")	association	p(HGNC:TBK1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"ATP binding")	association	p(HGNC:SETX)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"ATP binding")	association	p(HGNC:VCP)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"ATP binding")	association	p(HGNC:ERBB4)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:TBK1)	association	bp(GOMF:"ATP binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:TBK1)	association	bp(GOMF:"identical protein binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:TBK1)	association	bp(GOMF:"nucleic acid binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:TBK1)	association	bp(GOMF:"phosphoprotein binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:TBK1)	association	bp(GOMF:"protein kinase activity")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:TBK1)	association	bp(GOBP:"activation of innate immune response")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:TBK1)	association	bp(GOBP:"antiviral innate immune response")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:TBK1)	association	bp(GOBP:"cytosolic pattern recognition receptor signaling pathway")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:TBK1)	association	bp(GOBP:"defense response to Gram-positive bacterium")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:TBK1)	association	bp(GOBP:"defense response to virus")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"nucleic acid binding")	association	p(HGNC:TBK1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"phosphoprotein binding")	association	p(HGNC:TBK1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"protein kinase activity")	association	p(HGNC:TBK1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"activation of innate immune response")	association	p(HGNC:TBK1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"activation of innate immune response")	association	p(HGNC:MATR3)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"antiviral innate immune response")	association	p(HGNC:TBK1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"cytosolic pattern recognition receptor signaling pathway")	association	p(HGNC:TBK1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"defense response to Gram-positive bacterium")	association	p(HGNC:TBK1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"defense response to virus")	association	p(HGNC:TBK1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"microtubule binding")	association	p(HGNC:DCTN1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"microtubule binding")	association	p(HGNC:VAPB)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:DCTN1)	association	bp(GOMF:"microtubule binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:DCTN1)	association	bp(GOMF:"protein kinase binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:DCTN1)	association	bp(GOMF:"tau protein binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:DCTN1)	association	bp(GOMF:"tubulin binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:DCTN1)	association	bp(GOBP:"cell division")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:DCTN1)	association	bp(GOBP:"centriole-centriole cohesion")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:DCTN1)	association	bp(GOBP:"establishment of mitotic spindle orientation")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:DCTN1)	association	bp(GOBP:"maintenance of synapse structure")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:DCTN1)	association	bp(GOBP:"melanosome transport")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"tau protein binding")	association	p(HGNC:DCTN1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"tubulin binding")	association	p(HGNC:DCTN1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"cell division")	association	p(HGNC:DCTN1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"centriole-centriole cohesion")	association	p(HGNC:DCTN1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"establishment of mitotic spindle orientation")	association	p(HGNC:DCTN1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"maintenance of synapse structure")	association	p(HGNC:DCTN1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"melanosome transport")	association	p(HGNC:DCTN1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:SETX)	association	bp(GOMF:"ATP binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:SETX)	association	bp(GOMF:"DNA binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:SETX)	association	bp(GOMF:"DNA helicase activity")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:SETX)	association	bp(GOMF:"hydrolase activity")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:SETX)	association	bp(GOMF:"identical protein binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:SETX)	association	bp(GOBP:"cell differentiation")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:SETX)	association	bp(GOBP:"cellular response to fibroblast growth factor stimulus")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:SETX)	association	bp(GOBP:"cellular response to hydrogen peroxide")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:SETX)	association	bp(GOBP:"cellular response to oxidative stress")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:SETX)	association	bp(GOBP:"cellular response to retinoic acid")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"DNA helicase activity")	association	p(HGNC:SETX)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"hydrolase activity")	association	p(HGNC:SETX)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"cell differentiation")	association	p(HGNC:SETX)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"cellular response to fibroblast growth factor stimulus")	association	p(HGNC:SETX)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"cellular response to hydrogen peroxide")	association	p(HGNC:SETX)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"cellular response to oxidative stress")	association	p(HGNC:SETX)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"cellular response to retinoic acid")	association	p(HGNC:SETX)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:OPTN)	association	bp(GOMF:"identical protein binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:OPTN)	association	bp(GOMF:"K63-linked polyubiquitin modification-dependent protein binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:OPTN)	association	bp(GOMF:"metal ion binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:OPTN)	association	bp(GOMF:"polyubiquitin modification-dependent protein binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:OPTN)	association	bp(GOMF:"protein-macromolecule adaptor activity")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:OPTN)	association	bp(GOBP:autophagy)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:OPTN)	association	bp(GOBP:"cell death")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:OPTN)	association	bp(GOBP:"cellular response to unfolded protein")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:OPTN)	association	bp(GOBP:"defense response to Gram-negative bacterium")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:OPTN)	association	bp(GOBP:"Golgi organization")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"protein-macromolecule adaptor activity")	association	p(HGNC:OPTN)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"cell death")	association	p(HGNC:OPTN)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"cellular response to unfolded protein")	association	p(HGNC:OPTN)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"defense response to Gram-negative bacterium")	association	p(HGNC:OPTN)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"Golgi organization")	association	p(HGNC:OPTN)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"ADP binding")	association	p(HGNC:VCP)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:VCP)	association	bp(GOMF:"ADP binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:VCP)	association	bp(GOMF:"ATP binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:VCP)	association	bp(GOMF:"ATP hydrolysis activity")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:VCP)	association	bp(GOMF:"BAT3 complex binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:VCP)	association	bp(GOMF:"deubiquitinase activator activity")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:VCP)	association	bp(GOBP:"activation of cysteine-type endopeptidase activity involved in apoptotic process")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:VCP)	association	bp(GOBP:"aggresome assembly")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:VCP)	association	bp(GOBP:"ATP metabolic process")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:VCP)	association	bp(GOBP:"autophagosome maturation")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:VCP)	association	bp(GOBP:autophagy)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"ATP hydrolysis activity")	association	p(HGNC:VCP)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"BAT3 complex binding")	association	p(HGNC:VCP)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"deubiquitinase activator activity")	association	p(HGNC:VCP)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"activation of cysteine-type endopeptidase activity involved in apoptotic process")	association	p(HGNC:VCP)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"aggresome assembly")	association	p(HGNC:VCP)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"ATP metabolic process")	association	p(HGNC:VCP)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"autophagosome maturation")	association	p(HGNC:VCP)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"autophagosome maturation")	association	p(HGNC:CHMP2B)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"actin binding")	association	p(HGNC:PFN1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"actin binding")	association	p(HGNC:ANG)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:PFN1)	association	bp(GOMF:"actin binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:PFN1)	association	bp(GOMF:"actin monomer binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:PFN1)	association	bp(GOMF:"adenyl-nucleotide exchange factor activity")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:PFN1)	association	bp(GOMF:"cadherin binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:PFN1)	association	bp(GOMF:"phosphatidylinositol-4,5-bisphosphate binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:PFN1)	association	bp(GOBP:"actin cytoskeleton organization")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:PFN1)	association	bp(GOBP:"modification of postsynaptic actin cytoskeleton")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:PFN1)	association	bp(GOBP:"modulation of chemical synaptic transmission")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:PFN1)	association	bp(GOBP:"negative regulation of actin filament bundle assembly")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:PFN1)	association	bp(GOBP:"negative regulation of actin filament polymerization")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"actin monomer binding")	association	p(HGNC:PFN1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"adenyl-nucleotide exchange factor activity")	association	p(HGNC:PFN1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"cadherin binding")	association	p(HGNC:PFN1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"cadherin binding")	association	p(HGNC:CHMP2B)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"cadherin binding")	association	p(HGNC:VAPB)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"phosphatidylinositol-4,5-bisphosphate binding")	association	p(HGNC:PFN1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"actin cytoskeleton organization")	association	p(HGNC:PFN1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"modification of postsynaptic actin cytoskeleton")	association	p(HGNC:PFN1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"modulation of chemical synaptic transmission")	association	p(HGNC:PFN1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"negative regulation of actin filament bundle assembly")	association	p(HGNC:PFN1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"negative regulation of actin filament polymerization")	association	p(HGNC:PFN1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"GTPase activator activity")	association	p(HGNC:ALS2)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:ALS2)	association	bp(GOMF:"GTPase activator activity")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:ALS2)	association	bp(GOMF:"guanyl-nucleotide exchange factor activity")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:ALS2)	association	bp(GOMF:"identical protein binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:ALS2)	association	bp(GOMF:"protein homodimerization activity")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:ALS2)	association	bp(GOMF:"protein serine/threonine kinase activator activity")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:ALS2)	association	bp(GOBP:"behavioral fear response")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:ALS2)	association	bp(GOBP:"endosomal transport")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:ALS2)	association	bp(GOBP:"endosome organization")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:ALS2)	association	bp(GOBP:"locomotory behavior")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:ALS2)	association	bp(GOBP:"lysosomal transport")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"guanyl-nucleotide exchange factor activity")	association	p(HGNC:ALS2)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"guanyl-nucleotide exchange factor activity")	association	p(HGNC:C9orf72)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"protein homodimerization activity")	association	p(HGNC:ALS2)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"protein serine/threonine kinase activator activity")	association	p(HGNC:ALS2)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"behavioral fear response")	association	p(HGNC:ALS2)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"endosomal transport")	association	p(HGNC:ALS2)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"endosome organization")	association	p(HGNC:ALS2)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"endosome organization")	association	p(HGNC:CHMP2B)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"locomotory behavior")	association	p(HGNC:ALS2)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"locomotory behavior")	association	p(HGNC:FIG4)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"lysosomal transport")	association	p(HGNC:ALS2)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"phosphatidylinositol-3,4,5-trisphosphate 5-phosphatase activity")	association	p(HGNC:FIG4)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:FIG4)	association	bp(GOMF:"phosphatidylinositol-3,4,5-trisphosphate 5-phosphatase activity")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:FIG4)	association	bp(GOMF:"phosphatidylinositol-3,5-bisphosphate 5-phosphatase activity")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:FIG4)	association	bp(GOMF:"phosphatidylinositol-3-phosphate phosphatase activity")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:FIG4)	association	bp(GOMF:"phosphatidylinositol-4,5-bisphosphate 5-phosphatase activity")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:FIG4)	association	bp(GOMF:"phosphatidylinositol-4-phosphate phosphatase activity")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:FIG4)	association	bp(GOBP:"locomotory behavior")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:FIG4)	association	bp(GOBP:"myelin assembly")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:FIG4)	association	bp(GOBP:"negative regulation of myelination")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:FIG4)	association	bp(GOBP:"neuron development")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:FIG4)	association	bp(GOBP:"phosphatidylinositol biosynthetic process")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"phosphatidylinositol-3,5-bisphosphate 5-phosphatase activity")	association	p(HGNC:FIG4)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"phosphatidylinositol-3-phosphate phosphatase activity")	association	p(HGNC:FIG4)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"phosphatidylinositol-4,5-bisphosphate 5-phosphatase activity")	association	p(HGNC:FIG4)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"phosphatidylinositol-4-phosphate phosphatase activity")	association	p(HGNC:FIG4)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"myelin assembly")	association	p(HGNC:FIG4)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"negative regulation of myelination")	association	p(HGNC:FIG4)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"neuron development")	association	p(HGNC:FIG4)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"phosphatidylinositol biosynthetic process")	association	p(HGNC:FIG4)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"G protein-coupled opioid receptor activity")	association	p(HGNC:SIGMAR1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:SIGMAR1)	association	bp(GOMF:"G protein-coupled opioid receptor activity")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:SIGMAR1)	association	bp(GOMF:"identical protein binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:SIGMAR1)	association	bp(GOBP:"lipid transport")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:SIGMAR1)	association	bp(GOBP:"nervous system development")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:SIGMAR1)	association	bp(GOBP:"protein homotrimerization")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:SIGMAR1)	association	bp(GOBP:"regulation of neuron apoptotic process")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"lipid transport")	association	p(HGNC:SIGMAR1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"nervous system development")	association	p(HGNC:SIGMAR1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"protein homotrimerization")	association	p(HGNC:SIGMAR1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"regulation of neuron apoptotic process")	association	p(HGNC:SIGMAR1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:CHMP2B)	association	bp(GOMF:"cadherin binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:CHMP2B)	association	bp(GOMF:"protein domain specific binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:CHMP2B)	association	bp(GOBP:"autophagosome maturation")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:CHMP2B)	association	bp(GOBP:autophagy)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:CHMP2B)	association	bp(GOBP:cognition)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:CHMP2B)	association	bp(GOBP:"endosome organization")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:CHMP2B)	association	bp(GOBP:"endosome transport via multivesicular body sorting pathway")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"protein domain specific binding")	association	p(HGNC:CHMP2B)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:cognition)	association	p(HGNC:CHMP2B)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"endosome transport via multivesicular body sorting pathway")	association	p(HGNC:CHMP2B)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:ERBB4)	association	bp(GOMF:"ATP binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:ERBB4)	association	bp(GOMF:"epidermal growth factor receptor activity")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:ERBB4)	association	bp(GOMF:"epidermal growth factor receptor binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:ERBB4)	association	bp(GOMF:"GABA receptor binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:ERBB4)	association	bp(GOMF:"neuregulin receptor activity")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:ERBB4)	association	bp(GOBP:"cardiac muscle tissue regeneration")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:ERBB4)	association	bp(GOBP:"cell fate commitment")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:ERBB4)	association	bp(GOBP:"cell migration")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:ERBB4)	association	bp(GOBP:"cellular response to epidermal growth factor stimulus")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:ERBB4)	association	bp(GOBP:"central nervous system morphogenesis")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"epidermal growth factor receptor activity")	association	p(HGNC:ERBB4)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"epidermal growth factor receptor binding")	association	p(HGNC:ERBB4)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"epidermal growth factor receptor binding")	association	p(HGNC:ATXN2)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"GABA receptor binding")	association	p(HGNC:ERBB4)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"neuregulin receptor activity")	association	p(HGNC:ERBB4)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"cardiac muscle tissue regeneration")	association	p(HGNC:ERBB4)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"cell fate commitment")	association	p(HGNC:ERBB4)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"cell migration")	association	p(HGNC:ERBB4)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"cellular response to epidermal growth factor stimulus")	association	p(HGNC:ERBB4)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"central nervous system morphogenesis")	association	p(HGNC:ERBB4)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"structural molecule activity")	association	p(HGNC:PRPH)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"structural molecule activity")	association	p(HGNC:MATR3)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:PRPH)	association	bp(GOMF:"structural molecule activity")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"beta-tubulin binding")	association	p(HGNC:VAPB)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:VAPB)	association	bp(GOMF:"beta-tubulin binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:VAPB)	association	bp(GOMF:"cadherin binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:VAPB)	association	bp(GOMF:"enzyme binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:VAPB)	association	bp(GOMF:"FFAT motif binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:VAPB)	association	bp(GOMF:"microtubule binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:VAPB)	association	bp(GOBP:"COPII-coated vesicle budding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:VAPB)	association	bp(GOBP:"endoplasmic reticulum membrane organization")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:VAPB)	association	bp(GOBP:"endoplasmic reticulum organization")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:VAPB)	association	bp(GOBP:"endoplasmic reticulum to Golgi vesicle-mediated transport")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:VAPB)	association	bp(GOBP:"endoplasmic reticulum unfolded protein response")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"FFAT motif binding")	association	p(HGNC:VAPB)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"COPII-coated vesicle budding")	association	p(HGNC:VAPB)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"endoplasmic reticulum membrane organization")	association	p(HGNC:VAPB)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"endoplasmic reticulum organization")	association	p(HGNC:VAPB)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"endoplasmic reticulum to Golgi vesicle-mediated transport")	association	p(HGNC:VAPB)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"endoplasmic reticulum unfolded protein response")	association	p(HGNC:VAPB)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:ANG)	association	bp(GOMF:"actin binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:ANG)	association	bp(GOMF:"copper ion binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:ANG)	association	bp(GOMF:"DNA binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:ANG)	association	bp(GOMF:"endonuclease activity")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:ANG)	association	bp(GOMF:"heparin binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:ANG)	association	bp(GOBP:"actin filament polymerization")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:ANG)	association	bp(GOBP:"activation of phospholipase A2 activity")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:ANG)	association	bp(GOBP:"activation of phospholipase C activity")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:ANG)	association	bp(GOBP:"activation of protein kinase B activity")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:ANG)	association	bp(GOBP:angiogenesis)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"endonuclease activity")	association	p(HGNC:ANG)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"heparin binding")	association	p(HGNC:ANG)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"actin filament polymerization")	association	p(HGNC:ANG)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"activation of phospholipase A2 activity")	association	p(HGNC:ANG)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"activation of phospholipase C activity")	association	p(HGNC:ANG)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"activation of protein kinase B activity")	association	p(HGNC:ANG)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:angiogenesis)	association	p(HGNC:ANG)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:C9orf72)	association	bp(GOMF:"guanyl-nucleotide exchange factor activity")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:C9orf72)	association	bp(GOMF:"small GTPase binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:C9orf72)	association	bp(GOBP:autophagy)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:C9orf72)	association	bp(GOBP:"axon extension")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:C9orf72)	association	bp(GOBP:endocytosis)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:C9orf72)	association	bp(GOBP:"late endosome to lysosome transport")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:C9orf72)	association	bp(GOBP:"negative regulation of exocytosis")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"small GTPase binding")	association	p(HGNC:C9orf72)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"axon extension")	association	p(HGNC:C9orf72)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"axon extension")	association	p(HGNC:SPG11)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:endocytosis)	association	p(HGNC:C9orf72)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"late endosome to lysosome transport")	association	p(HGNC:C9orf72)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"negative regulation of exocytosis")	association	p(HGNC:C9orf72)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:MATR3)	association	bp(GOMF:"identical protein binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:MATR3)	association	bp(GOMF:"miRNA binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:MATR3)	association	bp(GOMF:"RNA binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:MATR3)	association	bp(GOMF:"structural molecule activity")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:MATR3)	association	bp(GOMF:"zinc ion binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:MATR3)	association	bp(GOBP:"activation of innate immune response")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:MATR3)	association	bp(GOBP:"blastocyst formation")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:MATR3)	association	bp(GOBP:"heart valve development")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:MATR3)	association	bp(GOBP:"innate immune response")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:MATR3)	association	bp(GOBP:"post-transcriptional regulation of gene expression")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"miRNA binding")	association	p(HGNC:MATR3)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"miRNA binding")	association	p(HGNC:HNRNPA1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"RNA binding")	association	p(HGNC:MATR3)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"RNA binding")	association	p(HGNC:ATXN2)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"zinc ion binding")	association	p(HGNC:MATR3)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"blastocyst formation")	association	p(HGNC:MATR3)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"heart valve development")	association	p(HGNC:MATR3)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"innate immune response")	association	p(HGNC:MATR3)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"post-transcriptional regulation of gene expression")	association	p(HGNC:MATR3)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:SPG11)	association	bp(GOMF:"protein kinase binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:SPG11)	association	bp(GOBP:"autophagosome organization")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:SPG11)	association	bp(GOBP:"axo-dendritic transport")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:SPG11)	association	bp(GOBP:"axon extension")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:SPG11)	association	bp(GOBP:"chemical synaptic transmission")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:SPG11)	association	bp(GOBP:"cholesterol efflux")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"autophagosome organization")	association	p(HGNC:SPG11)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"axo-dendritic transport")	association	p(HGNC:SPG11)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"chemical synaptic transmission")	association	p(HGNC:SPG11)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"cholesterol efflux")	association	p(HGNC:SPG11)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:HNRNPA1)	association	bp(GOMF:"DNA binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:HNRNPA1)	association	bp(GOMF:"G-rich strand telomeric DNA binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:HNRNPA1)	association	bp(GOMF:"identical protein binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:HNRNPA1)	association	bp(GOMF:"miRNA binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:HNRNPA1)	association	bp(GOMF:"molecular condensate scaffold activity")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:HNRNPA1)	association	bp(GOBP:"amyloid fibril formation")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:HNRNPA1)	association	bp(GOBP:"cellular response to glucose starvation")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:HNRNPA1)	association	bp(GOBP:"cellular response to sodium arsenite")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:HNRNPA1)	association	bp(GOBP:"import into nucleus")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:HNRNPA1)	association	bp(GOBP:localization)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"G-rich strand telomeric DNA binding")	association	p(HGNC:HNRNPA1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"cellular response to glucose starvation")	association	p(HGNC:HNRNPA1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"cellular response to sodium arsenite")	association	p(HGNC:HNRNPA1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"import into nucleus")	association	p(HGNC:HNRNPA1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:localization)	association	p(HGNC:HNRNPA1)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:ATXN2)	association	bp(GOMF:"epidermal growth factor receptor binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:ATXN2)	association	bp(GOMF:"mRNA binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:ATXN2)	association	bp(GOMF:"RNA binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:ATXN2)	association	bp(GOBP:"negative regulation of receptor internalization")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:ATXN2)	association	bp(GOBP:"P-body assembly")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:ATXN2)	association	bp(GOBP:"regulation of translation")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:ATXN2)	association	bp(GOBP:"RNA metabolic process")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:ATXN2)	association	bp(GOBP:"RNA transport")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"mRNA binding")	association	p(HGNC:ATXN2)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"negative regulation of receptor internalization")	association	p(HGNC:ATXN2)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"P-body assembly")	association	p(HGNC:ATXN2)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"regulation of translation")	association	p(HGNC:ATXN2)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"RNA metabolic process")	association	p(HGNC:ATXN2)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"RNA transport")	association	p(HGNC:ATXN2)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"calcium ion binding")	association	p(HGNC:ANXA11)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:ANXA11)	association	bp(GOMF:"calcium ion binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:ANXA11)	association	bp(GOMF:"calcium-dependent phospholipid binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:ANXA11)	association	bp(GOMF:"calcium-dependent protein binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:ANXA11)	association	bp(GOMF:"MHC class II protein complex binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:ANXA11)	association	bp(GOMF:"phosphatidylethanolamine binding")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:ANXA11)	association	bp(GOBP:"cytokinetic process")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:ANXA11)	association	bp(GOBP:phagocytosis)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+p(HGNC:ANXA11)	association	bp(GOBP:"response to calcium ion")	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"calcium-dependent phospholipid binding")	association	p(HGNC:ANXA11)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"calcium-dependent protein binding")	association	p(HGNC:ANXA11)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"MHC class II protein complex binding")	association	p(HGNC:ANXA11)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOMF:"phosphatidylethanolamine binding")	association	p(HGNC:ANXA11)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"cytokinetic process")	association	p(HGNC:ANXA11)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:phagocytosis)	association	p(HGNC:ANXA11)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(GOBP:"response to calcium ion")	association	p(HGNC:ANXA11)	{"relation": "association", "evidence": "UniProt query", "citation": {"namespace": "pubmed", "identifier": "UniProt database"}}
+bp(MOA:"Sodium channel alpha subunit blocker")	association	a(ChEMBL:CHEMBL744)	{"relation": "association", "evidence": "ChEMBL query", "citation": {"namespace": "pubmed", "identifier": "ChEMBL database"}}
+a(ChEMBL:CHEMBL744)	association	bp(MOA:"Sodium channel alpha subunit blocker")	{"relation": "association", "evidence": "ChEMBL query", "citation": {"namespace": "pubmed", "identifier": "ChEMBL database"}}
+a(ChEMBL:CHEMBL744)	decreases	p(HGNC:SCN1A)	{"relation": "decreases", "evidence": "ChEMBL query", "citation": {"namespace": "pubmed", "identifier": "ChEMBL database"}}
+a(ChEMBL:CHEMBL744)	association	path(SideEffect:"interstitial lung disease")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL744)	association	path(SideEffect:"pancreatitis acute")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL744)	association	path(SideEffect:"portal vein thrombosis")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL744)	association	path(SideEffect:"amyotrophic lateral sclerosis")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL744)	association	path(SideEffect:"lymphocyte stimulation test positive")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL744)	association	path(SideEffect:"pulmonary toxicity")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL744)	association	path(SideEffect:"excessive granulation tissue")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL744)	association	path(SideEffect:"pancreatitis relapsing")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL744)	association	path(SideEffect:"progressive bulbar palsy")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL744)	association	path(SideEffect:"traumatic lung injury")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL744)	association	path(SideEffect:"motor neurone disease")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL744)	association	path(SideEffect:"lung consolidation")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL744)	association	path(SideEffect:"rash morbilliform")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL744)	association	path(SideEffect:atelectasis)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL744)	association	path(SideEffect:"blood lactate dehydrogenase increased")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL744)	association	path(SideEffect:emphysema)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL744)	association	path(SideEffect:"aspartate aminotransferase increased")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL744)	association	path(SideEffect:"sulphaemoglobin increased")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL744)	association	path(SideEffect:"alanine aminotransferase increased")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL744)	association	path(SideEffect:"disease progression")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL744)	association	path(SideEffect:"cervical spinal cord paralysis")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL744)	association	path(SideEffect:"respiratory disorder")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL744)	association	path(SideEffect:"paraesthesia oral")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL744)	association	path(SideEffect:"adjacent segment degeneration")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL744)	association	path(SideEffect:"anorectal varices haemorrhage")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL744)	association	path(SideEffect:"psychological factor affecting medical condition")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+p(HGNC:SCN1A)	association	bp(Reactome:"Interaction between L1 and Ankyrins.")	{"annotation": {"Reactome": "https://reactome.org/content/detail/R-HSA-445095"}, "relation": "association", "evidence": "ChEMBL query", "citation": {"namespace": "pubmed", "identifier": "ChEMBL database"}}
+p(HGNC:SCN1A)	association	bp(Reactome:"Phase 0 - rapid depolarisation.")	{"annotation": {"Reactome": "https://reactome.org/content/detail/R-HSA-5576892"}, "relation": "association", "evidence": "ChEMBL query", "citation": {"namespace": "pubmed", "identifier": "ChEMBL database"}}
+bp(Reactome:"Interaction between L1 and Ankyrins.")	association	p(HGNC:SCN1A)	{"annotation": {"Reactome": "https://reactome.org/content/detail/R-HSA-445095"}, "relation": "association", "evidence": "ChEMBL query", "citation": {"namespace": "pubmed", "identifier": "ChEMBL database"}}
+bp(Reactome:"Phase 0 - rapid depolarisation.")	association	p(HGNC:SCN1A)	{"annotation": {"Reactome": "https://reactome.org/content/detail/R-HSA-5576892"}, "relation": "association", "evidence": "ChEMBL query", "citation": {"namespace": "pubmed", "identifier": "ChEMBL database"}}
+path(SideEffect:"interstitial lung disease")	association	a(ChEMBL:CHEMBL744)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"pancreatitis acute")	association	a(ChEMBL:CHEMBL744)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"portal vein thrombosis")	association	a(ChEMBL:CHEMBL744)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"amyotrophic lateral sclerosis")	association	a(ChEMBL:CHEMBL744)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"lymphocyte stimulation test positive")	association	a(ChEMBL:CHEMBL744)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"pulmonary toxicity")	association	a(ChEMBL:CHEMBL744)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"excessive granulation tissue")	association	a(ChEMBL:CHEMBL744)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"pancreatitis relapsing")	association	a(ChEMBL:CHEMBL744)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"progressive bulbar palsy")	association	a(ChEMBL:CHEMBL744)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"traumatic lung injury")	association	a(ChEMBL:CHEMBL744)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"motor neurone disease")	association	a(ChEMBL:CHEMBL744)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"lung consolidation")	association	a(ChEMBL:CHEMBL744)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"rash morbilliform")	association	a(ChEMBL:CHEMBL744)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:atelectasis)	association	a(ChEMBL:CHEMBL744)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"blood lactate dehydrogenase increased")	association	a(ChEMBL:CHEMBL744)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:emphysema)	association	a(ChEMBL:CHEMBL744)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"aspartate aminotransferase increased")	association	a(ChEMBL:CHEMBL744)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"sulphaemoglobin increased")	association	a(ChEMBL:CHEMBL744)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"alanine aminotransferase increased")	association	a(ChEMBL:CHEMBL744)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"disease progression")	association	a(ChEMBL:CHEMBL744)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"cervical spinal cord paralysis")	association	a(ChEMBL:CHEMBL744)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"respiratory disorder")	association	a(ChEMBL:CHEMBL744)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"paraesthesia oral")	association	a(ChEMBL:CHEMBL744)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"adjacent segment degeneration")	association	a(ChEMBL:CHEMBL744)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"anorectal varices haemorrhage")	association	a(ChEMBL:CHEMBL744)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"psychological factor affecting medical condition")	association	a(ChEMBL:CHEMBL744)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"body tinea")	association	a(ChEMBL:CHEMBL558)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL558)	association	path(SideEffect:"body tinea")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL558)	association	path(SideEffect:"ventricular tachycardia")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL558)	association	path(SideEffect:"treatment failure")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL558)	association	path(SideEffect:"infection susceptibility increased")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL558)	association	path(SideEffect:"inhibitory drug interaction")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL558)	association	path(SideEffect:"impaired quality of life")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL558)	association	path(SideEffect:"therapy non-responder")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL558)	association	path(SideEffect:"glucose tolerance impaired")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL558)	association	path(SideEffect:"immune thrombocytopenia")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL558)	association	path(SideEffect:"bone density decreased")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL558)	association	path(SideEffect:purpura)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL558)	association	path(SideEffect:"drug reaction with eosinophilia and systemic symptoms")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL558)	association	path(SideEffect:"impaired work ability")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL558)	association	path(SideEffect:"oral herpes")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL558)	association	path(SideEffect:"poor quality sleep")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL558)	association	path(SideEffect:"weight increased")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL558)	association	path(SideEffect:hyperlipidaemia)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL558)	association	path(SideEffect:"low birth weight baby")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL558)	association	path(SideEffect:"premature baby")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL558)	association	path(SideEffect:"skin disorder")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL558)	association	path(SideEffect:"human herpesvirus 6 infection")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL558)	association	path(SideEffect:cataract)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL558)	association	path(SideEffect:cellulitis)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL558)	association	path(SideEffect:"herpes zoster")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL558)	association	path(SideEffect:"long qt syndrome")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL558)	association	path(SideEffect:contusion)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL558)	association	path(SideEffect:"ventricular arrhythmia")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL558)	association	path(SideEffect:"symptom masked")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL558)	association	path(SideEffect:"fulminant type 1 diabetes mellitus")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL558)	association	path(SideEffect:"cardiogenic shock")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL558)	association	path(SideEffect:"sinus bradycardia")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL558)	association	path(SideEffect:myoclonus)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL558)	association	path(SideEffect:"premature labour")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL558)	association	path(SideEffect:"nodal rhythm")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL558)	association	path(SideEffect:eosinophilia)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL558)	association	path(SideEffect:"autoimmune thyroiditis")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL558)	association	path(SideEffect:"torsade de pointes")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL558)	association	path(SideEffect:insomnia)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL558)	association	path(SideEffect:"caesarean section")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL558)	association	path(SideEffect:lymphadenopathy)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL558)	association	path(SideEffect:"ischaemic hepatitis")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL558)	association	path(SideEffect:"lymphocytic infiltration")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL558)	association	path(SideEffect:"device effect incomplete")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL558)	association	path(SideEffect:neurotoxicity)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL558)	association	path(SideEffect:"apgar score low")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL558)	association	path(SideEffect:"circulatory failure neonatal")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL558)	association	path(SideEffect:"electrocardiogram t wave alternans")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL558)	association	path(SideEffect:"arrhythmic storm")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL558)	association	path(SideEffect:"electrocardiogram qt prolonged")	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+a(ChEMBL:CHEMBL558)	association	path(SideEffect:hypertension)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"ventricular tachycardia")	association	a(ChEMBL:CHEMBL558)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"treatment failure")	association	a(ChEMBL:CHEMBL558)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"infection susceptibility increased")	association	a(ChEMBL:CHEMBL558)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"inhibitory drug interaction")	association	a(ChEMBL:CHEMBL558)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"impaired quality of life")	association	a(ChEMBL:CHEMBL558)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"therapy non-responder")	association	a(ChEMBL:CHEMBL558)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"glucose tolerance impaired")	association	a(ChEMBL:CHEMBL558)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"immune thrombocytopenia")	association	a(ChEMBL:CHEMBL558)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"bone density decreased")	association	a(ChEMBL:CHEMBL558)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:purpura)	association	a(ChEMBL:CHEMBL558)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"drug reaction with eosinophilia and systemic symptoms")	association	a(ChEMBL:CHEMBL558)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"impaired work ability")	association	a(ChEMBL:CHEMBL558)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"oral herpes")	association	a(ChEMBL:CHEMBL558)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"poor quality sleep")	association	a(ChEMBL:CHEMBL558)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"weight increased")	association	a(ChEMBL:CHEMBL558)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:hyperlipidaemia)	association	a(ChEMBL:CHEMBL558)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"low birth weight baby")	association	a(ChEMBL:CHEMBL558)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"premature baby")	association	a(ChEMBL:CHEMBL558)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"skin disorder")	association	a(ChEMBL:CHEMBL558)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"human herpesvirus 6 infection")	association	a(ChEMBL:CHEMBL558)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:cataract)	association	a(ChEMBL:CHEMBL558)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:cellulitis)	association	a(ChEMBL:CHEMBL558)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"herpes zoster")	association	a(ChEMBL:CHEMBL558)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"long qt syndrome")	association	a(ChEMBL:CHEMBL558)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:contusion)	association	a(ChEMBL:CHEMBL558)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"ventricular arrhythmia")	association	a(ChEMBL:CHEMBL558)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"symptom masked")	association	a(ChEMBL:CHEMBL558)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"fulminant type 1 diabetes mellitus")	association	a(ChEMBL:CHEMBL558)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"cardiogenic shock")	association	a(ChEMBL:CHEMBL558)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"sinus bradycardia")	association	a(ChEMBL:CHEMBL558)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:myoclonus)	association	a(ChEMBL:CHEMBL558)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"premature labour")	association	a(ChEMBL:CHEMBL558)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"nodal rhythm")	association	a(ChEMBL:CHEMBL558)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:eosinophilia)	association	a(ChEMBL:CHEMBL558)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"autoimmune thyroiditis")	association	a(ChEMBL:CHEMBL558)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"torsade de pointes")	association	a(ChEMBL:CHEMBL558)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:insomnia)	association	a(ChEMBL:CHEMBL558)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"caesarean section")	association	a(ChEMBL:CHEMBL558)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:lymphadenopathy)	association	a(ChEMBL:CHEMBL558)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"ischaemic hepatitis")	association	a(ChEMBL:CHEMBL558)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"lymphocytic infiltration")	association	a(ChEMBL:CHEMBL558)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"device effect incomplete")	association	a(ChEMBL:CHEMBL558)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:neurotoxicity)	association	a(ChEMBL:CHEMBL558)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"apgar score low")	association	a(ChEMBL:CHEMBL558)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"circulatory failure neonatal")	association	a(ChEMBL:CHEMBL558)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"electrocardiogram t wave alternans")	association	a(ChEMBL:CHEMBL558)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"arrhythmic storm")	association	a(ChEMBL:CHEMBL558)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:"electrocardiogram qt prolonged")	association	a(ChEMBL:CHEMBL558)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}
+path(SideEffect:hypertension)	association	a(ChEMBL:CHEMBL558)	{"relation": "association", "evidence": "DrugReactions", "citation": {"namespace": "pubmed", "identifier": "OpenTargets Platform"}}

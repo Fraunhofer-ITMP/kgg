@@ -1,0 +1,3235 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d2" for="edge" attr.name="bel" attr.type="string"/>
+<key id="d1" for="edge" attr.name="interaction" attr.type="string"/>
+<key id="d0" for="node" attr.name="function" attr.type="string"/>
+<graph edgedefault="directed"><node id="bp(GOMF:&quot;copper ion binding&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="p(HGNC:SOD1)">
+  <data key="d0">Protein</data>
+</node>
+<node id="bp(GOMF:&quot;identical protein binding&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOMF:&quot;ion binding&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOMF:&quot;protein phosphatase 2B binding&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOMF:&quot;protein-folding chaperone binding&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;action potential initiation&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;anterograde axonal transport&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;apoptotic process&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;auditory receptor cell stereocilium organization&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;determination of adult lifespan&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOMF:&quot;DNA binding&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="p(HGNC:TARDBP)">
+  <data key="d0">Protein</data>
+</node>
+<node id="bp(GOMF:&quot;double-stranded DNA binding&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOMF:&quot;lipid binding&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOMF:&quot;molecular condensate scaffold activity&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;3'-UTR-mediated mRNA destabilization&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;3'-UTR-mediated mRNA stabilization&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;amyloid fibril formation&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;mRNA processing&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;negative regulation by host of viral transcription&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="p(HGNC:UBQLN2)">
+  <data key="d0">Protein</data>
+</node>
+<node id="bp(GOMF:&quot;polyubiquitin modification-dependent protein binding&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;autophagosome assembly&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;negative regulation of clathrin-dependent endocytosis&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;negative regulation of G protein-coupled receptor internalization&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;positive regulation of ER-associated ubiquitin-dependent protein catabolic process&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;regulation of autophagosome assembly&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOMF:&quot;chromatin binding&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="p(HGNC:FUS)">
+  <data key="d0">Protein</data>
+</node>
+<node id="bp(GOMF:&quot;metal ion binding&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;mRNA stabilization&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;positive regulation of double-strand break repair via homologous recombination&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;protein homooligomerization&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;regulation of DNA-templated transcription&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOMF:&quot;enzyme binding&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="p(HGNC:SQSTM1)">
+  <data key="d0">Protein</data>
+</node>
+<node id="bp(GOMF:&quot;ionotropic glutamate receptor binding&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOMF:&quot;K63-linked polyubiquitin modification-dependent protein binding&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOMF:&quot;protein kinase binding&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:aggrephagy)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:autophagy)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;autophagy of mitochondrion&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;brown fat cell proliferation&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOMF:&quot;ATP binding&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="p(HGNC:TBK1)">
+  <data key="d0">Protein</data>
+</node>
+<node id="bp(GOMF:&quot;nucleic acid binding&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOMF:&quot;phosphoprotein binding&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOMF:&quot;protein kinase activity&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;activation of innate immune response&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;antiviral innate immune response&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;cytosolic pattern recognition receptor signaling pathway&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;defense response to Gram-positive bacterium&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;defense response to virus&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOMF:&quot;microtubule binding&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="p(HGNC:DCTN1)">
+  <data key="d0">Protein</data>
+</node>
+<node id="bp(GOMF:&quot;tau protein binding&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOMF:&quot;tubulin binding&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;cell division&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;centriole-centriole cohesion&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;establishment of mitotic spindle orientation&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;maintenance of synapse structure&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;melanosome transport&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="p(HGNC:SETX)">
+  <data key="d0">Protein</data>
+</node>
+<node id="bp(GOMF:&quot;DNA helicase activity&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOMF:&quot;hydrolase activity&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;cell differentiation&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;cellular response to fibroblast growth factor stimulus&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;cellular response to hydrogen peroxide&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;cellular response to oxidative stress&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;cellular response to retinoic acid&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="p(HGNC:OPTN)">
+  <data key="d0">Protein</data>
+</node>
+<node id="bp(GOMF:&quot;protein-macromolecule adaptor activity&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;cell death&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;cellular response to unfolded protein&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;defense response to Gram-negative bacterium&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;Golgi organization&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOMF:&quot;ADP binding&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="p(HGNC:VCP)">
+  <data key="d0">Protein</data>
+</node>
+<node id="bp(GOMF:&quot;ATP hydrolysis activity&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOMF:&quot;BAT3 complex binding&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOMF:&quot;deubiquitinase activator activity&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;activation of cysteine-type endopeptidase activity involved in apoptotic process&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;aggresome assembly&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;ATP metabolic process&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;autophagosome maturation&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOMF:&quot;actin binding&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="p(HGNC:PFN1)">
+  <data key="d0">Protein</data>
+</node>
+<node id="bp(GOMF:&quot;actin monomer binding&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOMF:&quot;adenyl-nucleotide exchange factor activity&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOMF:&quot;cadherin binding&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOMF:&quot;phosphatidylinositol-4,5-bisphosphate binding&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;actin cytoskeleton organization&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;modification of postsynaptic actin cytoskeleton&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;modulation of chemical synaptic transmission&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;negative regulation of actin filament bundle assembly&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;negative regulation of actin filament polymerization&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOMF:&quot;GTPase activator activity&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="p(HGNC:ALS2)">
+  <data key="d0">Protein</data>
+</node>
+<node id="bp(GOMF:&quot;guanyl-nucleotide exchange factor activity&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOMF:&quot;protein homodimerization activity&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOMF:&quot;protein serine/threonine kinase activator activity&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;behavioral fear response&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;endosomal transport&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;endosome organization&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;locomotory behavior&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;lysosomal transport&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOMF:&quot;phosphatidylinositol-3,4,5-trisphosphate 5-phosphatase activity&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="p(HGNC:FIG4)">
+  <data key="d0">Protein</data>
+</node>
+<node id="bp(GOMF:&quot;phosphatidylinositol-3,5-bisphosphate 5-phosphatase activity&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOMF:&quot;phosphatidylinositol-3-phosphate phosphatase activity&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOMF:&quot;phosphatidylinositol-4,5-bisphosphate 5-phosphatase activity&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOMF:&quot;phosphatidylinositol-4-phosphate phosphatase activity&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;myelin assembly&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;negative regulation of myelination&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;neuron development&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;phosphatidylinositol biosynthetic process&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOMF:&quot;G protein-coupled opioid receptor activity&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="p(HGNC:SIGMAR1)">
+  <data key="d0">Protein</data>
+</node>
+<node id="bp(GOBP:&quot;lipid transport&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;nervous system development&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;protein homotrimerization&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;regulation of neuron apoptotic process&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="p(HGNC:CHMP2B)">
+  <data key="d0">Protein</data>
+</node>
+<node id="bp(GOMF:&quot;protein domain specific binding&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:cognition)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;endosome transport via multivesicular body sorting pathway&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="p(HGNC:ERBB4)">
+  <data key="d0">Protein</data>
+</node>
+<node id="bp(GOMF:&quot;epidermal growth factor receptor activity&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOMF:&quot;epidermal growth factor receptor binding&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOMF:&quot;GABA receptor binding&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOMF:&quot;neuregulin receptor activity&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;cardiac muscle tissue regeneration&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;cell fate commitment&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;cell migration&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;cellular response to epidermal growth factor stimulus&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;central nervous system morphogenesis&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOMF:&quot;structural molecule activity&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="p(HGNC:PRPH)">
+  <data key="d0">Protein</data>
+</node>
+<node id="bp(GOMF:&quot;beta-tubulin binding&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="p(HGNC:VAPB)">
+  <data key="d0">Protein</data>
+</node>
+<node id="bp(GOMF:&quot;FFAT motif binding&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;COPII-coated vesicle budding&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;endoplasmic reticulum membrane organization&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;endoplasmic reticulum organization&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;endoplasmic reticulum to Golgi vesicle-mediated transport&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;endoplasmic reticulum unfolded protein response&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="p(HGNC:ANG)">
+  <data key="d0">Protein</data>
+</node>
+<node id="bp(GOMF:&quot;endonuclease activity&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOMF:&quot;heparin binding&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;actin filament polymerization&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;activation of phospholipase A2 activity&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;activation of phospholipase C activity&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;activation of protein kinase B activity&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:angiogenesis)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="p(HGNC:C9orf72)">
+  <data key="d0">Protein</data>
+</node>
+<node id="bp(GOMF:&quot;small GTPase binding&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;axon extension&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:endocytosis)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;late endosome to lysosome transport&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;negative regulation of exocytosis&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="p(HGNC:MATR3)">
+  <data key="d0">Protein</data>
+</node>
+<node id="bp(GOMF:&quot;miRNA binding&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOMF:&quot;RNA binding&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOMF:&quot;zinc ion binding&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;blastocyst formation&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;heart valve development&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;innate immune response&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;post-transcriptional regulation of gene expression&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="p(HGNC:SPG11)">
+  <data key="d0">Protein</data>
+</node>
+<node id="bp(GOBP:&quot;autophagosome organization&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;axo-dendritic transport&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;chemical synaptic transmission&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;cholesterol efflux&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="p(HGNC:HNRNPA1)">
+  <data key="d0">Protein</data>
+</node>
+<node id="bp(GOMF:&quot;G-rich strand telomeric DNA binding&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;cellular response to glucose starvation&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;cellular response to sodium arsenite&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;import into nucleus&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:localization)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="p(HGNC:ATXN2)">
+  <data key="d0">Protein</data>
+</node>
+<node id="bp(GOMF:&quot;mRNA binding&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;negative regulation of receptor internalization&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;P-body assembly&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;regulation of translation&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;RNA metabolic process&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;RNA transport&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOMF:&quot;calcium ion binding&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="p(HGNC:ANXA11)">
+  <data key="d0">Protein</data>
+</node>
+<node id="bp(GOMF:&quot;calcium-dependent phospholipid binding&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOMF:&quot;calcium-dependent protein binding&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOMF:&quot;MHC class II protein complex binding&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOMF:&quot;phosphatidylethanolamine binding&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;cytokinetic process&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:phagocytosis)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;response to calcium ion&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(MOA:&quot;Sodium channel alpha subunit blocker&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="a(ChEMBL:CHEMBL744)">
+  <data key="d0">Abundance</data>
+</node>
+<node id="p(HGNC:SCN1A)">
+  <data key="d0">Protein</data>
+</node>
+<node id="bp(Reactome:&quot;Interaction between L1 and Ankyrins.&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(Reactome:&quot;Phase 0 - rapid depolarisation.&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="path(SideEffect:&quot;interstitial lung disease&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;pancreatitis acute&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;portal vein thrombosis&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;amyotrophic lateral sclerosis&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;lymphocyte stimulation test positive&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;pulmonary toxicity&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;excessive granulation tissue&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;pancreatitis relapsing&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;progressive bulbar palsy&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;traumatic lung injury&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;motor neurone disease&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;lung consolidation&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;rash morbilliform&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:atelectasis)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;blood lactate dehydrogenase increased&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:emphysema)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;aspartate aminotransferase increased&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;sulphaemoglobin increased&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;alanine aminotransferase increased&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;disease progression&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;cervical spinal cord paralysis&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;respiratory disorder&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;paraesthesia oral&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;adjacent segment degeneration&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;anorectal varices haemorrhage&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;psychological factor affecting medical condition&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;body tinea&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="a(ChEMBL:CHEMBL558)">
+  <data key="d0">Abundance</data>
+</node>
+<node id="path(SideEffect:&quot;ventricular tachycardia&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;treatment failure&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;infection susceptibility increased&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;inhibitory drug interaction&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;impaired quality of life&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;therapy non-responder&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;glucose tolerance impaired&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;immune thrombocytopenia&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;bone density decreased&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:purpura)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;drug reaction with eosinophilia and systemic symptoms&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;impaired work ability&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;oral herpes&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;poor quality sleep&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;weight increased&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:hyperlipidaemia)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;low birth weight baby&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;premature baby&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;skin disorder&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;human herpesvirus 6 infection&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:cataract)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:cellulitis)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;herpes zoster&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;long qt syndrome&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:contusion)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;ventricular arrhythmia&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;symptom masked&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;fulminant type 1 diabetes mellitus&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;cardiogenic shock&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;sinus bradycardia&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:myoclonus)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;premature labour&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;nodal rhythm&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:eosinophilia)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;autoimmune thyroiditis&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;torsade de pointes&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:insomnia)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;caesarean section&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:lymphadenopathy)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;ischaemic hepatitis&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;lymphocytic infiltration&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;device effect incomplete&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:neurotoxicity)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;apgar score low&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;circulatory failure neonatal&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;electrocardiogram t wave alternans&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;arrhythmic storm&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;electrocardiogram qt prolonged&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:hypertension)">
+  <data key="d0">Pathology</data>
+</node>
+<edge source="bp(GOMF:&quot;copper ion binding&quot;)" target="p(HGNC:SOD1)" id="b05ea3e5f1cd3c5df4c99e9343a6b087">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"copper ion binding") association p(HGNC:SOD1)</data>
+</edge>
+<edge source="bp(GOMF:&quot;copper ion binding&quot;)" target="p(HGNC:ANG)" id="cbd5841275233ec60018fb1da799bd89">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"copper ion binding") association p(HGNC:ANG)</data>
+</edge>
+<edge source="p(HGNC:SOD1)" target="bp(GOMF:&quot;copper ion binding&quot;)" id="87d787b1992d37b941bba7e17e3782fb">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:SOD1) association bp(GOMF:"copper ion binding")</data>
+</edge>
+<edge source="p(HGNC:SOD1)" target="bp(GOMF:&quot;identical protein binding&quot;)" id="17fc96f16479019a643a0770ea75091b">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:SOD1) association bp(GOMF:"identical protein binding")</data>
+</edge>
+<edge source="p(HGNC:SOD1)" target="bp(GOMF:&quot;ion binding&quot;)" id="3329f0867163ee83c8024e5f25967091">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:SOD1) association bp(GOMF:"ion binding")</data>
+</edge>
+<edge source="p(HGNC:SOD1)" target="bp(GOMF:&quot;protein phosphatase 2B binding&quot;)" id="d06852b74ad24f03ff018c1d1b94e44c">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:SOD1) association bp(GOMF:"protein phosphatase 2B binding")</data>
+</edge>
+<edge source="p(HGNC:SOD1)" target="bp(GOMF:&quot;protein-folding chaperone binding&quot;)" id="305b25ed332fbe3db0db3b402cba2171">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:SOD1) association bp(GOMF:"protein-folding chaperone binding")</data>
+</edge>
+<edge source="p(HGNC:SOD1)" target="bp(GOBP:&quot;action potential initiation&quot;)" id="00fab41b556e613afecf7811e34cdf9c">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:SOD1) association bp(GOBP:"action potential initiation")</data>
+</edge>
+<edge source="p(HGNC:SOD1)" target="bp(GOBP:&quot;anterograde axonal transport&quot;)" id="6d64e1c0ee5bb9ebfd48c208eb1dd1af">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:SOD1) association bp(GOBP:"anterograde axonal transport")</data>
+</edge>
+<edge source="p(HGNC:SOD1)" target="bp(GOBP:&quot;apoptotic process&quot;)" id="43f4cd953881caa12f7e8677ab52ba87">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:SOD1) association bp(GOBP:"apoptotic process")</data>
+</edge>
+<edge source="p(HGNC:SOD1)" target="bp(GOBP:&quot;auditory receptor cell stereocilium organization&quot;)" id="389797c74175bc898a316b299d0299f5">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:SOD1) association bp(GOBP:"auditory receptor cell stereocilium organization")</data>
+</edge>
+<edge source="p(HGNC:SOD1)" target="bp(GOBP:&quot;determination of adult lifespan&quot;)" id="02dec36fa5611fd3ce92e090c3ebc11d">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:SOD1) association bp(GOBP:"determination of adult lifespan")</data>
+</edge>
+<edge source="bp(GOMF:&quot;identical protein binding&quot;)" target="p(HGNC:SOD1)" id="35f524f18b57398bc022f531500a1ae2">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"identical protein binding") association p(HGNC:SOD1)</data>
+</edge>
+<edge source="bp(GOMF:&quot;identical protein binding&quot;)" target="p(HGNC:TARDBP)" id="b746980af7cbdec861174f43c5470bcd">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"identical protein binding") association p(HGNC:TARDBP)</data>
+</edge>
+<edge source="bp(GOMF:&quot;identical protein binding&quot;)" target="p(HGNC:UBQLN2)" id="9b243a692f0b5b57e484e6f29c50965b">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"identical protein binding") association p(HGNC:UBQLN2)</data>
+</edge>
+<edge source="bp(GOMF:&quot;identical protein binding&quot;)" target="p(HGNC:FUS)" id="42075a26fcb7f749c7e7fa7568e2a496">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"identical protein binding") association p(HGNC:FUS)</data>
+</edge>
+<edge source="bp(GOMF:&quot;identical protein binding&quot;)" target="p(HGNC:SQSTM1)" id="d93f26958b82611199a148105eec9e0f">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"identical protein binding") association p(HGNC:SQSTM1)</data>
+</edge>
+<edge source="bp(GOMF:&quot;identical protein binding&quot;)" target="p(HGNC:TBK1)" id="727c4deb73cc6314580886defa0ebd47">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"identical protein binding") association p(HGNC:TBK1)</data>
+</edge>
+<edge source="bp(GOMF:&quot;identical protein binding&quot;)" target="p(HGNC:SETX)" id="34088d0b5e0b976a8608fbc9da177f80">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"identical protein binding") association p(HGNC:SETX)</data>
+</edge>
+<edge source="bp(GOMF:&quot;identical protein binding&quot;)" target="p(HGNC:OPTN)" id="a7a3c4b5cc0ea4ce8b222e1090fc2a6f">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"identical protein binding") association p(HGNC:OPTN)</data>
+</edge>
+<edge source="bp(GOMF:&quot;identical protein binding&quot;)" target="p(HGNC:ALS2)" id="5da872d5fa9b53486db9d3f39ffe0abb">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"identical protein binding") association p(HGNC:ALS2)</data>
+</edge>
+<edge source="bp(GOMF:&quot;identical protein binding&quot;)" target="p(HGNC:SIGMAR1)" id="72228bee34c6d48137a3e80dbf6188e2">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"identical protein binding") association p(HGNC:SIGMAR1)</data>
+</edge>
+<edge source="bp(GOMF:&quot;identical protein binding&quot;)" target="p(HGNC:MATR3)" id="34e3e0759db471ce39716e141864f993">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"identical protein binding") association p(HGNC:MATR3)</data>
+</edge>
+<edge source="bp(GOMF:&quot;identical protein binding&quot;)" target="p(HGNC:HNRNPA1)" id="e1e766e35b1e71b6f16cec04dc66017c">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"identical protein binding") association p(HGNC:HNRNPA1)</data>
+</edge>
+<edge source="bp(GOMF:&quot;ion binding&quot;)" target="p(HGNC:SOD1)" id="a624dee4782b8fe66378b6fb66c51692">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"ion binding") association p(HGNC:SOD1)</data>
+</edge>
+<edge source="bp(GOMF:&quot;protein phosphatase 2B binding&quot;)" target="p(HGNC:SOD1)" id="be7488cb33ac5714171b20f1da2856eb">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"protein phosphatase 2B binding") association p(HGNC:SOD1)</data>
+</edge>
+<edge source="bp(GOMF:&quot;protein-folding chaperone binding&quot;)" target="p(HGNC:SOD1)" id="2644bbc32e889367921b4a8a41498343">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"protein-folding chaperone binding") association p(HGNC:SOD1)</data>
+</edge>
+<edge source="bp(GOBP:&quot;action potential initiation&quot;)" target="p(HGNC:SOD1)" id="2c00a03b29aa25588ba843ad09f721e5">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"action potential initiation") association p(HGNC:SOD1)</data>
+</edge>
+<edge source="bp(GOBP:&quot;anterograde axonal transport&quot;)" target="p(HGNC:SOD1)" id="4e32a9733388256aaea5f4b4946c36cd">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"anterograde axonal transport") association p(HGNC:SOD1)</data>
+</edge>
+<edge source="bp(GOBP:&quot;apoptotic process&quot;)" target="p(HGNC:SOD1)" id="5c5b8993ab6532447ec34febaeba52e9">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"apoptotic process") association p(HGNC:SOD1)</data>
+</edge>
+<edge source="bp(GOBP:&quot;apoptotic process&quot;)" target="p(HGNC:SQSTM1)" id="166c14ddf7f70b04555a08ba3b164f67">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"apoptotic process") association p(HGNC:SQSTM1)</data>
+</edge>
+<edge source="bp(GOBP:&quot;auditory receptor cell stereocilium organization&quot;)" target="p(HGNC:SOD1)" id="3d6ba91a9261b1953d2a55ab77d57c9b">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"auditory receptor cell stereocilium organization") association p(HGNC:SOD1)</data>
+</edge>
+<edge source="bp(GOBP:&quot;determination of adult lifespan&quot;)" target="p(HGNC:SOD1)" id="46c5879b60f2aca125ad09ce81224c48">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"determination of adult lifespan") association p(HGNC:SOD1)</data>
+</edge>
+<edge source="bp(GOMF:&quot;DNA binding&quot;)" target="p(HGNC:TARDBP)" id="d147bfb60247a832c3631f592036d059">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"DNA binding") association p(HGNC:TARDBP)</data>
+</edge>
+<edge source="bp(GOMF:&quot;DNA binding&quot;)" target="p(HGNC:FUS)" id="6f6047b13d0f8455bbe89bdff6e34fa1">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"DNA binding") association p(HGNC:FUS)</data>
+</edge>
+<edge source="bp(GOMF:&quot;DNA binding&quot;)" target="p(HGNC:SETX)" id="4d80f254dea7b092c88aeafe0156dd96">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"DNA binding") association p(HGNC:SETX)</data>
+</edge>
+<edge source="bp(GOMF:&quot;DNA binding&quot;)" target="p(HGNC:ANG)" id="c1198386664d523fd95a91f7ac43f92c">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"DNA binding") association p(HGNC:ANG)</data>
+</edge>
+<edge source="bp(GOMF:&quot;DNA binding&quot;)" target="p(HGNC:HNRNPA1)" id="7259d7235eedac931f65070487c1d758">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"DNA binding") association p(HGNC:HNRNPA1)</data>
+</edge>
+<edge source="p(HGNC:TARDBP)" target="bp(GOMF:&quot;DNA binding&quot;)" id="18c889b68640f138b8c6ac7131728a0e">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:TARDBP) association bp(GOMF:"DNA binding")</data>
+</edge>
+<edge source="p(HGNC:TARDBP)" target="bp(GOMF:&quot;double-stranded DNA binding&quot;)" id="c0eae13c803ca1e4599772671f0c44cd">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:TARDBP) association bp(GOMF:"double-stranded DNA binding")</data>
+</edge>
+<edge source="p(HGNC:TARDBP)" target="bp(GOMF:&quot;identical protein binding&quot;)" id="8249f7eef9ea5d0f3df127e9a1d46681">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:TARDBP) association bp(GOMF:"identical protein binding")</data>
+</edge>
+<edge source="p(HGNC:TARDBP)" target="bp(GOMF:&quot;lipid binding&quot;)" id="9cbb30231c50c29a3612a43e8d72d6ef">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:TARDBP) association bp(GOMF:"lipid binding")</data>
+</edge>
+<edge source="p(HGNC:TARDBP)" target="bp(GOMF:&quot;molecular condensate scaffold activity&quot;)" id="d97c6a9fefe4a6806e82f5aeb0e2d895">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:TARDBP) association bp(GOMF:"molecular condensate scaffold activity")</data>
+</edge>
+<edge source="p(HGNC:TARDBP)" target="bp(GOBP:&quot;3'-UTR-mediated mRNA destabilization&quot;)" id="c3cf037f26f3984a5d832c0d155ac5ba">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:TARDBP) association bp(GOBP:"3'-UTR-mediated mRNA destabilization")</data>
+</edge>
+<edge source="p(HGNC:TARDBP)" target="bp(GOBP:&quot;3'-UTR-mediated mRNA stabilization&quot;)" id="5cf099dbc9cefb0204bffe06ae16988b">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:TARDBP) association bp(GOBP:"3'-UTR-mediated mRNA stabilization")</data>
+</edge>
+<edge source="p(HGNC:TARDBP)" target="bp(GOBP:&quot;amyloid fibril formation&quot;)" id="d83373ee7a95418bebaf5935e7e3a9e5">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:TARDBP) association bp(GOBP:"amyloid fibril formation")</data>
+</edge>
+<edge source="p(HGNC:TARDBP)" target="bp(GOBP:&quot;mRNA processing&quot;)" id="ae0694f10761f978b09b5074275dcd2c">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:TARDBP) association bp(GOBP:"mRNA processing")</data>
+</edge>
+<edge source="p(HGNC:TARDBP)" target="bp(GOBP:&quot;negative regulation by host of viral transcription&quot;)" id="38dd5265c9e06c69d78e2c148386416a">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:TARDBP) association bp(GOBP:"negative regulation by host of viral transcription")</data>
+</edge>
+<edge source="bp(GOMF:&quot;double-stranded DNA binding&quot;)" target="p(HGNC:TARDBP)" id="d5ba32085bb30a7a9d9076d4c2419850">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"double-stranded DNA binding") association p(HGNC:TARDBP)</data>
+</edge>
+<edge source="bp(GOMF:&quot;lipid binding&quot;)" target="p(HGNC:TARDBP)" id="7bbf76c14fd784cb7ad97aed985963fe">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"lipid binding") association p(HGNC:TARDBP)</data>
+</edge>
+<edge source="bp(GOMF:&quot;molecular condensate scaffold activity&quot;)" target="p(HGNC:TARDBP)" id="946c2ad76e873bfa3ceac335f5410ef5">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"molecular condensate scaffold activity") association p(HGNC:TARDBP)</data>
+</edge>
+<edge source="bp(GOMF:&quot;molecular condensate scaffold activity&quot;)" target="p(HGNC:UBQLN2)" id="f0de3495683c6fa169187967f56c97d5">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"molecular condensate scaffold activity") association p(HGNC:UBQLN2)</data>
+</edge>
+<edge source="bp(GOMF:&quot;molecular condensate scaffold activity&quot;)" target="p(HGNC:FUS)" id="f1e5deded9e43f170b5ec34b6a4f64a5">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"molecular condensate scaffold activity") association p(HGNC:FUS)</data>
+</edge>
+<edge source="bp(GOMF:&quot;molecular condensate scaffold activity&quot;)" target="p(HGNC:HNRNPA1)" id="5745b183cf9c7d3ec430df8437556084">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"molecular condensate scaffold activity") association p(HGNC:HNRNPA1)</data>
+</edge>
+<edge source="bp(GOBP:&quot;3'-UTR-mediated mRNA destabilization&quot;)" target="p(HGNC:TARDBP)" id="8c2092e4aeded1955f6bcb145ca5eb62">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"3'-UTR-mediated mRNA destabilization") association p(HGNC:TARDBP)</data>
+</edge>
+<edge source="bp(GOBP:&quot;3'-UTR-mediated mRNA stabilization&quot;)" target="p(HGNC:TARDBP)" id="385587559270607cef583c5c482c5c88">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"3'-UTR-mediated mRNA stabilization") association p(HGNC:TARDBP)</data>
+</edge>
+<edge source="bp(GOBP:&quot;amyloid fibril formation&quot;)" target="p(HGNC:TARDBP)" id="579bf40dc2ed6d212d48ede68375a803">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"amyloid fibril formation") association p(HGNC:TARDBP)</data>
+</edge>
+<edge source="bp(GOBP:&quot;amyloid fibril formation&quot;)" target="p(HGNC:FUS)" id="030fab0dc22e7ebe1897a99b8a8a8847">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"amyloid fibril formation") association p(HGNC:FUS)</data>
+</edge>
+<edge source="bp(GOBP:&quot;amyloid fibril formation&quot;)" target="p(HGNC:HNRNPA1)" id="de527d1b677ec5509bd89945d33fd48c">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"amyloid fibril formation") association p(HGNC:HNRNPA1)</data>
+</edge>
+<edge source="bp(GOBP:&quot;mRNA processing&quot;)" target="p(HGNC:TARDBP)" id="ac442ec869ea0e9d447391981865206b">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"mRNA processing") association p(HGNC:TARDBP)</data>
+</edge>
+<edge source="bp(GOBP:&quot;negative regulation by host of viral transcription&quot;)" target="p(HGNC:TARDBP)" id="0652a312668e0a9c96fdb5999c0c1229">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"negative regulation by host of viral transcription") association p(HGNC:TARDBP)</data>
+</edge>
+<edge source="p(HGNC:UBQLN2)" target="bp(GOMF:&quot;identical protein binding&quot;)" id="e5a88a3c941b8516c988e961bd1320ca">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:UBQLN2) association bp(GOMF:"identical protein binding")</data>
+</edge>
+<edge source="p(HGNC:UBQLN2)" target="bp(GOMF:&quot;molecular condensate scaffold activity&quot;)" id="d4613f78b9570f66ae038f50f90f21bd">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:UBQLN2) association bp(GOMF:"molecular condensate scaffold activity")</data>
+</edge>
+<edge source="p(HGNC:UBQLN2)" target="bp(GOMF:&quot;polyubiquitin modification-dependent protein binding&quot;)" id="4e3c2ded10b378f602ba1485c58da9e9">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:UBQLN2) association bp(GOMF:"polyubiquitin modification-dependent protein binding")</data>
+</edge>
+<edge source="p(HGNC:UBQLN2)" target="bp(GOBP:&quot;autophagosome assembly&quot;)" id="4621c544146dfc8585fb0962c90ad27b">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:UBQLN2) association bp(GOBP:"autophagosome assembly")</data>
+</edge>
+<edge source="p(HGNC:UBQLN2)" target="bp(GOBP:&quot;negative regulation of clathrin-dependent endocytosis&quot;)" id="72d21033d1cee3acbf4b20a1e69b7213">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:UBQLN2) association bp(GOBP:"negative regulation of clathrin-dependent endocytosis")</data>
+</edge>
+<edge source="p(HGNC:UBQLN2)" target="bp(GOBP:&quot;negative regulation of G protein-coupled receptor internalization&quot;)" id="92ad603104c1c567defb218eb46fb2e2">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:UBQLN2) association bp(GOBP:"negative regulation of G protein-coupled receptor internalization")</data>
+</edge>
+<edge source="p(HGNC:UBQLN2)" target="bp(GOBP:&quot;positive regulation of ER-associated ubiquitin-dependent protein catabolic process&quot;)" id="d325de56d63c0a7df04f24b05a1efc8a">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:UBQLN2) association bp(GOBP:"positive regulation of ER-associated ubiquitin-dependent protein catabolic process")</data>
+</edge>
+<edge source="p(HGNC:UBQLN2)" target="bp(GOBP:&quot;regulation of autophagosome assembly&quot;)" id="10866bacbe2d1943ad1b7204a8d1d04f">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:UBQLN2) association bp(GOBP:"regulation of autophagosome assembly")</data>
+</edge>
+<edge source="bp(GOMF:&quot;polyubiquitin modification-dependent protein binding&quot;)" target="p(HGNC:UBQLN2)" id="0ed88e64fbe33cc939f776dd02bff0d0">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"polyubiquitin modification-dependent protein binding") association p(HGNC:UBQLN2)</data>
+</edge>
+<edge source="bp(GOMF:&quot;polyubiquitin modification-dependent protein binding&quot;)" target="p(HGNC:OPTN)" id="5f6fae2609da749d5a3287080c73f412">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"polyubiquitin modification-dependent protein binding") association p(HGNC:OPTN)</data>
+</edge>
+<edge source="bp(GOBP:&quot;autophagosome assembly&quot;)" target="p(HGNC:UBQLN2)" id="4e9bc0a07a5e6f034bdef5c54861d024">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"autophagosome assembly") association p(HGNC:UBQLN2)</data>
+</edge>
+<edge source="bp(GOBP:&quot;negative regulation of clathrin-dependent endocytosis&quot;)" target="p(HGNC:UBQLN2)" id="6f882d6c428877f454f5a977d45e0ef3">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"negative regulation of clathrin-dependent endocytosis") association p(HGNC:UBQLN2)</data>
+</edge>
+<edge source="bp(GOBP:&quot;negative regulation of G protein-coupled receptor internalization&quot;)" target="p(HGNC:UBQLN2)" id="191b1a9b396596396a41abbbbfe9aef7">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"negative regulation of G protein-coupled receptor internalization") association p(HGNC:UBQLN2)</data>
+</edge>
+<edge source="bp(GOBP:&quot;positive regulation of ER-associated ubiquitin-dependent protein catabolic process&quot;)" target="p(HGNC:UBQLN2)" id="d3121947a965f8e4d4747cedeaeeacd2">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"positive regulation of ER-associated ubiquitin-dependent protein catabolic process") association p(HGNC:UBQLN2)</data>
+</edge>
+<edge source="bp(GOBP:&quot;regulation of autophagosome assembly&quot;)" target="p(HGNC:UBQLN2)" id="fe9a11a58c9fe1f6f7cf81de8e1bee91">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"regulation of autophagosome assembly") association p(HGNC:UBQLN2)</data>
+</edge>
+<edge source="bp(GOMF:&quot;chromatin binding&quot;)" target="p(HGNC:FUS)" id="7c3bac33483654a64f1410095385fa01">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"chromatin binding") association p(HGNC:FUS)</data>
+</edge>
+<edge source="p(HGNC:FUS)" target="bp(GOMF:&quot;chromatin binding&quot;)" id="78dbd29df70508d10384f0d508364958">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:FUS) association bp(GOMF:"chromatin binding")</data>
+</edge>
+<edge source="p(HGNC:FUS)" target="bp(GOMF:&quot;DNA binding&quot;)" id="a3d07a2ea9c0beb6ecae00e6f4fa25bb">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:FUS) association bp(GOMF:"DNA binding")</data>
+</edge>
+<edge source="p(HGNC:FUS)" target="bp(GOMF:&quot;identical protein binding&quot;)" id="66d509ca6515205ac4402c84c8c39d9a">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:FUS) association bp(GOMF:"identical protein binding")</data>
+</edge>
+<edge source="p(HGNC:FUS)" target="bp(GOMF:&quot;metal ion binding&quot;)" id="1b9cbdca890419bd2e25ce22eb6c7bf7">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:FUS) association bp(GOMF:"metal ion binding")</data>
+</edge>
+<edge source="p(HGNC:FUS)" target="bp(GOMF:&quot;molecular condensate scaffold activity&quot;)" id="4e4cef32c80d3661c4b1129a05978abe">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:FUS) association bp(GOMF:"molecular condensate scaffold activity")</data>
+</edge>
+<edge source="p(HGNC:FUS)" target="bp(GOBP:&quot;amyloid fibril formation&quot;)" id="dbc034c51e7563abf0b4e7410635fae0">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:FUS) association bp(GOBP:"amyloid fibril formation")</data>
+</edge>
+<edge source="p(HGNC:FUS)" target="bp(GOBP:&quot;mRNA stabilization&quot;)" id="4dddb9aaef47fec1098900574a31434d">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:FUS) association bp(GOBP:"mRNA stabilization")</data>
+</edge>
+<edge source="p(HGNC:FUS)" target="bp(GOBP:&quot;positive regulation of double-strand break repair via homologous recombination&quot;)" id="7a0173c205a34e97ae7b71b5e55ea339">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:FUS) association bp(GOBP:"positive regulation of double-strand break repair via homologous recombination")</data>
+</edge>
+<edge source="p(HGNC:FUS)" target="bp(GOBP:&quot;protein homooligomerization&quot;)" id="0d294c4b63db5e18c2e01ef7c8996d37">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:FUS) association bp(GOBP:"protein homooligomerization")</data>
+</edge>
+<edge source="p(HGNC:FUS)" target="bp(GOBP:&quot;regulation of DNA-templated transcription&quot;)" id="478dced951d8bae1ccf2ef2e773cd504">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:FUS) association bp(GOBP:"regulation of DNA-templated transcription")</data>
+</edge>
+<edge source="bp(GOMF:&quot;metal ion binding&quot;)" target="p(HGNC:FUS)" id="8a38c47700d9be2eb64464d1dcd08d82">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"metal ion binding") association p(HGNC:FUS)</data>
+</edge>
+<edge source="bp(GOMF:&quot;metal ion binding&quot;)" target="p(HGNC:OPTN)" id="419309bc407644411666b6cbb18e9a0a">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"metal ion binding") association p(HGNC:OPTN)</data>
+</edge>
+<edge source="bp(GOBP:&quot;mRNA stabilization&quot;)" target="p(HGNC:FUS)" id="af4488dd619525f034c55abb76767084">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"mRNA stabilization") association p(HGNC:FUS)</data>
+</edge>
+<edge source="bp(GOBP:&quot;positive regulation of double-strand break repair via homologous recombination&quot;)" target="p(HGNC:FUS)" id="fa8a90a99749c32aaeaf3621cfcdc58c">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"positive regulation of double-strand break repair via homologous recombination") association p(HGNC:FUS)</data>
+</edge>
+<edge source="bp(GOBP:&quot;protein homooligomerization&quot;)" target="p(HGNC:FUS)" id="3b4ead123d34ef330778bcdcf2ed80df">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"protein homooligomerization") association p(HGNC:FUS)</data>
+</edge>
+<edge source="bp(GOBP:&quot;regulation of DNA-templated transcription&quot;)" target="p(HGNC:FUS)" id="fa867bf79cf4361ffe2f4a8322b2b327">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"regulation of DNA-templated transcription") association p(HGNC:FUS)</data>
+</edge>
+<edge source="bp(GOMF:&quot;enzyme binding&quot;)" target="p(HGNC:SQSTM1)" id="a16e2b2cbe463a3c82330b6553370f37">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"enzyme binding") association p(HGNC:SQSTM1)</data>
+</edge>
+<edge source="bp(GOMF:&quot;enzyme binding&quot;)" target="p(HGNC:VAPB)" id="b5993f411535868efb81916333b49aa0">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"enzyme binding") association p(HGNC:VAPB)</data>
+</edge>
+<edge source="p(HGNC:SQSTM1)" target="bp(GOMF:&quot;enzyme binding&quot;)" id="222078fb1616854a57873322bd63ccbd">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:SQSTM1) association bp(GOMF:"enzyme binding")</data>
+</edge>
+<edge source="p(HGNC:SQSTM1)" target="bp(GOMF:&quot;identical protein binding&quot;)" id="cd4f1546ed9734489787485a50df5220">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:SQSTM1) association bp(GOMF:"identical protein binding")</data>
+</edge>
+<edge source="p(HGNC:SQSTM1)" target="bp(GOMF:&quot;ionotropic glutamate receptor binding&quot;)" id="16f1615bb19f839d80393815df22b960">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:SQSTM1) association bp(GOMF:"ionotropic glutamate receptor binding")</data>
+</edge>
+<edge source="p(HGNC:SQSTM1)" target="bp(GOMF:&quot;K63-linked polyubiquitin modification-dependent protein binding&quot;)" id="8727b93379df8bbc7abee85eac75cdf5">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:SQSTM1) association bp(GOMF:"K63-linked polyubiquitin modification-dependent protein binding")</data>
+</edge>
+<edge source="p(HGNC:SQSTM1)" target="bp(GOMF:&quot;protein kinase binding&quot;)" id="a6c60a91fa9cb3186d9ce835037a0e54">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:SQSTM1) association bp(GOMF:"protein kinase binding")</data>
+</edge>
+<edge source="p(HGNC:SQSTM1)" target="bp(GOBP:aggrephagy)" id="0c73d22be62ea9a22bcd42ff3246384f">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:SQSTM1) association bp(GOBP:aggrephagy)</data>
+</edge>
+<edge source="p(HGNC:SQSTM1)" target="bp(GOBP:&quot;apoptotic process&quot;)" id="853d5f54278381c7439be3a99dda7e37">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:SQSTM1) association bp(GOBP:"apoptotic process")</data>
+</edge>
+<edge source="p(HGNC:SQSTM1)" target="bp(GOBP:autophagy)" id="62a5652f2dd37dcc85a1fcad7260666c">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:SQSTM1) association bp(GOBP:autophagy)</data>
+</edge>
+<edge source="p(HGNC:SQSTM1)" target="bp(GOBP:&quot;autophagy of mitochondrion&quot;)" id="72d3f6d9b09a8bdf4ab60c7c2750c1f6">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:SQSTM1) association bp(GOBP:"autophagy of mitochondrion")</data>
+</edge>
+<edge source="p(HGNC:SQSTM1)" target="bp(GOBP:&quot;brown fat cell proliferation&quot;)" id="a1391c27b5202bd00438a1dc74631e55">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:SQSTM1) association bp(GOBP:"brown fat cell proliferation")</data>
+</edge>
+<edge source="bp(GOMF:&quot;ionotropic glutamate receptor binding&quot;)" target="p(HGNC:SQSTM1)" id="6513f73fdf0763bde1f963889e82dc63">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"ionotropic glutamate receptor binding") association p(HGNC:SQSTM1)</data>
+</edge>
+<edge source="bp(GOMF:&quot;K63-linked polyubiquitin modification-dependent protein binding&quot;)" target="p(HGNC:SQSTM1)" id="dff148ddef7dc6abf27b423b73d5dd52">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"K63-linked polyubiquitin modification-dependent protein binding") association p(HGNC:SQSTM1)</data>
+</edge>
+<edge source="bp(GOMF:&quot;K63-linked polyubiquitin modification-dependent protein binding&quot;)" target="p(HGNC:OPTN)" id="edeb98068b18334f7172b5b66cfc8d68">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"K63-linked polyubiquitin modification-dependent protein binding") association p(HGNC:OPTN)</data>
+</edge>
+<edge source="bp(GOMF:&quot;protein kinase binding&quot;)" target="p(HGNC:SQSTM1)" id="5babc4f3255c2e0d6521fe89b21d7f20">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"protein kinase binding") association p(HGNC:SQSTM1)</data>
+</edge>
+<edge source="bp(GOMF:&quot;protein kinase binding&quot;)" target="p(HGNC:DCTN1)" id="f6717a4f45e633af1cc329ed5e106d9c">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"protein kinase binding") association p(HGNC:DCTN1)</data>
+</edge>
+<edge source="bp(GOMF:&quot;protein kinase binding&quot;)" target="p(HGNC:SPG11)" id="3b56ed7396f754e0b690ac99bc686c1c">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"protein kinase binding") association p(HGNC:SPG11)</data>
+</edge>
+<edge source="bp(GOBP:aggrephagy)" target="p(HGNC:SQSTM1)" id="5ced3f8d6fa90f1c79dba58c2e2c6058">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:aggrephagy) association p(HGNC:SQSTM1)</data>
+</edge>
+<edge source="bp(GOBP:autophagy)" target="p(HGNC:SQSTM1)" id="cf60c1cc7ec896beb17730c713bc54bc">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:autophagy) association p(HGNC:SQSTM1)</data>
+</edge>
+<edge source="bp(GOBP:autophagy)" target="p(HGNC:OPTN)" id="63023fa48ab58bef60cb56cbfcdc6c60">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:autophagy) association p(HGNC:OPTN)</data>
+</edge>
+<edge source="bp(GOBP:autophagy)" target="p(HGNC:VCP)" id="c67da1fbda3b545b42a63eea3d83e431">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:autophagy) association p(HGNC:VCP)</data>
+</edge>
+<edge source="bp(GOBP:autophagy)" target="p(HGNC:CHMP2B)" id="2108bb66a30872a95cfa70ebf40eca03">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:autophagy) association p(HGNC:CHMP2B)</data>
+</edge>
+<edge source="bp(GOBP:autophagy)" target="p(HGNC:C9orf72)" id="cf4e7e8700548906d0beef936e03aead">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:autophagy) association p(HGNC:C9orf72)</data>
+</edge>
+<edge source="bp(GOBP:&quot;autophagy of mitochondrion&quot;)" target="p(HGNC:SQSTM1)" id="169fe557dc67459f8672d7b485b7a52c">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"autophagy of mitochondrion") association p(HGNC:SQSTM1)</data>
+</edge>
+<edge source="bp(GOBP:&quot;brown fat cell proliferation&quot;)" target="p(HGNC:SQSTM1)" id="25ba0b6a542078a37eff4df11de8cacc">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"brown fat cell proliferation") association p(HGNC:SQSTM1)</data>
+</edge>
+<edge source="bp(GOMF:&quot;ATP binding&quot;)" target="p(HGNC:TBK1)" id="30b7047b415a89443b9cf3d2ad8d90e6">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"ATP binding") association p(HGNC:TBK1)</data>
+</edge>
+<edge source="bp(GOMF:&quot;ATP binding&quot;)" target="p(HGNC:SETX)" id="8195bdaef2c806879220275bfdc216dd">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"ATP binding") association p(HGNC:SETX)</data>
+</edge>
+<edge source="bp(GOMF:&quot;ATP binding&quot;)" target="p(HGNC:VCP)" id="91c73b2b3d7d17f9ec475d86cb988197">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"ATP binding") association p(HGNC:VCP)</data>
+</edge>
+<edge source="bp(GOMF:&quot;ATP binding&quot;)" target="p(HGNC:ERBB4)" id="de401467dbeaadaf7cb362b80f451c2b">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"ATP binding") association p(HGNC:ERBB4)</data>
+</edge>
+<edge source="p(HGNC:TBK1)" target="bp(GOMF:&quot;ATP binding&quot;)" id="2017d8654c87074473ba91835d34b7cb">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:TBK1) association bp(GOMF:"ATP binding")</data>
+</edge>
+<edge source="p(HGNC:TBK1)" target="bp(GOMF:&quot;identical protein binding&quot;)" id="1f4a5201bf8558f6f48d561b831a48d3">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:TBK1) association bp(GOMF:"identical protein binding")</data>
+</edge>
+<edge source="p(HGNC:TBK1)" target="bp(GOMF:&quot;nucleic acid binding&quot;)" id="9474c0e474e88a8f0fb4cc68b9c7683b">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:TBK1) association bp(GOMF:"nucleic acid binding")</data>
+</edge>
+<edge source="p(HGNC:TBK1)" target="bp(GOMF:&quot;phosphoprotein binding&quot;)" id="8cc8d5821e165292d0904d95d42c2838">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:TBK1) association bp(GOMF:"phosphoprotein binding")</data>
+</edge>
+<edge source="p(HGNC:TBK1)" target="bp(GOMF:&quot;protein kinase activity&quot;)" id="e17a57cd4958c88f6806f25a61f3b594">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:TBK1) association bp(GOMF:"protein kinase activity")</data>
+</edge>
+<edge source="p(HGNC:TBK1)" target="bp(GOBP:&quot;activation of innate immune response&quot;)" id="a25deac773061385e5186697b2d62b30">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:TBK1) association bp(GOBP:"activation of innate immune response")</data>
+</edge>
+<edge source="p(HGNC:TBK1)" target="bp(GOBP:&quot;antiviral innate immune response&quot;)" id="6856d958c79f36cfebdee94811de4bfc">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:TBK1) association bp(GOBP:"antiviral innate immune response")</data>
+</edge>
+<edge source="p(HGNC:TBK1)" target="bp(GOBP:&quot;cytosolic pattern recognition receptor signaling pathway&quot;)" id="bb0ce835f61158d1b7229c50b7e0bd7d">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:TBK1) association bp(GOBP:"cytosolic pattern recognition receptor signaling pathway")</data>
+</edge>
+<edge source="p(HGNC:TBK1)" target="bp(GOBP:&quot;defense response to Gram-positive bacterium&quot;)" id="4ad22e2fa989cb89de3c8fe2acf02ebf">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:TBK1) association bp(GOBP:"defense response to Gram-positive bacterium")</data>
+</edge>
+<edge source="p(HGNC:TBK1)" target="bp(GOBP:&quot;defense response to virus&quot;)" id="c12911a93f43b1699ec8870c6ec110d5">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:TBK1) association bp(GOBP:"defense response to virus")</data>
+</edge>
+<edge source="bp(GOMF:&quot;nucleic acid binding&quot;)" target="p(HGNC:TBK1)" id="33577b2c9a9d8189a579798b19790fbb">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"nucleic acid binding") association p(HGNC:TBK1)</data>
+</edge>
+<edge source="bp(GOMF:&quot;phosphoprotein binding&quot;)" target="p(HGNC:TBK1)" id="4c037a2167b7345be6134473434d99fb">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"phosphoprotein binding") association p(HGNC:TBK1)</data>
+</edge>
+<edge source="bp(GOMF:&quot;protein kinase activity&quot;)" target="p(HGNC:TBK1)" id="994f42944f194be25eb3e672bcfbd933">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"protein kinase activity") association p(HGNC:TBK1)</data>
+</edge>
+<edge source="bp(GOBP:&quot;activation of innate immune response&quot;)" target="p(HGNC:TBK1)" id="924b8ca5008a8569b552249b4e88745a">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"activation of innate immune response") association p(HGNC:TBK1)</data>
+</edge>
+<edge source="bp(GOBP:&quot;activation of innate immune response&quot;)" target="p(HGNC:MATR3)" id="4a9e3dd6d3f7056ff200dcb43b43d14a">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"activation of innate immune response") association p(HGNC:MATR3)</data>
+</edge>
+<edge source="bp(GOBP:&quot;antiviral innate immune response&quot;)" target="p(HGNC:TBK1)" id="2fd8abe710daf9dccdb7a715ccf108fd">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"antiviral innate immune response") association p(HGNC:TBK1)</data>
+</edge>
+<edge source="bp(GOBP:&quot;cytosolic pattern recognition receptor signaling pathway&quot;)" target="p(HGNC:TBK1)" id="4ee3ca5276745a2c899862c45d53d76d">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"cytosolic pattern recognition receptor signaling pathway") association p(HGNC:TBK1)</data>
+</edge>
+<edge source="bp(GOBP:&quot;defense response to Gram-positive bacterium&quot;)" target="p(HGNC:TBK1)" id="a7530d0faf8f4997dae9a1e41f8e1fb0">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"defense response to Gram-positive bacterium") association p(HGNC:TBK1)</data>
+</edge>
+<edge source="bp(GOBP:&quot;defense response to virus&quot;)" target="p(HGNC:TBK1)" id="c4bd2b422f62b67b36e55f4c23f68f5d">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"defense response to virus") association p(HGNC:TBK1)</data>
+</edge>
+<edge source="bp(GOMF:&quot;microtubule binding&quot;)" target="p(HGNC:DCTN1)" id="b0ebe306aeeed58e0b25ea0c9937e13e">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"microtubule binding") association p(HGNC:DCTN1)</data>
+</edge>
+<edge source="bp(GOMF:&quot;microtubule binding&quot;)" target="p(HGNC:VAPB)" id="298c97576ae0befdd21ee9012a6b3b47">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"microtubule binding") association p(HGNC:VAPB)</data>
+</edge>
+<edge source="p(HGNC:DCTN1)" target="bp(GOMF:&quot;microtubule binding&quot;)" id="a0891b2188d740b75a54d8b641e831ae">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:DCTN1) association bp(GOMF:"microtubule binding")</data>
+</edge>
+<edge source="p(HGNC:DCTN1)" target="bp(GOMF:&quot;protein kinase binding&quot;)" id="f9e8e12b92be6181ed3109d39d304b64">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:DCTN1) association bp(GOMF:"protein kinase binding")</data>
+</edge>
+<edge source="p(HGNC:DCTN1)" target="bp(GOMF:&quot;tau protein binding&quot;)" id="1fc54d536eb6ec7f1f74f8f4194d2401">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:DCTN1) association bp(GOMF:"tau protein binding")</data>
+</edge>
+<edge source="p(HGNC:DCTN1)" target="bp(GOMF:&quot;tubulin binding&quot;)" id="1978df55f9412d855dec46ee8bfc773e">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:DCTN1) association bp(GOMF:"tubulin binding")</data>
+</edge>
+<edge source="p(HGNC:DCTN1)" target="bp(GOBP:&quot;cell division&quot;)" id="5ccfea89b4a05fcd98de7219950182bb">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:DCTN1) association bp(GOBP:"cell division")</data>
+</edge>
+<edge source="p(HGNC:DCTN1)" target="bp(GOBP:&quot;centriole-centriole cohesion&quot;)" id="d01ec86bc9cc9179a90b953c6b2f3df4">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:DCTN1) association bp(GOBP:"centriole-centriole cohesion")</data>
+</edge>
+<edge source="p(HGNC:DCTN1)" target="bp(GOBP:&quot;establishment of mitotic spindle orientation&quot;)" id="f978e7c8b734c722c0f6cbea7f2ccd03">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:DCTN1) association bp(GOBP:"establishment of mitotic spindle orientation")</data>
+</edge>
+<edge source="p(HGNC:DCTN1)" target="bp(GOBP:&quot;maintenance of synapse structure&quot;)" id="aba6d96ea4376e04747c7840c04ad0ca">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:DCTN1) association bp(GOBP:"maintenance of synapse structure")</data>
+</edge>
+<edge source="p(HGNC:DCTN1)" target="bp(GOBP:&quot;melanosome transport&quot;)" id="b2c417b1193a3b7c23b3e3d5ded93c2e">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:DCTN1) association bp(GOBP:"melanosome transport")</data>
+</edge>
+<edge source="bp(GOMF:&quot;tau protein binding&quot;)" target="p(HGNC:DCTN1)" id="f76ec87959f8c68504a263ee7a0592e2">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"tau protein binding") association p(HGNC:DCTN1)</data>
+</edge>
+<edge source="bp(GOMF:&quot;tubulin binding&quot;)" target="p(HGNC:DCTN1)" id="ba3354912ae58fcec758095d4171a964">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"tubulin binding") association p(HGNC:DCTN1)</data>
+</edge>
+<edge source="bp(GOBP:&quot;cell division&quot;)" target="p(HGNC:DCTN1)" id="d35cdece666cc84082dd2e714a506f4a">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"cell division") association p(HGNC:DCTN1)</data>
+</edge>
+<edge source="bp(GOBP:&quot;centriole-centriole cohesion&quot;)" target="p(HGNC:DCTN1)" id="7e6960476ee6df5d1aaa05f2b512331e">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"centriole-centriole cohesion") association p(HGNC:DCTN1)</data>
+</edge>
+<edge source="bp(GOBP:&quot;establishment of mitotic spindle orientation&quot;)" target="p(HGNC:DCTN1)" id="adcdc9e1d52ebae37a24155c43eb71ab">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"establishment of mitotic spindle orientation") association p(HGNC:DCTN1)</data>
+</edge>
+<edge source="bp(GOBP:&quot;maintenance of synapse structure&quot;)" target="p(HGNC:DCTN1)" id="cf739aaae5240a2378715f6d75e88b35">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"maintenance of synapse structure") association p(HGNC:DCTN1)</data>
+</edge>
+<edge source="bp(GOBP:&quot;melanosome transport&quot;)" target="p(HGNC:DCTN1)" id="529e5fb5d40150510c37edf1d67b94a9">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"melanosome transport") association p(HGNC:DCTN1)</data>
+</edge>
+<edge source="p(HGNC:SETX)" target="bp(GOMF:&quot;ATP binding&quot;)" id="c8cab7cce6f31c701d99224fc6ba7124">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:SETX) association bp(GOMF:"ATP binding")</data>
+</edge>
+<edge source="p(HGNC:SETX)" target="bp(GOMF:&quot;DNA binding&quot;)" id="02a5871b5b5e9952e4a9b4a1a3be63f2">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:SETX) association bp(GOMF:"DNA binding")</data>
+</edge>
+<edge source="p(HGNC:SETX)" target="bp(GOMF:&quot;DNA helicase activity&quot;)" id="435c0c5f9077f05e9eeddd99b861eb4e">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:SETX) association bp(GOMF:"DNA helicase activity")</data>
+</edge>
+<edge source="p(HGNC:SETX)" target="bp(GOMF:&quot;hydrolase activity&quot;)" id="3fd0a6da3e2de2695bbd659affd27ee5">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:SETX) association bp(GOMF:"hydrolase activity")</data>
+</edge>
+<edge source="p(HGNC:SETX)" target="bp(GOMF:&quot;identical protein binding&quot;)" id="529a300dbf70bd76e27717cc018c7f84">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:SETX) association bp(GOMF:"identical protein binding")</data>
+</edge>
+<edge source="p(HGNC:SETX)" target="bp(GOBP:&quot;cell differentiation&quot;)" id="87adbafa70d730c6292eeed0b68ad64a">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:SETX) association bp(GOBP:"cell differentiation")</data>
+</edge>
+<edge source="p(HGNC:SETX)" target="bp(GOBP:&quot;cellular response to fibroblast growth factor stimulus&quot;)" id="2ac1985848ad4242b8b34f8b57f63593">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:SETX) association bp(GOBP:"cellular response to fibroblast growth factor stimulus")</data>
+</edge>
+<edge source="p(HGNC:SETX)" target="bp(GOBP:&quot;cellular response to hydrogen peroxide&quot;)" id="9aa8cbc7a98df526895b178fecc639c1">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:SETX) association bp(GOBP:"cellular response to hydrogen peroxide")</data>
+</edge>
+<edge source="p(HGNC:SETX)" target="bp(GOBP:&quot;cellular response to oxidative stress&quot;)" id="c77e70e8263bd1453f1534cfab2c6c58">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:SETX) association bp(GOBP:"cellular response to oxidative stress")</data>
+</edge>
+<edge source="p(HGNC:SETX)" target="bp(GOBP:&quot;cellular response to retinoic acid&quot;)" id="325420de476ee17cbcd1d74e7d652861">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:SETX) association bp(GOBP:"cellular response to retinoic acid")</data>
+</edge>
+<edge source="bp(GOMF:&quot;DNA helicase activity&quot;)" target="p(HGNC:SETX)" id="486df95cf4ffeb5f864dccd013ee1e27">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"DNA helicase activity") association p(HGNC:SETX)</data>
+</edge>
+<edge source="bp(GOMF:&quot;hydrolase activity&quot;)" target="p(HGNC:SETX)" id="f72f47d2b3b42a275916e1a58995a87a">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"hydrolase activity") association p(HGNC:SETX)</data>
+</edge>
+<edge source="bp(GOBP:&quot;cell differentiation&quot;)" target="p(HGNC:SETX)" id="37593dfe77c2e82e7d87445b942cca6f">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"cell differentiation") association p(HGNC:SETX)</data>
+</edge>
+<edge source="bp(GOBP:&quot;cellular response to fibroblast growth factor stimulus&quot;)" target="p(HGNC:SETX)" id="76d04eefb6bd37ab06fec126b220f2cb">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"cellular response to fibroblast growth factor stimulus") association p(HGNC:SETX)</data>
+</edge>
+<edge source="bp(GOBP:&quot;cellular response to hydrogen peroxide&quot;)" target="p(HGNC:SETX)" id="b31a2fc94f462c9a3f09e9a216313e3f">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"cellular response to hydrogen peroxide") association p(HGNC:SETX)</data>
+</edge>
+<edge source="bp(GOBP:&quot;cellular response to oxidative stress&quot;)" target="p(HGNC:SETX)" id="e5524a695ed99d8388b8eafec474083f">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"cellular response to oxidative stress") association p(HGNC:SETX)</data>
+</edge>
+<edge source="bp(GOBP:&quot;cellular response to retinoic acid&quot;)" target="p(HGNC:SETX)" id="9d55595b384b696c923a672fd92d88d6">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"cellular response to retinoic acid") association p(HGNC:SETX)</data>
+</edge>
+<edge source="p(HGNC:OPTN)" target="bp(GOMF:&quot;identical protein binding&quot;)" id="519000581cbb8ae04be6876264d8970a">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:OPTN) association bp(GOMF:"identical protein binding")</data>
+</edge>
+<edge source="p(HGNC:OPTN)" target="bp(GOMF:&quot;K63-linked polyubiquitin modification-dependent protein binding&quot;)" id="2a0ba9712080b04279ec2157b0ed822b">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:OPTN) association bp(GOMF:"K63-linked polyubiquitin modification-dependent protein binding")</data>
+</edge>
+<edge source="p(HGNC:OPTN)" target="bp(GOMF:&quot;metal ion binding&quot;)" id="03ede046d38bf7c38ab4abf37223cac7">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:OPTN) association bp(GOMF:"metal ion binding")</data>
+</edge>
+<edge source="p(HGNC:OPTN)" target="bp(GOMF:&quot;polyubiquitin modification-dependent protein binding&quot;)" id="731810431ab9f865193431802861c374">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:OPTN) association bp(GOMF:"polyubiquitin modification-dependent protein binding")</data>
+</edge>
+<edge source="p(HGNC:OPTN)" target="bp(GOMF:&quot;protein-macromolecule adaptor activity&quot;)" id="007fcb241cbddcbcce79042fc1e569de">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:OPTN) association bp(GOMF:"protein-macromolecule adaptor activity")</data>
+</edge>
+<edge source="p(HGNC:OPTN)" target="bp(GOBP:autophagy)" id="5501b1e2b64200815fa941afb585821b">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:OPTN) association bp(GOBP:autophagy)</data>
+</edge>
+<edge source="p(HGNC:OPTN)" target="bp(GOBP:&quot;cell death&quot;)" id="ce3237cc7810b96eec54ddf4fe3b9cc5">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:OPTN) association bp(GOBP:"cell death")</data>
+</edge>
+<edge source="p(HGNC:OPTN)" target="bp(GOBP:&quot;cellular response to unfolded protein&quot;)" id="631fbba37e24b2ecd067f60ef8365749">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:OPTN) association bp(GOBP:"cellular response to unfolded protein")</data>
+</edge>
+<edge source="p(HGNC:OPTN)" target="bp(GOBP:&quot;defense response to Gram-negative bacterium&quot;)" id="8ed789c4296bc974495189e1a8861dfc">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:OPTN) association bp(GOBP:"defense response to Gram-negative bacterium")</data>
+</edge>
+<edge source="p(HGNC:OPTN)" target="bp(GOBP:&quot;Golgi organization&quot;)" id="0062238cb8cf905a3d0e679e3d44bfab">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:OPTN) association bp(GOBP:"Golgi organization")</data>
+</edge>
+<edge source="bp(GOMF:&quot;protein-macromolecule adaptor activity&quot;)" target="p(HGNC:OPTN)" id="564c0832074ed6af140f8c0b9bd384b2">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"protein-macromolecule adaptor activity") association p(HGNC:OPTN)</data>
+</edge>
+<edge source="bp(GOBP:&quot;cell death&quot;)" target="p(HGNC:OPTN)" id="45e30fa02d4f81dd51dc8b4bdaa04dd4">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"cell death") association p(HGNC:OPTN)</data>
+</edge>
+<edge source="bp(GOBP:&quot;cellular response to unfolded protein&quot;)" target="p(HGNC:OPTN)" id="bc68c71ea190c8dc16aad1a4bd88fca2">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"cellular response to unfolded protein") association p(HGNC:OPTN)</data>
+</edge>
+<edge source="bp(GOBP:&quot;defense response to Gram-negative bacterium&quot;)" target="p(HGNC:OPTN)" id="e4e768eafd00e97f32d008800a424a03">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"defense response to Gram-negative bacterium") association p(HGNC:OPTN)</data>
+</edge>
+<edge source="bp(GOBP:&quot;Golgi organization&quot;)" target="p(HGNC:OPTN)" id="1539f8332fa846014fcdae7133629870">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"Golgi organization") association p(HGNC:OPTN)</data>
+</edge>
+<edge source="bp(GOMF:&quot;ADP binding&quot;)" target="p(HGNC:VCP)" id="df89de9417c7ced40980c81b6b4cad66">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"ADP binding") association p(HGNC:VCP)</data>
+</edge>
+<edge source="p(HGNC:VCP)" target="bp(GOMF:&quot;ADP binding&quot;)" id="3d65a5f95297f74e8da3c015ca6acc47">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:VCP) association bp(GOMF:"ADP binding")</data>
+</edge>
+<edge source="p(HGNC:VCP)" target="bp(GOMF:&quot;ATP binding&quot;)" id="d3ab90b3260bd221fd541fb6dbf1b635">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:VCP) association bp(GOMF:"ATP binding")</data>
+</edge>
+<edge source="p(HGNC:VCP)" target="bp(GOMF:&quot;ATP hydrolysis activity&quot;)" id="91acc066dd67147db7c5cd9f8e829cff">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:VCP) association bp(GOMF:"ATP hydrolysis activity")</data>
+</edge>
+<edge source="p(HGNC:VCP)" target="bp(GOMF:&quot;BAT3 complex binding&quot;)" id="61caa9022acedf029b4c172e45fe369e">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:VCP) association bp(GOMF:"BAT3 complex binding")</data>
+</edge>
+<edge source="p(HGNC:VCP)" target="bp(GOMF:&quot;deubiquitinase activator activity&quot;)" id="80b210df3073c11facd0653f7de140fb">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:VCP) association bp(GOMF:"deubiquitinase activator activity")</data>
+</edge>
+<edge source="p(HGNC:VCP)" target="bp(GOBP:&quot;activation of cysteine-type endopeptidase activity involved in apoptotic process&quot;)" id="81cf6caf7f4fbf0e4bd01d892341bab7">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:VCP) association bp(GOBP:"activation of cysteine-type endopeptidase activity involved in apoptotic process")</data>
+</edge>
+<edge source="p(HGNC:VCP)" target="bp(GOBP:&quot;aggresome assembly&quot;)" id="607d07c2b5a9b8298a4704e5e0bbd186">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:VCP) association bp(GOBP:"aggresome assembly")</data>
+</edge>
+<edge source="p(HGNC:VCP)" target="bp(GOBP:&quot;ATP metabolic process&quot;)" id="4c6b9e70a8cb99a5c4d86c7b771d689d">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:VCP) association bp(GOBP:"ATP metabolic process")</data>
+</edge>
+<edge source="p(HGNC:VCP)" target="bp(GOBP:&quot;autophagosome maturation&quot;)" id="80e14d30e2755f13ef87e0425d28cb31">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:VCP) association bp(GOBP:"autophagosome maturation")</data>
+</edge>
+<edge source="p(HGNC:VCP)" target="bp(GOBP:autophagy)" id="6cadba49df8dedc2be3faa3d26510e7f">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:VCP) association bp(GOBP:autophagy)</data>
+</edge>
+<edge source="bp(GOMF:&quot;ATP hydrolysis activity&quot;)" target="p(HGNC:VCP)" id="a539ac595908258ad843adc7a23f8f9d">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"ATP hydrolysis activity") association p(HGNC:VCP)</data>
+</edge>
+<edge source="bp(GOMF:&quot;BAT3 complex binding&quot;)" target="p(HGNC:VCP)" id="8e058f54e9b07e114196ed37c802f657">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"BAT3 complex binding") association p(HGNC:VCP)</data>
+</edge>
+<edge source="bp(GOMF:&quot;deubiquitinase activator activity&quot;)" target="p(HGNC:VCP)" id="4aa7ee528ac2ff6ffeac22edee413df8">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"deubiquitinase activator activity") association p(HGNC:VCP)</data>
+</edge>
+<edge source="bp(GOBP:&quot;activation of cysteine-type endopeptidase activity involved in apoptotic process&quot;)" target="p(HGNC:VCP)" id="7da561533df81162cd70aefa089ce365">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"activation of cysteine-type endopeptidase activity involved in apoptotic process") association p(HGNC:VCP)</data>
+</edge>
+<edge source="bp(GOBP:&quot;aggresome assembly&quot;)" target="p(HGNC:VCP)" id="1da8d64b0fb7c89f059019644b127e29">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"aggresome assembly") association p(HGNC:VCP)</data>
+</edge>
+<edge source="bp(GOBP:&quot;ATP metabolic process&quot;)" target="p(HGNC:VCP)" id="ca11feba52bd2871757a77f096eb9acd">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"ATP metabolic process") association p(HGNC:VCP)</data>
+</edge>
+<edge source="bp(GOBP:&quot;autophagosome maturation&quot;)" target="p(HGNC:VCP)" id="ac559302d4c4e4a6a80073724efcafcb">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"autophagosome maturation") association p(HGNC:VCP)</data>
+</edge>
+<edge source="bp(GOBP:&quot;autophagosome maturation&quot;)" target="p(HGNC:CHMP2B)" id="8e876ed36fd4637f302e2fc4443b3b9c">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"autophagosome maturation") association p(HGNC:CHMP2B)</data>
+</edge>
+<edge source="bp(GOMF:&quot;actin binding&quot;)" target="p(HGNC:PFN1)" id="44c087d3d8e9f3e8be1797f8d2989e69">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"actin binding") association p(HGNC:PFN1)</data>
+</edge>
+<edge source="bp(GOMF:&quot;actin binding&quot;)" target="p(HGNC:ANG)" id="c5ca564cd731712643d4ec1b4c200fc8">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"actin binding") association p(HGNC:ANG)</data>
+</edge>
+<edge source="p(HGNC:PFN1)" target="bp(GOMF:&quot;actin binding&quot;)" id="12ae4091957665a703f73d8339126c6a">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:PFN1) association bp(GOMF:"actin binding")</data>
+</edge>
+<edge source="p(HGNC:PFN1)" target="bp(GOMF:&quot;actin monomer binding&quot;)" id="152dd0671e4981bab257db2b99bb9bd3">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:PFN1) association bp(GOMF:"actin monomer binding")</data>
+</edge>
+<edge source="p(HGNC:PFN1)" target="bp(GOMF:&quot;adenyl-nucleotide exchange factor activity&quot;)" id="5ce3faca7c2721782d87a9430fae3bd7">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:PFN1) association bp(GOMF:"adenyl-nucleotide exchange factor activity")</data>
+</edge>
+<edge source="p(HGNC:PFN1)" target="bp(GOMF:&quot;cadherin binding&quot;)" id="150c4ad554f0c5d28ceb0e1d0c851a50">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:PFN1) association bp(GOMF:"cadherin binding")</data>
+</edge>
+<edge source="p(HGNC:PFN1)" target="bp(GOMF:&quot;phosphatidylinositol-4,5-bisphosphate binding&quot;)" id="d6274a42ededfd7a26c18cc2de8c61fb">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:PFN1) association bp(GOMF:"phosphatidylinositol-4,5-bisphosphate binding")</data>
+</edge>
+<edge source="p(HGNC:PFN1)" target="bp(GOBP:&quot;actin cytoskeleton organization&quot;)" id="3f7a9d093036d1155ee77df31bee7ec1">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:PFN1) association bp(GOBP:"actin cytoskeleton organization")</data>
+</edge>
+<edge source="p(HGNC:PFN1)" target="bp(GOBP:&quot;modification of postsynaptic actin cytoskeleton&quot;)" id="7322c052229f1f837bb483ff4e7c9a18">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:PFN1) association bp(GOBP:"modification of postsynaptic actin cytoskeleton")</data>
+</edge>
+<edge source="p(HGNC:PFN1)" target="bp(GOBP:&quot;modulation of chemical synaptic transmission&quot;)" id="a8700d318b2e3079c8c35e56f5d4f8f1">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:PFN1) association bp(GOBP:"modulation of chemical synaptic transmission")</data>
+</edge>
+<edge source="p(HGNC:PFN1)" target="bp(GOBP:&quot;negative regulation of actin filament bundle assembly&quot;)" id="add51ceed359f6afda8dcc8efce2c208">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:PFN1) association bp(GOBP:"negative regulation of actin filament bundle assembly")</data>
+</edge>
+<edge source="p(HGNC:PFN1)" target="bp(GOBP:&quot;negative regulation of actin filament polymerization&quot;)" id="39fe965afcc88d74348db79f149b8ef9">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:PFN1) association bp(GOBP:"negative regulation of actin filament polymerization")</data>
+</edge>
+<edge source="bp(GOMF:&quot;actin monomer binding&quot;)" target="p(HGNC:PFN1)" id="1687e90b960673649f27d28ba0d1ae7d">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"actin monomer binding") association p(HGNC:PFN1)</data>
+</edge>
+<edge source="bp(GOMF:&quot;adenyl-nucleotide exchange factor activity&quot;)" target="p(HGNC:PFN1)" id="ad37936a04f510ed74545de30dee878c">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"adenyl-nucleotide exchange factor activity") association p(HGNC:PFN1)</data>
+</edge>
+<edge source="bp(GOMF:&quot;cadherin binding&quot;)" target="p(HGNC:PFN1)" id="0c52d996156ad3e8f8e2b509ec24c26f">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"cadherin binding") association p(HGNC:PFN1)</data>
+</edge>
+<edge source="bp(GOMF:&quot;cadherin binding&quot;)" target="p(HGNC:CHMP2B)" id="d4fb5684ea9a91d62fa3670d06a1a61b">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"cadherin binding") association p(HGNC:CHMP2B)</data>
+</edge>
+<edge source="bp(GOMF:&quot;cadherin binding&quot;)" target="p(HGNC:VAPB)" id="6c664474ef542a5bb68181efc6fe3efa">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"cadherin binding") association p(HGNC:VAPB)</data>
+</edge>
+<edge source="bp(GOMF:&quot;phosphatidylinositol-4,5-bisphosphate binding&quot;)" target="p(HGNC:PFN1)" id="734339510262e5b00570cbb86e233c6e">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"phosphatidylinositol-4,5-bisphosphate binding") association p(HGNC:PFN1)</data>
+</edge>
+<edge source="bp(GOBP:&quot;actin cytoskeleton organization&quot;)" target="p(HGNC:PFN1)" id="3860c3353e3db497377c26abc38de4b5">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"actin cytoskeleton organization") association p(HGNC:PFN1)</data>
+</edge>
+<edge source="bp(GOBP:&quot;modification of postsynaptic actin cytoskeleton&quot;)" target="p(HGNC:PFN1)" id="8eac9fbb32e48cc9217f0c75a316a8a2">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"modification of postsynaptic actin cytoskeleton") association p(HGNC:PFN1)</data>
+</edge>
+<edge source="bp(GOBP:&quot;modulation of chemical synaptic transmission&quot;)" target="p(HGNC:PFN1)" id="501e4e3f89b0d057d1535555fa998d73">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"modulation of chemical synaptic transmission") association p(HGNC:PFN1)</data>
+</edge>
+<edge source="bp(GOBP:&quot;negative regulation of actin filament bundle assembly&quot;)" target="p(HGNC:PFN1)" id="3a895177d1cde71be14ef17661959d65">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"negative regulation of actin filament bundle assembly") association p(HGNC:PFN1)</data>
+</edge>
+<edge source="bp(GOBP:&quot;negative regulation of actin filament polymerization&quot;)" target="p(HGNC:PFN1)" id="cd5c17f45136e5d791532d97292ddcc8">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"negative regulation of actin filament polymerization") association p(HGNC:PFN1)</data>
+</edge>
+<edge source="bp(GOMF:&quot;GTPase activator activity&quot;)" target="p(HGNC:ALS2)" id="296b2e0796adf3e9326f8c6216f732c2">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"GTPase activator activity") association p(HGNC:ALS2)</data>
+</edge>
+<edge source="p(HGNC:ALS2)" target="bp(GOMF:&quot;GTPase activator activity&quot;)" id="b953919092948eb8b6df212c9e0464ff">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:ALS2) association bp(GOMF:"GTPase activator activity")</data>
+</edge>
+<edge source="p(HGNC:ALS2)" target="bp(GOMF:&quot;guanyl-nucleotide exchange factor activity&quot;)" id="62ca846423739597f05b755d24d4c32b">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:ALS2) association bp(GOMF:"guanyl-nucleotide exchange factor activity")</data>
+</edge>
+<edge source="p(HGNC:ALS2)" target="bp(GOMF:&quot;identical protein binding&quot;)" id="393d6dce0bc42be3e4d9a13071a26da0">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:ALS2) association bp(GOMF:"identical protein binding")</data>
+</edge>
+<edge source="p(HGNC:ALS2)" target="bp(GOMF:&quot;protein homodimerization activity&quot;)" id="7172eb98b5e89618f5213e76d208709b">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:ALS2) association bp(GOMF:"protein homodimerization activity")</data>
+</edge>
+<edge source="p(HGNC:ALS2)" target="bp(GOMF:&quot;protein serine/threonine kinase activator activity&quot;)" id="9b018479883705606864650e723487e8">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:ALS2) association bp(GOMF:"protein serine/threonine kinase activator activity")</data>
+</edge>
+<edge source="p(HGNC:ALS2)" target="bp(GOBP:&quot;behavioral fear response&quot;)" id="06bd467586880c913f1a51c39c02d1b5">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:ALS2) association bp(GOBP:"behavioral fear response")</data>
+</edge>
+<edge source="p(HGNC:ALS2)" target="bp(GOBP:&quot;endosomal transport&quot;)" id="1538418a59f37b5b258b7779fb7f8089">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:ALS2) association bp(GOBP:"endosomal transport")</data>
+</edge>
+<edge source="p(HGNC:ALS2)" target="bp(GOBP:&quot;endosome organization&quot;)" id="acaac706479571341933c97d5193e7f5">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:ALS2) association bp(GOBP:"endosome organization")</data>
+</edge>
+<edge source="p(HGNC:ALS2)" target="bp(GOBP:&quot;locomotory behavior&quot;)" id="3f2e71f98b90245e853c8eee7337e794">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:ALS2) association bp(GOBP:"locomotory behavior")</data>
+</edge>
+<edge source="p(HGNC:ALS2)" target="bp(GOBP:&quot;lysosomal transport&quot;)" id="fd72c598fa1ef4fbd1a5fbb3e1e16ac1">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:ALS2) association bp(GOBP:"lysosomal transport")</data>
+</edge>
+<edge source="bp(GOMF:&quot;guanyl-nucleotide exchange factor activity&quot;)" target="p(HGNC:ALS2)" id="25b43b0aeb8e70ce6c437ab83073ea51">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"guanyl-nucleotide exchange factor activity") association p(HGNC:ALS2)</data>
+</edge>
+<edge source="bp(GOMF:&quot;guanyl-nucleotide exchange factor activity&quot;)" target="p(HGNC:C9orf72)" id="638f4691a8efca92ad835dd997fd6afe">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"guanyl-nucleotide exchange factor activity") association p(HGNC:C9orf72)</data>
+</edge>
+<edge source="bp(GOMF:&quot;protein homodimerization activity&quot;)" target="p(HGNC:ALS2)" id="04b9789fea3f13085d9d6a68493f1485">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"protein homodimerization activity") association p(HGNC:ALS2)</data>
+</edge>
+<edge source="bp(GOMF:&quot;protein serine/threonine kinase activator activity&quot;)" target="p(HGNC:ALS2)" id="323a0e61f7a9f6a042d5b425f68a1e62">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"protein serine/threonine kinase activator activity") association p(HGNC:ALS2)</data>
+</edge>
+<edge source="bp(GOBP:&quot;behavioral fear response&quot;)" target="p(HGNC:ALS2)" id="b82f8d4d72ad031737aecc8daafb3cb9">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"behavioral fear response") association p(HGNC:ALS2)</data>
+</edge>
+<edge source="bp(GOBP:&quot;endosomal transport&quot;)" target="p(HGNC:ALS2)" id="0815c17935f4919cef4759bc94494fba">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"endosomal transport") association p(HGNC:ALS2)</data>
+</edge>
+<edge source="bp(GOBP:&quot;endosome organization&quot;)" target="p(HGNC:ALS2)" id="e691c710625b843faf26ed5813a9c942">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"endosome organization") association p(HGNC:ALS2)</data>
+</edge>
+<edge source="bp(GOBP:&quot;endosome organization&quot;)" target="p(HGNC:CHMP2B)" id="46efe34755de2fb14e57f8e29ecfc5d7">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"endosome organization") association p(HGNC:CHMP2B)</data>
+</edge>
+<edge source="bp(GOBP:&quot;locomotory behavior&quot;)" target="p(HGNC:ALS2)" id="8c2615b9a9e52852495900724186797b">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"locomotory behavior") association p(HGNC:ALS2)</data>
+</edge>
+<edge source="bp(GOBP:&quot;locomotory behavior&quot;)" target="p(HGNC:FIG4)" id="60ffbb1fe9e1614dbd7968ce35dc8a87">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"locomotory behavior") association p(HGNC:FIG4)</data>
+</edge>
+<edge source="bp(GOBP:&quot;lysosomal transport&quot;)" target="p(HGNC:ALS2)" id="a3d0f0feeeb62d0e5ab4180426628b21">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"lysosomal transport") association p(HGNC:ALS2)</data>
+</edge>
+<edge source="bp(GOMF:&quot;phosphatidylinositol-3,4,5-trisphosphate 5-phosphatase activity&quot;)" target="p(HGNC:FIG4)" id="eaa16a450092bb03bb9e8cd308755599">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"phosphatidylinositol-3,4,5-trisphosphate 5-phosphatase activity") association p(HGNC:FIG4)</data>
+</edge>
+<edge source="p(HGNC:FIG4)" target="bp(GOMF:&quot;phosphatidylinositol-3,4,5-trisphosphate 5-phosphatase activity&quot;)" id="d2938b1de79e0216f248a8f66bf4ebaa">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:FIG4) association bp(GOMF:"phosphatidylinositol-3,4,5-trisphosphate 5-phosphatase activity")</data>
+</edge>
+<edge source="p(HGNC:FIG4)" target="bp(GOMF:&quot;phosphatidylinositol-3,5-bisphosphate 5-phosphatase activity&quot;)" id="90bfc826cb1168f8781398143cffb3e1">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:FIG4) association bp(GOMF:"phosphatidylinositol-3,5-bisphosphate 5-phosphatase activity")</data>
+</edge>
+<edge source="p(HGNC:FIG4)" target="bp(GOMF:&quot;phosphatidylinositol-3-phosphate phosphatase activity&quot;)" id="058a06161c396a87d33d5dc2ad34ba99">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:FIG4) association bp(GOMF:"phosphatidylinositol-3-phosphate phosphatase activity")</data>
+</edge>
+<edge source="p(HGNC:FIG4)" target="bp(GOMF:&quot;phosphatidylinositol-4,5-bisphosphate 5-phosphatase activity&quot;)" id="f94d407548d0c25e0c17e516a092d3b7">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:FIG4) association bp(GOMF:"phosphatidylinositol-4,5-bisphosphate 5-phosphatase activity")</data>
+</edge>
+<edge source="p(HGNC:FIG4)" target="bp(GOMF:&quot;phosphatidylinositol-4-phosphate phosphatase activity&quot;)" id="4b89ca9bc31325995ed74ea80cbd26c9">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:FIG4) association bp(GOMF:"phosphatidylinositol-4-phosphate phosphatase activity")</data>
+</edge>
+<edge source="p(HGNC:FIG4)" target="bp(GOBP:&quot;locomotory behavior&quot;)" id="02a1298ef9478199b40ceff7fece8def">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:FIG4) association bp(GOBP:"locomotory behavior")</data>
+</edge>
+<edge source="p(HGNC:FIG4)" target="bp(GOBP:&quot;myelin assembly&quot;)" id="7b6efccd8e78fc657341e0ea11a9e27f">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:FIG4) association bp(GOBP:"myelin assembly")</data>
+</edge>
+<edge source="p(HGNC:FIG4)" target="bp(GOBP:&quot;negative regulation of myelination&quot;)" id="6f98b6913b4b43540da7560ac0a9d19c">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:FIG4) association bp(GOBP:"negative regulation of myelination")</data>
+</edge>
+<edge source="p(HGNC:FIG4)" target="bp(GOBP:&quot;neuron development&quot;)" id="712f21ab565c117bdc527737b661994b">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:FIG4) association bp(GOBP:"neuron development")</data>
+</edge>
+<edge source="p(HGNC:FIG4)" target="bp(GOBP:&quot;phosphatidylinositol biosynthetic process&quot;)" id="1a33c29f1b59665fde7fbb08fd5c97f0">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:FIG4) association bp(GOBP:"phosphatidylinositol biosynthetic process")</data>
+</edge>
+<edge source="bp(GOMF:&quot;phosphatidylinositol-3,5-bisphosphate 5-phosphatase activity&quot;)" target="p(HGNC:FIG4)" id="6271321c490229d7f17f31b6bd3f635a">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"phosphatidylinositol-3,5-bisphosphate 5-phosphatase activity") association p(HGNC:FIG4)</data>
+</edge>
+<edge source="bp(GOMF:&quot;phosphatidylinositol-3-phosphate phosphatase activity&quot;)" target="p(HGNC:FIG4)" id="186efc7b612839cd237d52ee3d78a4e0">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"phosphatidylinositol-3-phosphate phosphatase activity") association p(HGNC:FIG4)</data>
+</edge>
+<edge source="bp(GOMF:&quot;phosphatidylinositol-4,5-bisphosphate 5-phosphatase activity&quot;)" target="p(HGNC:FIG4)" id="3e4107b0d642db77b409ef40b81984f9">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"phosphatidylinositol-4,5-bisphosphate 5-phosphatase activity") association p(HGNC:FIG4)</data>
+</edge>
+<edge source="bp(GOMF:&quot;phosphatidylinositol-4-phosphate phosphatase activity&quot;)" target="p(HGNC:FIG4)" id="8a1b22bc2d39b480e64e27d0a80ea253">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"phosphatidylinositol-4-phosphate phosphatase activity") association p(HGNC:FIG4)</data>
+</edge>
+<edge source="bp(GOBP:&quot;myelin assembly&quot;)" target="p(HGNC:FIG4)" id="91e8a1f67700a1610af4a2d02fd62fde">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"myelin assembly") association p(HGNC:FIG4)</data>
+</edge>
+<edge source="bp(GOBP:&quot;negative regulation of myelination&quot;)" target="p(HGNC:FIG4)" id="eb17e8255bb002a1c82f059ba1a59b50">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"negative regulation of myelination") association p(HGNC:FIG4)</data>
+</edge>
+<edge source="bp(GOBP:&quot;neuron development&quot;)" target="p(HGNC:FIG4)" id="d1fc56fff5a2d9c15b0bc0c358d50bc2">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"neuron development") association p(HGNC:FIG4)</data>
+</edge>
+<edge source="bp(GOBP:&quot;phosphatidylinositol biosynthetic process&quot;)" target="p(HGNC:FIG4)" id="835311efcf8e165f9958dc0bca6e90ba">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"phosphatidylinositol biosynthetic process") association p(HGNC:FIG4)</data>
+</edge>
+<edge source="bp(GOMF:&quot;G protein-coupled opioid receptor activity&quot;)" target="p(HGNC:SIGMAR1)" id="8926f5e544f24b2e812fd4bd5ddbfdca">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"G protein-coupled opioid receptor activity") association p(HGNC:SIGMAR1)</data>
+</edge>
+<edge source="p(HGNC:SIGMAR1)" target="bp(GOMF:&quot;G protein-coupled opioid receptor activity&quot;)" id="77d9c81e7ce99a139b4f440fb5de0b3e">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:SIGMAR1) association bp(GOMF:"G protein-coupled opioid receptor activity")</data>
+</edge>
+<edge source="p(HGNC:SIGMAR1)" target="bp(GOMF:&quot;identical protein binding&quot;)" id="51ee40de386dbbdb0a7a86cc7705c4cc">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:SIGMAR1) association bp(GOMF:"identical protein binding")</data>
+</edge>
+<edge source="p(HGNC:SIGMAR1)" target="bp(GOBP:&quot;lipid transport&quot;)" id="2165e742493f074631671e7f1df75ec1">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:SIGMAR1) association bp(GOBP:"lipid transport")</data>
+</edge>
+<edge source="p(HGNC:SIGMAR1)" target="bp(GOBP:&quot;nervous system development&quot;)" id="6f06829842a38c95edce29e4d04df733">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:SIGMAR1) association bp(GOBP:"nervous system development")</data>
+</edge>
+<edge source="p(HGNC:SIGMAR1)" target="bp(GOBP:&quot;protein homotrimerization&quot;)" id="e49bf597ec56230220f672f1b076b46a">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:SIGMAR1) association bp(GOBP:"protein homotrimerization")</data>
+</edge>
+<edge source="p(HGNC:SIGMAR1)" target="bp(GOBP:&quot;regulation of neuron apoptotic process&quot;)" id="6c6922030b249fd1a8fa8846cb3b2d6d">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:SIGMAR1) association bp(GOBP:"regulation of neuron apoptotic process")</data>
+</edge>
+<edge source="bp(GOBP:&quot;lipid transport&quot;)" target="p(HGNC:SIGMAR1)" id="006046520affa873836567173b66acbd">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"lipid transport") association p(HGNC:SIGMAR1)</data>
+</edge>
+<edge source="bp(GOBP:&quot;nervous system development&quot;)" target="p(HGNC:SIGMAR1)" id="d920627dc5e784035894e5cafd340411">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"nervous system development") association p(HGNC:SIGMAR1)</data>
+</edge>
+<edge source="bp(GOBP:&quot;protein homotrimerization&quot;)" target="p(HGNC:SIGMAR1)" id="bc682fecf5c3ab4f18d290e81234e398">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"protein homotrimerization") association p(HGNC:SIGMAR1)</data>
+</edge>
+<edge source="bp(GOBP:&quot;regulation of neuron apoptotic process&quot;)" target="p(HGNC:SIGMAR1)" id="ff12dfa1ffbf3013bbcb0ecae92e0122">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"regulation of neuron apoptotic process") association p(HGNC:SIGMAR1)</data>
+</edge>
+<edge source="p(HGNC:CHMP2B)" target="bp(GOMF:&quot;cadherin binding&quot;)" id="e0d58608143a75e8753406d3ef2826f7">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:CHMP2B) association bp(GOMF:"cadherin binding")</data>
+</edge>
+<edge source="p(HGNC:CHMP2B)" target="bp(GOMF:&quot;protein domain specific binding&quot;)" id="6a42a2058ce10401fba0d1313b1fa859">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:CHMP2B) association bp(GOMF:"protein domain specific binding")</data>
+</edge>
+<edge source="p(HGNC:CHMP2B)" target="bp(GOBP:&quot;autophagosome maturation&quot;)" id="ab67109179d153e9b18c727951366e17">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:CHMP2B) association bp(GOBP:"autophagosome maturation")</data>
+</edge>
+<edge source="p(HGNC:CHMP2B)" target="bp(GOBP:autophagy)" id="25d2dea1978c0034541afdf9d8310247">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:CHMP2B) association bp(GOBP:autophagy)</data>
+</edge>
+<edge source="p(HGNC:CHMP2B)" target="bp(GOBP:cognition)" id="a8a48f77c6f1d28ed9cf8ce164efd78b">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:CHMP2B) association bp(GOBP:cognition)</data>
+</edge>
+<edge source="p(HGNC:CHMP2B)" target="bp(GOBP:&quot;endosome organization&quot;)" id="f8446969ccc818198c96e5c60cc780d2">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:CHMP2B) association bp(GOBP:"endosome organization")</data>
+</edge>
+<edge source="p(HGNC:CHMP2B)" target="bp(GOBP:&quot;endosome transport via multivesicular body sorting pathway&quot;)" id="0d82e36c3a210eaa33b5275d140417b3">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:CHMP2B) association bp(GOBP:"endosome transport via multivesicular body sorting pathway")</data>
+</edge>
+<edge source="bp(GOMF:&quot;protein domain specific binding&quot;)" target="p(HGNC:CHMP2B)" id="0850c04bdba848b8058ed781167b949a">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"protein domain specific binding") association p(HGNC:CHMP2B)</data>
+</edge>
+<edge source="bp(GOBP:cognition)" target="p(HGNC:CHMP2B)" id="433e15f68f6832010013d9379f04fa57">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:cognition) association p(HGNC:CHMP2B)</data>
+</edge>
+<edge source="bp(GOBP:&quot;endosome transport via multivesicular body sorting pathway&quot;)" target="p(HGNC:CHMP2B)" id="14b13bc83a917bd5c5d15263a0d6a2cf">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"endosome transport via multivesicular body sorting pathway") association p(HGNC:CHMP2B)</data>
+</edge>
+<edge source="p(HGNC:ERBB4)" target="bp(GOMF:&quot;ATP binding&quot;)" id="f37c5e731c8f14cb6cab415f44023579">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:ERBB4) association bp(GOMF:"ATP binding")</data>
+</edge>
+<edge source="p(HGNC:ERBB4)" target="bp(GOMF:&quot;epidermal growth factor receptor activity&quot;)" id="9e7fae278a6806fa57f371bcf62ef3dd">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:ERBB4) association bp(GOMF:"epidermal growth factor receptor activity")</data>
+</edge>
+<edge source="p(HGNC:ERBB4)" target="bp(GOMF:&quot;epidermal growth factor receptor binding&quot;)" id="997c61c2597bba70e8a24b2dd2436da2">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:ERBB4) association bp(GOMF:"epidermal growth factor receptor binding")</data>
+</edge>
+<edge source="p(HGNC:ERBB4)" target="bp(GOMF:&quot;GABA receptor binding&quot;)" id="586f6b68af1501c35a14750d4160d2fd">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:ERBB4) association bp(GOMF:"GABA receptor binding")</data>
+</edge>
+<edge source="p(HGNC:ERBB4)" target="bp(GOMF:&quot;neuregulin receptor activity&quot;)" id="b1fa56a012b45078c7087b4cd5e0c066">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:ERBB4) association bp(GOMF:"neuregulin receptor activity")</data>
+</edge>
+<edge source="p(HGNC:ERBB4)" target="bp(GOBP:&quot;cardiac muscle tissue regeneration&quot;)" id="6c9b5cb44ae40b211fdd8c7fec1676d1">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:ERBB4) association bp(GOBP:"cardiac muscle tissue regeneration")</data>
+</edge>
+<edge source="p(HGNC:ERBB4)" target="bp(GOBP:&quot;cell fate commitment&quot;)" id="91bbeca803a1c8054d72ee9c0430725d">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:ERBB4) association bp(GOBP:"cell fate commitment")</data>
+</edge>
+<edge source="p(HGNC:ERBB4)" target="bp(GOBP:&quot;cell migration&quot;)" id="553bc05103baeea1c5468db63f755fbe">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:ERBB4) association bp(GOBP:"cell migration")</data>
+</edge>
+<edge source="p(HGNC:ERBB4)" target="bp(GOBP:&quot;cellular response to epidermal growth factor stimulus&quot;)" id="6589165e17a8ec06fb6b524c5f37aac1">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:ERBB4) association bp(GOBP:"cellular response to epidermal growth factor stimulus")</data>
+</edge>
+<edge source="p(HGNC:ERBB4)" target="bp(GOBP:&quot;central nervous system morphogenesis&quot;)" id="9e9ae6ee155e25f3a46786ab9ce0eaa3">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:ERBB4) association bp(GOBP:"central nervous system morphogenesis")</data>
+</edge>
+<edge source="bp(GOMF:&quot;epidermal growth factor receptor activity&quot;)" target="p(HGNC:ERBB4)" id="3f7003960ffac1257251551c2ab22aeb">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"epidermal growth factor receptor activity") association p(HGNC:ERBB4)</data>
+</edge>
+<edge source="bp(GOMF:&quot;epidermal growth factor receptor binding&quot;)" target="p(HGNC:ERBB4)" id="83a4234203a1cce03cc9e0d6da2ae8db">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"epidermal growth factor receptor binding") association p(HGNC:ERBB4)</data>
+</edge>
+<edge source="bp(GOMF:&quot;epidermal growth factor receptor binding&quot;)" target="p(HGNC:ATXN2)" id="3a96556f15bcd32a5fc3be2ff2a3efc0">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"epidermal growth factor receptor binding") association p(HGNC:ATXN2)</data>
+</edge>
+<edge source="bp(GOMF:&quot;GABA receptor binding&quot;)" target="p(HGNC:ERBB4)" id="134462352057209416c02c82e21caebc">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"GABA receptor binding") association p(HGNC:ERBB4)</data>
+</edge>
+<edge source="bp(GOMF:&quot;neuregulin receptor activity&quot;)" target="p(HGNC:ERBB4)" id="6f7190bda0953bc381f7341bc300b6b1">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"neuregulin receptor activity") association p(HGNC:ERBB4)</data>
+</edge>
+<edge source="bp(GOBP:&quot;cardiac muscle tissue regeneration&quot;)" target="p(HGNC:ERBB4)" id="49eefb8dc40fc789a8a84ce1c4813526">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"cardiac muscle tissue regeneration") association p(HGNC:ERBB4)</data>
+</edge>
+<edge source="bp(GOBP:&quot;cell fate commitment&quot;)" target="p(HGNC:ERBB4)" id="09a396e8d98b52ef38bf395724dbea6e">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"cell fate commitment") association p(HGNC:ERBB4)</data>
+</edge>
+<edge source="bp(GOBP:&quot;cell migration&quot;)" target="p(HGNC:ERBB4)" id="110fdca4a037e232b79bd640b353890a">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"cell migration") association p(HGNC:ERBB4)</data>
+</edge>
+<edge source="bp(GOBP:&quot;cellular response to epidermal growth factor stimulus&quot;)" target="p(HGNC:ERBB4)" id="6a67b90e861b614e3bde280b4572d198">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"cellular response to epidermal growth factor stimulus") association p(HGNC:ERBB4)</data>
+</edge>
+<edge source="bp(GOBP:&quot;central nervous system morphogenesis&quot;)" target="p(HGNC:ERBB4)" id="966b07043dba735cc4cf5a82e831d9e7">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"central nervous system morphogenesis") association p(HGNC:ERBB4)</data>
+</edge>
+<edge source="bp(GOMF:&quot;structural molecule activity&quot;)" target="p(HGNC:PRPH)" id="61fcfdc253e2c0fd1ea022ff3658ede6">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"structural molecule activity") association p(HGNC:PRPH)</data>
+</edge>
+<edge source="bp(GOMF:&quot;structural molecule activity&quot;)" target="p(HGNC:MATR3)" id="5209ef2583f9a54da071ef141049f67a">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"structural molecule activity") association p(HGNC:MATR3)</data>
+</edge>
+<edge source="p(HGNC:PRPH)" target="bp(GOMF:&quot;structural molecule activity&quot;)" id="ce5ea68feb164d34ac509165b52e34fb">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:PRPH) association bp(GOMF:"structural molecule activity")</data>
+</edge>
+<edge source="bp(GOMF:&quot;beta-tubulin binding&quot;)" target="p(HGNC:VAPB)" id="724b43eb418672643b659aa69c38532d">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"beta-tubulin binding") association p(HGNC:VAPB)</data>
+</edge>
+<edge source="p(HGNC:VAPB)" target="bp(GOMF:&quot;beta-tubulin binding&quot;)" id="edd6fa2ce214eafbe1c66b2a0bf87ee8">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:VAPB) association bp(GOMF:"beta-tubulin binding")</data>
+</edge>
+<edge source="p(HGNC:VAPB)" target="bp(GOMF:&quot;cadherin binding&quot;)" id="cac0166ab694597075e708a767e998d2">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:VAPB) association bp(GOMF:"cadherin binding")</data>
+</edge>
+<edge source="p(HGNC:VAPB)" target="bp(GOMF:&quot;enzyme binding&quot;)" id="34986b33e6f53bad36c305036fb48c6d">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:VAPB) association bp(GOMF:"enzyme binding")</data>
+</edge>
+<edge source="p(HGNC:VAPB)" target="bp(GOMF:&quot;FFAT motif binding&quot;)" id="5ca301e3025a366d7606ff4f16fc60b1">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:VAPB) association bp(GOMF:"FFAT motif binding")</data>
+</edge>
+<edge source="p(HGNC:VAPB)" target="bp(GOMF:&quot;microtubule binding&quot;)" id="a79e406a4ba9b30068f5afcc1738433e">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:VAPB) association bp(GOMF:"microtubule binding")</data>
+</edge>
+<edge source="p(HGNC:VAPB)" target="bp(GOBP:&quot;COPII-coated vesicle budding&quot;)" id="68f4c966edead7bc3a3204fba166e3a0">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:VAPB) association bp(GOBP:"COPII-coated vesicle budding")</data>
+</edge>
+<edge source="p(HGNC:VAPB)" target="bp(GOBP:&quot;endoplasmic reticulum membrane organization&quot;)" id="b0058ea0976f88acf3b2e4f83f4264d2">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:VAPB) association bp(GOBP:"endoplasmic reticulum membrane organization")</data>
+</edge>
+<edge source="p(HGNC:VAPB)" target="bp(GOBP:&quot;endoplasmic reticulum organization&quot;)" id="b01b3741ef598f685f66b9e9990ff063">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:VAPB) association bp(GOBP:"endoplasmic reticulum organization")</data>
+</edge>
+<edge source="p(HGNC:VAPB)" target="bp(GOBP:&quot;endoplasmic reticulum to Golgi vesicle-mediated transport&quot;)" id="c41947028d2d6eece3e749e66d602497">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:VAPB) association bp(GOBP:"endoplasmic reticulum to Golgi vesicle-mediated transport")</data>
+</edge>
+<edge source="p(HGNC:VAPB)" target="bp(GOBP:&quot;endoplasmic reticulum unfolded protein response&quot;)" id="70620602550bfe94504564f5b1e1e377">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:VAPB) association bp(GOBP:"endoplasmic reticulum unfolded protein response")</data>
+</edge>
+<edge source="bp(GOMF:&quot;FFAT motif binding&quot;)" target="p(HGNC:VAPB)" id="c57a6ef002c1eaf0e4ad295435ef667e">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"FFAT motif binding") association p(HGNC:VAPB)</data>
+</edge>
+<edge source="bp(GOBP:&quot;COPII-coated vesicle budding&quot;)" target="p(HGNC:VAPB)" id="060b05a919c842a68ba9836f51608cf7">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"COPII-coated vesicle budding") association p(HGNC:VAPB)</data>
+</edge>
+<edge source="bp(GOBP:&quot;endoplasmic reticulum membrane organization&quot;)" target="p(HGNC:VAPB)" id="a9275734c70fbdbb5e1a53ca1ab39295">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"endoplasmic reticulum membrane organization") association p(HGNC:VAPB)</data>
+</edge>
+<edge source="bp(GOBP:&quot;endoplasmic reticulum organization&quot;)" target="p(HGNC:VAPB)" id="3d4c94264b2a5874926791f34bf55d7f">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"endoplasmic reticulum organization") association p(HGNC:VAPB)</data>
+</edge>
+<edge source="bp(GOBP:&quot;endoplasmic reticulum to Golgi vesicle-mediated transport&quot;)" target="p(HGNC:VAPB)" id="edc7c84105fa4d1b6e31943ff1820616">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"endoplasmic reticulum to Golgi vesicle-mediated transport") association p(HGNC:VAPB)</data>
+</edge>
+<edge source="bp(GOBP:&quot;endoplasmic reticulum unfolded protein response&quot;)" target="p(HGNC:VAPB)" id="535822e9115024fc926f5b52eadfcfba">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"endoplasmic reticulum unfolded protein response") association p(HGNC:VAPB)</data>
+</edge>
+<edge source="p(HGNC:ANG)" target="bp(GOMF:&quot;actin binding&quot;)" id="e354a952e812aa39d28c0f3f8c397b8b">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:ANG) association bp(GOMF:"actin binding")</data>
+</edge>
+<edge source="p(HGNC:ANG)" target="bp(GOMF:&quot;copper ion binding&quot;)" id="833da58da7270ff5c2410141fcde30b0">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:ANG) association bp(GOMF:"copper ion binding")</data>
+</edge>
+<edge source="p(HGNC:ANG)" target="bp(GOMF:&quot;DNA binding&quot;)" id="7de4cb55a032c6f0e9c0e7f9ca74e4f4">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:ANG) association bp(GOMF:"DNA binding")</data>
+</edge>
+<edge source="p(HGNC:ANG)" target="bp(GOMF:&quot;endonuclease activity&quot;)" id="e35e872477ff94fe4c3e5e1a9f740336">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:ANG) association bp(GOMF:"endonuclease activity")</data>
+</edge>
+<edge source="p(HGNC:ANG)" target="bp(GOMF:&quot;heparin binding&quot;)" id="995a04a9830e899edb07b9e45748f0b6">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:ANG) association bp(GOMF:"heparin binding")</data>
+</edge>
+<edge source="p(HGNC:ANG)" target="bp(GOBP:&quot;actin filament polymerization&quot;)" id="a5d6c869caabfe944b0cf9639a970527">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:ANG) association bp(GOBP:"actin filament polymerization")</data>
+</edge>
+<edge source="p(HGNC:ANG)" target="bp(GOBP:&quot;activation of phospholipase A2 activity&quot;)" id="15877c072df4670928a087148ffe5134">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:ANG) association bp(GOBP:"activation of phospholipase A2 activity")</data>
+</edge>
+<edge source="p(HGNC:ANG)" target="bp(GOBP:&quot;activation of phospholipase C activity&quot;)" id="ec3b7a389de9d81f9c050b7ae0cb65a3">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:ANG) association bp(GOBP:"activation of phospholipase C activity")</data>
+</edge>
+<edge source="p(HGNC:ANG)" target="bp(GOBP:&quot;activation of protein kinase B activity&quot;)" id="491624b845dcb3a43a13e9d377a4c304">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:ANG) association bp(GOBP:"activation of protein kinase B activity")</data>
+</edge>
+<edge source="p(HGNC:ANG)" target="bp(GOBP:angiogenesis)" id="4604bc834f4e745d4b1c58cb9e234116">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:ANG) association bp(GOBP:angiogenesis)</data>
+</edge>
+<edge source="bp(GOMF:&quot;endonuclease activity&quot;)" target="p(HGNC:ANG)" id="28ad2ac2af23ba76e3b753d4f3334380">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"endonuclease activity") association p(HGNC:ANG)</data>
+</edge>
+<edge source="bp(GOMF:&quot;heparin binding&quot;)" target="p(HGNC:ANG)" id="524354c4aa141db76cda8209c8cc50e1">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"heparin binding") association p(HGNC:ANG)</data>
+</edge>
+<edge source="bp(GOBP:&quot;actin filament polymerization&quot;)" target="p(HGNC:ANG)" id="6eb963134c5169fd62d05f1bf92cd1c0">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"actin filament polymerization") association p(HGNC:ANG)</data>
+</edge>
+<edge source="bp(GOBP:&quot;activation of phospholipase A2 activity&quot;)" target="p(HGNC:ANG)" id="56f4041392fc9a4158e1e9be7c4b9e25">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"activation of phospholipase A2 activity") association p(HGNC:ANG)</data>
+</edge>
+<edge source="bp(GOBP:&quot;activation of phospholipase C activity&quot;)" target="p(HGNC:ANG)" id="153fe20376d77f3ba3dc895b02e2ca73">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"activation of phospholipase C activity") association p(HGNC:ANG)</data>
+</edge>
+<edge source="bp(GOBP:&quot;activation of protein kinase B activity&quot;)" target="p(HGNC:ANG)" id="871d4f5b5e17b84aee125022a8f249eb">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"activation of protein kinase B activity") association p(HGNC:ANG)</data>
+</edge>
+<edge source="bp(GOBP:angiogenesis)" target="p(HGNC:ANG)" id="0189ac59ad4de93e3097676bc2fb9f24">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:angiogenesis) association p(HGNC:ANG)</data>
+</edge>
+<edge source="p(HGNC:C9orf72)" target="bp(GOMF:&quot;guanyl-nucleotide exchange factor activity&quot;)" id="a259c9c58bf8a1da1a1283e86039716e">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:C9orf72) association bp(GOMF:"guanyl-nucleotide exchange factor activity")</data>
+</edge>
+<edge source="p(HGNC:C9orf72)" target="bp(GOMF:&quot;small GTPase binding&quot;)" id="54815be7f79883b21e650fa89f9771f6">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:C9orf72) association bp(GOMF:"small GTPase binding")</data>
+</edge>
+<edge source="p(HGNC:C9orf72)" target="bp(GOBP:autophagy)" id="b1360729a33ccca829f9acaa062face0">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:C9orf72) association bp(GOBP:autophagy)</data>
+</edge>
+<edge source="p(HGNC:C9orf72)" target="bp(GOBP:&quot;axon extension&quot;)" id="62bfa9fba367d3751786c31fb31bf378">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:C9orf72) association bp(GOBP:"axon extension")</data>
+</edge>
+<edge source="p(HGNC:C9orf72)" target="bp(GOBP:endocytosis)" id="df50132957350818b894c3a3fcb9fdfd">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:C9orf72) association bp(GOBP:endocytosis)</data>
+</edge>
+<edge source="p(HGNC:C9orf72)" target="bp(GOBP:&quot;late endosome to lysosome transport&quot;)" id="3e0704f7ccceeeffa22c829418054057">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:C9orf72) association bp(GOBP:"late endosome to lysosome transport")</data>
+</edge>
+<edge source="p(HGNC:C9orf72)" target="bp(GOBP:&quot;negative regulation of exocytosis&quot;)" id="8824ae1d4b042b5d60ca12bb044f15b6">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:C9orf72) association bp(GOBP:"negative regulation of exocytosis")</data>
+</edge>
+<edge source="bp(GOMF:&quot;small GTPase binding&quot;)" target="p(HGNC:C9orf72)" id="69541581278303a9daffc5613d29e32e">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"small GTPase binding") association p(HGNC:C9orf72)</data>
+</edge>
+<edge source="bp(GOBP:&quot;axon extension&quot;)" target="p(HGNC:C9orf72)" id="743717d734ae38d2ea593aafc8e32bc8">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"axon extension") association p(HGNC:C9orf72)</data>
+</edge>
+<edge source="bp(GOBP:&quot;axon extension&quot;)" target="p(HGNC:SPG11)" id="672aea88a45c0213c66e3513ce9defd1">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"axon extension") association p(HGNC:SPG11)</data>
+</edge>
+<edge source="bp(GOBP:endocytosis)" target="p(HGNC:C9orf72)" id="74b5d6e6a28bd26f4c72098f4e7cf787">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:endocytosis) association p(HGNC:C9orf72)</data>
+</edge>
+<edge source="bp(GOBP:&quot;late endosome to lysosome transport&quot;)" target="p(HGNC:C9orf72)" id="21df894ca056bdf3a0e2c23d67164d3a">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"late endosome to lysosome transport") association p(HGNC:C9orf72)</data>
+</edge>
+<edge source="bp(GOBP:&quot;negative regulation of exocytosis&quot;)" target="p(HGNC:C9orf72)" id="d796969f7bee356fe8cfc7aa843208a2">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"negative regulation of exocytosis") association p(HGNC:C9orf72)</data>
+</edge>
+<edge source="p(HGNC:MATR3)" target="bp(GOMF:&quot;identical protein binding&quot;)" id="c73b7a59b8aa869312802d0862c348f0">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MATR3) association bp(GOMF:"identical protein binding")</data>
+</edge>
+<edge source="p(HGNC:MATR3)" target="bp(GOMF:&quot;miRNA binding&quot;)" id="e27d07f8df6171d9db8f88ff45c72168">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MATR3) association bp(GOMF:"miRNA binding")</data>
+</edge>
+<edge source="p(HGNC:MATR3)" target="bp(GOMF:&quot;RNA binding&quot;)" id="4b3a5a2a86f76238ea46c139f38c7ee8">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MATR3) association bp(GOMF:"RNA binding")</data>
+</edge>
+<edge source="p(HGNC:MATR3)" target="bp(GOMF:&quot;structural molecule activity&quot;)" id="32ddcfd2c9343ae2c1c0e31ded064c73">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MATR3) association bp(GOMF:"structural molecule activity")</data>
+</edge>
+<edge source="p(HGNC:MATR3)" target="bp(GOMF:&quot;zinc ion binding&quot;)" id="ceeb15b5e1d21019523b91cdb5ef3c1c">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MATR3) association bp(GOMF:"zinc ion binding")</data>
+</edge>
+<edge source="p(HGNC:MATR3)" target="bp(GOBP:&quot;activation of innate immune response&quot;)" id="0481a51b30123cd681c9e1b1e046a1c2">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MATR3) association bp(GOBP:"activation of innate immune response")</data>
+</edge>
+<edge source="p(HGNC:MATR3)" target="bp(GOBP:&quot;blastocyst formation&quot;)" id="39357d5fe09b197394a37b8a7d30de7b">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MATR3) association bp(GOBP:"blastocyst formation")</data>
+</edge>
+<edge source="p(HGNC:MATR3)" target="bp(GOBP:&quot;heart valve development&quot;)" id="5e82732ed9e530bf3406512f1d13e09d">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MATR3) association bp(GOBP:"heart valve development")</data>
+</edge>
+<edge source="p(HGNC:MATR3)" target="bp(GOBP:&quot;innate immune response&quot;)" id="f36791d774173a9f3b88858ca67872e7">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MATR3) association bp(GOBP:"innate immune response")</data>
+</edge>
+<edge source="p(HGNC:MATR3)" target="bp(GOBP:&quot;post-transcriptional regulation of gene expression&quot;)" id="e628d9b4c789f7f79bfaccd331b8fe33">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MATR3) association bp(GOBP:"post-transcriptional regulation of gene expression")</data>
+</edge>
+<edge source="bp(GOMF:&quot;miRNA binding&quot;)" target="p(HGNC:MATR3)" id="50cb35c6131f7065bd53c78eb9cce029">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"miRNA binding") association p(HGNC:MATR3)</data>
+</edge>
+<edge source="bp(GOMF:&quot;miRNA binding&quot;)" target="p(HGNC:HNRNPA1)" id="ecfd76328a7b3b7ee8a1bd638930856b">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"miRNA binding") association p(HGNC:HNRNPA1)</data>
+</edge>
+<edge source="bp(GOMF:&quot;RNA binding&quot;)" target="p(HGNC:MATR3)" id="3d925f9afd7bf982efd2e8d81f047990">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"RNA binding") association p(HGNC:MATR3)</data>
+</edge>
+<edge source="bp(GOMF:&quot;RNA binding&quot;)" target="p(HGNC:ATXN2)" id="0adb1fa74f79a4c8c3972674dcdf1153">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"RNA binding") association p(HGNC:ATXN2)</data>
+</edge>
+<edge source="bp(GOMF:&quot;zinc ion binding&quot;)" target="p(HGNC:MATR3)" id="acf1d17b5ce1a614e4ec48d115aaec69">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"zinc ion binding") association p(HGNC:MATR3)</data>
+</edge>
+<edge source="bp(GOBP:&quot;blastocyst formation&quot;)" target="p(HGNC:MATR3)" id="56e7f83f393174e3af8cfbacacaba2bb">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"blastocyst formation") association p(HGNC:MATR3)</data>
+</edge>
+<edge source="bp(GOBP:&quot;heart valve development&quot;)" target="p(HGNC:MATR3)" id="8b064c8e87d7d5599823eab7298bce46">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"heart valve development") association p(HGNC:MATR3)</data>
+</edge>
+<edge source="bp(GOBP:&quot;innate immune response&quot;)" target="p(HGNC:MATR3)" id="9fc6451bae5a092015c43325af3f6a08">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"innate immune response") association p(HGNC:MATR3)</data>
+</edge>
+<edge source="bp(GOBP:&quot;post-transcriptional regulation of gene expression&quot;)" target="p(HGNC:MATR3)" id="dc84769face0bf0dd233367c655d0d19">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"post-transcriptional regulation of gene expression") association p(HGNC:MATR3)</data>
+</edge>
+<edge source="p(HGNC:SPG11)" target="bp(GOMF:&quot;protein kinase binding&quot;)" id="fe41bc3389bf8ba2a48251a6e2fd10c1">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:SPG11) association bp(GOMF:"protein kinase binding")</data>
+</edge>
+<edge source="p(HGNC:SPG11)" target="bp(GOBP:&quot;autophagosome organization&quot;)" id="2beec32482a3822d5f6115f25bbe8055">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:SPG11) association bp(GOBP:"autophagosome organization")</data>
+</edge>
+<edge source="p(HGNC:SPG11)" target="bp(GOBP:&quot;axo-dendritic transport&quot;)" id="a36b7642d02fb2c9cedc5090c261c0e3">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:SPG11) association bp(GOBP:"axo-dendritic transport")</data>
+</edge>
+<edge source="p(HGNC:SPG11)" target="bp(GOBP:&quot;axon extension&quot;)" id="2f683d23638db9145f5e79774236b513">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:SPG11) association bp(GOBP:"axon extension")</data>
+</edge>
+<edge source="p(HGNC:SPG11)" target="bp(GOBP:&quot;chemical synaptic transmission&quot;)" id="1edd400306718a568f98227932c4c541">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:SPG11) association bp(GOBP:"chemical synaptic transmission")</data>
+</edge>
+<edge source="p(HGNC:SPG11)" target="bp(GOBP:&quot;cholesterol efflux&quot;)" id="9c0238664ceeba99a1e9d63ff42e5243">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:SPG11) association bp(GOBP:"cholesterol efflux")</data>
+</edge>
+<edge source="bp(GOBP:&quot;autophagosome organization&quot;)" target="p(HGNC:SPG11)" id="558c57e0c468611b125457be0a7d7770">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"autophagosome organization") association p(HGNC:SPG11)</data>
+</edge>
+<edge source="bp(GOBP:&quot;axo-dendritic transport&quot;)" target="p(HGNC:SPG11)" id="15454255e9d3266a967dda62aee9bdc9">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"axo-dendritic transport") association p(HGNC:SPG11)</data>
+</edge>
+<edge source="bp(GOBP:&quot;chemical synaptic transmission&quot;)" target="p(HGNC:SPG11)" id="d96bf39a41264ba428c3b9578ee97a05">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"chemical synaptic transmission") association p(HGNC:SPG11)</data>
+</edge>
+<edge source="bp(GOBP:&quot;cholesterol efflux&quot;)" target="p(HGNC:SPG11)" id="61e99fb87d110afafad2e9f9ab435c1d">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"cholesterol efflux") association p(HGNC:SPG11)</data>
+</edge>
+<edge source="p(HGNC:HNRNPA1)" target="bp(GOMF:&quot;DNA binding&quot;)" id="1d57d7f5e65283b9b0cdec660abb568b">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:HNRNPA1) association bp(GOMF:"DNA binding")</data>
+</edge>
+<edge source="p(HGNC:HNRNPA1)" target="bp(GOMF:&quot;G-rich strand telomeric DNA binding&quot;)" id="6002029c71fc0fe9e05f4d6ebc06e0df">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:HNRNPA1) association bp(GOMF:"G-rich strand telomeric DNA binding")</data>
+</edge>
+<edge source="p(HGNC:HNRNPA1)" target="bp(GOMF:&quot;identical protein binding&quot;)" id="f0ac65048b9373b91f1e21633e38e725">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:HNRNPA1) association bp(GOMF:"identical protein binding")</data>
+</edge>
+<edge source="p(HGNC:HNRNPA1)" target="bp(GOMF:&quot;miRNA binding&quot;)" id="6154814029371312085d28cf7448f25c">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:HNRNPA1) association bp(GOMF:"miRNA binding")</data>
+</edge>
+<edge source="p(HGNC:HNRNPA1)" target="bp(GOMF:&quot;molecular condensate scaffold activity&quot;)" id="e03b2461f9d6d44c5471c75a4a0cedcc">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:HNRNPA1) association bp(GOMF:"molecular condensate scaffold activity")</data>
+</edge>
+<edge source="p(HGNC:HNRNPA1)" target="bp(GOBP:&quot;amyloid fibril formation&quot;)" id="1b99668abffae1300f1a8d1f2a367cc5">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:HNRNPA1) association bp(GOBP:"amyloid fibril formation")</data>
+</edge>
+<edge source="p(HGNC:HNRNPA1)" target="bp(GOBP:&quot;cellular response to glucose starvation&quot;)" id="bce5395a53314f598ad61f4b31bf0a90">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:HNRNPA1) association bp(GOBP:"cellular response to glucose starvation")</data>
+</edge>
+<edge source="p(HGNC:HNRNPA1)" target="bp(GOBP:&quot;cellular response to sodium arsenite&quot;)" id="b3a94be1d845fa53ad3f60cebe49109f">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:HNRNPA1) association bp(GOBP:"cellular response to sodium arsenite")</data>
+</edge>
+<edge source="p(HGNC:HNRNPA1)" target="bp(GOBP:&quot;import into nucleus&quot;)" id="6a4addc124f1fbab234359d01dc53776">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:HNRNPA1) association bp(GOBP:"import into nucleus")</data>
+</edge>
+<edge source="p(HGNC:HNRNPA1)" target="bp(GOBP:localization)" id="551ddcbca084726950320e52ab9ff7d2">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:HNRNPA1) association bp(GOBP:localization)</data>
+</edge>
+<edge source="bp(GOMF:&quot;G-rich strand telomeric DNA binding&quot;)" target="p(HGNC:HNRNPA1)" id="b924c79e9468e81cf3a270b644e26d49">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"G-rich strand telomeric DNA binding") association p(HGNC:HNRNPA1)</data>
+</edge>
+<edge source="bp(GOBP:&quot;cellular response to glucose starvation&quot;)" target="p(HGNC:HNRNPA1)" id="4736f3a6cd2b86bf8d37d7664c329a78">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"cellular response to glucose starvation") association p(HGNC:HNRNPA1)</data>
+</edge>
+<edge source="bp(GOBP:&quot;cellular response to sodium arsenite&quot;)" target="p(HGNC:HNRNPA1)" id="a77576318ada4a48b16c6ad991fdd8e6">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"cellular response to sodium arsenite") association p(HGNC:HNRNPA1)</data>
+</edge>
+<edge source="bp(GOBP:&quot;import into nucleus&quot;)" target="p(HGNC:HNRNPA1)" id="713b10542a834c7fa0c6b407dbdc14ad">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"import into nucleus") association p(HGNC:HNRNPA1)</data>
+</edge>
+<edge source="bp(GOBP:localization)" target="p(HGNC:HNRNPA1)" id="d75ac32911c2fce60c818b3ad7136a7a">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:localization) association p(HGNC:HNRNPA1)</data>
+</edge>
+<edge source="p(HGNC:ATXN2)" target="bp(GOMF:&quot;epidermal growth factor receptor binding&quot;)" id="5562fa60869d95ffcc7aa117ddf958c5">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:ATXN2) association bp(GOMF:"epidermal growth factor receptor binding")</data>
+</edge>
+<edge source="p(HGNC:ATXN2)" target="bp(GOMF:&quot;mRNA binding&quot;)" id="3b319d3ed6ab32cc0ff15c694bb82195">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:ATXN2) association bp(GOMF:"mRNA binding")</data>
+</edge>
+<edge source="p(HGNC:ATXN2)" target="bp(GOMF:&quot;RNA binding&quot;)" id="3b2626a7ba94cef692a34afe2d5b4ea2">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:ATXN2) association bp(GOMF:"RNA binding")</data>
+</edge>
+<edge source="p(HGNC:ATXN2)" target="bp(GOBP:&quot;negative regulation of receptor internalization&quot;)" id="729d67db78cb22fc3912ba469d5c2322">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:ATXN2) association bp(GOBP:"negative regulation of receptor internalization")</data>
+</edge>
+<edge source="p(HGNC:ATXN2)" target="bp(GOBP:&quot;P-body assembly&quot;)" id="c90984206f7d500a8f80c098981a3067">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:ATXN2) association bp(GOBP:"P-body assembly")</data>
+</edge>
+<edge source="p(HGNC:ATXN2)" target="bp(GOBP:&quot;regulation of translation&quot;)" id="4d4a96ebaf307dd2dd388beaf93823e6">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:ATXN2) association bp(GOBP:"regulation of translation")</data>
+</edge>
+<edge source="p(HGNC:ATXN2)" target="bp(GOBP:&quot;RNA metabolic process&quot;)" id="0dd39695c1003e396f50d187a6589f0a">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:ATXN2) association bp(GOBP:"RNA metabolic process")</data>
+</edge>
+<edge source="p(HGNC:ATXN2)" target="bp(GOBP:&quot;RNA transport&quot;)" id="29830ef03013391d52dbfb0230a610f3">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:ATXN2) association bp(GOBP:"RNA transport")</data>
+</edge>
+<edge source="bp(GOMF:&quot;mRNA binding&quot;)" target="p(HGNC:ATXN2)" id="6bd0eea20be4672543f143d65f09daef">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"mRNA binding") association p(HGNC:ATXN2)</data>
+</edge>
+<edge source="bp(GOBP:&quot;negative regulation of receptor internalization&quot;)" target="p(HGNC:ATXN2)" id="1c50f1783b7d1a94d601ca3911b0cbf5">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"negative regulation of receptor internalization") association p(HGNC:ATXN2)</data>
+</edge>
+<edge source="bp(GOBP:&quot;P-body assembly&quot;)" target="p(HGNC:ATXN2)" id="bb6642f4b6f24c11368d99705d9d95b8">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"P-body assembly") association p(HGNC:ATXN2)</data>
+</edge>
+<edge source="bp(GOBP:&quot;regulation of translation&quot;)" target="p(HGNC:ATXN2)" id="edca52c50ff526225fee556c8178cd28">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"regulation of translation") association p(HGNC:ATXN2)</data>
+</edge>
+<edge source="bp(GOBP:&quot;RNA metabolic process&quot;)" target="p(HGNC:ATXN2)" id="ad913a1742fc2c6acc3796aa3c167fda">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"RNA metabolic process") association p(HGNC:ATXN2)</data>
+</edge>
+<edge source="bp(GOBP:&quot;RNA transport&quot;)" target="p(HGNC:ATXN2)" id="4e2c686ecdd868b029ccee4721d3dc4f">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"RNA transport") association p(HGNC:ATXN2)</data>
+</edge>
+<edge source="bp(GOMF:&quot;calcium ion binding&quot;)" target="p(HGNC:ANXA11)" id="b0cd160b302fe835faa8db1aae08ff0f">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"calcium ion binding") association p(HGNC:ANXA11)</data>
+</edge>
+<edge source="p(HGNC:ANXA11)" target="bp(GOMF:&quot;calcium ion binding&quot;)" id="fbc8d43c670a7fb034d4f680c1d4bbba">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:ANXA11) association bp(GOMF:"calcium ion binding")</data>
+</edge>
+<edge source="p(HGNC:ANXA11)" target="bp(GOMF:&quot;calcium-dependent phospholipid binding&quot;)" id="947f42ccd8972da05f7d0fecb370b266">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:ANXA11) association bp(GOMF:"calcium-dependent phospholipid binding")</data>
+</edge>
+<edge source="p(HGNC:ANXA11)" target="bp(GOMF:&quot;calcium-dependent protein binding&quot;)" id="998d3dbac07ef83198e054d880997d9d">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:ANXA11) association bp(GOMF:"calcium-dependent protein binding")</data>
+</edge>
+<edge source="p(HGNC:ANXA11)" target="bp(GOMF:&quot;MHC class II protein complex binding&quot;)" id="8ea3d30a6d3abd60c81adba947e206e3">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:ANXA11) association bp(GOMF:"MHC class II protein complex binding")</data>
+</edge>
+<edge source="p(HGNC:ANXA11)" target="bp(GOMF:&quot;phosphatidylethanolamine binding&quot;)" id="7e3196188fd4f6b4abda51f2f36c2607">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:ANXA11) association bp(GOMF:"phosphatidylethanolamine binding")</data>
+</edge>
+<edge source="p(HGNC:ANXA11)" target="bp(GOBP:&quot;cytokinetic process&quot;)" id="d9ca12b5381516bfcc05275f9382c377">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:ANXA11) association bp(GOBP:"cytokinetic process")</data>
+</edge>
+<edge source="p(HGNC:ANXA11)" target="bp(GOBP:phagocytosis)" id="7b8cf62d142bf9edfe6859bc79d103ba">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:ANXA11) association bp(GOBP:phagocytosis)</data>
+</edge>
+<edge source="p(HGNC:ANXA11)" target="bp(GOBP:&quot;response to calcium ion&quot;)" id="ad5d702dab5afb9e364c69b6521565c2">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:ANXA11) association bp(GOBP:"response to calcium ion")</data>
+</edge>
+<edge source="bp(GOMF:&quot;calcium-dependent phospholipid binding&quot;)" target="p(HGNC:ANXA11)" id="0c0c521eb40a4b20105be91169dc5060">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"calcium-dependent phospholipid binding") association p(HGNC:ANXA11)</data>
+</edge>
+<edge source="bp(GOMF:&quot;calcium-dependent protein binding&quot;)" target="p(HGNC:ANXA11)" id="7b5072be0728b8f824d3985683ab7c3b">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"calcium-dependent protein binding") association p(HGNC:ANXA11)</data>
+</edge>
+<edge source="bp(GOMF:&quot;MHC class II protein complex binding&quot;)" target="p(HGNC:ANXA11)" id="f11be98f3eeca1566ae348ba1782f3bd">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"MHC class II protein complex binding") association p(HGNC:ANXA11)</data>
+</edge>
+<edge source="bp(GOMF:&quot;phosphatidylethanolamine binding&quot;)" target="p(HGNC:ANXA11)" id="1ac735220b55d3104d2c2eb25bcc76ae">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"phosphatidylethanolamine binding") association p(HGNC:ANXA11)</data>
+</edge>
+<edge source="bp(GOBP:&quot;cytokinetic process&quot;)" target="p(HGNC:ANXA11)" id="e834c9e40fa90388f2c6c31ceee07366">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"cytokinetic process") association p(HGNC:ANXA11)</data>
+</edge>
+<edge source="bp(GOBP:phagocytosis)" target="p(HGNC:ANXA11)" id="f695373c1b6ac0d8b047c381ed01df7f">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:phagocytosis) association p(HGNC:ANXA11)</data>
+</edge>
+<edge source="bp(GOBP:&quot;response to calcium ion&quot;)" target="p(HGNC:ANXA11)" id="66ff881dd815066f66f7f049c75cd575">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"response to calcium ion") association p(HGNC:ANXA11)</data>
+</edge>
+<edge source="bp(MOA:&quot;Sodium channel alpha subunit blocker&quot;)" target="a(ChEMBL:CHEMBL744)" id="e4b08580589784f87de023dace3927bd">
+  <data key="d1">association</data>
+  <data key="d2">bp(MOA:"Sodium channel alpha subunit blocker") association a(ChEMBL:CHEMBL744)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL744)" target="bp(MOA:&quot;Sodium channel alpha subunit blocker&quot;)" id="14c3812024c51abe5678d5ce68f711f8">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL744) association bp(MOA:"Sodium channel alpha subunit blocker")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL744)" target="p(HGNC:SCN1A)" id="6f5908ef56a76465de13e1f58b90030c">
+  <data key="d1">decreases</data>
+  <data key="d2">a(ChEMBL:CHEMBL744) decreases p(HGNC:SCN1A)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL744)" target="path(SideEffect:&quot;interstitial lung disease&quot;)" id="91a3428911fc59ce64a9eb329cff918f">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL744) association path(SideEffect:"interstitial lung disease")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL744)" target="path(SideEffect:&quot;pancreatitis acute&quot;)" id="7afacf5077e5192fe50e6e6fb44318a6">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL744) association path(SideEffect:"pancreatitis acute")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL744)" target="path(SideEffect:&quot;portal vein thrombosis&quot;)" id="34e43c3f828990b36c815a6efb60cf19">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL744) association path(SideEffect:"portal vein thrombosis")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL744)" target="path(SideEffect:&quot;amyotrophic lateral sclerosis&quot;)" id="d0b89b6f1dba029086ec350d20350c2b">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL744) association path(SideEffect:"amyotrophic lateral sclerosis")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL744)" target="path(SideEffect:&quot;lymphocyte stimulation test positive&quot;)" id="9c2fbda0d0c297b0f93738fa6d7d1fc1">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL744) association path(SideEffect:"lymphocyte stimulation test positive")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL744)" target="path(SideEffect:&quot;pulmonary toxicity&quot;)" id="206e2bc2bd0abe3a06e866d565e04d37">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL744) association path(SideEffect:"pulmonary toxicity")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL744)" target="path(SideEffect:&quot;excessive granulation tissue&quot;)" id="41f3f46873dbc03f90dfebfcaec9c843">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL744) association path(SideEffect:"excessive granulation tissue")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL744)" target="path(SideEffect:&quot;pancreatitis relapsing&quot;)" id="b2c7d2b584bcdc6da9e096947bcbfac9">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL744) association path(SideEffect:"pancreatitis relapsing")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL744)" target="path(SideEffect:&quot;progressive bulbar palsy&quot;)" id="9039c2b30ff097cc7fe48130df0c1427">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL744) association path(SideEffect:"progressive bulbar palsy")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL744)" target="path(SideEffect:&quot;traumatic lung injury&quot;)" id="d8eb4c7e7f6bfc8baeaf38e4d7afc20c">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL744) association path(SideEffect:"traumatic lung injury")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL744)" target="path(SideEffect:&quot;motor neurone disease&quot;)" id="5c833c913515f4990bcf8dd4bcd88e9e">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL744) association path(SideEffect:"motor neurone disease")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL744)" target="path(SideEffect:&quot;lung consolidation&quot;)" id="96261c150ab07800c5f194292d58402e">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL744) association path(SideEffect:"lung consolidation")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL744)" target="path(SideEffect:&quot;rash morbilliform&quot;)" id="79e49ad20771f0c98d196bc5b4ea4431">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL744) association path(SideEffect:"rash morbilliform")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL744)" target="path(SideEffect:atelectasis)" id="83eeada209e3e27d68cd5e1f6f582a20">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL744) association path(SideEffect:atelectasis)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL744)" target="path(SideEffect:&quot;blood lactate dehydrogenase increased&quot;)" id="e272c202a58a4d72c7410a0ad0ddca67">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL744) association path(SideEffect:"blood lactate dehydrogenase increased")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL744)" target="path(SideEffect:emphysema)" id="48f8d0761bd9f187b41929aa8244b820">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL744) association path(SideEffect:emphysema)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL744)" target="path(SideEffect:&quot;aspartate aminotransferase increased&quot;)" id="bb203c22cd3cf5fa10cb5a99791303d8">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL744) association path(SideEffect:"aspartate aminotransferase increased")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL744)" target="path(SideEffect:&quot;sulphaemoglobin increased&quot;)" id="9d0fcc4069881fc401629f75d9908417">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL744) association path(SideEffect:"sulphaemoglobin increased")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL744)" target="path(SideEffect:&quot;alanine aminotransferase increased&quot;)" id="eb3e3ff92b400f30576cb280e9ff2b8d">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL744) association path(SideEffect:"alanine aminotransferase increased")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL744)" target="path(SideEffect:&quot;disease progression&quot;)" id="88e749f5009b8a61409500d67855ba73">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL744) association path(SideEffect:"disease progression")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL744)" target="path(SideEffect:&quot;cervical spinal cord paralysis&quot;)" id="56f99085d9a18b0230bbbf644ebdaa0d">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL744) association path(SideEffect:"cervical spinal cord paralysis")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL744)" target="path(SideEffect:&quot;respiratory disorder&quot;)" id="43d7bfeef9ca4099204e58d4e01114a5">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL744) association path(SideEffect:"respiratory disorder")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL744)" target="path(SideEffect:&quot;paraesthesia oral&quot;)" id="ce0fcf2bbe8c91eda63468b6350ae410">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL744) association path(SideEffect:"paraesthesia oral")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL744)" target="path(SideEffect:&quot;adjacent segment degeneration&quot;)" id="8dbeb9cf4fdf8d733d23b5635d0df183">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL744) association path(SideEffect:"adjacent segment degeneration")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL744)" target="path(SideEffect:&quot;anorectal varices haemorrhage&quot;)" id="e07cd4a7c261b4b63ab93a77efcad85d">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL744) association path(SideEffect:"anorectal varices haemorrhage")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL744)" target="path(SideEffect:&quot;psychological factor affecting medical condition&quot;)" id="0302eeeb26113f4bf91f6ed9a865b4e4">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL744) association path(SideEffect:"psychological factor affecting medical condition")</data>
+</edge>
+<edge source="p(HGNC:SCN1A)" target="bp(Reactome:&quot;Interaction between L1 and Ankyrins.&quot;)" id="914868c9850ce2411f282e58df3170d6">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:SCN1A) association bp(Reactome:"Interaction between L1 and Ankyrins.")</data>
+</edge>
+<edge source="p(HGNC:SCN1A)" target="bp(Reactome:&quot;Phase 0 - rapid depolarisation.&quot;)" id="e2f304a61e3774e3cab7107eea2e0d79">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:SCN1A) association bp(Reactome:"Phase 0 - rapid depolarisation.")</data>
+</edge>
+<edge source="bp(Reactome:&quot;Interaction between L1 and Ankyrins.&quot;)" target="p(HGNC:SCN1A)" id="0a5dc07d81772fe89e4c82dc006ff146">
+  <data key="d1">association</data>
+  <data key="d2">bp(Reactome:"Interaction between L1 and Ankyrins.") association p(HGNC:SCN1A)</data>
+</edge>
+<edge source="bp(Reactome:&quot;Phase 0 - rapid depolarisation.&quot;)" target="p(HGNC:SCN1A)" id="d56e3411cefc5a12821befcab4b8a1b1">
+  <data key="d1">association</data>
+  <data key="d2">bp(Reactome:"Phase 0 - rapid depolarisation.") association p(HGNC:SCN1A)</data>
+</edge>
+<edge source="path(SideEffect:&quot;interstitial lung disease&quot;)" target="a(ChEMBL:CHEMBL744)" id="7a52b40fdeb781b18eccb40ce9a68cfc">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"interstitial lung disease") association a(ChEMBL:CHEMBL744)</data>
+</edge>
+<edge source="path(SideEffect:&quot;pancreatitis acute&quot;)" target="a(ChEMBL:CHEMBL744)" id="22dfbe8c485ebefb759da27a50bc15c6">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"pancreatitis acute") association a(ChEMBL:CHEMBL744)</data>
+</edge>
+<edge source="path(SideEffect:&quot;portal vein thrombosis&quot;)" target="a(ChEMBL:CHEMBL744)" id="354265c22b331d43aa5b0e2a052b4ac8">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"portal vein thrombosis") association a(ChEMBL:CHEMBL744)</data>
+</edge>
+<edge source="path(SideEffect:&quot;amyotrophic lateral sclerosis&quot;)" target="a(ChEMBL:CHEMBL744)" id="a1c1ebb9b5b5fa9dd7ca46efc2027ab1">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"amyotrophic lateral sclerosis") association a(ChEMBL:CHEMBL744)</data>
+</edge>
+<edge source="path(SideEffect:&quot;lymphocyte stimulation test positive&quot;)" target="a(ChEMBL:CHEMBL744)" id="25feea513b504ba42f9064c9e621b2ae">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"lymphocyte stimulation test positive") association a(ChEMBL:CHEMBL744)</data>
+</edge>
+<edge source="path(SideEffect:&quot;pulmonary toxicity&quot;)" target="a(ChEMBL:CHEMBL744)" id="d45e29f6e2a1d3863557b83a5294c4a6">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"pulmonary toxicity") association a(ChEMBL:CHEMBL744)</data>
+</edge>
+<edge source="path(SideEffect:&quot;excessive granulation tissue&quot;)" target="a(ChEMBL:CHEMBL744)" id="1d2a8c9cc138ba8d3defc77a68b58db6">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"excessive granulation tissue") association a(ChEMBL:CHEMBL744)</data>
+</edge>
+<edge source="path(SideEffect:&quot;pancreatitis relapsing&quot;)" target="a(ChEMBL:CHEMBL744)" id="7807471447e40e71430073346eaaa45a">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"pancreatitis relapsing") association a(ChEMBL:CHEMBL744)</data>
+</edge>
+<edge source="path(SideEffect:&quot;progressive bulbar palsy&quot;)" target="a(ChEMBL:CHEMBL744)" id="a41793ab22d0cb1ce6ddd6d06f135071">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"progressive bulbar palsy") association a(ChEMBL:CHEMBL744)</data>
+</edge>
+<edge source="path(SideEffect:&quot;traumatic lung injury&quot;)" target="a(ChEMBL:CHEMBL744)" id="ef113bca4651a9cc707832de46d1ac64">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"traumatic lung injury") association a(ChEMBL:CHEMBL744)</data>
+</edge>
+<edge source="path(SideEffect:&quot;motor neurone disease&quot;)" target="a(ChEMBL:CHEMBL744)" id="fc74345bc43ada41e7a9e50628fc4a56">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"motor neurone disease") association a(ChEMBL:CHEMBL744)</data>
+</edge>
+<edge source="path(SideEffect:&quot;lung consolidation&quot;)" target="a(ChEMBL:CHEMBL744)" id="777e439b079b3dda409c84f677a339bf">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"lung consolidation") association a(ChEMBL:CHEMBL744)</data>
+</edge>
+<edge source="path(SideEffect:&quot;rash morbilliform&quot;)" target="a(ChEMBL:CHEMBL744)" id="c6ac5395ac15e8542ee3a7cc888c5924">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"rash morbilliform") association a(ChEMBL:CHEMBL744)</data>
+</edge>
+<edge source="path(SideEffect:atelectasis)" target="a(ChEMBL:CHEMBL744)" id="b2e1cbd33db4d58ad8abfa1f6ee70414">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:atelectasis) association a(ChEMBL:CHEMBL744)</data>
+</edge>
+<edge source="path(SideEffect:&quot;blood lactate dehydrogenase increased&quot;)" target="a(ChEMBL:CHEMBL744)" id="4ecc82a6c206779c13b8e32014ab25d8">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"blood lactate dehydrogenase increased") association a(ChEMBL:CHEMBL744)</data>
+</edge>
+<edge source="path(SideEffect:emphysema)" target="a(ChEMBL:CHEMBL744)" id="1fa141d4f2651484ba8b069f34bcc25e">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:emphysema) association a(ChEMBL:CHEMBL744)</data>
+</edge>
+<edge source="path(SideEffect:&quot;aspartate aminotransferase increased&quot;)" target="a(ChEMBL:CHEMBL744)" id="72df3e508f24558b62402b5618bcacaf">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"aspartate aminotransferase increased") association a(ChEMBL:CHEMBL744)</data>
+</edge>
+<edge source="path(SideEffect:&quot;sulphaemoglobin increased&quot;)" target="a(ChEMBL:CHEMBL744)" id="8c175335a3a0f2475ccd6d52e71b53c0">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"sulphaemoglobin increased") association a(ChEMBL:CHEMBL744)</data>
+</edge>
+<edge source="path(SideEffect:&quot;alanine aminotransferase increased&quot;)" target="a(ChEMBL:CHEMBL744)" id="8842d305cffa5a3d719634743a1f3f81">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"alanine aminotransferase increased") association a(ChEMBL:CHEMBL744)</data>
+</edge>
+<edge source="path(SideEffect:&quot;disease progression&quot;)" target="a(ChEMBL:CHEMBL744)" id="9db3d72cace270c9fff6502f6bf96c7f">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"disease progression") association a(ChEMBL:CHEMBL744)</data>
+</edge>
+<edge source="path(SideEffect:&quot;cervical spinal cord paralysis&quot;)" target="a(ChEMBL:CHEMBL744)" id="07ba44eef135ce2d252e1cc7b83af1b7">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"cervical spinal cord paralysis") association a(ChEMBL:CHEMBL744)</data>
+</edge>
+<edge source="path(SideEffect:&quot;respiratory disorder&quot;)" target="a(ChEMBL:CHEMBL744)" id="402e7a6696a0549c9348481be51f907b">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"respiratory disorder") association a(ChEMBL:CHEMBL744)</data>
+</edge>
+<edge source="path(SideEffect:&quot;paraesthesia oral&quot;)" target="a(ChEMBL:CHEMBL744)" id="be21d80af414d6d9d8a5f8730f9fbf6c">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"paraesthesia oral") association a(ChEMBL:CHEMBL744)</data>
+</edge>
+<edge source="path(SideEffect:&quot;adjacent segment degeneration&quot;)" target="a(ChEMBL:CHEMBL744)" id="281c2368eacf358edbd6d7dfaf810859">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"adjacent segment degeneration") association a(ChEMBL:CHEMBL744)</data>
+</edge>
+<edge source="path(SideEffect:&quot;anorectal varices haemorrhage&quot;)" target="a(ChEMBL:CHEMBL744)" id="bdb179dcc65676a624544c09e895cdcf">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"anorectal varices haemorrhage") association a(ChEMBL:CHEMBL744)</data>
+</edge>
+<edge source="path(SideEffect:&quot;psychological factor affecting medical condition&quot;)" target="a(ChEMBL:CHEMBL744)" id="77d11cf3d1cc16e3d19df61e36261587">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"psychological factor affecting medical condition") association a(ChEMBL:CHEMBL744)</data>
+</edge>
+<edge source="path(SideEffect:&quot;body tinea&quot;)" target="a(ChEMBL:CHEMBL558)" id="4bc00b8372bf9828725b41d574698dfd">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"body tinea") association a(ChEMBL:CHEMBL558)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL558)" target="path(SideEffect:&quot;body tinea&quot;)" id="98d71973a230cbb9082909ba87f6871e">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL558) association path(SideEffect:"body tinea")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL558)" target="path(SideEffect:&quot;ventricular tachycardia&quot;)" id="377e815c57e0dd4ad6a23339a7772f39">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL558) association path(SideEffect:"ventricular tachycardia")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL558)" target="path(SideEffect:&quot;treatment failure&quot;)" id="9ecdd5ac3220186f91ac05c21b89a0af">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL558) association path(SideEffect:"treatment failure")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL558)" target="path(SideEffect:&quot;infection susceptibility increased&quot;)" id="c2160944b44cfad4e6719e53135699c8">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL558) association path(SideEffect:"infection susceptibility increased")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL558)" target="path(SideEffect:&quot;inhibitory drug interaction&quot;)" id="acf59553706fb8c5d389bf28dd383dd2">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL558) association path(SideEffect:"inhibitory drug interaction")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL558)" target="path(SideEffect:&quot;impaired quality of life&quot;)" id="e3198f49248eacf8319a6a8f9323e8dd">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL558) association path(SideEffect:"impaired quality of life")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL558)" target="path(SideEffect:&quot;therapy non-responder&quot;)" id="4f4c4f127b32380aa9d798b33a5820c0">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL558) association path(SideEffect:"therapy non-responder")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL558)" target="path(SideEffect:&quot;glucose tolerance impaired&quot;)" id="fcdf47001d1f0887f13ecb2de0640e53">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL558) association path(SideEffect:"glucose tolerance impaired")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL558)" target="path(SideEffect:&quot;immune thrombocytopenia&quot;)" id="92d1fc3deeb310dc5c0fc83e8cbb34fa">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL558) association path(SideEffect:"immune thrombocytopenia")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL558)" target="path(SideEffect:&quot;bone density decreased&quot;)" id="905c0d3f4b35432388e175fcf4df8e00">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL558) association path(SideEffect:"bone density decreased")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL558)" target="path(SideEffect:purpura)" id="08f82f0c06d0bee792b67d4110e5199c">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL558) association path(SideEffect:purpura)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL558)" target="path(SideEffect:&quot;drug reaction with eosinophilia and systemic symptoms&quot;)" id="5e53f714211c285a95cff4a4edecd64f">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL558) association path(SideEffect:"drug reaction with eosinophilia and systemic symptoms")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL558)" target="path(SideEffect:&quot;impaired work ability&quot;)" id="4ab3b841cac4215497ad474e51de8857">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL558) association path(SideEffect:"impaired work ability")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL558)" target="path(SideEffect:&quot;oral herpes&quot;)" id="e9d26b43b1d3abf1fa2f46b08bde7982">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL558) association path(SideEffect:"oral herpes")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL558)" target="path(SideEffect:&quot;poor quality sleep&quot;)" id="238b459ea8727af70899eca65d067783">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL558) association path(SideEffect:"poor quality sleep")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL558)" target="path(SideEffect:&quot;weight increased&quot;)" id="79e22e4c35d6170b6a81fd19f0e6131e">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL558) association path(SideEffect:"weight increased")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL558)" target="path(SideEffect:hyperlipidaemia)" id="7d8e440355a9cb507e169ecffb4d0d2a">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL558) association path(SideEffect:hyperlipidaemia)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL558)" target="path(SideEffect:&quot;low birth weight baby&quot;)" id="f66b12ba827b10d44e1c9400d577a9b6">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL558) association path(SideEffect:"low birth weight baby")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL558)" target="path(SideEffect:&quot;premature baby&quot;)" id="e4b9586d950d23bb3cbab3b87842703c">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL558) association path(SideEffect:"premature baby")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL558)" target="path(SideEffect:&quot;skin disorder&quot;)" id="06c914eee979ed7a3c19fab7c8d9dbc6">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL558) association path(SideEffect:"skin disorder")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL558)" target="path(SideEffect:&quot;human herpesvirus 6 infection&quot;)" id="ec3d8c3c948f724c0d73de3df1d2d757">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL558) association path(SideEffect:"human herpesvirus 6 infection")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL558)" target="path(SideEffect:cataract)" id="4866c65b43af0bff9717edf30ae122bf">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL558) association path(SideEffect:cataract)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL558)" target="path(SideEffect:cellulitis)" id="37b2ec6ced9c32e736a60fefc29910be">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL558) association path(SideEffect:cellulitis)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL558)" target="path(SideEffect:&quot;herpes zoster&quot;)" id="0a0370f228de9068bc6db772d53d618c">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL558) association path(SideEffect:"herpes zoster")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL558)" target="path(SideEffect:&quot;long qt syndrome&quot;)" id="62e0d096da3fd8dde9539caaf44000bd">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL558) association path(SideEffect:"long qt syndrome")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL558)" target="path(SideEffect:contusion)" id="16ff4b752c0a045a0087135d8f6c5cdd">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL558) association path(SideEffect:contusion)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL558)" target="path(SideEffect:&quot;ventricular arrhythmia&quot;)" id="fa71a0ac9c00ec75f1e3af2fac478046">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL558) association path(SideEffect:"ventricular arrhythmia")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL558)" target="path(SideEffect:&quot;symptom masked&quot;)" id="9b5d6072e2bf8679431b51c6ed9768bf">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL558) association path(SideEffect:"symptom masked")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL558)" target="path(SideEffect:&quot;fulminant type 1 diabetes mellitus&quot;)" id="b589459cb1a93c3d4877bd1b2adf35fb">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL558) association path(SideEffect:"fulminant type 1 diabetes mellitus")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL558)" target="path(SideEffect:&quot;cardiogenic shock&quot;)" id="a6f934dff53f9622d81a94ede8167ab8">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL558) association path(SideEffect:"cardiogenic shock")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL558)" target="path(SideEffect:&quot;sinus bradycardia&quot;)" id="bab281736ce103779a4009ace1c83806">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL558) association path(SideEffect:"sinus bradycardia")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL558)" target="path(SideEffect:myoclonus)" id="7f618c00aacf67c24b368f3d2e3fb642">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL558) association path(SideEffect:myoclonus)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL558)" target="path(SideEffect:&quot;premature labour&quot;)" id="7c296474781fdd2b841433c455ab5f69">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL558) association path(SideEffect:"premature labour")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL558)" target="path(SideEffect:&quot;nodal rhythm&quot;)" id="e4208b2f53a3cf3c69d8c69e305e3508">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL558) association path(SideEffect:"nodal rhythm")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL558)" target="path(SideEffect:eosinophilia)" id="0abc9aa8ef9f225a7708d7b46fe5a3b9">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL558) association path(SideEffect:eosinophilia)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL558)" target="path(SideEffect:&quot;autoimmune thyroiditis&quot;)" id="542a6e67016c7e8b65f097824d0ede75">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL558) association path(SideEffect:"autoimmune thyroiditis")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL558)" target="path(SideEffect:&quot;torsade de pointes&quot;)" id="83c5c91a43b1a6c75f483aa89a23e5fa">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL558) association path(SideEffect:"torsade de pointes")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL558)" target="path(SideEffect:insomnia)" id="633124e2794b7cfdbdfcc6722257a72c">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL558) association path(SideEffect:insomnia)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL558)" target="path(SideEffect:&quot;caesarean section&quot;)" id="38194851ef3791bf4ce920c58d13fa28">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL558) association path(SideEffect:"caesarean section")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL558)" target="path(SideEffect:lymphadenopathy)" id="e138d76f2bf5518969291653f56c776f">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL558) association path(SideEffect:lymphadenopathy)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL558)" target="path(SideEffect:&quot;ischaemic hepatitis&quot;)" id="3ca6a708bf3cd18acc9a35d10a98b9b9">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL558) association path(SideEffect:"ischaemic hepatitis")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL558)" target="path(SideEffect:&quot;lymphocytic infiltration&quot;)" id="40ecb1a495f4c376bf05ac6f3466fa48">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL558) association path(SideEffect:"lymphocytic infiltration")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL558)" target="path(SideEffect:&quot;device effect incomplete&quot;)" id="d9aed403a2c55db50e469827c553db7d">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL558) association path(SideEffect:"device effect incomplete")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL558)" target="path(SideEffect:neurotoxicity)" id="26e12778e8b0c026ede564ee6bfb0451">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL558) association path(SideEffect:neurotoxicity)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL558)" target="path(SideEffect:&quot;apgar score low&quot;)" id="801740534b61aa239ae98f30e6496af5">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL558) association path(SideEffect:"apgar score low")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL558)" target="path(SideEffect:&quot;circulatory failure neonatal&quot;)" id="6cd4f99d5b4b80e703c25bf5ac904683">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL558) association path(SideEffect:"circulatory failure neonatal")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL558)" target="path(SideEffect:&quot;electrocardiogram t wave alternans&quot;)" id="740bb534a1ea5e071f378bc2d64f8d64">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL558) association path(SideEffect:"electrocardiogram t wave alternans")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL558)" target="path(SideEffect:&quot;arrhythmic storm&quot;)" id="f3e754cee37d3390d50b2911aa5e33fc">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL558) association path(SideEffect:"arrhythmic storm")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL558)" target="path(SideEffect:&quot;electrocardiogram qt prolonged&quot;)" id="826d85b0aa8ac04bbeb7d648aea2b347">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL558) association path(SideEffect:"electrocardiogram qt prolonged")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL558)" target="path(SideEffect:hypertension)" id="df6a17d0bd4ceb041fbf39cbe58c5a34">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL558) association path(SideEffect:hypertension)</data>
+</edge>
+<edge source="path(SideEffect:&quot;ventricular tachycardia&quot;)" target="a(ChEMBL:CHEMBL558)" id="a91f93345c5784c32b301843d330dff8">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"ventricular tachycardia") association a(ChEMBL:CHEMBL558)</data>
+</edge>
+<edge source="path(SideEffect:&quot;treatment failure&quot;)" target="a(ChEMBL:CHEMBL558)" id="0188af7f40faa8ce7d5cd82028172b79">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"treatment failure") association a(ChEMBL:CHEMBL558)</data>
+</edge>
+<edge source="path(SideEffect:&quot;infection susceptibility increased&quot;)" target="a(ChEMBL:CHEMBL558)" id="227b05144d9c608b00b40979d7b74535">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"infection susceptibility increased") association a(ChEMBL:CHEMBL558)</data>
+</edge>
+<edge source="path(SideEffect:&quot;inhibitory drug interaction&quot;)" target="a(ChEMBL:CHEMBL558)" id="bca025c828a0657340fd935da222c4c8">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"inhibitory drug interaction") association a(ChEMBL:CHEMBL558)</data>
+</edge>
+<edge source="path(SideEffect:&quot;impaired quality of life&quot;)" target="a(ChEMBL:CHEMBL558)" id="33db5291c41c07ad46ba089f9d040a0d">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"impaired quality of life") association a(ChEMBL:CHEMBL558)</data>
+</edge>
+<edge source="path(SideEffect:&quot;therapy non-responder&quot;)" target="a(ChEMBL:CHEMBL558)" id="35cd8b302be9704538ce74454830ac82">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"therapy non-responder") association a(ChEMBL:CHEMBL558)</data>
+</edge>
+<edge source="path(SideEffect:&quot;glucose tolerance impaired&quot;)" target="a(ChEMBL:CHEMBL558)" id="5ed53bd55043dc476a081c0a025c1d75">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"glucose tolerance impaired") association a(ChEMBL:CHEMBL558)</data>
+</edge>
+<edge source="path(SideEffect:&quot;immune thrombocytopenia&quot;)" target="a(ChEMBL:CHEMBL558)" id="bd23f016efff53c33a814969b26502fd">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"immune thrombocytopenia") association a(ChEMBL:CHEMBL558)</data>
+</edge>
+<edge source="path(SideEffect:&quot;bone density decreased&quot;)" target="a(ChEMBL:CHEMBL558)" id="d3d705fd64ef2ef6c49420d3ac91e449">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"bone density decreased") association a(ChEMBL:CHEMBL558)</data>
+</edge>
+<edge source="path(SideEffect:purpura)" target="a(ChEMBL:CHEMBL558)" id="c07f52abd68104765157ada4cf0a508e">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:purpura) association a(ChEMBL:CHEMBL558)</data>
+</edge>
+<edge source="path(SideEffect:&quot;drug reaction with eosinophilia and systemic symptoms&quot;)" target="a(ChEMBL:CHEMBL558)" id="fcd5652c531be9f99d734a5d16e951e5">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"drug reaction with eosinophilia and systemic symptoms") association a(ChEMBL:CHEMBL558)</data>
+</edge>
+<edge source="path(SideEffect:&quot;impaired work ability&quot;)" target="a(ChEMBL:CHEMBL558)" id="442be83e06e50727fdf58a9de665b67b">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"impaired work ability") association a(ChEMBL:CHEMBL558)</data>
+</edge>
+<edge source="path(SideEffect:&quot;oral herpes&quot;)" target="a(ChEMBL:CHEMBL558)" id="09cc4afa2f9bf55e7284998b16d6b98b">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"oral herpes") association a(ChEMBL:CHEMBL558)</data>
+</edge>
+<edge source="path(SideEffect:&quot;poor quality sleep&quot;)" target="a(ChEMBL:CHEMBL558)" id="a3b56e7ed58de2ef285007c23ac6af8f">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"poor quality sleep") association a(ChEMBL:CHEMBL558)</data>
+</edge>
+<edge source="path(SideEffect:&quot;weight increased&quot;)" target="a(ChEMBL:CHEMBL558)" id="f17c7796ad2b5e26edd1d0a5fd82db36">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"weight increased") association a(ChEMBL:CHEMBL558)</data>
+</edge>
+<edge source="path(SideEffect:hyperlipidaemia)" target="a(ChEMBL:CHEMBL558)" id="f8311abc62a715c6621866debdf2247b">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:hyperlipidaemia) association a(ChEMBL:CHEMBL558)</data>
+</edge>
+<edge source="path(SideEffect:&quot;low birth weight baby&quot;)" target="a(ChEMBL:CHEMBL558)" id="acf654e042dbbc4ebb3f683ddd1c51b7">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"low birth weight baby") association a(ChEMBL:CHEMBL558)</data>
+</edge>
+<edge source="path(SideEffect:&quot;premature baby&quot;)" target="a(ChEMBL:CHEMBL558)" id="9889811aee8bc11edae45ff46464ae84">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"premature baby") association a(ChEMBL:CHEMBL558)</data>
+</edge>
+<edge source="path(SideEffect:&quot;skin disorder&quot;)" target="a(ChEMBL:CHEMBL558)" id="d5e2758c291229fabf032be06d496995">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"skin disorder") association a(ChEMBL:CHEMBL558)</data>
+</edge>
+<edge source="path(SideEffect:&quot;human herpesvirus 6 infection&quot;)" target="a(ChEMBL:CHEMBL558)" id="e576b51fafedaa52bf90207582a5a362">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"human herpesvirus 6 infection") association a(ChEMBL:CHEMBL558)</data>
+</edge>
+<edge source="path(SideEffect:cataract)" target="a(ChEMBL:CHEMBL558)" id="976f4d6e57351e0956f566ada652f911">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:cataract) association a(ChEMBL:CHEMBL558)</data>
+</edge>
+<edge source="path(SideEffect:cellulitis)" target="a(ChEMBL:CHEMBL558)" id="19c4d56332d91b86a66c3badea0d3a69">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:cellulitis) association a(ChEMBL:CHEMBL558)</data>
+</edge>
+<edge source="path(SideEffect:&quot;herpes zoster&quot;)" target="a(ChEMBL:CHEMBL558)" id="150b079aa64812c3a6b318282c7f2f12">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"herpes zoster") association a(ChEMBL:CHEMBL558)</data>
+</edge>
+<edge source="path(SideEffect:&quot;long qt syndrome&quot;)" target="a(ChEMBL:CHEMBL558)" id="b5076993103a08d1da1af534751d8ba3">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"long qt syndrome") association a(ChEMBL:CHEMBL558)</data>
+</edge>
+<edge source="path(SideEffect:contusion)" target="a(ChEMBL:CHEMBL558)" id="1131f567837b04fcabe16bb7fb6a9d25">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:contusion) association a(ChEMBL:CHEMBL558)</data>
+</edge>
+<edge source="path(SideEffect:&quot;ventricular arrhythmia&quot;)" target="a(ChEMBL:CHEMBL558)" id="430b55aa6c3d5cf71baea0f90463797e">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"ventricular arrhythmia") association a(ChEMBL:CHEMBL558)</data>
+</edge>
+<edge source="path(SideEffect:&quot;symptom masked&quot;)" target="a(ChEMBL:CHEMBL558)" id="674a5c1b2929fea2631e27b035edede9">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"symptom masked") association a(ChEMBL:CHEMBL558)</data>
+</edge>
+<edge source="path(SideEffect:&quot;fulminant type 1 diabetes mellitus&quot;)" target="a(ChEMBL:CHEMBL558)" id="0db08ed3ff6499699212bbde2491997b">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"fulminant type 1 diabetes mellitus") association a(ChEMBL:CHEMBL558)</data>
+</edge>
+<edge source="path(SideEffect:&quot;cardiogenic shock&quot;)" target="a(ChEMBL:CHEMBL558)" id="306f5beb8edd619b009de26470ff7062">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"cardiogenic shock") association a(ChEMBL:CHEMBL558)</data>
+</edge>
+<edge source="path(SideEffect:&quot;sinus bradycardia&quot;)" target="a(ChEMBL:CHEMBL558)" id="ba7b08ae584b8fb17ed5b9b96756b356">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"sinus bradycardia") association a(ChEMBL:CHEMBL558)</data>
+</edge>
+<edge source="path(SideEffect:myoclonus)" target="a(ChEMBL:CHEMBL558)" id="c926ea336647eee1571c3ae68c7991ce">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:myoclonus) association a(ChEMBL:CHEMBL558)</data>
+</edge>
+<edge source="path(SideEffect:&quot;premature labour&quot;)" target="a(ChEMBL:CHEMBL558)" id="86d71ef0e83145008e91cad5c2df3a69">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"premature labour") association a(ChEMBL:CHEMBL558)</data>
+</edge>
+<edge source="path(SideEffect:&quot;nodal rhythm&quot;)" target="a(ChEMBL:CHEMBL558)" id="f3a7af92a5e24b8f291c6963417eca79">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"nodal rhythm") association a(ChEMBL:CHEMBL558)</data>
+</edge>
+<edge source="path(SideEffect:eosinophilia)" target="a(ChEMBL:CHEMBL558)" id="7cb3a515172b67a7aef62ed8a83a124a">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:eosinophilia) association a(ChEMBL:CHEMBL558)</data>
+</edge>
+<edge source="path(SideEffect:&quot;autoimmune thyroiditis&quot;)" target="a(ChEMBL:CHEMBL558)" id="27d67be6fba6bed06732c74f12f79210">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"autoimmune thyroiditis") association a(ChEMBL:CHEMBL558)</data>
+</edge>
+<edge source="path(SideEffect:&quot;torsade de pointes&quot;)" target="a(ChEMBL:CHEMBL558)" id="1ed44457d2f22c6d5ac3ac7825a820a5">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"torsade de pointes") association a(ChEMBL:CHEMBL558)</data>
+</edge>
+<edge source="path(SideEffect:insomnia)" target="a(ChEMBL:CHEMBL558)" id="2327a14a0e3baadf13b70315cf82ffcd">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:insomnia) association a(ChEMBL:CHEMBL558)</data>
+</edge>
+<edge source="path(SideEffect:&quot;caesarean section&quot;)" target="a(ChEMBL:CHEMBL558)" id="13e13f1422059aa0036f45a0606eacd6">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"caesarean section") association a(ChEMBL:CHEMBL558)</data>
+</edge>
+<edge source="path(SideEffect:lymphadenopathy)" target="a(ChEMBL:CHEMBL558)" id="48e754cc4ffeafd5c1e5fd26ba6fa73d">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:lymphadenopathy) association a(ChEMBL:CHEMBL558)</data>
+</edge>
+<edge source="path(SideEffect:&quot;ischaemic hepatitis&quot;)" target="a(ChEMBL:CHEMBL558)" id="5353ecb592fd9c859ef5dd3029c36b0d">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"ischaemic hepatitis") association a(ChEMBL:CHEMBL558)</data>
+</edge>
+<edge source="path(SideEffect:&quot;lymphocytic infiltration&quot;)" target="a(ChEMBL:CHEMBL558)" id="4775cc0b4847fa5d7c01abb6874de4c7">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"lymphocytic infiltration") association a(ChEMBL:CHEMBL558)</data>
+</edge>
+<edge source="path(SideEffect:&quot;device effect incomplete&quot;)" target="a(ChEMBL:CHEMBL558)" id="b0596cc911974c4172d34f19adc690c0">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"device effect incomplete") association a(ChEMBL:CHEMBL558)</data>
+</edge>
+<edge source="path(SideEffect:neurotoxicity)" target="a(ChEMBL:CHEMBL558)" id="af397f57ef179aa5011cbbdc0a0f6c02">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:neurotoxicity) association a(ChEMBL:CHEMBL558)</data>
+</edge>
+<edge source="path(SideEffect:&quot;apgar score low&quot;)" target="a(ChEMBL:CHEMBL558)" id="a4555b5cc261d1e13bbc2a6a4b99a5ee">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"apgar score low") association a(ChEMBL:CHEMBL558)</data>
+</edge>
+<edge source="path(SideEffect:&quot;circulatory failure neonatal&quot;)" target="a(ChEMBL:CHEMBL558)" id="b811b8cb2e549689843cd0ce3f1c444a">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"circulatory failure neonatal") association a(ChEMBL:CHEMBL558)</data>
+</edge>
+<edge source="path(SideEffect:&quot;electrocardiogram t wave alternans&quot;)" target="a(ChEMBL:CHEMBL558)" id="fe88a2b90c2015369a5e8a887c0d014e">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"electrocardiogram t wave alternans") association a(ChEMBL:CHEMBL558)</data>
+</edge>
+<edge source="path(SideEffect:&quot;arrhythmic storm&quot;)" target="a(ChEMBL:CHEMBL558)" id="a9b0f71c57eeaf8202236699ce59b209">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"arrhythmic storm") association a(ChEMBL:CHEMBL558)</data>
+</edge>
+<edge source="path(SideEffect:&quot;electrocardiogram qt prolonged&quot;)" target="a(ChEMBL:CHEMBL558)" id="f3420999ea00ae9c95aa0e9714e4c1da">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"electrocardiogram qt prolonged") association a(ChEMBL:CHEMBL558)</data>
+</edge>
+<edge source="path(SideEffect:hypertension)" target="a(ChEMBL:CHEMBL558)" id="ce4f626962595fe7f2390a3d782c3fdd">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:hypertension) association a(ChEMBL:CHEMBL558)</data>
+</edge>
+</graph></graphml>
