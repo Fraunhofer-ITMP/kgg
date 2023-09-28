@@ -85,10 +85,13 @@ def printmd(string, color=None):
     display(Markdown(colorstr))
 
 def GetQuery():
+   
+    import matplotlib.pyplot as plt
+    import matplotlib.image as mpimg
+    
+    image = mpimg.imread("https://github.com/Fraunhofer-ITMP/kgg/blob/main/data/KGG.png?raw=true")
 
-    from IPython.display import Image
-
-    image = mpimg.imread("C:\\Users\\reagon.karki\\Documents\\GitHub\\kgg\\data\\KGG.png")
+    #image = mpimg.imread("C:\\Users\\reagon.karki\\Documents\\GitHub\\kgg\\data\\KGG.png")
     plt.imshow(image)
     plt.axis('off')
     plt.show()
@@ -99,9 +102,7 @@ def GetQuery():
     return(query)
 
 def Generate_KG(query_disease):
-
-    #Image(filename='https://github.com/Fraunhofer-ITMP/kgg/blob/main/data/KGG.png?raw=true')
-    
+ 
     #this is required to get above printed before the input is asked
     time.sleep(0.05)
     
@@ -568,7 +569,6 @@ def GetViralProteins(query_disease):
         
         return(uprot_list)
     
-
 def createKG():
 
     #import matplotlib.pyplot as plt
