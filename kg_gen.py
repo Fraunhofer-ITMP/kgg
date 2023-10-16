@@ -309,9 +309,17 @@ def GetDiseaseAssociatedDrugs(disease_id,CT_phase):
     api_response = json.loads(r.text)
 
     df = pd.DataFrame(api_response['data']['disease']['knownDrugs']['rows'])
-    df = df.loc[df['phase'] == int(CT_phase),:]
-    chembl_list = list(set(df['drugId']))
-    return(chembl_list)
+    df = df.loc[df['phase'] >= int(CT_phase),:]
+    
+    if not df.empty:
+        print('Your dataframe is ready')
+        return(df)
+    
+    else:
+        print('No drugs found in clinical trials')
+    
+    #chembl_list = list(set(df['drugId']))
+    #return(chembl_list)
     
 def KG_namespace_plot(final_kg):
     
@@ -505,6 +513,8 @@ def createKG():
     #chembl_list = GetDiseaseAssociatedDrugs(efo_id,ct_phase)
     
     chembl_list = GetDiseaseAssociatedDrugs(doid['id'][efo_id],ct_phase)
+    
+    return (chembl_list)
        
     #create empty KG
     kg = pybel.BELGraph(name=kg_name, version="0.0.1")

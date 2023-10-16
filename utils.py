@@ -12,7 +12,7 @@ import requests
 from chembl_webresource_client.http_errors import HttpBadRequest, HttpApplicationError
 from chembl_webresource_client.new_client import new_client
 from pybel import BELGraph
-from pybel.dsl import Protein, Abundance, Pathology, BiologicalProcess
+from pybel.dsl import Protein, Abundance, Pathology, BiologicalProcess, Gene
 from tqdm.auto import tqdm
 import time
 import seaborn as sns

@@ -3,7 +3,7 @@ pandas
 chembl_webresource_client
 openpyxl
 networkx
-#seaborn
+seaborn
 pubchempy
 jupyter
 matplotlib

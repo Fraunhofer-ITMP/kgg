@@ -13,7 +13,7 @@ import requests
 from chembl_webresource_client.http_errors import HttpBadRequest, HttpApplicationError
 from chembl_webresource_client.new_client import new_client
 from pybel import BELGraph
-from pybel.dsl import Protein, Abundance, Pathology, BiologicalProcess
+from pybel.dsl import Protein, Abundance, Pathology, BiologicalProcess, Gene
 from tqdm.auto import tqdm
 import time
 import seaborn as sns
@@ -568,6 +568,97 @@ def GetViralProteins(query_disease):
         print('A total of',str(len(uprot_list)), 'viral proteins have been identified.','\n')
         
         return(uprot_list)
+
+def saveFiles(kgName, disease2protein, drugAdvEffect, final_kg):
+
+    print('Now let\'s save all the files that were created in the process.','\n')
+    
+    print('Please enter the location (e.g. \'C:\\Users\\rkarki\\Documents\\kg\\\' ) where KG files should be stored. A folder will be created automatically.','\n')
+    
+    time.sleep(0.2)
+    
+    path = input('Input: ')
+    
+    path = path+kgName
+    
+    os.makedirs(path,exist_ok=True)
+    
+    os.chdir(path)
+    
+    disease2protein.to_csv('diseaseAssociatedProteins.csv',sep=',')
+    
+    drugAdvEffect.to_csv('adverseEffects.csv',sep=',')
+    
+    #to cytoscape compatible graphml 
+    pybel.to_graphml(final_kg,'test.graphml')
+
+    #to regular BEL format
+    pybel.dump(final_kg,'test.bel')
+
+    #to neo4j
+    pybel.to_csv(final_kg,'test.csv')
+    
+    #plot for namespace dist
+    KG_namespace_plot(final_kg)
+
+def GetDiseaseSNPs(disease_id): 
+    
+    import requests
+    
+    doid = disease_id.split("_")
+    #print(doid)
+    
+    #For this example we are going to use the python default http library
+    
+
+    #Build a dict with the following format, change the value of the two keys your DisGeNET account credentials, if you don't have an account you can create one here https://www.disgenet.org/signup/ 
+    auth_params = {"email":"reagonkarki@gmail.com","password":"Bhunti.87"}
+
+    api_host = "https://www.disgenet.org/api"
+
+    api_key = 'e25cb13382cb9b016247822c49f325f75991e607'
+    s = requests.Session()
+
+    if api_key:
+        #Add the api key to the requests headers of the requests Session object in order to use the restricted endpoints.
+        s.headers.update({"Authorization": "Bearer %s" % api_key}) 
+        #Lets get all the diseases associated to a gene eg. APP (EntrezID 351) and restricted by a source.
+
+        #https://www.disgenet.org/api/vda/disease/D000544
+    
+        gda_response = s.get(api_host+'/vda/disease/'+str(doid[0]).lower()+ "/" +str(doid[1]) +'?format=json')
+        #gda_response = s.get(api_host+'/gda/gene/351', params={'source':'UNIPROT'})
+
+        
+        gda_response = gda_response.json()
+        gda_response = pd.DataFrame(gda_response)
+        return(gda_response)
+
+    if s:
+        s.close()
+
+def snp2gene_rel(snp_df,graph): 
+    
+    #convert col to datatype == str to remove rows that have 'None' in gene_symbol
+    snp_df[['gene_symbol']] =  snp_df[['gene_symbol']].astype(str)
+    snp_df = snp_df.loc[snp_df['gene_symbol'] != "None"]
+    snp_df = snp_df.reset_index(drop=True)
+    
+    #print(len(snp_df))
+    
+    for i in tqdm(range(len(snp_df)),desc='Adding disease associated SNPs'):
+        genes = snp_df['gene_symbol'][i].split(';')
+        
+        for j in range(len(genes)):
+        
+            graph.add_association(
+                Gene(namespace="dbSNP",name=snp_df['variantid'][i]),
+                Protein(namespace = "HGNC", name = genes[j]),
+                citation = "DisGeNet",
+                evidence = "SNPs for queried disease"
+            )
+    
+    return(graph)
     
 def createKG():
 
@@ -649,42 +740,34 @@ def createKG():
     adv_effect = GetAdverseEvents(chembl_list)
     kg = chembl2adverseEffect_rel(adv_effect,kg)
     
+    snp_dgnet = GetDiseaseSNPs(doid['id'][efo_id])  
+    print('A total of ' + str(len(snp_dgnet)) + ' SNPs have been identified from DisGeNET. Now adding relevant data')
+    kg = snp2gene_rel(snp_dgnet,kg)
+    
     print('Your KG is now generated!','\n')
     
     saveFiles(kg_name, df_dis2prot, adv_effect, kg)
     
     return(kg)
     
-def saveFiles(kgName, disease2protein, drugAdvEffect, final_kg):
 
-    print('Now let\'s save all the files that were created in the process.','\n')
-    
-    print('Please enter the location (e.g. \'C:\\Users\\rkarki\\Documents\\kg\\\' ) where KG files should be stored. A folder will be created automatically.','\n')
-    
-    time.sleep(0.2)
-    
-    path = input('Input: ')
-    
-    path = path+kgName
-    
-    os.makedirs(path,exist_ok=True)
-    
-    os.chdir(path)
-    
-    disease2protein.to_csv('diseaseAssociatedProteins.csv',sep=',')
-    
-    drugAdvEffect.to_csv('adverseEffects.csv',sep=',')
-    
-    #to cytoscape compatible graphml 
-    pybel.to_graphml(final_kg,'test.graphml')
+# def getNodeList(nodeName,graph):
+    # # import pybel
+    # node_list = []
+    # for node in graph.nodes():
+        # if isinstance(node,pybel.dsl.Gene):
+            # if node.namespace == nodeName:
+                # node_list.append(node.name)
+    # return(node_list)
 
-    #to regular BEL format
-    pybel.dump(final_kg,'test.bel')
+# def dbSNP_annotation(graph):
+    # snps = getNodeList('dbSNP',graph)
+    # print(snps)
+    # for item in snps:
+        # nx.set_node_attributes(graph,{Gene(namespace='dbSNP',
+        # name=item):'https://www.ncbi.nlm.nih.gov/snp/'+item},'source')
+        
+    # return(graph)
 
-    #to neo4j
-    pybel.to_csv(final_kg,'test.csv')
     
-    #plot for namespace dist
-    KG_namespace_plot(final_kg)
-       
            
