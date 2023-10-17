@@ -84,17 +84,34 @@ def printmd(string, color=None):
     colorstr = "<span style='color:{}'>{}</span>".format(color, string)
     display(Markdown(colorstr))
 
-def GetQuery():
-   
-    import matplotlib.pyplot as plt
-    import matplotlib.image as mpimg
+def GetImage():
     
-    image = mpimg.imread("https://github.com/Fraunhofer-ITMP/kgg/blob/main/data/KGG.png?raw=true")
+    from PIL import Image
+    import requests
+    import matplotlib.pyplot as plt
 
-    #image = mpimg.imread("C:\\Users\\reagon.karki\\Documents\\GitHub\\kgg\\data\\KGG.png")
-    plt.imshow(image)
+    img = "https://github.com/Fraunhofer-ITMP/kgg/blob/main/data/KGG.png?raw=true"
+    response = requests.get(img, stream=True)
+    img = Image.open(response.raw)
+    
+    fig = plt.figure(figsize=(3,3))
+    plt.imshow(img)
     plt.axis('off')
     plt.show()
+
+def GetQuery():
+   
+    # import matplotlib.pyplot as plt
+    # import matplotlib.image as mpimg
+    
+    # image = mpimg.imread("https://github.com/Fraunhofer-ITMP/kgg/blob/main/data/KGG.png?raw=true")
+
+    # #image = mpimg.imread("C:\\Users\\reagon.karki\\Documents\\GitHub\\kgg\\data\\KGG.png")
+    # plt.imshow(image)
+    # plt.axis('off')
+    # plt.show()
+    
+    GetImage()
 
     printmd("**Welcome to the KG Generator tool. In the following steps, we will need some inputs from your side.**",color = "blue")
 
