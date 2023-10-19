@@ -308,10 +308,17 @@ def GetDiseaseAssociatedDrugs(disease_id,CT_phase):
     # Transform API response from JSON into Python dictionary and print in console
     api_response = json.loads(r.text)
 
+    #print(api_response)
+
     df = pd.DataFrame(api_response['data']['disease']['knownDrugs']['rows'])
+    
     df = df.loc[df['phase'] >= int(CT_phase),:]
+
+    #print(df)
     
     if not df.empty:
+        df['id'] = efo_id
+        df['disease'] = api_response['data']['disease']['name']
         print('Your dataframe is ready')
         return(df)
     
@@ -488,7 +495,7 @@ def createKG():
     
     time.sleep(0.1)
     
-    efo_id = int(input('Please enter the index value of your disease of interest. Input: '))
+    efo_id = input('Please enter the index value(s) of your disease(s) of interest. Input: ')
     #print(efo_id)
     print('\n')
     
@@ -500,21 +507,31 @@ def createKG():
     ct_phase = input('Your desired clinical trial phase: ')
     print('\n')
    
-    kg_name = input('Please provide a name for you KG. Input: ')
+    #kg_name = input('Please provide a name for you KG. Input: ')
     
     print('\n')
     
     #print(doid['id'][efo_id])
     
-    #df_dis2prot = GetDiseaseAssociatedProteins(efo_id)
-    
-    df_dis2prot = GetDiseaseAssociatedProteins(doid['id'][efo_id])
+    #df_dis2prot = GetDiseaseAssociatedProteins(doid['id'][efo_id])
     
     #chembl_list = GetDiseaseAssociatedDrugs(efo_id,ct_phase)
     
-    chembl_list = GetDiseaseAssociatedDrugs(doid['id'][efo_id],ct_phase)
+    temp_id = efo_id.split(' ')
+    #print(temp_id)
+    temp_id = [int(x) for x in temp_id]
+    #print(temp_id)
     
-    return (chembl_list)
+    df = pd.DataFrame()
+    
+    for id in temp_id:
+    
+        chembl_list = GetDiseaseAssociatedDrugs(doid['id'][id],ct_phase)
+        df = pd.concat([df,chembl_list])
+    
+    df = df.reset_index(drop=True)
+    
+    return(df)
        
     #create empty KG
     kg = pybel.BELGraph(name=kg_name, version="0.0.1")
