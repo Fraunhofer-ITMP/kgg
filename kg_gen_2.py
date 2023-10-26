@@ -100,16 +100,6 @@ def GetImage():
     plt.show()
 
 def GetQuery():
-   
-    # import matplotlib.pyplot as plt
-    # import matplotlib.image as mpimg
-    
-    # image = mpimg.imread("https://github.com/Fraunhofer-ITMP/kgg/blob/main/data/KGG.png?raw=true")
-
-    # #image = mpimg.imread("C:\\Users\\reagon.karki\\Documents\\GitHub\\kgg\\data\\KGG.png")
-    # plt.imshow(image)
-    # plt.axis('off')
-    # plt.show()
     
     GetImage()
 
@@ -118,23 +108,24 @@ def GetQuery():
     query = input('Please enter the disease you are interested in and we will try to find the best matches for you.' +'\n' + '\n' + 'Input: ')
     return(query)
 
-def Generate_KG(query_disease):
+def Generate_KG():
  
     #this is required to get above printed before the input is asked
     time.sleep(0.05)
     
     #dis = input('Please enter the disease you are interested in and we will try to find the best matches for you.' +'\n' + '\n' + 'Input: ')
     
-    #dis = GetQuery()
+    dis = GetQuery()
     
-    temp = searchDisease(query_disease)
+    #temp = searchDisease(query_disease)
+    temp = searchDisease(dis)
     #print(temp)
     #print('\n')
     if not temp.empty:
         printmd('**Here you go! Hopefully your disease of interest is in the list. If so, let\'s get started.**')
         #print('\n')
         #print(temp)
-        return(temp)
+        return(dis,temp)
     else: 
         print('Ooops!! Did you have a typo in the name. Please try again!')
         return(Generate_KG())
@@ -332,11 +323,21 @@ def GetDiseaseAssociatedDrugs(disease_id,CT_phase):
     api_response = json.loads(r.text)
 
     df = pd.DataFrame(api_response['data']['disease']['knownDrugs']['rows'])
-    df = df.loc[df['phase'] == int(CT_phase),:]
-    chembl_list = list(set(df['drugId']))
-    return(chembl_list)
+    df = df.loc[df['phase'] >= int(CT_phase),:]
     
-def KG_namespace_plot(final_kg):
+    if not df.empty:
+        df['id'] = efo_id
+        df['disease'] = api_response['data']['disease']['name']
+        #print('Your dataframe is ready')
+        return(df)
+    
+    else:
+        print('No drugs found in clinical trials')
+    
+    #chembl_list = list(set(df['drugId']))
+    #return(chembl_list)
+    
+def KG_namespace_plot(final_kg,kg_name):
     
     import matplotlib.pyplot as plt
     nspace_count = pybel.struct.summary.count_namespaces(final_kg)
@@ -350,7 +351,7 @@ def KG_namespace_plot(final_kg):
     a.set(xlabel='Number',ylabel='Namespace',title= 'KG Namespace in numbers')
 
     plt.tight_layout()
-    plt.savefig('test.png',dpi=600)
+    plt.savefig(kg_name+'_namespace.png',dpi=600)
     #plt.show()    
 
 def getAdverseEffectCount(chembl_id):
@@ -586,7 +587,7 @@ def GetViralProteins(query_disease):
         
         return(uprot_list)
 
-def saveFiles(kgName, disease2protein, drugAdvEffect, final_kg):
+def saveFiles(kgName, disease2protein, drugAdvEffect, final_kg, drug_df):
 
     print('Now let\'s save all the files that were created in the process.','\n')
     
@@ -606,17 +607,24 @@ def saveFiles(kgName, disease2protein, drugAdvEffect, final_kg):
     
     drugAdvEffect.to_csv('adverseEffects.csv',sep=',')
     
+    drug_df.to_csv('diseaseAssociatedDrugs.csv',sep=',')
+    
     #to cytoscape compatible graphml 
-    pybel.to_graphml(final_kg,'test.graphml')
+    pybel.to_graphml(final_kg,kgName+'.graphml')
 
     #to regular BEL format
-    pybel.dump(final_kg,'test.bel')
+    pybel.dump(final_kg,kgName+'.bel')
 
     #to neo4j
-    pybel.to_csv(final_kg,'test.csv')
+    pybel.to_csv(final_kg,kgName+'.csv')
+    
+    filename = kgName + '.pkl'
+    outfile = open(filename,'wb')
+    pickle.dump(final_kg,outfile)
+    outfile.close()
     
     #plot for namespace dist
-    KG_namespace_plot(final_kg)
+    KG_namespace_plot(final_kg,kgName)
 
 def GetDiseaseSNPs(disease_id): 
     
@@ -646,36 +654,45 @@ def GetDiseaseSNPs(disease_id):
         gda_response = s.get(api_host+'/vda/disease/'+str(doid[0]).lower()+ "/" +str(doid[1]) +'?format=json')
         #gda_response = s.get(api_host+'/gda/gene/351', params={'source':'UNIPROT'})
 
+        if gda_response:
         
-        gda_response = gda_response.json()
-        gda_response = pd.DataFrame(gda_response)
-        return(gda_response)
+            gda_response = gda_response.json()
+            gda_response = pd.DataFrame(gda_response)
+            return(gda_response)
 
     if s:
         s.close()
 
 def snp2gene_rel(snp_df,graph): 
+
     
-    #convert col to datatype == str to remove rows that have 'None' in gene_symbol
-    snp_df[['gene_symbol']] =  snp_df[['gene_symbol']].astype(str)
-    snp_df = snp_df.loc[snp_df['gene_symbol'] != "None"]
-    snp_df = snp_df.reset_index(drop=True)
+    if 'errors' in snp_df.columns:
+        print('No SNPs found')
     
-    #print(len(snp_df))
-    
-    for i in tqdm(range(len(snp_df)),desc='Adding disease associated SNPs'):
-        genes = snp_df['gene_symbol'][i].split(';')
+    else:
         
-        for j in range(len(genes)):
+        print('A total of ' + str(len(snp_df)) + ' SNPs have been identified from DisGeNET. Now adding relevant data')
+        print('\n')
+        #convert col to datatype == str to remove rows that have 'None' in gene_symbol
+        snp_df[['gene_symbol']] =  snp_df[['gene_symbol']].astype(str)
+        snp_df = snp_df.loc[snp_df['gene_symbol'] != "None"]
+        snp_df = snp_df.reset_index(drop=True)
         
-            graph.add_association(
-                Gene(namespace="dbSNP",name=snp_df['variantid'][i]),
-                Protein(namespace = "HGNC", name = genes[j]),
-                citation = "DisGeNet",
-                evidence = "SNPs for queried disease"
-            )
-    
-    return(graph)
+        #print(len(snp_df))
+        
+        for i in tqdm(range(len(snp_df)),desc='Adding disease associated SNPs'):
+            genes = snp_df['gene_symbol'][i].split(';')
+            
+            for j in range(len(genes)):
+            
+                graph.add_association(
+                    Gene(namespace="dbSNP",name=snp_df['variantid'][i]),
+                    Protein(namespace = "HGNC", name = genes[j]),
+                    citation = "DisGeNet",
+                    evidence = "SNPs for queried disease"
+                )
+        
+        return(graph)
     
 def createKG():
 
@@ -686,10 +703,10 @@ def createKG():
     # plt.axis('off')
     # plt.show()
     
-    query = GetQuery()
+    #query = GetQuery()
     
-    doid = Generate_KG(query)
-
+    #doid = Generate_KG(query)
+    query,doid = Generate_KG()
     #break
     
     #print(doid)
@@ -700,6 +717,8 @@ def createKG():
     #print(efo_id)
     
     vir_prot = GetViralProteins(query)
+    
+    print('\n')
 
     print('Please enter the clinical trial phase of chemicals which should be identified by the workflow. Use a number between 1 (early phase) and 4 (FDA approved). For example, if you use 3, the KG will fetch chemicals that are in phase 3. Also, remember that lower the input value, higher will be the number of identified chemicals and therefore the running time of workflow also increases.')
     
@@ -721,7 +740,7 @@ def createKG():
     
     #chembl_list = GetDiseaseAssociatedDrugs(efo_id,ct_phase)
     
-    chembl_list = GetDiseaseAssociatedDrugs(doid['id'][efo_id],ct_phase)
+    chembl_df = GetDiseaseAssociatedDrugs(doid['id'][efo_id],ct_phase)
        
     #create empty KG
     kg = pybel.BELGraph(name=kg_name, version="0.0.1")
@@ -731,10 +750,10 @@ def createKG():
     if vir_prot:
         vir_uprot_ext = ExtractFromUniProt(vir_prot)
     
-    print('A total of ' + str(len(chembl_list)) + ' drugs have been identified. Now fetching relevant data')
+    print('A total of ' + str(len(list(set(chembl_df['drugId'])))) + ' drugs have been identified. Now fetching relevant data')
     
-    chembl2mech = RetMech(chembl_list)
-    chembl2act = RetAct(chembl_list)
+    chembl2mech = RetMech(list(set(chembl_df['drugId'])))
+    chembl2act = RetAct(list(set(chembl_df['drugId'])))
     
     prtn_as_chembl = Ret_chembl_protein(chembl2act) + Ret_chembl_protein(chembl2mech)
     prtn_as_chembl = set(prtn_as_chembl)
@@ -754,16 +773,18 @@ def createKG():
     kg = chem2act_rel(chembl2act, 'HGNC', kg)
     kg = gene2path_rel(chembl2uprot, 'HGNC', kg)
     
-    adv_effect = GetAdverseEvents(chembl_list)
+    adv_effect = GetAdverseEvents(list(set(chembl_df['drugId'])))
     kg = chembl2adverseEffect_rel(adv_effect,kg)
     
     snp_dgnet = GetDiseaseSNPs(doid['id'][efo_id])  
-    print('A total of ' + str(len(snp_dgnet)) + ' SNPs have been identified from DisGeNET. Now adding relevant data')
-    kg = snp2gene_rel(snp_dgnet,kg)
+    #print('A total of ' + str(len(snp_dgnet)) + ' SNPs have been identified from DisGeNET. Now adding relevant data')
+    
+    if snp_dgnet:
+        kg = snp2gene_rel(snp_dgnet,kg)
     
     print('Your KG is now generated!','\n')
     
-    saveFiles(kg_name, df_dis2prot, adv_effect, kg)
+    saveFiles(kg_name, df_dis2prot, adv_effect, kg, chembl_df)
     
     return(kg)
     

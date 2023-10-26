@@ -1,0 +1,733 @@
+,approvedSymbol,approvedName,prefName,drugType,drugId,phase,ctIds,id,disease
+0,NDUFAB1,NADH:ubiquinone oxidoreductase subunit AB1,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03590262', 'NCT03639545']",MONDO_0005147,type 1 diabetes mellitus
+1,PTGS1,prostaglandin-endoperoxide synthase 1,ASPIRIN,Small molecule,CHEMBL25,4.0,['NCT01397513'],MONDO_0005147,type 1 diabetes mellitus
+2,NDUFAF4,NADH:ubiquinone oxidoreductase complex assembly factor 4,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03570632', 'NCT03513874']",MONDO_0005147,type 1 diabetes mellitus
+3,NDUFB10,NADH:ubiquinone oxidoreductase subunit B10,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03513874', 'NCT03570632']",MONDO_0005147,type 1 diabetes mellitus
+4,NDUFA6,NADH:ubiquinone oxidoreductase subunit A6,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03513874', 'NCT03570632']",MONDO_0005147,type 1 diabetes mellitus
+5,NDUFB7,NADH:ubiquinone oxidoreductase subunit B7,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03590262', 'NCT03639545']",MONDO_0005147,type 1 diabetes mellitus
+6,NDUFB10,NADH:ubiquinone oxidoreductase subunit B10,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT00145379', 'NCT02407899', 'NCT03928340', 'NCT01813929', 'NCT01718093', 'NCT00118937', 'NCT02765347']",MONDO_0005147,type 1 diabetes mellitus
+7,INSR,insulin receptor,INSULIN SUSP ISOPHANE RECOMBINANT HUMAN,Protein,CHEMBL1201540,4.0,['NCT05614089'],MONDO_0005147,type 1 diabetes mellitus
+8,IMPDH1,inosine monophosphate dehydrogenase 1,MYCOPHENOLATE MOFETIL,Small molecule,CHEMBL1456,4.0,['NCT03582878'],MONDO_0005147,type 1 diabetes mellitus
+9,NDUFS5,NADH:ubiquinone oxidoreductase subunit S5,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03590262', 'NCT03639545']",MONDO_0005147,type 1 diabetes mellitus
+10,NDUFS3,NADH:ubiquinone oxidoreductase core subunit S3,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03639545', 'NCT03590262']",MONDO_0005147,type 1 diabetes mellitus
+11,NDUFB8,NADH:ubiquinone oxidoreductase subunit B8,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT01718093', 'NCT01813929', 'NCT02407899', 'NCT00118937', 'NCT03928340', 'NCT00145379', 'NCT02765347']",MONDO_0005147,type 1 diabetes mellitus
+12,NDUFB3,NADH:ubiquinone oxidoreductase subunit B3,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT01718093', 'NCT02407899', 'NCT00145379', 'NCT01813929', 'NCT03928340', 'NCT00118937', 'NCT02765347']",MONDO_0005147,type 1 diabetes mellitus
+13,NDUFB2,NADH:ubiquinone oxidoreductase subunit B2,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT00118937', 'NCT00145379', 'NCT01813929', 'NCT02765347', 'NCT02407899', 'NCT01718093', 'NCT03928340']",MONDO_0005147,type 1 diabetes mellitus
+14,NDUFAF2,NADH:ubiquinone oxidoreductase complex assembly factor 2,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT00145379', 'NCT01813929', 'NCT02765347', 'NCT00118937', 'NCT02407899', 'NCT01718093', 'NCT03928340']",MONDO_0005147,type 1 diabetes mellitus
+15,MT-ND4,mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 4,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03570632', 'NCT03513874']",MONDO_0005147,type 1 diabetes mellitus
+16,NDUFB8,NADH:ubiquinone oxidoreductase subunit B8,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03639545', 'NCT03590262']",MONDO_0005147,type 1 diabetes mellitus
+17,NDUFA9,NADH:ubiquinone oxidoreductase subunit A9,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03570632', 'NCT03513874']",MONDO_0005147,type 1 diabetes mellitus
+18,XDH,xanthine dehydrogenase,FEBUXOSTAT,Small molecule,CHEMBL1164729,4.0,['NCT02344602'],MONDO_0005147,type 1 diabetes mellitus
+19,NDUFB2,NADH:ubiquinone oxidoreductase subunit B2,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03570632', 'NCT03513874']",MONDO_0005147,type 1 diabetes mellitus
+20,NDUFS5,NADH:ubiquinone oxidoreductase subunit S5,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03570632', 'NCT03513874']",MONDO_0005147,type 1 diabetes mellitus
+21,NDUFC1,NADH:ubiquinone oxidoreductase subunit C1,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03639545', 'NCT03590262']",MONDO_0005147,type 1 diabetes mellitus
+22,NDUFA9,NADH:ubiquinone oxidoreductase subunit A9,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT02765347', 'NCT02407899', 'NCT01718093', 'NCT03928340', 'NCT01813929', 'NCT00145379', 'NCT00118937']",MONDO_0005147,type 1 diabetes mellitus
+23,NDUFB6,NADH:ubiquinone oxidoreductase subunit B6,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03513874', 'NCT03570632']",MONDO_0005147,type 1 diabetes mellitus
+24,INSR,insulin receptor,INSULIN,Protein,CHEMBL1201631,4.0,"['NCT05904743', 'NCT05768191']",MONDO_0005147,type 1 diabetes mellitus
+25,MT-ND2,mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 2,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT01718093', 'NCT03928340', 'NCT02407899', 'NCT00118937', 'NCT00145379', 'NCT01813929', 'NCT02765347']",MONDO_0005147,type 1 diabetes mellitus
+26,NDUFS8,NADH:ubiquinone oxidoreductase core subunit S8,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT02407899', 'NCT00118937', 'NCT01813929', 'NCT01718093', 'NCT02765347', 'NCT00145379', 'NCT03928340']",MONDO_0005147,type 1 diabetes mellitus
+27,NDUFAF4,NADH:ubiquinone oxidoreductase complex assembly factor 4,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03590262', 'NCT03639545']",MONDO_0005147,type 1 diabetes mellitus
+28,INSR,insulin receptor,INSULIN ASPART,Protein,CHEMBL1201496,4.0,"['NCT04124302', 'NCT04772729', 'NCT04149262']",MONDO_0005147,type 1 diabetes mellitus
+29,INSR,insulin receptor,INSULIN ASPART,Protein,CHEMBL1201496,4.0,['NCT00505882'],MONDO_0005147,type 1 diabetes mellitus
+30,NDUFV3,NADH:ubiquinone oxidoreductase subunit V3,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03590262', 'NCT03639545']",MONDO_0005147,type 1 diabetes mellitus
+31,NDUFC2,NADH:ubiquinone oxidoreductase subunit C2,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03590262', 'NCT03639545']",MONDO_0005147,type 1 diabetes mellitus
+32,NPC1L1,NPC1 like intracellular cholesterol transporter 1,EZETIMIBE,Small molecule,CHEMBL1138,4.0,['NCT05641753'],MONDO_0005147,type 1 diabetes mellitus
+33,NDUFA5,NADH:ubiquinone oxidoreductase subunit A5,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03590262', 'NCT03639545']",MONDO_0005147,type 1 diabetes mellitus
+34,NDUFS8,NADH:ubiquinone oxidoreductase core subunit S8,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03639545', 'NCT03590262']",MONDO_0005147,type 1 diabetes mellitus
+35,INSR,insulin receptor,INSULIN,Protein,CHEMBL1201631,4.0,"['NCT03513874', 'NCT05454891', 'NCT03463564', 'NCT01338922']",MONDO_0005147,type 1 diabetes mellitus
+36,NDUFS4,NADH:ubiquinone oxidoreductase subunit S4,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03513874', 'NCT03570632']",MONDO_0005147,type 1 diabetes mellitus
+37,MT-ND3,mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 3,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT00118937', 'NCT02765347', 'NCT03928340', 'NCT01718093', 'NCT02407899', 'NCT01813929', 'NCT00145379']",MONDO_0005147,type 1 diabetes mellitus
+38,MT-ND6,mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 6,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03513874', 'NCT03570632']",MONDO_0005147,type 1 diabetes mellitus
+39,NDUFA2,NADH:ubiquinone oxidoreductase subunit A2,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03590262', 'NCT03639545']",MONDO_0005147,type 1 diabetes mellitus
+40,NDUFS1,NADH:ubiquinone oxidoreductase core subunit S1,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT02765347', 'NCT03928340', 'NCT00145379', 'NCT01718093', 'NCT00118937', 'NCT01813929', 'NCT02407899']",MONDO_0005147,type 1 diabetes mellitus
+41,KCNJ11,potassium inwardly rectifying channel subfamily J member 11,DIAZOXIDE,Small molecule,CHEMBL181,4.0,"['NCT01488136', 'NCT00131755']",MONDO_0005147,type 1 diabetes mellitus
+42,NDUFS7,NADH:ubiquinone oxidoreductase core subunit S7,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT02407899', 'NCT00145379', 'NCT01813929', 'NCT03928340', 'NCT01718093', 'NCT00118937', 'NCT02765347']",MONDO_0005147,type 1 diabetes mellitus
+43,INSR,insulin receptor,INSULIN DEGLUDEC,Protein,CHEMBL2107869,4.0,['NCT05904743'],MONDO_0005147,type 1 diabetes mellitus
+44,NDUFA12,NADH:ubiquinone oxidoreductase subunit A12,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT02407899', 'NCT01718093', 'NCT01813929', 'NCT03928340', 'NCT00118937', 'NCT02765347', 'NCT00145379']",MONDO_0005147,type 1 diabetes mellitus
+45,MT-ND5,mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 5,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03513874', 'NCT03570632']",MONDO_0005147,type 1 diabetes mellitus
+46,NDUFA13,NADH:ubiquinone oxidoreductase subunit A13,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03570632', 'NCT03513874']",MONDO_0005147,type 1 diabetes mellitus
+47,INSR,insulin receptor,INSULIN SUSP ISOPHANE BEEF,Protein,CHEMBL1201545,4.0,['NCT01271517'],MONDO_0005147,type 1 diabetes mellitus
+48,NDUFAF3,NADH:ubiquinone oxidoreductase complex assembly factor 3,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03639545', 'NCT03590262']",MONDO_0005147,type 1 diabetes mellitus
+49,NDUFS6,NADH:ubiquinone oxidoreductase subunit S6,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT01813929', 'NCT01718093', 'NCT02765347', 'NCT02407899', 'NCT03928340', 'NCT00118937', 'NCT00145379']",MONDO_0005147,type 1 diabetes mellitus
+50,NDUFB10,NADH:ubiquinone oxidoreductase subunit B10,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03590262', 'NCT03639545']",MONDO_0005147,type 1 diabetes mellitus
+51,GCGR,glucagon receptor,GLUCAGON,Protein,CHEMBL266481,4.0,['NCT02232971'],MONDO_0005147,type 1 diabetes mellitus
+52,NDUFA4,NDUFA4 mitochondrial complex associated,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03513874', 'NCT03570632']",MONDO_0005147,type 1 diabetes mellitus
+53,GPD2,glycerol-3-phosphate dehydrogenase 2,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT00118937', 'NCT03928340', 'NCT01718093', 'NCT00145379', 'NCT01813929', 'NCT02765347', 'NCT02407899']",MONDO_0005147,type 1 diabetes mellitus
+54,NDUFA5,NADH:ubiquinone oxidoreductase subunit A5,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT00118937', 'NCT01813929', 'NCT01718093', 'NCT02407899', 'NCT02765347', 'NCT00145379', 'NCT03928340']",MONDO_0005147,type 1 diabetes mellitus
+55,INSR,insulin receptor,INSULIN GLARGINE,Protein,CHEMBL1201497,4.0,"['NCT01271517', 'NCT01440439']",MONDO_0005147,type 1 diabetes mellitus
+56,NDUFV2,NADH:ubiquinone oxidoreductase core subunit V2,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03513874', 'NCT03570632']",MONDO_0005147,type 1 diabetes mellitus
+57,NDUFB4,NADH:ubiquinone oxidoreductase subunit B4,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03590262', 'NCT03639545']",MONDO_0005147,type 1 diabetes mellitus
+58,MT-ND4L,mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 4L,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT01718093', 'NCT00145379', 'NCT02765347', 'NCT02407899', 'NCT03928340', 'NCT00118937', 'NCT01813929']",MONDO_0005147,type 1 diabetes mellitus
+59,NDUFB5,NADH:ubiquinone oxidoreductase subunit B5,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT01718093', 'NCT02765347', 'NCT01813929', 'NCT02407899', 'NCT03928340', 'NCT00145379', 'NCT00118937']",MONDO_0005147,type 1 diabetes mellitus
+60,INSR,insulin receptor,INSULIN GLARGINE,Protein,CHEMBL1201497,4.0,['NCT04623086'],MONDO_0005147,type 1 diabetes mellitus
+61,NDUFA3,NADH:ubiquinone oxidoreductase subunit A3,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03570632', 'NCT03513874']",MONDO_0005147,type 1 diabetes mellitus
+62,NDUFS6,NADH:ubiquinone oxidoreductase subunit S6,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03590262', 'NCT03639545']",MONDO_0005147,type 1 diabetes mellitus
+63,NDUFA7,NADH:ubiquinone oxidoreductase subunit A7,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03590262', 'NCT03639545']",MONDO_0005147,type 1 diabetes mellitus
+64,INSR,insulin receptor,INSULIN,Protein,CHEMBL1201631,4.0,['NCT00356421'],MONDO_0005147,type 1 diabetes mellitus
+65,INSR,insulin receptor,INSULIN DEGLUDEC,Protein,CHEMBL2107869,4.0,['NCT03838783'],MONDO_0005147,type 1 diabetes mellitus
+66,SLC5A2,solute carrier family 5 member 2,EMPAGLIFLOZIN,Small molecule,CHEMBL2107830,4.0,['NCT03639545'],MONDO_0005147,type 1 diabetes mellitus
+67,NDUFA8,NADH:ubiquinone oxidoreductase subunit A8,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT01813929', 'NCT03928340', 'NCT00145379', 'NCT02765347', 'NCT01718093', 'NCT00118937', 'NCT02407899']",MONDO_0005147,type 1 diabetes mellitus
+68,NDUFAF2,NADH:ubiquinone oxidoreductase complex assembly factor 2,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03513874', 'NCT03570632']",MONDO_0005147,type 1 diabetes mellitus
+69,NDUFA5,NADH:ubiquinone oxidoreductase subunit A5,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03513874', 'NCT03570632']",MONDO_0005147,type 1 diabetes mellitus
+70,NDUFB5,NADH:ubiquinone oxidoreductase subunit B5,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03513874', 'NCT03570632']",MONDO_0005147,type 1 diabetes mellitus
+71,NDUFAF4,NADH:ubiquinone oxidoreductase complex assembly factor 4,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT02407899', 'NCT02765347', 'NCT00145379', 'NCT01718093', 'NCT00118937', 'NCT03928340', 'NCT01813929']",MONDO_0005147,type 1 diabetes mellitus
+72,NDUFB9,NADH:ubiquinone oxidoreductase subunit B9,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03513874', 'NCT03570632']",MONDO_0005147,type 1 diabetes mellitus
+73,INSR,insulin receptor,INSULIN,Protein,CHEMBL1201631,4.0,"['NCT00420095', 'NCT01269047', 'NCT03928340', 'NCT00276393', 'NCT00593255', 'NCT01109927', 'NCT02765347', 'NCT00442767', 'NCT01467141', 'NCT00365170', 'NCT01235819', 'NCT00571935', 'NCT00985712', 'NCT00315952', 'NCT00597233', 'NCT05243628', 'NCT03662334', 'NCT05709938', 'NCT03143816', 'NCT00284232', 'NCT02407899', 'NCT01454700', 'NCT01269034', 'NCT04075513', 'NCT04157738', 'NCT00346996']",MONDO_0005147,type 1 diabetes mellitus
+74,INSR,insulin receptor,INSULIN PORK,Protein,CHEMBL1201539,4.0,['NCT01971047'],MONDO_0005147,type 1 diabetes mellitus
+75,NDUFC2,NADH:ubiquinone oxidoreductase subunit C2,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT00145379', 'NCT02765347', 'NCT02407899', 'NCT01718093', 'NCT00118937', 'NCT03928340', 'NCT01813929']",MONDO_0005147,type 1 diabetes mellitus
+76,GPD2,glycerol-3-phosphate dehydrogenase 2,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03570632', 'NCT03513874']",MONDO_0005147,type 1 diabetes mellitus
+77,NDUFV1,NADH:ubiquinone oxidoreductase core subunit V1,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03928340', 'NCT00145379', 'NCT02407899', 'NCT00118937', 'NCT01813929', 'NCT02765347', 'NCT01718093']",MONDO_0005147,type 1 diabetes mellitus
+78,NDUFA4L2,NDUFA4 mitochondrial complex associated like 2,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03513874', 'NCT03570632']",MONDO_0005147,type 1 diabetes mellitus
+79,NDUFB7,NADH:ubiquinone oxidoreductase subunit B7,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03513874', 'NCT03570632']",MONDO_0005147,type 1 diabetes mellitus
+80,NDUFA7,NADH:ubiquinone oxidoreductase subunit A7,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT01813929', 'NCT02407899', 'NCT00145379', 'NCT02765347', 'NCT01718093', 'NCT00118937', 'NCT03928340']",MONDO_0005147,type 1 diabetes mellitus
+81,NDUFB9,NADH:ubiquinone oxidoreductase subunit B9,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03590262', 'NCT03639545']",MONDO_0005147,type 1 diabetes mellitus
+82,VDR,vitamin D receptor,CHOLECALCIFEROL,Small molecule,CHEMBL1042,4.0,"['NCT02407899', 'NCT01390480', 'NCT01277913']",MONDO_0005147,type 1 diabetes mellitus
+83,NDUFAF1,NADH:ubiquinone oxidoreductase complex assembly factor 1,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT00145379', 'NCT02407899', 'NCT02765347', 'NCT03928340', 'NCT01813929', 'NCT01718093', 'NCT00118937']",MONDO_0005147,type 1 diabetes mellitus
+84,NDUFA8,NADH:ubiquinone oxidoreductase subunit A8,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03639545', 'NCT03590262']",MONDO_0005147,type 1 diabetes mellitus
+85,INSR,insulin receptor,INSULIN ASPART,Protein,CHEMBL1201496,4.0,"['NCT02680054', 'NCT00509925', 'NCT03260868']",MONDO_0005147,type 1 diabetes mellitus
+86,NDUFB11,NADH:ubiquinone oxidoreductase subunit B11,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03639545', 'NCT03590262']",MONDO_0005147,type 1 diabetes mellitus
+87,CALCR,calcitonin receptor,PRAMLINTIDE,Protein,CHEMBL2103758,4.0,['NCT00505882'],MONDO_0005147,type 1 diabetes mellitus
+88,NDUFB4,NADH:ubiquinone oxidoreductase subunit B4,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT00118937', 'NCT02765347', 'NCT02407899', 'NCT03928340', 'NCT00145379', 'NCT01813929', 'NCT01718093']",MONDO_0005147,type 1 diabetes mellitus
+89,HMGCR,3-hydroxy-3-methylglutaryl-CoA reductase,ATORVASTATIN,Small molecule,CHEMBL1487,4.0,['NCT05641753'],MONDO_0005147,type 1 diabetes mellitus
+90,MT-ND4L,mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 4L,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03570632', 'NCT03513874']",MONDO_0005147,type 1 diabetes mellitus
+91,KCNJ8,potassium inwardly rectifying channel subfamily J member 8,DIAZOXIDE,Small molecule,CHEMBL181,4.0,"['NCT01488136', 'NCT00131755']",MONDO_0005147,type 1 diabetes mellitus
+92,MT-ND2,mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 2,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03570632', 'NCT03513874']",MONDO_0005147,type 1 diabetes mellitus
+93,PPARG,peroxisome proliferator activated receptor gamma,PIOGLITAZONE,Small molecule,CHEMBL595,4.0,['NCT03878459'],MONDO_0005147,type 1 diabetes mellitus
+94,GPD2,glycerol-3-phosphate dehydrogenase 2,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03639545', 'NCT03590262']",MONDO_0005147,type 1 diabetes mellitus
+95,INSR,insulin receptor,INSULIN ASPART,Protein,CHEMBL1201496,4.0,"['NCT04414579', 'NCT03659799', 'NCT04019821', 'NCT04620967']",MONDO_0005147,type 1 diabetes mellitus
+96,INSR,insulin receptor,INSULIN GLARGINE,Protein,CHEMBL1201497,4.0,['NCT03260868'],MONDO_0005147,type 1 diabetes mellitus
+97,NDUFB1,NADH:ubiquinone oxidoreductase subunit B1,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03639545', 'NCT03590262']",MONDO_0005147,type 1 diabetes mellitus
+98,NDUFAF1,NADH:ubiquinone oxidoreductase complex assembly factor 1,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03590262', 'NCT03639545']",MONDO_0005147,type 1 diabetes mellitus
+99,GLP1R,glucagon like peptide 1 receptor,LIRAGLUTIDE,Protein,CHEMBL4084119,4.0,['NCT01787916'],MONDO_0005147,type 1 diabetes mellitus
+100,FKBP1A,FKBP prolyl isomerase 1A,SIROLIMUS,Small molecule,CHEMBL413,4.0,['NCT03582878'],MONDO_0005147,type 1 diabetes mellitus
+101,NDUFA12,NADH:ubiquinone oxidoreductase subunit A12,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03590262', 'NCT03639545']",MONDO_0005147,type 1 diabetes mellitus
+102,NDUFB1,NADH:ubiquinone oxidoreductase subunit B1,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT00118937', 'NCT03928340', 'NCT02765347', 'NCT02407899', 'NCT00145379', 'NCT01718093', 'NCT01813929']",MONDO_0005147,type 1 diabetes mellitus
+103,DPP4,dipeptidyl peptidase 4,SITAGLIPTIN,Small molecule,CHEMBL1422,4.0,"['NCT01530178', 'NCT00978796', 'NCT01235819', 'NCT01718093']",MONDO_0005147,type 1 diabetes mellitus
+104,INSR,insulin receptor,INSULIN GLULISINE,Protein,CHEMBL1201613,4.0,['NCT03260868'],MONDO_0005147,type 1 diabetes mellitus
+105,NDUFA4L2,NDUFA4 mitochondrial complex associated like 2,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT01813929', 'NCT00145379', 'NCT00118937', 'NCT01718093', 'NCT02765347', 'NCT03928340', 'NCT02407899']",MONDO_0005147,type 1 diabetes mellitus
+106,NDUFA13,NADH:ubiquinone oxidoreductase subunit A13,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT00145379', 'NCT01813929', 'NCT03928340', 'NCT01718093', 'NCT00118937', 'NCT02407899', 'NCT02765347']",MONDO_0005147,type 1 diabetes mellitus
+107,NDUFS4,NADH:ubiquinone oxidoreductase subunit S4,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03590262', 'NCT03639545']",MONDO_0005147,type 1 diabetes mellitus
+108,NDUFS1,NADH:ubiquinone oxidoreductase core subunit S1,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03570632', 'NCT03513874']",MONDO_0005147,type 1 diabetes mellitus
+109,NDUFA10,NADH:ubiquinone oxidoreductase subunit A10,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03590262', 'NCT03639545']",MONDO_0005147,type 1 diabetes mellitus
+110,NDUFC1,NADH:ubiquinone oxidoreductase subunit C1,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT00145379', 'NCT02765347', 'NCT00118937', 'NCT01813929', 'NCT03928340', 'NCT01718093', 'NCT02407899']",MONDO_0005147,type 1 diabetes mellitus
+111,NDUFV1,NADH:ubiquinone oxidoreductase core subunit V1,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03570632', 'NCT03513874']",MONDO_0005147,type 1 diabetes mellitus
+112,NDUFA7,NADH:ubiquinone oxidoreductase subunit A7,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03513874', 'NCT03570632']",MONDO_0005147,type 1 diabetes mellitus
+113,INSR,insulin receptor,INSULIN GLARGINE,Protein,CHEMBL1201497,4.0,['NCT00505882'],MONDO_0005147,type 1 diabetes mellitus
+114,NDUFS4,NADH:ubiquinone oxidoreductase subunit S4,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT02407899', 'NCT02765347', 'NCT00118937', 'NCT01813929', 'NCT00145379', 'NCT01718093', 'NCT03928340']",MONDO_0005147,type 1 diabetes mellitus
+115,NDUFAF1,NADH:ubiquinone oxidoreductase complex assembly factor 1,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03570632', 'NCT03513874']",MONDO_0005147,type 1 diabetes mellitus
+116,NDUFS3,NADH:ubiquinone oxidoreductase core subunit S3,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03513874', 'NCT03570632']",MONDO_0005147,type 1 diabetes mellitus
+117,NDUFA1,NADH:ubiquinone oxidoreductase subunit A1,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03928340', 'NCT02765347', 'NCT01813929', 'NCT01718093', 'NCT02407899', 'NCT00118937', 'NCT00145379']",MONDO_0005147,type 1 diabetes mellitus
+118,SLC5A2,solute carrier family 5 member 2,DAPAGLIFLOZIN,Small molecule,CHEMBL429910,4.0,['NCT05541484'],MONDO_0005147,type 1 diabetes mellitus
+119,MT-ND1,mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 1,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03513874', 'NCT03570632']",MONDO_0005147,type 1 diabetes mellitus
+120,INSR,insulin receptor,INSULIN LISPRO,Protein,CHEMBL1201538,4.0,['NCT02685449'],MONDO_0005147,type 1 diabetes mellitus
+121,NDUFB3,NADH:ubiquinone oxidoreductase subunit B3,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03590262', 'NCT03639545']",MONDO_0005147,type 1 diabetes mellitus
+122,INSR,insulin receptor,INSULIN LISPRO,Protein,CHEMBL1201538,4.0,['NCT04019821'],MONDO_0005147,type 1 diabetes mellitus
+123,NDUFS5,NADH:ubiquinone oxidoreductase subunit S5,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03928340', 'NCT02765347', 'NCT00118937', 'NCT00145379', 'NCT01718093', 'NCT01813929', 'NCT02407899']",MONDO_0005147,type 1 diabetes mellitus
+124,NDUFS1,NADH:ubiquinone oxidoreductase core subunit S1,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03590262', 'NCT03639545']",MONDO_0005147,type 1 diabetes mellitus
+125,MT-ND1,mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 1,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03590262', 'NCT03639545']",MONDO_0005147,type 1 diabetes mellitus
+126,PTGS2,prostaglandin-endoperoxide synthase 2,ASPIRIN,Small molecule,CHEMBL25,4.0,['NCT01397513'],MONDO_0005147,type 1 diabetes mellitus
+127,GCGR,glucagon receptor,GLUCAGON,Protein,CHEMBL266481,4.0,"['NCT02516150', 'NCT04949867']",MONDO_0005147,type 1 diabetes mellitus
+128,NDUFA11,NADH:ubiquinone oxidoreductase subunit A11,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT00145379', 'NCT02407899', 'NCT02765347', 'NCT01813929', 'NCT01718093', 'NCT00118937', 'NCT03928340']",MONDO_0005147,type 1 diabetes mellitus
+129,NDUFA6,NADH:ubiquinone oxidoreductase subunit A6,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT01718093', 'NCT00118937', 'NCT01813929', 'NCT02407899', 'NCT03928340', 'NCT00145379', 'NCT02765347']",MONDO_0005147,type 1 diabetes mellitus
+130,INSR,insulin receptor,INSULIN ASPART,Protein,CHEMBL1201496,4.0,"['NCT00593255', 'NCT00571935', 'NCT01678235', 'NCT01467141', 'NCT04409587', 'NCT01269034', 'NCT03987191', 'NCT02276859', 'NCT00913497', 'NCT03554486', 'NCT00117780', 'NCT00365170', 'NCT00461331', 'NCT00497536', 'NCT00542620', 'NCT00607087', 'NCT00597233', 'NCT03328845', 'NCT01526733', 'NCT01848990']",MONDO_0005147,type 1 diabetes mellitus
+131,NDUFAF3,NADH:ubiquinone oxidoreductase complex assembly factor 3,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT01813929', 'NCT00118937', 'NCT02407899', 'NCT02765347', 'NCT01718093', 'NCT03928340', 'NCT00145379']",MONDO_0005147,type 1 diabetes mellitus
+132,PPARG,peroxisome proliferator activated receptor gamma,ROSIGLITAZONE,Small molecule,CHEMBL121,4.0,['NCT00372086'],MONDO_0005147,type 1 diabetes mellitus
+133,GLP1R,glucagon like peptide 1 receptor,LIRAGLUTIDE,Protein,CHEMBL4084119,4.0,['NCT03011008'],MONDO_0005147,type 1 diabetes mellitus
+134,NDUFA8,NADH:ubiquinone oxidoreductase subunit A8,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03513874', 'NCT03570632']",MONDO_0005147,type 1 diabetes mellitus
+135,MT-ND3,mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 3,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03639545', 'NCT03590262']",MONDO_0005147,type 1 diabetes mellitus
+136,INSR,insulin receptor,INSULIN GLARGINE,Protein,CHEMBL1201497,4.0,"['NCT03406000', 'NCT00313742', 'NCT00964574', 'NCT05709938', 'NCT01202474', 'NCT00390728', 'NCT03328845', 'NCT02688933', 'NCT00539448', 'NCT00313937', 'NCT00206401', 'NCT01269034', 'NCT04075513', 'NCT00360984', 'NCT00340613', 'NCT01204593', 'NCT03668808']",MONDO_0005147,type 1 diabetes mellitus
+137,INSR,insulin receptor,INSULIN LISPRO,Protein,CHEMBL1201538,4.0,"['NCT00505882', 'NCT01971047']",MONDO_0005147,type 1 diabetes mellitus
+138,NDUFS7,NADH:ubiquinone oxidoreductase core subunit S7,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03513874', 'NCT03570632']",MONDO_0005147,type 1 diabetes mellitus
+139,NDUFV3,NADH:ubiquinone oxidoreductase subunit V3,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03570632', 'NCT03513874']",MONDO_0005147,type 1 diabetes mellitus
+140,INSR,insulin receptor,INSULIN GLULISINE,Protein,CHEMBL1201613,4.0,['NCT02685449'],MONDO_0005147,type 1 diabetes mellitus
+141,DPP4,dipeptidyl peptidase 4,SAXAGLIPTIN,Small molecule,CHEMBL385517,4.0,['NCT02307695'],MONDO_0005147,type 1 diabetes mellitus
+142,NDUFS6,NADH:ubiquinone oxidoreductase subunit S6,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03570632', 'NCT03513874']",MONDO_0005147,type 1 diabetes mellitus
+143,NDUFB2,NADH:ubiquinone oxidoreductase subunit B2,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03590262', 'NCT03639545']",MONDO_0005147,type 1 diabetes mellitus
+144,NDUFA1,NADH:ubiquinone oxidoreductase subunit A1,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03513874', 'NCT03570632']",MONDO_0005147,type 1 diabetes mellitus
+145,NDUFA1,NADH:ubiquinone oxidoreductase subunit A1,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03590262', 'NCT03639545']",MONDO_0005147,type 1 diabetes mellitus
+146,NDUFS2,NADH:ubiquinone oxidoreductase core subunit S2,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT00145379', 'NCT03928340', 'NCT01813929', 'NCT02407899', 'NCT00118937', 'NCT02765347', 'NCT01718093']",MONDO_0005147,type 1 diabetes mellitus
+147,NDUFB1,NADH:ubiquinone oxidoreductase subunit B1,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03570632', 'NCT03513874']",MONDO_0005147,type 1 diabetes mellitus
+148,MT-ND5,mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 5,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03590262', 'NCT03639545']",MONDO_0005147,type 1 diabetes mellitus
+149,NDUFA2,NADH:ubiquinone oxidoreductase subunit A2,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03570632', 'NCT03513874']",MONDO_0005147,type 1 diabetes mellitus
+150,NDUFV3,NADH:ubiquinone oxidoreductase subunit V3,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT02407899', 'NCT00118937', 'NCT01718093', 'NCT03928340', 'NCT02765347', 'NCT00145379', 'NCT01813929']",MONDO_0005147,type 1 diabetes mellitus
+151,MT-ND4,mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 4,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT02765347', 'NCT01813929', 'NCT00118937', 'NCT03928340', 'NCT02407899', 'NCT01718093', 'NCT00145379']",MONDO_0005147,type 1 diabetes mellitus
+152,NDUFC2,NADH:ubiquinone oxidoreductase subunit C2,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03513874', 'NCT03570632']",MONDO_0005147,type 1 diabetes mellitus
+153,NDUFA3,NADH:ubiquinone oxidoreductase subunit A3,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT02765347', 'NCT00145379', 'NCT01813929', 'NCT01718093', 'NCT02407899', 'NCT03928340', 'NCT00118937']",MONDO_0005147,type 1 diabetes mellitus
+154,INSR,insulin receptor,INSULIN GLARGINE,Protein,CHEMBL1201497,4.0,[],MONDO_0005147,type 1 diabetes mellitus
+155,INSR,insulin receptor,INSULIN LISPRO,Protein,CHEMBL1201538,4.0,"['NCT00607087', 'NCT04783376', 'NCT02276859', 'NCT00985712', 'NCT01848990', 'NCT00461331', 'NCT03328845', 'NCT01526733', 'NCT00420095']",MONDO_0005147,type 1 diabetes mellitus
+156,NDUFB6,NADH:ubiquinone oxidoreductase subunit B6,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT01813929', 'NCT01718093', 'NCT00118937', 'NCT03928340', 'NCT02765347', 'NCT02407899', 'NCT00145379']",MONDO_0005147,type 1 diabetes mellitus
+157,NDUFV2,NADH:ubiquinone oxidoreductase core subunit V2,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03590262', 'NCT03639545']",MONDO_0005147,type 1 diabetes mellitus
+158,MT-ND3,mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 3,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03513874', 'NCT03570632']",MONDO_0005147,type 1 diabetes mellitus
+159,NDUFA13,NADH:ubiquinone oxidoreductase subunit A13,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03590262', 'NCT03639545']",MONDO_0005147,type 1 diabetes mellitus
+160,NDUFAF2,NADH:ubiquinone oxidoreductase complex assembly factor 2,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03639545', 'NCT03590262']",MONDO_0005147,type 1 diabetes mellitus
+161,INSR,insulin receptor,INSULIN SUSP ISOPHANE BEEF,Protein,CHEMBL1201545,4.0,['NCT00509925'],MONDO_0005147,type 1 diabetes mellitus
+162,ABCC8,ATP binding cassette subfamily C member 8,GLYBURIDE,Small molecule,CHEMBL472,4.0,['NCT00472875'],MONDO_0005147,type 1 diabetes mellitus
+163,INSR,insulin receptor,INSULIN ASPART,Protein,CHEMBL1201496,4.0,['NCT02685449'],MONDO_0005147,type 1 diabetes mellitus
+164,INSR,insulin receptor,INSULIN DETEMIR,Protein,CHEMBL2104391,4.0,"['NCT00313742', 'NCT00564395', 'NCT00117780', 'NCT00542620', 'NCT00542399', 'NCT00346996']",MONDO_0005147,type 1 diabetes mellitus
+165,INSR,insulin receptor,"INSULIN, ISOPHANE",Protein,CHEMBL2108964,4.0,"['NCT00346996', 'NCT01467141']",MONDO_0005147,type 1 diabetes mellitus
+166,NDUFB7,NADH:ubiquinone oxidoreductase subunit B7,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT02765347', 'NCT02407899', 'NCT00118937', 'NCT00145379', 'NCT01718093', 'NCT01813929', 'NCT03928340']",MONDO_0005147,type 1 diabetes mellitus
+167,NDUFA11,NADH:ubiquinone oxidoreductase subunit A11,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03513874', 'NCT03570632']",MONDO_0005147,type 1 diabetes mellitus
+168,NDUFC1,NADH:ubiquinone oxidoreductase subunit C1,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03570632', 'NCT03513874']",MONDO_0005147,type 1 diabetes mellitus
+169,MS4A1,membrane spanning 4-domains A1,RITUXIMAB,Antibody,CHEMBL1201576,4.0,['NCT01280682'],MONDO_0005147,type 1 diabetes mellitus
+170,DPP4,dipeptidyl peptidase 4,SAXAGLIPTIN,Small molecule,CHEMBL385517,4.0,['NCT02407899'],MONDO_0005147,type 1 diabetes mellitus
+171,NDUFA3,NADH:ubiquinone oxidoreductase subunit A3,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03639545', 'NCT03590262']",MONDO_0005147,type 1 diabetes mellitus
+172,NDUFA10,NADH:ubiquinone oxidoreductase subunit A10,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03513874', 'NCT03570632']",MONDO_0005147,type 1 diabetes mellitus
+173,INSR,insulin receptor,INSULIN SUSP ISOPHANE RECOMBINANT HUMAN,Protein,CHEMBL1201540,4.0,['NCT05768191'],MONDO_0005147,type 1 diabetes mellitus
+174,INSR,insulin receptor,INSULIN,Protein,CHEMBL1201631,4.0,"['NCT03011008', 'NCT03057470', 'NCT00145353', 'NCT02307695']",MONDO_0005147,type 1 diabetes mellitus
+175,PCSK9,proprotein convertase subtilisin/kexin type 9,EVOLOCUMAB,Antibody,CHEMBL2364655,4.0,['NCT05641753'],MONDO_0005147,type 1 diabetes mellitus
+176,NDUFA9,NADH:ubiquinone oxidoreductase subunit A9,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03590262', 'NCT03639545']",MONDO_0005147,type 1 diabetes mellitus
+177,NDUFB5,NADH:ubiquinone oxidoreductase subunit B5,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03639545', 'NCT03590262']",MONDO_0005147,type 1 diabetes mellitus
+178,NDUFB11,NADH:ubiquinone oxidoreductase subunit B11,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03570632', 'NCT03513874']",MONDO_0005147,type 1 diabetes mellitus
+179,MT-ND6,mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 6,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT00118937', 'NCT03928340', 'NCT01813929', 'NCT01718093', 'NCT00145379', 'NCT02765347', 'NCT02407899']",MONDO_0005147,type 1 diabetes mellitus
+180,KCNJ11,potassium inwardly rectifying channel subfamily J member 11,GLYBURIDE,Small molecule,CHEMBL472,4.0,['NCT00472875'],MONDO_0005147,type 1 diabetes mellitus
+181,NDUFB6,NADH:ubiquinone oxidoreductase subunit B6,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03639545', 'NCT03590262']",MONDO_0005147,type 1 diabetes mellitus
+182,NDUFS7,NADH:ubiquinone oxidoreductase core subunit S7,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03590262', 'NCT03639545']",MONDO_0005147,type 1 diabetes mellitus
+183,MT-ND5,mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 5,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT01813929', 'NCT02765347', 'NCT02407899', 'NCT00145379', 'NCT00118937', 'NCT01718093', 'NCT03928340']",MONDO_0005147,type 1 diabetes mellitus
+184,INSR,insulin receptor,INSULIN PORK,Protein,CHEMBL1201539,4.0,"['NCT05709938', 'NCT01269034', 'NCT04783376']",MONDO_0005147,type 1 diabetes mellitus
+185,INSR,insulin receptor,INSULIN LISPRO,Protein,CHEMBL1201538,4.0,"['NCT00356421', 'NCT03260868']",MONDO_0005147,type 1 diabetes mellitus
+186,NDUFV1,NADH:ubiquinone oxidoreductase core subunit V1,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03639545', 'NCT03590262']",MONDO_0005147,type 1 diabetes mellitus
+187,NDUFB11,NADH:ubiquinone oxidoreductase subunit B11,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT01813929', 'NCT02407899', 'NCT02765347', 'NCT00145379', 'NCT00118937', 'NCT01718093', 'NCT03928340']",MONDO_0005147,type 1 diabetes mellitus
+188,INSR,insulin receptor,INSULIN DETEMIR,Protein,CHEMBL2104391,4.0,[],MONDO_0005147,type 1 diabetes mellitus
+189,HMGCR,3-hydroxy-3-methylglutaryl-CoA reductase,ATORVASTATIN CALCIUM,Small molecule,CHEMBL393220,4.0,['NCT05641753'],MONDO_0005147,type 1 diabetes mellitus
+190,INSR,insulin receptor,INSULIN GLULISINE,Protein,CHEMBL1201613,4.0,['NCT04019821'],MONDO_0005147,type 1 diabetes mellitus
+191,NDUFS8,NADH:ubiquinone oxidoreductase core subunit S8,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03570632', 'NCT03513874']",MONDO_0005147,type 1 diabetes mellitus
+192,INSR,insulin receptor,INSULIN LISPRO,Protein,CHEMBL1201538,4.0,['NCT04124302'],MONDO_0005147,type 1 diabetes mellitus
+193,MT-ND4,mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 4,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03639545', 'NCT03590262']",MONDO_0005147,type 1 diabetes mellitus
+194,MT-ND1,mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 1,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT00145379', 'NCT03928340', 'NCT02407899', 'NCT00118937', 'NCT02765347', 'NCT01813929', 'NCT01718093']",MONDO_0005147,type 1 diabetes mellitus
+195,INSR,insulin receptor,INSULIN GLARGINE,Protein,CHEMBL1201497,4.0,['NCT05614089'],MONDO_0005147,type 1 diabetes mellitus
+196,GCGR,glucagon receptor,DASIGLUCAGON HYDROCHLORIDE,Unknown,CHEMBL4650274,4.0,[],MONDO_0005147,type 1 diabetes mellitus
+197,CD3E,CD3 epsilon subunit of T-cell receptor complex,TEPLIZUMAB,Antibody,CHEMBL1743078,4.0,['NCT05757713'],MONDO_0005147,type 1 diabetes mellitus
+198,NDUFAB1,NADH:ubiquinone oxidoreductase subunit AB1,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03513874', 'NCT03570632']",MONDO_0005147,type 1 diabetes mellitus
+199,NDUFB4,NADH:ubiquinone oxidoreductase subunit B4,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03570632', 'NCT03513874']",MONDO_0005147,type 1 diabetes mellitus
+200,GLP1R,glucagon like peptide 1 receptor,EXENATIDE,Protein,CHEMBL414357,4.0,"['NCT01269047', 'NCT01269034', 'NCT01235819']",MONDO_0005147,type 1 diabetes mellitus
+201,CALCR,calcitonin receptor,PRAMLINTIDE,Protein,CHEMBL2103758,4.0,"['NCT00502138', 'NCT00291772', 'NCT01269047', 'NCT00442767']",MONDO_0005147,type 1 diabetes mellitus
+202,NDUFS3,NADH:ubiquinone oxidoreductase core subunit S3,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT02407899', 'NCT02765347', 'NCT00118937', 'NCT01813929', 'NCT00145379', 'NCT01718093', 'NCT03928340']",MONDO_0005147,type 1 diabetes mellitus
+203,NDUFA10,NADH:ubiquinone oxidoreductase subunit A10,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT02407899', 'NCT03928340', 'NCT00118937', 'NCT01813929', 'NCT01718093', 'NCT00145379', 'NCT02765347']",MONDO_0005147,type 1 diabetes mellitus
+204,NDUFAF3,NADH:ubiquinone oxidoreductase complex assembly factor 3,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03570632', 'NCT03513874']",MONDO_0005147,type 1 diabetes mellitus
+205,NDUFA2,NADH:ubiquinone oxidoreductase subunit A2,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT00145379', 'NCT02407899', 'NCT02765347', 'NCT01718093', 'NCT01813929', 'NCT00118937', 'NCT03928340']",MONDO_0005147,type 1 diabetes mellitus
+206,INSR,insulin receptor,INSULIN GLULISINE,Protein,CHEMBL1201613,4.0,"['NCT01204593', 'NCT01202474', 'NCT00489190', 'NCT00539448', 'NCT00964574', 'NCT00607087', 'NCT03328845', 'NCT01678235', 'NCT02276859', 'NCT00913497', 'NCT01848990']",MONDO_0005147,type 1 diabetes mellitus
+207,MT-ND6,mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 6,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03639545', 'NCT03590262']",MONDO_0005147,type 1 diabetes mellitus
+208,NDUFA6,NADH:ubiquinone oxidoreductase subunit A6,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03590262', 'NCT03639545']",MONDO_0005147,type 1 diabetes mellitus
+209,NDUFS2,NADH:ubiquinone oxidoreductase core subunit S2,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03570632', 'NCT03513874']",MONDO_0005147,type 1 diabetes mellitus
+210,NDUFA4,NDUFA4 mitochondrial complex associated,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT02407899', 'NCT03928340', 'NCT02765347', 'NCT01718093', 'NCT01813929', 'NCT00145379', 'NCT00118937']",MONDO_0005147,type 1 diabetes mellitus
+211,INSR,insulin receptor,INSULIN DEGLUDEC,Protein,CHEMBL2107869,4.0,"['NCT04075513', 'NCT03668808', 'NCT05243628', 'NCT03987191', 'NCT03328845']",MONDO_0005147,type 1 diabetes mellitus
+212,NDUFA4,NDUFA4 mitochondrial complex associated,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03639545', 'NCT03590262']",MONDO_0005147,type 1 diabetes mellitus
+213,NDUFS2,NADH:ubiquinone oxidoreductase core subunit S2,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03590262', 'NCT03639545']",MONDO_0005147,type 1 diabetes mellitus
+214,MT-ND2,mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 2,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03639545', 'NCT03590262']",MONDO_0005147,type 1 diabetes mellitus
+215,MT-ND4L,mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 4L,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03590262', 'NCT03639545']",MONDO_0005147,type 1 diabetes mellitus
+216,NDUFB3,NADH:ubiquinone oxidoreductase subunit B3,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03570632', 'NCT03513874']",MONDO_0005147,type 1 diabetes mellitus
+217,INSR,insulin receptor,INSULIN GLULISINE,Protein,CHEMBL1201613,4.0,['NCT04124302'],MONDO_0005147,type 1 diabetes mellitus
+218,INSR,insulin receptor,INSULIN SUSP ISOPHANE BEEF,Protein,CHEMBL1201545,4.0,"['NCT00593255', 'NCT00313742', 'NCT00597233']",MONDO_0005147,type 1 diabetes mellitus
+219,NDUFB8,NADH:ubiquinone oxidoreductase subunit B8,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03513874', 'NCT03570632']",MONDO_0005147,type 1 diabetes mellitus
+220,INSR,insulin receptor,INSULIN DETEMIR,Protein,CHEMBL2104391,4.0,['NCT00509925'],MONDO_0005147,type 1 diabetes mellitus
+221,NDUFV2,NADH:ubiquinone oxidoreductase core subunit V2,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT01813929', 'NCT00145379', 'NCT00118937', 'NCT02765347', 'NCT02407899', 'NCT03928340', 'NCT01718093']",MONDO_0005147,type 1 diabetes mellitus
+222,IMPDH2,inosine monophosphate dehydrogenase 2,MYCOPHENOLATE MOFETIL,Small molecule,CHEMBL1456,4.0,['NCT03582878'],MONDO_0005147,type 1 diabetes mellitus
+223,INSR,insulin receptor,INSULIN DETEMIR,Protein,CHEMBL2104391,4.0,"['NCT01271517', 'NCT01440439']",MONDO_0005147,type 1 diabetes mellitus
+224,NDUFA12,NADH:ubiquinone oxidoreductase subunit A12,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03513874', 'NCT03570632']",MONDO_0005147,type 1 diabetes mellitus
+225,NDUFA4L2,NDUFA4 mitochondrial complex associated like 2,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03639545', 'NCT03590262']",MONDO_0005147,type 1 diabetes mellitus
+226,NDUFAB1,NADH:ubiquinone oxidoreductase subunit AB1,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03928340', 'NCT00145379', 'NCT01718093', 'NCT02407899', 'NCT02765347', 'NCT01813929', 'NCT00118937']",MONDO_0005147,type 1 diabetes mellitus
+227,INSR,insulin receptor,INSULIN DEGLUDEC,Protein,CHEMBL2107869,4.0,['NCT04623086'],MONDO_0005147,type 1 diabetes mellitus
+228,NDUFB9,NADH:ubiquinone oxidoreductase subunit B9,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT01718093', 'NCT01813929', 'NCT02407899', 'NCT02765347', 'NCT00145379', 'NCT00118937', 'NCT03928340']",MONDO_0005147,type 1 diabetes mellitus
+229,NDUFA11,NADH:ubiquinone oxidoreductase subunit A11,METFORMIN,Small molecule,CHEMBL1431,4.0,"['NCT03639545', 'NCT03590262']",MONDO_0005147,type 1 diabetes mellitus
+230,GLP1R,glucagon like peptide 1 receptor,LIRAGLUTIDE,Protein,CHEMBL4084119,3.0,"['NCT01722240', 'NCT01836523', 'NCT01722266', 'NCT02092896', 'NCT02518945', 'NCT02777073', 'NCT02098395', 'NCT05467514', 'NCT01753362']",MONDO_0005147,type 1 diabetes mellitus
+231,NDUFA5,NADH:ubiquinone oxidoreductase subunit A5,METFORMIN,Small molecule,CHEMBL1431,3.0,"['NCT01881828', 'NCT01483560', 'NCT01808690', 'NCT02045290']",MONDO_0005147,type 1 diabetes mellitus
+232,NDUFS8,NADH:ubiquinone oxidoreductase core subunit S8,METFORMIN,Small molecule,CHEMBL1431,3.0,['NCT04177303'],MONDO_0005147,type 1 diabetes mellitus
+233,INSR,insulin receptor,INSULIN GLARGINE,Protein,CHEMBL1201497,3.0,['NCT01352663'],MONDO_0005147,type 1 diabetes mellitus
+234,NDUFA7,NADH:ubiquinone oxidoreductase subunit A7,METFORMIN,Small molecule,CHEMBL1431,3.0,"['NCT01808690', 'NCT01483560', 'NCT01881828', 'NCT02045290']",MONDO_0005147,type 1 diabetes mellitus
+235,INSR,insulin receptor,INSULIN PEGLISPRO,Protein,CHEMBL2108569,3.0,"['NCT01792284', 'NCT01481779', 'NCT01454284']",MONDO_0005147,type 1 diabetes mellitus
+236,NDUFS1,NADH:ubiquinone oxidoreductase core subunit S1,METFORMIN,Small molecule,CHEMBL1431,3.0,"['NCT01808690', 'NCT01483560', 'NCT02045290', 'NCT01881828']",MONDO_0005147,type 1 diabetes mellitus
+237,CALCR,calcitonin receptor,PRAMLINTIDE,Protein,CHEMBL2103758,3.0,"['NCT00108004', 'NCT00107107', 'NCT00042458', 'NCT00206258', 'NCT00206297']",MONDO_0005147,type 1 diabetes mellitus
+238,NDUFA12,NADH:ubiquinone oxidoreductase subunit A12,METFORMIN,Small molecule,CHEMBL1431,3.0,['NCT04177303'],MONDO_0005147,type 1 diabetes mellitus
+239,NDUFA3,NADH:ubiquinone oxidoreductase subunit A3,METFORMIN,Small molecule,CHEMBL1431,3.0,['NCT04177303'],MONDO_0005147,type 1 diabetes mellitus
+240,NDUFS6,NADH:ubiquinone oxidoreductase subunit S6,METFORMIN,Small molecule,CHEMBL1431,3.0,['NCT04177303'],MONDO_0005147,type 1 diabetes mellitus
+241,NDUFS2,NADH:ubiquinone oxidoreductase core subunit S2,METFORMIN,Small molecule,CHEMBL1431,3.0,['NCT04177303'],MONDO_0005147,type 1 diabetes mellitus
+242,HMGCR,3-hydroxy-3-methylglutaryl-CoA reductase,PRAVASTATIN,Small molecule,CHEMBL1144,3.0,['NCT01581476'],MONDO_0005147,type 1 diabetes mellitus
+243,INSR,insulin receptor,"INSULIN, ISOPHANE",Protein,CHEMBL2108964,3.0,['NCT00410033'],MONDO_0005147,type 1 diabetes mellitus
+244,HMGCR,3-hydroxy-3-methylglutaryl-CoA reductase,ATORVASTATIN,Small molecule,CHEMBL1487,3.0,['NCT01581476'],MONDO_0005147,type 1 diabetes mellitus
+245,NDUFA1,NADH:ubiquinone oxidoreductase subunit A1,METFORMIN,Small molecule,CHEMBL1431,3.0,"['NCT01881828', 'NCT01483560', 'NCT02045290', 'NCT01808690']",MONDO_0005147,type 1 diabetes mellitus
+246,IMPDH2,inosine monophosphate dehydrogenase 2,MYCOPHENOLATE MOFETIL,Small molecule,CHEMBL1456,3.0,['NCT01369082'],MONDO_0005147,type 1 diabetes mellitus
+247,PPIA,peptidylprolyl isomerase A,CYCLOSPORINE,Protein,CHEMBL160,3.0,"['NCT01762657', 'NCT01762644']",MONDO_0005147,type 1 diabetes mellitus
+248,NDUFS2,NADH:ubiquinone oxidoreductase core subunit S2,METFORMIN,Small molecule,CHEMBL1431,3.0,"['NCT01483560', 'NCT01808690', 'NCT01881828', 'NCT02045290']",MONDO_0005147,type 1 diabetes mellitus
+249,NDUFA2,NADH:ubiquinone oxidoreductase subunit A2,METFORMIN,Small molecule,CHEMBL1431,3.0,"['NCT01881828', 'NCT02045290', 'NCT01808690', 'NCT01483560']",MONDO_0005147,type 1 diabetes mellitus
+250,ACE,angiotensin I converting enzyme,RAMIPRIL,Small molecule,CHEMBL1168,3.0,['NCT00729365'],MONDO_0005147,type 1 diabetes mellitus
+251,GPD2,glycerol-3-phosphate dehydrogenase 2,METFORMIN,Small molecule,CHEMBL1431,3.0,['NCT04177303'],MONDO_0005147,type 1 diabetes mellitus
+252,INSR,insulin receptor,INSULIN GLARGINE,Protein,CHEMBL1201497,3.0,['NCT00700622'],MONDO_0005147,type 1 diabetes mellitus
+253,NDUFAF4,NADH:ubiquinone oxidoreductase complex assembly factor 4,METFORMIN,Small molecule,CHEMBL1431,3.0,"['NCT01881828', 'NCT02045290', 'NCT01808690', 'NCT01483560']",MONDO_0005147,type 1 diabetes mellitus
+254,NDUFV3,NADH:ubiquinone oxidoreductase subunit V3,METFORMIN,Small molecule,CHEMBL1431,3.0,"['NCT01881828', 'NCT02045290', 'NCT01483560', 'NCT01808690']",MONDO_0005147,type 1 diabetes mellitus
+255,NDUFB3,NADH:ubiquinone oxidoreductase subunit B3,METFORMIN,Small molecule,CHEMBL1431,3.0,"['NCT01483560', 'NCT01881828', 'NCT02045290', 'NCT01808690']",MONDO_0005147,type 1 diabetes mellitus
+256,HMGCR,3-hydroxy-3-methylglutaryl-CoA reductase,ATORVASTATIN CALCIUM,Small molecule,CHEMBL393220,3.0,['NCT01581476'],MONDO_0005147,type 1 diabetes mellitus
+257,NDUFAF2,NADH:ubiquinone oxidoreductase complex assembly factor 2,METFORMIN,Small molecule,CHEMBL1431,3.0,['NCT04177303'],MONDO_0005147,type 1 diabetes mellitus
+258,NDUFA9,NADH:ubiquinone oxidoreductase subunit A9,METFORMIN,Small molecule,CHEMBL1431,3.0,['NCT04177303'],MONDO_0005147,type 1 diabetes mellitus
+259,NDUFS7,NADH:ubiquinone oxidoreductase core subunit S7,METFORMIN,Small molecule,CHEMBL1431,3.0,['NCT04177303'],MONDO_0005147,type 1 diabetes mellitus
+260,SLC5A2,solute carrier family 5 member 2,IPRAGLIFLOZIN,Small molecule,CHEMBL2018096,3.0,['NCT02897219'],MONDO_0005147,type 1 diabetes mellitus
+261,NDUFS8,NADH:ubiquinone oxidoreductase core subunit S8,METFORMIN,Small molecule,CHEMBL1431,3.0,"['NCT02045290', 'NCT01808690', 'NCT01881828', 'NCT01483560']",MONDO_0005147,type 1 diabetes mellitus
+262,MT-ND4L,mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 4L,METFORMIN,Small molecule,CHEMBL1431,3.0,"['NCT01881828', 'NCT01808690', 'NCT01483560', 'NCT02045290']",MONDO_0005147,type 1 diabetes mellitus
+263,INSR,insulin receptor,INSULIN DETEMIR,Protein,CHEMBL2104391,3.0,"['NCT00095082', 'NCT01831765', 'NCT01513473', 'NCT00978627', 'NCT00474045', 'NCT00184665', 'NCT01709929', 'NCT00184639', 'NCT00595374', 'NCT00271284', 'NCT00604344', 'NCT01616784', 'NCT00312156', 'NCT03377699', 'NCT01074268', 'NCT00623194', 'NCT00435019', 'NCT01835431', 'NCT00312104', 'NCT00605137', 'NCT03220425', 'NCT01697657', 'NCT00447382', 'NCT01486940', 'NCT01461616', 'NCT00487240', 'NCT01190956']",MONDO_0005147,type 1 diabetes mellitus
+264,SLC5A1,solute carrier family 5 member 1,SOTAGLIFLOZIN,Small molecule,CHEMBL3039507,3.0,"['NCT02384941', 'NCT02421510', 'NCT02531035']",MONDO_0005147,type 1 diabetes mellitus
+265,NDUFA11,NADH:ubiquinone oxidoreductase subunit A11,METFORMIN,Small molecule,CHEMBL1431,3.0,"['NCT01808690', 'NCT02045290', 'NCT01881828', 'NCT01483560']",MONDO_0005147,type 1 diabetes mellitus
+266,NDUFA6,NADH:ubiquinone oxidoreductase subunit A6,METFORMIN,Small molecule,CHEMBL1431,3.0,"['NCT01881828', 'NCT02045290', 'NCT01483560', 'NCT01808690']",MONDO_0005147,type 1 diabetes mellitus
+267,NDUFS1,NADH:ubiquinone oxidoreductase core subunit S1,METFORMIN,Small molecule,CHEMBL1431,3.0,['NCT04177303'],MONDO_0005147,type 1 diabetes mellitus
+268,PPIA,peptidylprolyl isomerase A,CYCLOSPORINE,Protein,CHEMBL160,3.0,['NCT01369082'],MONDO_0005147,type 1 diabetes mellitus
+269,FKBP1A,FKBP prolyl isomerase 1A,TACROLIMUS,Small molecule,CHEMBL269732,3.0,['NCT01369082'],MONDO_0005147,type 1 diabetes mellitus
+270,ATP4A,ATPase H+/K+ transporting subunit alpha,OMEPRAZOLE,Small molecule,CHEMBL1503,3.0,['NCT01762644'],MONDO_0005147,type 1 diabetes mellitus
+271,IL2RA,interleukin 2 receptor subunit alpha,DACLIZUMAB,Antibody,CHEMBL1201605,3.0,['NCT00468117'],MONDO_0005147,type 1 diabetes mellitus
+272,MT-ND6,mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 6,METFORMIN,Small molecule,CHEMBL1431,3.0,"['NCT01808690', 'NCT01483560', 'NCT02045290', 'NCT01881828']",MONDO_0005147,type 1 diabetes mellitus
+273,NDUFB5,NADH:ubiquinone oxidoreductase subunit B5,METFORMIN,Small molecule,CHEMBL1431,3.0,['NCT04177303'],MONDO_0005147,type 1 diabetes mellitus
+274,AGTR1,angiotensin II receptor type 1,CANDESARTAN CILEXETIL,Small molecule,CHEMBL1014,3.0,['NCT00252733'],MONDO_0005147,type 1 diabetes mellitus
+275,NDUFB7,NADH:ubiquinone oxidoreductase subunit B7,METFORMIN,Small molecule,CHEMBL1431,3.0,"['NCT01808690', 'NCT01881828', 'NCT01483560', 'NCT02045290']",MONDO_0005147,type 1 diabetes mellitus
+276,NDUFAF2,NADH:ubiquinone oxidoreductase complex assembly factor 2,METFORMIN,Small molecule,CHEMBL1431,3.0,"['NCT01808690', 'NCT02045290', 'NCT01881828', 'NCT01483560']",MONDO_0005147,type 1 diabetes mellitus
+277,NDUFV3,NADH:ubiquinone oxidoreductase subunit V3,METFORMIN,Small molecule,CHEMBL1431,3.0,['NCT04177303'],MONDO_0005147,type 1 diabetes mellitus
+278,NDUFB4,NADH:ubiquinone oxidoreductase subunit B4,METFORMIN,Small molecule,CHEMBL1431,3.0,"['NCT01483560', 'NCT01881828', 'NCT01808690', 'NCT02045290']",MONDO_0005147,type 1 diabetes mellitus
+279,NDUFA3,NADH:ubiquinone oxidoreductase subunit A3,METFORMIN,Small molecule,CHEMBL1431,3.0,"['NCT02045290', 'NCT01881828', 'NCT01483560', 'NCT01808690']",MONDO_0005147,type 1 diabetes mellitus
+280,NDUFV2,NADH:ubiquinone oxidoreductase core subunit V2,METFORMIN,Small molecule,CHEMBL1431,3.0,['NCT04177303'],MONDO_0005147,type 1 diabetes mellitus
+281,NDUFA10,NADH:ubiquinone oxidoreductase subunit A10,METFORMIN,Small molecule,CHEMBL1431,3.0,"['NCT01881828', 'NCT02045290', 'NCT01483560', 'NCT01808690']",MONDO_0005147,type 1 diabetes mellitus
+282,GLP1R,glucagon like peptide 1 receptor,EXENATIDE,Protein,CHEMBL414357,3.0,['NCT00923715'],MONDO_0005147,type 1 diabetes mellitus
+283,CXCR1,C-X-C motif chemokine receptor 1,LADARIXIN,Small molecule,CHEMBL189475,3.0,['NCT04628481'],MONDO_0005147,type 1 diabetes mellitus
+284,CACNA1C,calcium voltage-gated channel subunit alpha1 C,VERAPAMIL,Small molecule,CHEMBL6966,3.0,['NCT04233034'],MONDO_0005147,type 1 diabetes mellitus
+285,MT-ND5,mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 5,METFORMIN,Small molecule,CHEMBL1431,3.0,"['NCT01483560', 'NCT01881828', 'NCT01808690', 'NCT02045290']",MONDO_0005147,type 1 diabetes mellitus
+286,INSR,insulin receptor,INSULIN,Protein,CHEMBL1201631,3.0,['NCT02463097'],MONDO_0005147,type 1 diabetes mellitus
+287,MT-ND2,mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 2,METFORMIN,Small molecule,CHEMBL1431,3.0,"['NCT02045290', 'NCT01808690', 'NCT01483560', 'NCT01881828']",MONDO_0005147,type 1 diabetes mellitus
+288,NDUFV2,NADH:ubiquinone oxidoreductase core subunit V2,METFORMIN,Small molecule,CHEMBL1431,3.0,"['NCT01881828', 'NCT01808690', 'NCT02045290', 'NCT01483560']",MONDO_0005147,type 1 diabetes mellitus
+289,INSR,insulin receptor,INSULIN LISPRO,Protein,CHEMBL1201538,3.0,['NCT00700622'],MONDO_0005147,type 1 diabetes mellitus
+290,ATP4A,ATPase H+/K+ transporting subunit alpha,LANSOPRAZOLE,Small molecule,CHEMBL480,3.0,['NCT01762657'],MONDO_0005147,type 1 diabetes mellitus
+291,NDUFA4,NDUFA4 mitochondrial complex associated,METFORMIN,Small molecule,CHEMBL1431,3.0,"['NCT01808690', 'NCT01483560', 'NCT01881828', 'NCT02045290']",MONDO_0005147,type 1 diabetes mellitus
+292,MT-ND3,mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 3,METFORMIN,Small molecule,CHEMBL1431,3.0,"['NCT01808690', 'NCT01881828', 'NCT01483560', 'NCT02045290']",MONDO_0005147,type 1 diabetes mellitus
+293,NDUFAF1,NADH:ubiquinone oxidoreductase complex assembly factor 1,METFORMIN,Small molecule,CHEMBL1431,3.0,['NCT04177303'],MONDO_0005147,type 1 diabetes mellitus
+294,INSR,insulin receptor,INSULIN,Protein,CHEMBL1201631,3.0,['NCT00923715'],MONDO_0005147,type 1 diabetes mellitus
+295,INSR,insulin receptor,INSULIN,Protein,CHEMBL1201631,3.0,"['NCT00642616', 'NCT00700622', 'NCT00137046', 'NCT00332826', 'NCT01308437', 'NCT00322257', 'NCT00479258']",MONDO_0005147,type 1 diabetes mellitus
+296,GCGR,glucagon receptor,GLUCAGON HYDROCHLORIDE,Protein,CHEMBL1201618,3.0,['NCT00929812'],MONDO_0005147,type 1 diabetes mellitus
+297,INSR,insulin receptor,INSULIN,Protein,CHEMBL1201631,3.0,['NCT02987556'],MONDO_0005147,type 1 diabetes mellitus
+298,NDUFA9,NADH:ubiquinone oxidoreductase subunit A9,METFORMIN,Small molecule,CHEMBL1431,3.0,"['NCT02045290', 'NCT01808690', 'NCT01483560', 'NCT01881828']",MONDO_0005147,type 1 diabetes mellitus
+299,CACNA1S,calcium voltage-gated channel subunit alpha1 S,VERAPAMIL,Small molecule,CHEMBL6966,3.0,['NCT04233034'],MONDO_0005147,type 1 diabetes mellitus
+300,NDUFS4,NADH:ubiquinone oxidoreductase subunit S4,METFORMIN,Small molecule,CHEMBL1431,3.0,"['NCT01808690', 'NCT02045290', 'NCT01483560', 'NCT01881828']",MONDO_0005147,type 1 diabetes mellitus
+301,IL2RA,interleukin 2 receptor subunit alpha,BASILIXIMAB,Antibody,CHEMBL1201439,3.0,"['NCT00434811', 'NCT00468117']",MONDO_0005147,type 1 diabetes mellitus
+302,MT-ND5,mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 5,METFORMIN,Small molecule,CHEMBL1431,3.0,['NCT04177303'],MONDO_0005147,type 1 diabetes mellitus
+303,MT-ND1,mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 1,METFORMIN,Small molecule,CHEMBL1431,3.0,"['NCT01881828', 'NCT01808690', 'NCT02045290', 'NCT01483560']",MONDO_0005147,type 1 diabetes mellitus
+304,NDUFAF4,NADH:ubiquinone oxidoreductase complex assembly factor 4,METFORMIN,Small molecule,CHEMBL1431,3.0,['NCT04177303'],MONDO_0005147,type 1 diabetes mellitus
+305,NDUFB11,NADH:ubiquinone oxidoreductase subunit B11,METFORMIN,Small molecule,CHEMBL1431,3.0,"['NCT01808690', 'NCT02045290', 'NCT01881828', 'NCT01483560']",MONDO_0005147,type 1 diabetes mellitus
+306,CD3E,CD3 epsilon subunit of T-cell receptor complex,OTELIXIZUMAB,Antibody,CHEMBL1743053,3.0,"['NCT00678886', 'NCT01123083']",MONDO_0005147,type 1 diabetes mellitus
+307,GPD2,glycerol-3-phosphate dehydrogenase 2,METFORMIN,Small molecule,CHEMBL1431,3.0,"['NCT01483560', 'NCT01808690', 'NCT02045290', 'NCT01881828']",MONDO_0005147,type 1 diabetes mellitus
+308,MT-ND4,mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 4,METFORMIN,Small molecule,CHEMBL1431,3.0,"['NCT01808690', 'NCT02045290', 'NCT01483560', 'NCT01881828']",MONDO_0005147,type 1 diabetes mellitus
+309,GCGR,glucagon receptor,GLUCAGON,Protein,CHEMBL266481,3.0,"['NCT00206258', 'NCT03091673', 'NCT01994746']",MONDO_0005147,type 1 diabetes mellitus
+310,HMGCR,3-hydroxy-3-methylglutaryl-CoA reductase,PITAVASTATIN,Small molecule,CHEMBL1201753,3.0,['NCT01581476'],MONDO_0005147,type 1 diabetes mellitus
+311,NDUFB10,NADH:ubiquinone oxidoreductase subunit B10,METFORMIN,Small molecule,CHEMBL1431,3.0,['NCT04177303'],MONDO_0005147,type 1 diabetes mellitus
+312,SLC5A2,solute carrier family 5 member 2,SOTAGLIFLOZIN,Small molecule,CHEMBL3039507,3.0,"['NCT02384941', 'NCT02421510', 'NCT02531035']",MONDO_0005147,type 1 diabetes mellitus
+313,NDUFS3,NADH:ubiquinone oxidoreductase core subunit S3,METFORMIN,Small molecule,CHEMBL1431,3.0,"['NCT01808690', 'NCT01483560', 'NCT02045290', 'NCT01881828']",MONDO_0005147,type 1 diabetes mellitus
+314,INSR,insulin receptor,INSULIN LISPRO,Protein,CHEMBL1201538,3.0,"['NCT01398670', 'NCT04254380']",MONDO_0005147,type 1 diabetes mellitus
+315,NDUFAF3,NADH:ubiquinone oxidoreductase complex assembly factor 3,METFORMIN,Small molecule,CHEMBL1431,3.0,['NCT04177303'],MONDO_0005147,type 1 diabetes mellitus
+316,NDUFV1,NADH:ubiquinone oxidoreductase core subunit V1,METFORMIN,Small molecule,CHEMBL1431,3.0,"['NCT01808690', 'NCT02045290', 'NCT01881828', 'NCT01483560']",MONDO_0005147,type 1 diabetes mellitus
+317,SLC5A2,solute carrier family 5 member 2,DAPAGLIFLOZIN,Small molecule,CHEMBL429910,3.0,"['NCT02777073', 'NCT02582814', 'NCT02518945', 'NCT02460978', 'NCT02268214']",MONDO_0005147,type 1 diabetes mellitus
+318,INSR,insulin receptor,INSULIN ASPART,Protein,CHEMBL1201496,3.0,['NCT00322257'],MONDO_0005147,type 1 diabetes mellitus
+319,CACNA1F,calcium voltage-gated channel subunit alpha1 F,VERAPAMIL,Small molecule,CHEMBL6966,3.0,['NCT04233034'],MONDO_0005147,type 1 diabetes mellitus
+320,INSR,insulin receptor,INSULIN DEGLUDEC,Protein,CHEMBL2107869,3.0,['NCT05463744'],MONDO_0005147,type 1 diabetes mellitus
+321,NDUFA1,NADH:ubiquinone oxidoreductase subunit A1,METFORMIN,Small molecule,CHEMBL1431,3.0,['NCT04177303'],MONDO_0005147,type 1 diabetes mellitus
+322,NDUFC1,NADH:ubiquinone oxidoreductase subunit C1,METFORMIN,Small molecule,CHEMBL1431,3.0,['NCT04177303'],MONDO_0005147,type 1 diabetes mellitus
+323,NDUFB5,NADH:ubiquinone oxidoreductase subunit B5,METFORMIN,Small molecule,CHEMBL1431,3.0,"['NCT01808690', 'NCT01483560', 'NCT01881828', 'NCT02045290']",MONDO_0005147,type 1 diabetes mellitus
+324,MT-ND1,mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 1,METFORMIN,Small molecule,CHEMBL1431,3.0,['NCT04177303'],MONDO_0005147,type 1 diabetes mellitus
+325,IMPDH2,inosine monophosphate dehydrogenase 2,MYCOPHENOLATE MOFETIL,Small molecule,CHEMBL1456,3.0,['NCT00140543'],MONDO_0005147,type 1 diabetes mellitus
+326,NDUFB6,NADH:ubiquinone oxidoreductase subunit B6,METFORMIN,Small molecule,CHEMBL1431,3.0,['NCT04177303'],MONDO_0005147,type 1 diabetes mellitus
+327,NDUFA7,NADH:ubiquinone oxidoreductase subunit A7,METFORMIN,Small molecule,CHEMBL1431,3.0,['NCT04177303'],MONDO_0005147,type 1 diabetes mellitus
+328,NDUFA2,NADH:ubiquinone oxidoreductase subunit A2,METFORMIN,Small molecule,CHEMBL1431,3.0,['NCT04177303'],MONDO_0005147,type 1 diabetes mellitus
+329,NDUFB2,NADH:ubiquinone oxidoreductase subunit B2,METFORMIN,Small molecule,CHEMBL1431,3.0,['NCT04177303'],MONDO_0005147,type 1 diabetes mellitus
+330,NDUFB9,NADH:ubiquinone oxidoreductase subunit B9,METFORMIN,Small molecule,CHEMBL1431,3.0,"['NCT01881828', 'NCT01808690', 'NCT02045290', 'NCT01483560']",MONDO_0005147,type 1 diabetes mellitus
+331,INSR,insulin receptor,INSULIN DETEMIR,Protein,CHEMBL2104391,3.0,['NCT00322257'],MONDO_0005147,type 1 diabetes mellitus
+332,GAA,alpha glucosidase,MIGLITOL,Small molecule,CHEMBL1561,3.0,['NCT00213109'],MONDO_0005147,type 1 diabetes mellitus
+333,NDUFAF3,NADH:ubiquinone oxidoreductase complex assembly factor 3,METFORMIN,Small molecule,CHEMBL1431,3.0,"['NCT02045290', 'NCT01881828', 'NCT01483560', 'NCT01808690']",MONDO_0005147,type 1 diabetes mellitus
+334,INSR,insulin receptor,INSULIN,Protein,CHEMBL1201631,3.0,['NCT02660827'],MONDO_0005147,type 1 diabetes mellitus
+335,INSR,insulin receptor,INSULIN,Protein,CHEMBL1201631,3.0,['NCT01352663'],MONDO_0005147,type 1 diabetes mellitus
+336,INSR,insulin receptor,INSULIN,Protein,CHEMBL1201631,3.0,"['NCT01798914', 'NCT04848480', 'NCT01194882', 'NCT00191581', 'NCT00308737', 'NCT00569400', 'NCT00424333', 'NCT00617565', 'NCT00725036', 'NCT00071448', 'NCT00127634', 'NCT01486940', 'NCT00542724', 'NCT00424437', 'NCT02518945', 'NCT01707134', 'NCT02897219', 'NCT00419562', 'NCT01467323', 'NCT00211536', 'NCT00410033', 'NCT01445951', 'NCT01754181', 'NCT00356109', 'NCT00004984', 'NCT01616784', 'NCT01520818', 'NCT04022993', 'NCT02130284', 'NCT03977727', 'NCT02059161']",MONDO_0005147,type 1 diabetes mellitus
+337,VDR,vitamin D receptor,ERGOCALCIFEROL,Small molecule,CHEMBL1536,3.0,['NCT01029392'],MONDO_0005147,type 1 diabetes mellitus
+338,NDUFS7,NADH:ubiquinone oxidoreductase core subunit S7,METFORMIN,Small molecule,CHEMBL1431,3.0,"['NCT02045290', 'NCT01483560', 'NCT01881828', 'NCT01808690']",MONDO_0005147,type 1 diabetes mellitus
+339,NDUFC2,NADH:ubiquinone oxidoreductase subunit C2,METFORMIN,Small molecule,CHEMBL1431,3.0,"['NCT01808690', 'NCT01483560', 'NCT01881828', 'NCT02045290']",MONDO_0005147,type 1 diabetes mellitus
+340,MT-ND4L,mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 4L,METFORMIN,Small molecule,CHEMBL1431,3.0,['NCT04177303'],MONDO_0005147,type 1 diabetes mellitus
+341,INSR,insulin receptor,INSULIN,Protein,CHEMBL1201631,3.0,"['NCT01067950', 'NCT00223613']",MONDO_0005147,type 1 diabetes mellitus
+342,NDUFC2,NADH:ubiquinone oxidoreductase subunit C2,METFORMIN,Small molecule,CHEMBL1431,3.0,['NCT04177303'],MONDO_0005147,type 1 diabetes mellitus
+343,NDUFB1,NADH:ubiquinone oxidoreductase subunit B1,METFORMIN,Small molecule,CHEMBL1431,3.0,"['NCT01881828', 'NCT01808690', 'NCT02045290', 'NCT01483560']",MONDO_0005147,type 1 diabetes mellitus
+344,GLP1R,glucagon like peptide 1 receptor,LIRAGLUTIDE,Protein,CHEMBL4084119,3.0,['NCT02516657'],MONDO_0005147,type 1 diabetes mellitus
+345,HMGCR,3-hydroxy-3-methylglutaryl-CoA reductase,ROSUVASTATIN CALCIUM,Small molecule,CHEMBL1744447,3.0,['NCT01581476'],MONDO_0005147,type 1 diabetes mellitus
+346,NDUFA12,NADH:ubiquinone oxidoreductase subunit A12,METFORMIN,Small molecule,CHEMBL1431,3.0,"['NCT01808690', 'NCT01483560', 'NCT02045290', 'NCT01881828']",MONDO_0005147,type 1 diabetes mellitus
+347,CACNA1D,calcium voltage-gated channel subunit alpha1 D,VERAPAMIL,Small molecule,CHEMBL6966,3.0,['NCT04233034'],MONDO_0005147,type 1 diabetes mellitus
+348,HMGCR,3-hydroxy-3-methylglutaryl-CoA reductase,PRAVASTATIN SODIUM,Small molecule,CHEMBL690,3.0,['NCT01581476'],MONDO_0005147,type 1 diabetes mellitus
+349,NDUFA6,NADH:ubiquinone oxidoreductase subunit A6,METFORMIN,Small molecule,CHEMBL1431,3.0,['NCT04177303'],MONDO_0005147,type 1 diabetes mellitus
+350,GLP1R,glucagon like peptide 1 receptor,SEMAGLUTIDE,Protein,CHEMBL2108724,3.0,['NCT05819138'],MONDO_0005147,type 1 diabetes mellitus
+351,NDUFC1,NADH:ubiquinone oxidoreductase subunit C1,METFORMIN,Small molecule,CHEMBL1431,3.0,"['NCT01483560', 'NCT02045290', 'NCT01808690', 'NCT01881828']",MONDO_0005147,type 1 diabetes mellitus
+352,NDUFAB1,NADH:ubiquinone oxidoreductase subunit AB1,METFORMIN,Small molecule,CHEMBL1431,3.0,['NCT04177303'],MONDO_0005147,type 1 diabetes mellitus
+353,NDUFAF1,NADH:ubiquinone oxidoreductase complex assembly factor 1,METFORMIN,Small molecule,CHEMBL1431,3.0,"['NCT02045290', 'NCT01881828', 'NCT01808690', 'NCT01483560']",MONDO_0005147,type 1 diabetes mellitus
+354,NDUFB3,NADH:ubiquinone oxidoreductase subunit B3,METFORMIN,Small molecule,CHEMBL1431,3.0,['NCT04177303'],MONDO_0005147,type 1 diabetes mellitus
+355,NDUFB8,NADH:ubiquinone oxidoreductase subunit B8,METFORMIN,Small molecule,CHEMBL1431,3.0,['NCT04177303'],MONDO_0005147,type 1 diabetes mellitus
+356,NDUFB1,NADH:ubiquinone oxidoreductase subunit B1,METFORMIN,Small molecule,CHEMBL1431,3.0,['NCT04177303'],MONDO_0005147,type 1 diabetes mellitus
+357,SLC5A2,solute carrier family 5 member 2,DAPAGLIFLOZIN PROPYLENE GLYCOL,Small molecule,CHEMBL2103802,3.0,['NCT02777073'],MONDO_0005147,type 1 diabetes mellitus
+358,FKBP1A,FKBP prolyl isomerase 1A,SIROLIMUS,Small molecule,CHEMBL413,3.0,['NCT01369082'],MONDO_0005147,type 1 diabetes mellitus
+359,NDUFA8,NADH:ubiquinone oxidoreductase subunit A8,METFORMIN,Small molecule,CHEMBL1431,3.0,['NCT04177303'],MONDO_0005147,type 1 diabetes mellitus
+360,CALCR,calcitonin receptor,PRAMLINTIDE,Protein,CHEMBL2103758,3.0,['NCT00923715'],MONDO_0005147,type 1 diabetes mellitus
+361,CD3E,CD3 epsilon subunit of T-cell receptor complex,TEPLIZUMAB,Antibody,CHEMBL1743078,3.0,['NCT00920582'],MONDO_0005147,type 1 diabetes mellitus
+362,NDUFB10,NADH:ubiquinone oxidoreductase subunit B10,METFORMIN,Small molecule,CHEMBL1431,3.0,"['NCT01881828', 'NCT01483560', 'NCT01808690', 'NCT02045290']",MONDO_0005147,type 1 diabetes mellitus
+363,NDUFA10,NADH:ubiquinone oxidoreductase subunit A10,METFORMIN,Small molecule,CHEMBL1431,3.0,['NCT04177303'],MONDO_0005147,type 1 diabetes mellitus
+364,CXCR1,C-X-C motif chemokine receptor 1,REPARIXIN,Small molecule,CHEMBL191413,3.0,['NCT01817959'],MONDO_0005147,type 1 diabetes mellitus
+365,MT-ND2,mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 2,METFORMIN,Small molecule,CHEMBL1431,3.0,['NCT04177303'],MONDO_0005147,type 1 diabetes mellitus
+366,NDUFA11,NADH:ubiquinone oxidoreductase subunit A11,METFORMIN,Small molecule,CHEMBL1431,3.0,['NCT04177303'],MONDO_0005147,type 1 diabetes mellitus
+367,NDUFA4,NDUFA4 mitochondrial complex associated,METFORMIN,Small molecule,CHEMBL1431,3.0,['NCT04177303'],MONDO_0005147,type 1 diabetes mellitus
+368,VDR,vitamin D receptor,CHOLECALCIFEROL,Small molecule,CHEMBL1042,3.0,['NCT05018585'],MONDO_0005147,type 1 diabetes mellitus
+369,CXCR2,C-X-C motif chemokine receptor 2,LADARIXIN,Small molecule,CHEMBL189475,3.0,['NCT04628481'],MONDO_0005147,type 1 diabetes mellitus
+370,MT-ND6,mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 6,METFORMIN,Small molecule,CHEMBL1431,3.0,['NCT04177303'],MONDO_0005147,type 1 diabetes mellitus
+371,ACE,angiotensin I converting enzyme,QUINAPRIL,Small molecule,CHEMBL1592,3.0,['NCT01581476'],MONDO_0005147,type 1 diabetes mellitus
+372,NDUFB8,NADH:ubiquinone oxidoreductase subunit B8,METFORMIN,Small molecule,CHEMBL1431,3.0,"['NCT02045290', 'NCT01808690', 'NCT01483560', 'NCT01881828']",MONDO_0005147,type 1 diabetes mellitus
+373,SLC5A2,solute carrier family 5 member 2,DAPAGLIFLOZIN,Small molecule,CHEMBL429910,3.0,['NCT04333823'],MONDO_0005147,type 1 diabetes mellitus
+374,IMPDH1,inosine monophosphate dehydrogenase 1,MYCOPHENOLATE MOFETIL,Small molecule,CHEMBL1456,3.0,['NCT01369082'],MONDO_0005147,type 1 diabetes mellitus
+375,MGAM,maltase-glucoamylase,MIGLITOL,Small molecule,CHEMBL1561,3.0,['NCT00213109'],MONDO_0005147,type 1 diabetes mellitus
+376,INSR,insulin receptor,INSULIN SUSP ISOPHANE RECOMBINANT HUMAN,Protein,CHEMBL1201540,3.0,['NCT01461616'],MONDO_0005147,type 1 diabetes mellitus
+377,CXCR2,C-X-C motif chemokine receptor 2,REPARIXIN,Small molecule,CHEMBL191413,3.0,['NCT01817959'],MONDO_0005147,type 1 diabetes mellitus
+378,HMGCR,3-hydroxy-3-methylglutaryl-CoA reductase,ROSUVASTATIN,Small molecule,CHEMBL1496,3.0,['NCT01581476'],MONDO_0005147,type 1 diabetes mellitus
+379,NDUFA13,NADH:ubiquinone oxidoreductase subunit A13,METFORMIN,Small molecule,CHEMBL1431,3.0,"['NCT01483560', 'NCT02045290', 'NCT01881828', 'NCT01808690']",MONDO_0005147,type 1 diabetes mellitus
+380,INSR,insulin receptor,INSULIN GLULISINE,Protein,CHEMBL1201613,3.0,"['NCT00290979', 'NCT00115570', 'NCT00397553', 'NCT00271284']",MONDO_0005147,type 1 diabetes mellitus
+381,INSR,insulin receptor,INSULIN SUSP ISOPHANE BEEF,Protein,CHEMBL1201545,3.0,"['NCT00605137', 'NCT00595374', 'NCT01223131', 'NCT00184665', 'NCT00604344', 'NCT00474045', 'NCT00993473', 'NCT00832182', 'NCT00725036', 'NCT00115570', 'NCT01697657', 'NCT01707134', 'NCT03220425', 'NCT01486940', 'NCT00312156', 'NCT00435019']",MONDO_0005147,type 1 diabetes mellitus
+382,NDUFA4L2,NDUFA4 mitochondrial complex associated like 2,METFORMIN,Small molecule,CHEMBL1431,3.0,['NCT04177303'],MONDO_0005147,type 1 diabetes mellitus
+383,INSR,insulin receptor,INSULIN GLARGINE,Protein,CHEMBL1201497,3.0,"['NCT00271284', 'NCT02735044', 'NCT00127634', 'NCT02666430', 'NCT00356109', 'NCT02273180', 'NCT03371082', 'NCT01461616', 'NCT01569841', 'NCT00115570', 'NCT00095082', 'NCT00982228', 'NCT01454284', 'NCT02059161', 'NCT00993473', 'NCT02227862', 'NCT03338023', 'NCT02034513', 'NCT01683266', 'NCT00272090', 'NCT00537251', 'NCT01481779', 'NCT03740919', 'NCT03952130', 'NCT01223131', 'NCT00694122', 'NCT00312104', 'NCT03874715', 'NCT03376789', 'NCT01689129', 'NCT01421147', 'NCT01079234', 'NCT03214367']",MONDO_0005147,type 1 diabetes mellitus
+384,NDUFAB1,NADH:ubiquinone oxidoreductase subunit AB1,METFORMIN,Small molecule,CHEMBL1431,3.0,"['NCT01881828', 'NCT01808690', 'NCT01483560', 'NCT02045290']",MONDO_0005147,type 1 diabetes mellitus
+385,IMPDH1,inosine monophosphate dehydrogenase 1,MYCOPHENOLIC ACID,Small molecule,CHEMBL866,3.0,['NCT01369082'],MONDO_0005147,type 1 diabetes mellitus
+386,INSR,insulin receptor,INSULIN PORK,Protein,CHEMBL1201539,3.0,"['NCT01194882', 'NCT01707134', 'NCT01445951', 'NCT01486940']",MONDO_0005147,type 1 diabetes mellitus
+387,NDUFB11,NADH:ubiquinone oxidoreductase subunit B11,METFORMIN,Small molecule,CHEMBL1431,3.0,['NCT04177303'],MONDO_0005147,type 1 diabetes mellitus
+388,AGTR1,angiotensin II receptor type 1,CANDESARTAN,Small molecule,CHEMBL1016,3.0,['NCT00252720'],MONDO_0005147,type 1 diabetes mellitus
+389,NDUFV1,NADH:ubiquinone oxidoreductase core subunit V1,METFORMIN,Small molecule,CHEMBL1431,3.0,['NCT04177303'],MONDO_0005147,type 1 diabetes mellitus
+390,NDUFA4L2,NDUFA4 mitochondrial complex associated like 2,METFORMIN,Small molecule,CHEMBL1431,3.0,"['NCT01808690', 'NCT01483560', 'NCT02045290', 'NCT01881828']",MONDO_0005147,type 1 diabetes mellitus
+391,DPP4,dipeptidyl peptidase 4,VILDAGLIPTIN,Small molecule,CHEMBL142703,3.0,['NCT01559025'],MONDO_0005147,type 1 diabetes mellitus
+392,NDUFB7,NADH:ubiquinone oxidoreductase subunit B7,METFORMIN,Small molecule,CHEMBL1431,3.0,['NCT04177303'],MONDO_0005147,type 1 diabetes mellitus
+393,CALCR,calcitonin receptor,PRAMLINTIDE ACETATE,Protein,CHEMBL3833353,3.0,"['NCT00042458', 'NCT00108004', 'NCT00107107']",MONDO_0005147,type 1 diabetes mellitus
+394,NDUFS5,NADH:ubiquinone oxidoreductase subunit S5,METFORMIN,Small molecule,CHEMBL1431,3.0,"['NCT01881828', 'NCT01483560', 'NCT01808690', 'NCT02045290']",MONDO_0005147,type 1 diabetes mellitus
+395,NDUFB4,NADH:ubiquinone oxidoreductase subunit B4,METFORMIN,Small molecule,CHEMBL1431,3.0,['NCT04177303'],MONDO_0005147,type 1 diabetes mellitus
+396,SLC5A2,solute carrier family 5 member 2,EMPAGLIFLOZIN,Small molecule,CHEMBL2107830,3.0,"['NCT03979352', 'NCT02580591', 'NCT02414958']",MONDO_0005147,type 1 diabetes mellitus
+397,NDUFS5,NADH:ubiquinone oxidoreductase subunit S5,METFORMIN,Small molecule,CHEMBL1431,3.0,['NCT04177303'],MONDO_0005147,type 1 diabetes mellitus
+398,VDR,vitamin D receptor,CHOLECALCIFEROL,Small molecule,CHEMBL1042,3.0,['NCT05270343'],MONDO_0005147,type 1 diabetes mellitus
+399,FKBP1A,FKBP prolyl isomerase 1A,SIROLIMUS,Small molecule,CHEMBL413,3.0,"['NCT00140543', 'NCT00434811', 'NCT01060605']",MONDO_0005147,type 1 diabetes mellitus
+400,NDUFB2,NADH:ubiquinone oxidoreductase subunit B2,METFORMIN,Small molecule,CHEMBL1431,3.0,"['NCT01881828', 'NCT02045290', 'NCT01808690', 'NCT01483560']",MONDO_0005147,type 1 diabetes mellitus
+401,IMPDH1,inosine monophosphate dehydrogenase 1,MYCOPHENOLATE MOFETIL,Small molecule,CHEMBL1456,3.0,['NCT00140543'],MONDO_0005147,type 1 diabetes mellitus
+402,INSR,insulin receptor,INSULIN LISPRO,Protein,CHEMBL1201538,3.0,"['NCT00993473', 'NCT02273180', 'NCT01792284', 'NCT01109316', 'NCT03433677', 'NCT01110746', 'NCT03740919', 'NCT01481779', 'NCT00191581', 'NCT00115570', 'NCT03338023', 'NCT00071448', 'NCT00487240', 'NCT03952130', 'NCT03214367', 'NCT01454284', 'NCT01134107', 'NCT00097071', 'NCT03830281', 'NCT01421147']",MONDO_0005147,type 1 diabetes mellitus
+403,FKBP1A,FKBP prolyl isomerase 1A,TACROLIMUS,Small molecule,CHEMBL269732,3.0,['NCT00434811'],MONDO_0005147,type 1 diabetes mellitus
+404,GLP1R,glucagon like peptide 1 receptor,LIRAGLUTIDE,Protein,CHEMBL4084119,3.0,['NCT01722227'],MONDO_0005147,type 1 diabetes mellitus
+405,NDUFA13,NADH:ubiquinone oxidoreductase subunit A13,METFORMIN,Small molecule,CHEMBL1431,3.0,['NCT04177303'],MONDO_0005147,type 1 diabetes mellitus
+406,NDUFA8,NADH:ubiquinone oxidoreductase subunit A8,METFORMIN,Small molecule,CHEMBL1431,3.0,"['NCT01483560', 'NCT01881828', 'NCT02045290', 'NCT01808690']",MONDO_0005147,type 1 diabetes mellitus
+407,NDUFB6,NADH:ubiquinone oxidoreductase subunit B6,METFORMIN,Small molecule,CHEMBL1431,3.0,"['NCT01483560', 'NCT01881828', 'NCT01808690', 'NCT02045290']",MONDO_0005147,type 1 diabetes mellitus
+408,MT-ND3,mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 3,METFORMIN,Small molecule,CHEMBL1431,3.0,['NCT04177303'],MONDO_0005147,type 1 diabetes mellitus
+409,INSR,insulin receptor,INSULIN DEGLUDEC,Protein,CHEMBL2107869,3.0,"['NCT02670915', 'NCT04848480', 'NCT01569841', 'NCT01190956', 'NCT02034513', 'NCT03377699', 'NCT01835431', 'NCT01074268', 'NCT03740919', 'NCT01079234', 'NCT02500706', 'NCT03952130', 'NCT01513473', 'NCT03214367', 'NCT00978627', 'NCT00982228']",MONDO_0005147,type 1 diabetes mellitus
+410,MT-ND4,mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 4,METFORMIN,Small molecule,CHEMBL1431,3.0,['NCT04177303'],MONDO_0005147,type 1 diabetes mellitus
+411,CD3E,CD3 epsilon subunit of T-cell receptor complex,TEPLIZUMAB,Antibody,CHEMBL1743078,3.0,['NCT03875729'],MONDO_0005147,type 1 diabetes mellitus
+412,NDUFS4,NADH:ubiquinone oxidoreductase subunit S4,METFORMIN,Small molecule,CHEMBL1431,3.0,['NCT04177303'],MONDO_0005147,type 1 diabetes mellitus
+413,IMPDH2,inosine monophosphate dehydrogenase 2,MYCOPHENOLIC ACID,Small molecule,CHEMBL866,3.0,['NCT01369082'],MONDO_0005147,type 1 diabetes mellitus
+414,NDUFA5,NADH:ubiquinone oxidoreductase subunit A5,METFORMIN,Small molecule,CHEMBL1431,3.0,['NCT04177303'],MONDO_0005147,type 1 diabetes mellitus
+415,TNF,tumor necrosis factor,ETANERCEPT,Protein,CHEMBL1201572,3.0,"['NCT00434811', 'NCT00468117']",MONDO_0005147,type 1 diabetes mellitus
+416,PRKCB,protein kinase C beta,RUBOXISTAURIN,Small molecule,CHEMBL91829,3.0,['NCT00297401'],MONDO_0005147,type 1 diabetes mellitus
+417,INSR,insulin receptor,INSULIN ASPART,Protein,CHEMBL1201496,3.0,"['NCT01999322', 'NCT00071448', 'NCT00435019', 'NCT02034513', 'NCT01697657', 'NCT03874715', 'NCT00312104', 'NCT02670915', 'NCT00447382', 'NCT00623194', 'NCT00474045', 'NCT01074268', 'NCT00617565', 'NCT00725036', 'NCT02825251', 'NCT00982228', 'NCT03377699', 'NCT01486381', 'NCT01467323', 'NCT00604656', 'NCT00832182', 'NCT00184665', 'NCT04848480', 'NCT00095082', 'NCT02500706', 'NCT01134107', 'NCT01520818', 'NCT01831765', 'NCT00410033', 'NCT01109316', 'NCT01513473', 'NCT01445951', 'NCT01835431', 'NCT00097071', 'NCT01486940', 'NCT03760068', 'NCT03977727', 'NCT01190956', 'NCT02546401', 'NCT00978627', 'NCT00312156', 'NCT01707134', 'NCT00595374', 'NCT00888732', 'NCT01079234']",MONDO_0005147,type 1 diabetes mellitus
+418,NDUFB9,NADH:ubiquinone oxidoreductase subunit B9,METFORMIN,Small molecule,CHEMBL1431,3.0,['NCT04177303'],MONDO_0005147,type 1 diabetes mellitus
+419,NDUFS6,NADH:ubiquinone oxidoreductase subunit S6,METFORMIN,Small molecule,CHEMBL1431,3.0,"['NCT01483560', 'NCT02045290', 'NCT01808690', 'NCT01881828']",MONDO_0005147,type 1 diabetes mellitus
+420,NDUFS3,NADH:ubiquinone oxidoreductase core subunit S3,METFORMIN,Small molecule,CHEMBL1431,3.0,['NCT04177303'],MONDO_0005147,type 1 diabetes mellitus
+421,CXCR1,C-X-C motif chemokine receptor 1,REPARIXIN,Small molecule,CHEMBL191413,2.0,['NCT01220856'],MONDO_0005147,type 1 diabetes mellitus
+422,GCGR,glucagon receptor,VOLAGIDEMAB,Antibody,CHEMBL4298213,2.0,['NCT04779645'],MONDO_0005147,type 1 diabetes mellitus
+423,INSR,insulin receptor,INSULIN,Protein,CHEMBL1201631,2.0,"['NCT02909829', 'NCT04031599']",MONDO_0005147,type 1 diabetes mellitus
+424,CD2,CD2 molecule,ALEFACEPT,Protein,CHEMBL1201571,2.0,['NCT00965458'],MONDO_0005147,type 1 diabetes mellitus
+425,SERPINC1,serpin family C member 1,HEPARIN SODIUM,Oligosaccharide,CHEMBL1201657,2.0,['NCT00790439'],MONDO_0005147,type 1 diabetes mellitus
+426,CD86,CD86 molecule,ABATACEPT,Protein,CHEMBL1201823,2.0,['NCT03929601'],MONDO_0005147,type 1 diabetes mellitus
+427,ITGAL,integrin subunit alpha L,EFALIZUMAB,Antibody,CHEMBL1201575,2.0,['NCT00737763'],MONDO_0005147,type 1 diabetes mellitus
+428,CACNA1F,calcium voltage-gated channel subunit alpha1 F,VERAPAMIL,Small molecule,CHEMBL6966,2.0,['NCT02372253'],MONDO_0005147,type 1 diabetes mellitus
+429,IL1B,interleukin 1 beta,CANAKINUMAB,Antibody,CHEMBL1201834,2.0,['NCT01322321'],MONDO_0005147,type 1 diabetes mellitus
+430,KIT,"KIT proto-oncogene, receptor tyrosine kinase",IMATINIB,Small molecule,CHEMBL941,2.0,['NCT01781975'],MONDO_0005147,type 1 diabetes mellitus
+431,IL1B,interleukin 1 beta,CANAKINUMAB,Antibody,CHEMBL1201834,2.0,['NCT00947427'],MONDO_0005147,type 1 diabetes mellitus
+432,PPIA,peptidylprolyl isomerase A,CYCLOSPORINE,Protein,CHEMBL160,2.0,['NCT00790439'],MONDO_0005147,type 1 diabetes mellitus
+433,ATP4A,ATPase H+/K+ transporting subunit alpha,LANSOPRAZOLE,Small molecule,CHEMBL480,2.0,['NCT01155284'],MONDO_0005147,type 1 diabetes mellitus
+434,JAK1,Janus kinase 1,BARICITINIB,Small molecule,CHEMBL2105759,2.0,['NCT04774224'],MONDO_0005147,type 1 diabetes mellitus
+435,IL12B,interleukin 12B,USTEKINUMAB,Antibody,CHEMBL1201835,2.0,['NCT03941132'],MONDO_0005147,type 1 diabetes mellitus
+436,ODC1,ornithine decarboxylase 1,EFLORNITHINE,Small molecule,CHEMBL830,2.0,['NCT05594563'],MONDO_0005147,type 1 diabetes mellitus
+437,HMGCR,3-hydroxy-3-methylglutaryl-CoA reductase,ATORVASTATIN CALCIUM,Small molecule,CHEMBL393220,2.0,['NCT00529191'],MONDO_0005147,type 1 diabetes mellitus
+438,CACNA1F,calcium voltage-gated channel subunit alpha1 F,VERAPAMIL,Small molecule,CHEMBL6966,2.0,['NCT04545151'],MONDO_0005147,type 1 diabetes mellitus
+439,IL2RA,interleukin 2 receptor subunit alpha,DACLIZUMAB,Antibody,CHEMBL1201605,2.0,"['NCT00434850', 'NCT00014911', 'NCT00100178', 'NCT00198146']",MONDO_0005147,type 1 diabetes mellitus
+440,SSTR4,somatostatin receptor 4,SOMATOSTATIN,Protein,CHEMBL1823872,2.0,['NCT00786825'],MONDO_0005147,type 1 diabetes mellitus
+441,GLP1R,glucagon like peptide 1 receptor,LIRAGLUTIDE,Protein,CHEMBL4084119,2.0,['NCT02584582'],MONDO_0005147,type 1 diabetes mellitus
+442,IL17A,interleukin 17A,IXEKIZUMAB,Antibody,CHEMBL1743034,2.0,['NCT04589325'],MONDO_0005147,type 1 diabetes mellitus
+443,DRD2,dopamine receptor D2,BROMOCRIPTINE,Small molecule,CHEMBL493,2.0,['NCT02544321'],MONDO_0005147,type 1 diabetes mellitus
+444,TLR7,toll like receptor 7,HYDROXYCHLOROQUINE,Small molecule,CHEMBL1535,2.0,['NCT03428945'],MONDO_0005147,type 1 diabetes mellitus
+445,GLP1R,glucagon like peptide 1 receptor,DULAGLUTIDE,Protein,CHEMBL2108027,2.0,['NCT03668470'],MONDO_0005147,type 1 diabetes mellitus
+446,CXCR2,C-X-C motif chemokine receptor 2,REPARIXIN,Small molecule,CHEMBL191413,2.0,['NCT01220856'],MONDO_0005147,type 1 diabetes mellitus
+447,IL2RB,interleukin 2 receptor subunit beta,ALDESLEUKIN,Protein,CHEMBL1201438,2.0,['NCT03782636'],MONDO_0005147,type 1 diabetes mellitus
+448,PTGS1,prostaglandin-endoperoxide synthase 1,ACETAMINOPHEN,Small molecule,CHEMBL112,2.0,['NCT02408705'],MONDO_0005147,type 1 diabetes mellitus
+449,IL2RA,interleukin 2 receptor subunit alpha,DACLIZUMAB,Antibody,CHEMBL1201605,2.0,['NCT00790439'],MONDO_0005147,type 1 diabetes mellitus
+450,CD40LG,CD40 ligand,AT-1501,Unknown,CHEMBL4594460,2.0,['NCT04711226'],MONDO_0005147,type 1 diabetes mellitus
+451,KIT,"KIT proto-oncogene, receptor tyrosine kinase",IMATINIB MESYLATE,Small molecule,CHEMBL1642,2.0,['NCT01781975'],MONDO_0005147,type 1 diabetes mellitus
+452,INSR,insulin receptor,INSULIN DEGLUDEC,Protein,CHEMBL2107869,2.0,"['NCT04450407', 'NCT04585776', 'NCT00841087', 'NCT00612040', 'NCT03938740']",MONDO_0005147,type 1 diabetes mellitus
+453,PTGS1,prostaglandin-endoperoxide synthase 1,ASPIRIN,Small molecule,CHEMBL25,2.0,['NCT00789308'],MONDO_0005147,type 1 diabetes mellitus
+454,CXCR1,C-X-C motif chemokine receptor 1,LADARIXIN,Small molecule,CHEMBL189475,2.0,['NCT02814838'],MONDO_0005147,type 1 diabetes mellitus
+455,INSR,insulin receptor,INSULIN,Protein,CHEMBL1201631,2.0,"['NCT00553488', 'NCT02660242', 'NCT02580877', 'NCT00456300', 'NCT00774800', 'NCT02846831', 'NCT02416765', 'NCT00143104', 'NCT00146484', 'NCT02798250', 'NCT02284009', 'NCT00063128', 'NCT02547519', 'NCT00662857', 'NCT00539396', 'NCT02855307', 'NCT02626936', 'NCT03111433', 'NCT04074317', 'NCT04150107', 'NCT00883558', 'NCT01074801', 'NCT00807651', 'NCT01755416', 'NCT02527265', 'NCT02146651', 'NCT02774876', 'NCT00336674', 'NCT00447213', 'NCT00567775', 'NCT01440140', 'NCT02028078', 'NCT03182322']",MONDO_0005147,type 1 diabetes mellitus
+456,ABL1,"ABL proto-oncogene 1, non-receptor tyrosine kinase",IMATINIB,Small molecule,CHEMBL941,2.0,['NCT01781975'],MONDO_0005147,type 1 diabetes mellitus
+457,GLP1R,glucagon like peptide 1 receptor,LIRAGLUTIDE,Protein,CHEMBL4084119,2.0,"['NCT02408705', 'NCT01879917', 'NCT02617654', 'NCT02908087', 'NCT02898506', 'NCT01755416', 'NCT02443155', 'NCT01782261', 'NCT02351232']",MONDO_0005147,type 1 diabetes mellitus
+458,GCGR,glucagon receptor,VOLAGIDEMAB,Antibody,CHEMBL4298213,2.0,['NCT03117998'],MONDO_0005147,type 1 diabetes mellitus
+459,PTGS2,prostaglandin-endoperoxide synthase 2,IBUPROFEN,Small molecule,CHEMBL521,2.0,['NCT01785108'],MONDO_0005147,type 1 diabetes mellitus
+460,INSR,insulin receptor,INSULIN ASPART,Protein,CHEMBL1201496,2.0,"['NCT03565666', 'NCT00797823', 'NCT02101229', 'NCT00612040', 'NCT03816761', 'NCT00841087', 'NCT01194245']",MONDO_0005147,type 1 diabetes mellitus
+461,CD3E,CD3 epsilon subunit of T-cell receptor complex,TEPLIZUMAB,Antibody,CHEMBL1743078,2.0,['NCT00870818'],MONDO_0005147,type 1 diabetes mellitus
+462,FKBP1A,FKBP prolyl isomerase 1A,SIROLIMUS,Small molecule,CHEMBL413,2.0,"['NCT00533442', 'NCT02803892', 'NCT00464555', 'NCT00434850', 'NCT00014911', 'NCT00789308']",MONDO_0005147,type 1 diabetes mellitus
+463,SERPINC1,serpin family C member 1,HEPARIN SODIUM,Oligosaccharide,CHEMBL1201657,2.0,['NCT00789308'],MONDO_0005147,type 1 diabetes mellitus
+464,GCGR,glucagon receptor,GLUCAGON,Protein,CHEMBL266481,2.0,['NCT02701257'],MONDO_0005147,type 1 diabetes mellitus
+465,HMGCR,3-hydroxy-3-methylglutaryl-CoA reductase,ATORVASTATIN,Small molecule,CHEMBL1487,2.0,['NCT00529191'],MONDO_0005147,type 1 diabetes mellitus
+466,BTK,Bruton tyrosine kinase,PF-06651600,Small molecule,CHEMBL4085457,2.0,['NCT05743244'],MONDO_0005147,type 1 diabetes mellitus
+467,VDR,vitamin D receptor,CHOLECALCIFEROL,Small molecule,CHEMBL1042,2.0,['NCT02387164'],MONDO_0005147,type 1 diabetes mellitus
+468,DPP4,dipeptidyl peptidase 4,SITAGLIPTIN,Small molecule,CHEMBL1422,2.0,['NCT00837759'],MONDO_0005147,type 1 diabetes mellitus
+469,TNF,tumor necrosis factor,INFLIXIMAB,Antibody,CHEMBL1201581,2.0,['NCT00175266'],MONDO_0005147,type 1 diabetes mellitus
+470,IMPDH1,inosine monophosphate dehydrogenase 1,RIBAVIRIN,Small molecule,CHEMBL1643,2.0,['NCT04838145'],MONDO_0005147,type 1 diabetes mellitus
+471,CACNA1D,calcium voltage-gated channel subunit alpha1 D,VERAPAMIL,Small molecule,CHEMBL6966,2.0,['NCT04545151'],MONDO_0005147,type 1 diabetes mellitus
+472,GCGR,glucagon receptor,GLUCAGON HYDROCHLORIDE,Protein,CHEMBL1201618,2.0,['NCT05454709'],MONDO_0005147,type 1 diabetes mellitus
+473,CD86,CD86 molecule,ABATACEPT,Protein,CHEMBL1201823,2.0,['NCT05742243'],MONDO_0005147,type 1 diabetes mellitus
+474,FAAH,fatty acid amide hydrolase,ACETAMINOPHEN,Small molecule,CHEMBL112,2.0,['NCT02408705'],MONDO_0005147,type 1 diabetes mellitus
+475,GLP1R,glucagon like peptide 1 receptor,ALBIGLUTIDE,Protein,CHEMBL2107841,2.0,['NCT02284009'],MONDO_0005147,type 1 diabetes mellitus
+476,BCR,BCR activator of RhoGEF and GTPase,IMATINIB MESYLATE,Small molecule,CHEMBL1642,2.0,['NCT01781975'],MONDO_0005147,type 1 diabetes mellitus
+477,VDR,vitamin D receptor,ERGOCALCIFEROL,Small molecule,CHEMBL1536,2.0,"['NCT02464033', 'NCT01785108', 'NCT03345004', 'NCT01103817', 'NCT03046927']",MONDO_0005147,type 1 diabetes mellitus
+478,ADRA2C,adrenoceptor alpha 2C,METHYLDOPA,Small molecule,CHEMBL459,2.0,['NCT03396484'],MONDO_0005147,type 1 diabetes mellitus
+479,INSR,insulin receptor,INSULIN,Protein,CHEMBL1201631,2.0,"['NCT03335501', 'NCT00850161', 'NCT02846857', 'NCT02488616', 'NCT02490098']",MONDO_0005147,type 1 diabetes mellitus
+480,ABL1,"ABL proto-oncogene 1, non-receptor tyrosine kinase",IMATINIB MESYLATE,Small molecule,CHEMBL1642,2.0,['NCT01781975'],MONDO_0005147,type 1 diabetes mellitus
+481,TLR9,toll like receptor 9,HYDROXYCHLOROQUINE,Small molecule,CHEMBL1535,2.0,['NCT03428945'],MONDO_0005147,type 1 diabetes mellitus
+482,CD3E,CD3 epsilon subunit of T-cell receptor complex,HOKT3,Antibody,CHEMBL2109253,2.0,['NCT00806572'],MONDO_0005147,type 1 diabetes mellitus
+483,PDGFRB,platelet derived growth factor receptor beta,IMATINIB,Small molecule,CHEMBL941,2.0,['NCT01781975'],MONDO_0005147,type 1 diabetes mellitus
+484,CACNA1D,calcium voltage-gated channel subunit alpha1 D,VERAPAMIL,Small molecule,CHEMBL6966,2.0,['NCT02372253'],MONDO_0005147,type 1 diabetes mellitus
+485,ABCC8,ATP binding cassette subfamily C member 8,GLYBURIDE,Small molecule,CHEMBL472,2.0,['NCT00515801'],MONDO_0005147,type 1 diabetes mellitus
+486,IL1B,interleukin 1 beta,GEVOKIZUMAB,Antibody,CHEMBL1743026,2.0,"['NCT01788033', 'NCT00998699']",MONDO_0005147,type 1 diabetes mellitus
+487,DPP4,dipeptidyl peptidase 4,SITAGLIPTIN,Small molecule,CHEMBL1422,2.0,['NCT05219409'],MONDO_0005147,type 1 diabetes mellitus
+488,DPP4,dipeptidyl peptidase 4,VILDAGLIPTIN,Small molecule,CHEMBL142703,2.0,['NCT02803892'],MONDO_0005147,type 1 diabetes mellitus
+489,IL2RA,interleukin 2 receptor subunit alpha,BASILIXIMAB,Antibody,CHEMBL1201439,2.0,['NCT02464878'],MONDO_0005147,type 1 diabetes mellitus
+490,ITK,IL2 inducible T cell kinase,PF-06651600,Small molecule,CHEMBL4085457,2.0,['NCT05743244'],MONDO_0005147,type 1 diabetes mellitus
+491,INSR,insulin receptor,INSULIN DETEMIR,Protein,CHEMBL2104391,2.0,['NCT00841087'],MONDO_0005147,type 1 diabetes mellitus
+492,CD80,CD80 molecule,ABATACEPT,Protein,CHEMBL1201823,2.0,['NCT05742243'],MONDO_0005147,type 1 diabetes mellitus
+493,PRKCB,protein kinase C beta,RUBOXISTAURIN,Small molecule,CHEMBL91829,2.0,['NCT00761852'],MONDO_0005147,type 1 diabetes mellitus
+494,GPR119,G protein-coupled receptor 119,MBX-2982,Small molecule,CHEMBL3260505,2.0,['NCT04432090'],MONDO_0005147,type 1 diabetes mellitus
+495,ELANE,"elastase, neutrophil expressed",.ALPHA.1-PROTEINASE INHIBITOR HUMAN,Protein,CHEMBL4297879,2.0,['NCT01183455'],MONDO_0005147,type 1 diabetes mellitus
+496,VDR,vitamin D receptor,CALCITRIOL,Small molecule,CHEMBL846,2.0,"['NCT00960635', 'NCT01120119']",MONDO_0005147,type 1 diabetes mellitus
+497,INSR,insulin receptor,INSULIN ASPART,Protein,CHEMBL1201496,2.0,['NCT03262116'],MONDO_0005147,type 1 diabetes mellitus
+498,FKBP1A,FKBP prolyl isomerase 1A,SIROLIMUS,Small molecule,CHEMBL413,2.0,['NCT00468442'],MONDO_0005147,type 1 diabetes mellitus
+499,KCNJ11,potassium inwardly rectifying channel subfamily J member 11,GLYBURIDE,Small molecule,CHEMBL472,2.0,['NCT00515801'],MONDO_0005147,type 1 diabetes mellitus
+500,CSF3R,colony stimulating factor 3 receptor,FILGRASTIM,Protein,CHEMBL1201567,2.0,['NCT02215200'],MONDO_0005147,type 1 diabetes mellitus
+501,ADRB1,adrenoceptor beta 1,PROPRANOLOL,Small molecule,CHEMBL27,2.0,['NCT03161964'],MONDO_0005147,type 1 diabetes mellitus
+502,ATP4A,ATPase H+/K+ transporting subunit alpha,LANSOPRAZOLE,Small molecule,CHEMBL480,2.0,['NCT00837759'],MONDO_0005147,type 1 diabetes mellitus
+503,FKBP1A,FKBP prolyl isomerase 1A,SIROLIMUS,Small molecule,CHEMBL413,2.0,['NCT00790439'],MONDO_0005147,type 1 diabetes mellitus
+504,SSTR2,somatostatin receptor 2,SOMATOSTATIN,Protein,CHEMBL1823872,2.0,['NCT00786825'],MONDO_0005147,type 1 diabetes mellitus
+505,ERVW-1,"endogenous retrovirus group W member 1, envelope",TEMELIMAB,Antibody,CHEMBL4594547,2.0,['NCT03179423'],MONDO_0005147,type 1 diabetes mellitus
+506,GLP1R,glucagon like peptide 1 receptor,EXENATIDE,Protein,CHEMBL414357,2.0,['NCT02584582'],MONDO_0005147,type 1 diabetes mellitus
+507,SERPINC1,serpin family C member 1,ENOXAPARIN SODIUM,Oligosaccharide,CHEMBL1201476,2.0,['NCT00789308'],MONDO_0005147,type 1 diabetes mellitus
+508,INSR,insulin receptor,INSULIN,Protein,CHEMBL1201631,2.0,"['NCT04612257', 'NCT05742243', 'NCT03899402', 'NCT02523131']",MONDO_0005147,type 1 diabetes mellitus
+509,GCGR,glucagon receptor,GLUCAGON,Protein,CHEMBL266481,2.0,"['NCT01828125', 'NCT02846857', 'NCT02490098']",MONDO_0005147,type 1 diabetes mellitus
+510,SLC5A2,solute carrier family 5 member 2,DAPAGLIFLOZIN,Small molecule,CHEMBL429910,2.0,"['NCT04956263', 'NCT01498185']",MONDO_0005147,type 1 diabetes mellitus
+511,BCR,BCR activator of RhoGEF and GTPase,IMATINIB,Small molecule,CHEMBL941,2.0,['NCT01781975'],MONDO_0005147,type 1 diabetes mellitus
+512,IL2RA,interleukin 2 receptor subunit alpha,DACLIZUMAB,Antibody,CHEMBL1201605,2.0,['NCT00468442'],MONDO_0005147,type 1 diabetes mellitus
+513,IL2RA,interleukin 2 receptor subunit alpha,ALDESLEUKIN,Protein,CHEMBL1201438,2.0,['NCT01862120'],MONDO_0005147,type 1 diabetes mellitus
+514,CD3E,CD3 epsilon subunit of T-cell receptor complex,TEPLIZUMAB,Antibody,CHEMBL1743078,2.0,['NCT04270942'],MONDO_0005147,type 1 diabetes mellitus
+515,INSR,insulin receptor,INSULIN LISPRO,Protein,CHEMBL1201538,2.0,['NCT03600116'],MONDO_0005147,type 1 diabetes mellitus
+516,TEC,tec protein tyrosine kinase,PF-06651600,Small molecule,CHEMBL4085457,2.0,['NCT05743244'],MONDO_0005147,type 1 diabetes mellitus
+517,OPRM1,opioid receptor mu 1,NALOXONE,Small molecule,CHEMBL80,2.0,['NCT03149770'],MONDO_0005147,type 1 diabetes mellitus
+518,TXK,TXK tyrosine kinase,PF-06651600,Small molecule,CHEMBL4085457,2.0,['NCT05743244'],MONDO_0005147,type 1 diabetes mellitus
+519,CD40,CD40 molecule,ISCALIMAB,Antibody,CHEMBL4298210,2.0,['NCT04129528'],MONDO_0005147,type 1 diabetes mellitus
+520,GCGR,glucagon receptor,DASIGLUCAGON,Unknown,CHEMBL4297741,2.0,['NCT05454709'],MONDO_0005147,type 1 diabetes mellitus
+521,ACE,angiotensin I converting enzyme,ENALAPRIL,Small molecule,CHEMBL578,2.0,['NCT00143949'],MONDO_0005147,type 1 diabetes mellitus
+522,JAK2,Janus kinase 2,BARICITINIB,Small molecule,CHEMBL2105759,2.0,['NCT04774224'],MONDO_0005147,type 1 diabetes mellitus
+523,FKBP1A,FKBP prolyl isomerase 1A,TACROLIMUS,Small molecule,CHEMBL269732,2.0,"['NCT00533442', 'NCT00014911', 'NCT00464555', 'NCT00434850', 'NCT00468403', 'NCT00789308']",MONDO_0005147,type 1 diabetes mellitus
+524,MS4A1,membrane spanning 4-domains A1,RITUXIMAB,Antibody,CHEMBL1201576,2.0,['NCT03929601'],MONDO_0005147,type 1 diabetes mellitus
+525,CXCR2,C-X-C motif chemokine receptor 2,LADARIXIN,Small molecule,CHEMBL189475,2.0,['NCT02814838'],MONDO_0005147,type 1 diabetes mellitus
+526,SLC5A2,solute carrier family 5 member 2,EMPAGLIFLOZIN,Small molecule,CHEMBL2107830,2.0,"['NCT01969747', 'NCT01392560', 'NCT02632747', 'NCT02702011']",MONDO_0005147,type 1 diabetes mellitus
+527,CD80,CD80 molecule,BELATACEPT,Protein,CHEMBL1742990,2.0,"['NCT00468403', 'NCT00276250']",MONDO_0005147,type 1 diabetes mellitus
+528,INSR,insulin receptor,INSULIN PEGLISPRO,Protein,CHEMBL2108569,2.0,['NCT01049412'],MONDO_0005147,type 1 diabetes mellitus
+529,TNF,tumor necrosis factor,ETANERCEPT,Protein,CHEMBL1201572,2.0,['NCT02464878'],MONDO_0005147,type 1 diabetes mellitus
+530,SLC5A2,solute carrier family 5 member 2,DAPAGLIFLOZIN,Small molecule,CHEMBL429910,2.0,['NCT03537131'],MONDO_0005147,type 1 diabetes mellitus
+531,PTGS2,prostaglandin-endoperoxide synthase 2,ASPIRIN,Small molecule,CHEMBL25,2.0,['NCT00789308'],MONDO_0005147,type 1 diabetes mellitus
+532,IL21,interleukin 21,NNC0114-0006,Unknown,CHEMBL4297797,2.0,['NCT02443155'],MONDO_0005147,type 1 diabetes mellitus
+533,PTGS2,prostaglandin-endoperoxide synthase 2,ACETAMINOPHEN,Small molecule,CHEMBL112,2.0,['NCT02408705'],MONDO_0005147,type 1 diabetes mellitus
+534,CXCR1,C-X-C motif chemokine receptor 1,LADARIXIN,Small molecule,CHEMBL189475,2.0,['NCT04899271'],MONDO_0005147,type 1 diabetes mellitus
+535,MS4A1,membrane spanning 4-domains A1,RITUXIMAB,Antibody,CHEMBL1201576,2.0,['NCT00279305'],MONDO_0005147,type 1 diabetes mellitus
+536,OPRK1,opioid receptor kappa 1,NALOXONE,Small molecule,CHEMBL80,2.0,['NCT03149770'],MONDO_0005147,type 1 diabetes mellitus
+537,IMPDH2,inosine monophosphate dehydrogenase 2,MYCOPHENOLATE MOFETIL,Small molecule,CHEMBL1456,2.0,['NCT00790439'],MONDO_0005147,type 1 diabetes mellitus
+538,GLP1R,glucagon like peptide 1 receptor,LIRAGLUTIDE,Protein,CHEMBL4084119,2.0,['NCT02611232'],MONDO_0005147,type 1 diabetes mellitus
+539,INSR,insulin receptor,INSULIN ASPART,Protein,CHEMBL1201496,2.0,['NCT04031599'],MONDO_0005147,type 1 diabetes mellitus
+540,INSR,insulin receptor,INSULIN LISPRO,Protein,CHEMBL1201538,2.0,"['NCT04816890', 'NCT03760640', 'NCT04585776', 'NCT00883558', 'NCT00553488', 'NCT03096392', 'NCT02146651', 'NCT01686620', 'NCT01194245', 'NCT02971228', 'NCT02794155', 'NCT03156361', 'NCT00774800', 'NCT03938740', 'NCT03565666']",MONDO_0005147,type 1 diabetes mellitus
+541,AGTR1,angiotensin II receptor type 1,LOSARTAN,Small molecule,CHEMBL191,2.0,['NCT00143949'],MONDO_0005147,type 1 diabetes mellitus
+542,SLC5A2,solute carrier family 5 member 2,CANAGLIFLOZIN,Small molecule,CHEMBL4594217,2.0,['NCT02139943'],MONDO_0005147,type 1 diabetes mellitus
+543,VDR,vitamin D receptor,CHOLECALCIFEROL,Small molecule,CHEMBL1042,2.0,['NCT03911843'],MONDO_0005147,type 1 diabetes mellitus
+544,CD3E,CD3 epsilon subunit of T-cell receptor complex,OTELIXIZUMAB,Antibody,CHEMBL1743053,2.0,['NCT00627146'],MONDO_0005147,type 1 diabetes mellitus
+545,TNF,tumor necrosis factor,GOLIMUMAB,Antibody,CHEMBL1201833,2.0,['NCT04729296'],MONDO_0005147,type 1 diabetes mellitus
+546,CD3E,CD3 epsilon subunit of T-cell receptor complex,TEPLIZUMAB,Antibody,CHEMBL1743078,2.0,"['NCT00385697', 'NCT00378508']",MONDO_0005147,type 1 diabetes mellitus
+547,INSR,insulin receptor,INSULIN GLARGINE,Protein,CHEMBL1201497,2.0,"['NCT00883558', 'NCT01049412', 'NCT01658579', 'NCT00447213', 'NCT00612040', 'NCT01194245']",MONDO_0005147,type 1 diabetes mellitus
+548,ITGAL,integrin subunit alpha L,EFALIZUMAB,Antibody,CHEMBL1201575,2.0,['NCT00276250'],MONDO_0005147,type 1 diabetes mellitus
+549,CACNA1S,calcium voltage-gated channel subunit alpha1 S,VERAPAMIL,Small molecule,CHEMBL6966,2.0,['NCT04545151'],MONDO_0005147,type 1 diabetes mellitus
+550,CXCR2,C-X-C motif chemokine receptor 2,LADARIXIN,Small molecule,CHEMBL189475,2.0,['NCT04899271'],MONDO_0005147,type 1 diabetes mellitus
+551,FKBP1A,FKBP prolyl isomerase 1A,TACROLIMUS,Small molecule,CHEMBL269732,2.0,['NCT00790439'],MONDO_0005147,type 1 diabetes mellitus
+552,INSR,insulin receptor,INSULIN,Protein,CHEMBL1201631,2.0,['NCT01684943'],MONDO_0005147,type 1 diabetes mellitus
+553,CALCR,calcitonin receptor,PRAMLINTIDE,Protein,CHEMBL2103758,2.0,"['NCT00042601', 'NCT00042471', 'NCT04074317', 'NCT00313183']",MONDO_0005147,type 1 diabetes mellitus
+554,CXCR1,C-X-C motif chemokine receptor 1,LADARIXIN,Small molecule,CHEMBL189475,2.0,['NCT05035368'],MONDO_0005147,type 1 diabetes mellitus
+555,DPP4,dipeptidyl peptidase 4,SITAGLIPTIN,Small molecule,CHEMBL1422,2.0,"['NCT00768651', 'NCT01155284', 'NCT02127047']",MONDO_0005147,type 1 diabetes mellitus
+556,DRD3,dopamine receptor D3,BROMOCRIPTINE,Small molecule,CHEMBL493,2.0,['NCT02544321'],MONDO_0005147,type 1 diabetes mellitus
+557,SLC5A2,solute carrier family 5 member 2,SOTAGLIFLOZIN,Small molecule,CHEMBL3039507,2.0,"['NCT02383940', 'NCT01742208', 'NCT02459899']",MONDO_0005147,type 1 diabetes mellitus
+558,IL1R1,interleukin 1 receptor type 1,ANAKINRA,Protein,CHEMBL1201570,2.0,['NCT01477476'],MONDO_0005147,type 1 diabetes mellitus
+559,GCGR,glucagon receptor,DASIGLUCAGON,Unknown,CHEMBL4297741,2.0,"['NCT02971228', 'NCT03840278', 'NCT02916251']",MONDO_0005147,type 1 diabetes mellitus
+560,CD52,CD52 molecule,ALEMTUZUMAB,Antibody,CHEMBL1201587,2.0,"['NCT00175253', 'NCT00175266']",MONDO_0005147,type 1 diabetes mellitus
+561,GLP1R,glucagon like peptide 1 receptor,EXENATIDE,Protein,CHEMBL414357,2.0,"['NCT00456300', 'NCT03017352', 'NCT01928329']",MONDO_0005147,type 1 diabetes mellitus
+562,ACE,angiotensin I converting enzyme,RAMIPRIL,Small molecule,CHEMBL1168,2.0,['NCT02632747'],MONDO_0005147,type 1 diabetes mellitus
+563,ATP4A,ATPase H+/K+ transporting subunit alpha,PANTOPRAZOLE,Small molecule,CHEMBL1502,2.0,['NCT00768651'],MONDO_0005147,type 1 diabetes mellitus
+564,INSR,insulin receptor,INSULIN PORK,Protein,CHEMBL1201539,2.0,['NCT00850161'],MONDO_0005147,type 1 diabetes mellitus
+565,CALCR,calcitonin receptor,PRAMLINTIDE ACETATE,Protein,CHEMBL3833353,2.0,"['NCT00313183', 'NCT00042601', 'NCT00042471']",MONDO_0005147,type 1 diabetes mellitus
+566,IL2RA,interleukin 2 receptor subunit alpha,BASILIXIMAB,Antibody,CHEMBL1201439,2.0,"['NCT00434850', 'NCT00464555', 'NCT00468403', 'NCT00789308']",MONDO_0005147,type 1 diabetes mellitus
+567,INSR,insulin receptor,INSULIN PORK,Protein,CHEMBL1201539,2.0,"['NCT02146651', 'NCT04074317']",MONDO_0005147,type 1 diabetes mellitus
+568,CSF3R,colony stimulating factor 3 receptor,PEGFILGRASTIM,Protein,CHEMBL1201568,2.0,['NCT02505893'],MONDO_0005147,type 1 diabetes mellitus
+569,PDGFRB,platelet derived growth factor receptor beta,IMATINIB MESYLATE,Small molecule,CHEMBL1642,2.0,['NCT01781975'],MONDO_0005147,type 1 diabetes mellitus
+570,MS4A1,membrane spanning 4-domains A1,RITUXIMAB,Antibody,CHEMBL1201576,2.0,['NCT00468442'],MONDO_0005147,type 1 diabetes mellitus
+571,CD86,CD86 molecule,ABATACEPT,Protein,CHEMBL1201823,2.0,['NCT00276250'],MONDO_0005147,type 1 diabetes mellitus
+572,IL6R,interleukin 6 receptor,TOCILIZUMAB,Antibody,CHEMBL1237022,2.0,['NCT02293837'],MONDO_0005147,type 1 diabetes mellitus
+573,GCGR,glucagon receptor,GLUCAGON,Protein,CHEMBL266481,2.0,"['NCT02416765', 'NCT02018627', 'NCT02798250', 'NCT02971228', 'NCT02411578', 'NCT02626936', 'NCT02660242', 'NCT02916251', 'NCT00797823', 'NCT01997411']",MONDO_0005147,type 1 diabetes mellitus
+574,INSR,insulin receptor,INSULIN LISPRO,Protein,CHEMBL1201538,2.0,"['NCT00747006', 'NCT03262116']",MONDO_0005147,type 1 diabetes mellitus
+575,ADRB2,adrenoceptor beta 2,PROPRANOLOL,Small molecule,CHEMBL27,2.0,['NCT03161964'],MONDO_0005147,type 1 diabetes mellitus
+576,SERPINC1,serpin family C member 1,HEPARIN SODIUM,Oligosaccharide,CHEMBL1201657,2.0,['NCT03867851'],MONDO_0005147,type 1 diabetes mellitus
+577,IMPDH2,inosine monophosphate dehydrogenase 2,MYCOPHENOLATE MOFETIL,Small molecule,CHEMBL1456,2.0,"['NCT00533442', 'NCT00100178', 'NCT00789308', 'NCT00468403']",MONDO_0005147,type 1 diabetes mellitus
+578,INSR,insulin receptor,INSULIN,Protein,CHEMBL1201631,2.0,"['NCT03364868', 'NCT02620072']",MONDO_0005147,type 1 diabetes mellitus
+579,INSR,insulin receptor,INSULIN,Protein,CHEMBL1201631,2.0,['NCT00837759'],MONDO_0005147,type 1 diabetes mellitus
+580,SLC5A2,solute carrier family 5 member 2,CANAGLIFLOZIN,Small molecule,CHEMBL2048484,2.0,['NCT02139943'],MONDO_0005147,type 1 diabetes mellitus
+581,BMX,BMX non-receptor tyrosine kinase,PF-06651600,Small molecule,CHEMBL4085457,2.0,['NCT05743244'],MONDO_0005147,type 1 diabetes mellitus
+582,DRD4,dopamine receptor D4,BROMOCRIPTINE,Small molecule,CHEMBL493,2.0,['NCT02544321'],MONDO_0005147,type 1 diabetes mellitus
+583,PPIA,peptidylprolyl isomerase A,CYCLOSPORINE,Protein,CHEMBL160,2.0,['NCT05153070'],MONDO_0005147,type 1 diabetes mellitus
+584,CD80,CD80 molecule,ABATACEPT,Protein,CHEMBL1201823,2.0,['NCT03929601'],MONDO_0005147,type 1 diabetes mellitus
+585,SLC12A3,solute carrier family 12 member 3,CHLORTHALIDONE,Small molecule,CHEMBL1055,2.0,['NCT03325114'],MONDO_0005147,type 1 diabetes mellitus
+586,IL12B,interleukin 12B,USTEKINUMAB,Antibody,CHEMBL1201835,2.0,['NCT02204397'],MONDO_0005147,type 1 diabetes mellitus
+587,CXCR2,C-X-C motif chemokine receptor 2,LADARIXIN,Small molecule,CHEMBL189475,2.0,['NCT05035368'],MONDO_0005147,type 1 diabetes mellitus
+588,PTGS1,prostaglandin-endoperoxide synthase 1,IBUPROFEN,Small molecule,CHEMBL521,2.0,['NCT01785108'],MONDO_0005147,type 1 diabetes mellitus
+589,SLC5A2,solute carrier family 5 member 2,REMOGLIFLOZIN ETABONATE,Small molecule,CHEMBL2028665,2.0,['NCT00575159'],MONDO_0005147,type 1 diabetes mellitus
+590,OPRD1,opioid receptor delta 1,NALOXONE,Small molecule,CHEMBL80,2.0,['NCT03149770'],MONDO_0005147,type 1 diabetes mellitus
+591,IL1R1,interleukin 1 receptor type 1,ANAKINRA,Protein,CHEMBL1201570,2.0,['NCT00711503'],MONDO_0005147,type 1 diabetes mellitus
+592,CACNA1S,calcium voltage-gated channel subunit alpha1 S,VERAPAMIL,Small molecule,CHEMBL6966,2.0,['NCT02372253'],MONDO_0005147,type 1 diabetes mellitus
+593,SLC5A2,solute carrier family 5 member 2,DAPAGLIFLOZIN,Small molecule,CHEMBL429910,2.0,['NCT03899402'],MONDO_0005147,type 1 diabetes mellitus
+594,INSR,insulin receptor,INSULIN GLULISINE,Protein,CHEMBL1201613,2.0,['NCT01194245'],MONDO_0005147,type 1 diabetes mellitus
+595,JAK3,Janus kinase 3,PF-06651600,Small molecule,CHEMBL4085457,2.0,['NCT05743244'],MONDO_0005147,type 1 diabetes mellitus
+596,CD3E,CD3 epsilon subunit of T-cell receptor complex,HOKT3,Antibody,CHEMBL2109253,2.0,['NCT00378508'],MONDO_0005147,type 1 diabetes mellitus
+597,IL2RA,interleukin 2 receptor subunit alpha,BASILIXIMAB,Antibody,CHEMBL1201439,2.0,['NCT00790439'],MONDO_0005147,type 1 diabetes mellitus
+598,FKBP1A,FKBP prolyl isomerase 1A,SIROLIMUS,Small molecule,CHEMBL413,2.0,['NCT02505893'],MONDO_0005147,type 1 diabetes mellitus
+599,VDR,vitamin D receptor,ERGOCALCIFEROL,Small molecule,CHEMBL1536,2.0,['NCT04262479'],MONDO_0005147,type 1 diabetes mellitus
+600,CACNA1C,calcium voltage-gated channel subunit alpha1 C,VERAPAMIL,Small molecule,CHEMBL6966,2.0,['NCT04545151'],MONDO_0005147,type 1 diabetes mellitus
+601,IMPDH1,inosine monophosphate dehydrogenase 1,MYCOPHENOLATE MOFETIL,Small molecule,CHEMBL1456,2.0,"['NCT00100178', 'NCT00533442', 'NCT00789308', 'NCT00468403']",MONDO_0005147,type 1 diabetes mellitus
+602,TNF,tumor necrosis factor,ETANERCEPT,Protein,CHEMBL1201572,2.0,"['NCT00789308', 'NCT00434850', 'NCT02464033']",MONDO_0005147,type 1 diabetes mellitus
+603,ADRA2A,adrenoceptor alpha 2A,METHYLDOPA,Small molecule,CHEMBL459,2.0,['NCT03396484'],MONDO_0005147,type 1 diabetes mellitus
+604,GLP1R,glucagon like peptide 1 receptor,LIRAGLUTIDE,Protein,CHEMBL4084119,2.0,['NCT01206101'],MONDO_0005147,type 1 diabetes mellitus
+605,IL17A,interleukin 17A,SECUKINUMAB,Antibody,CHEMBL1743068,2.0,['NCT02044848'],MONDO_0005147,type 1 diabetes mellitus
+606,ADRA2B,adrenoceptor alpha 2B,METHYLDOPA,Small molecule,CHEMBL459,2.0,['NCT03396484'],MONDO_0005147,type 1 diabetes mellitus
+607,SLC5A1,solute carrier family 5 member 1,SOTAGLIFLOZIN,Small molecule,CHEMBL3039507,2.0,"['NCT02459899', 'NCT02383940', 'NCT01742208']",MONDO_0005147,type 1 diabetes mellitus
+608,ELANE,"elastase, neutrophil expressed",.ALPHA.1-PROTEINASE INHIBITOR HUMAN,Protein,CHEMBL4297879,2.0,['NCT02464878'],MONDO_0005147,type 1 diabetes mellitus
+609,IMPDH1,inosine monophosphate dehydrogenase 1,MYCOPHENOLATE MOFETIL,Small molecule,CHEMBL1456,2.0,['NCT00790439'],MONDO_0005147,type 1 diabetes mellitus
+610,GLP1R,glucagon like peptide 1 receptor,SEMAGLUTIDE,Protein,CHEMBL2108724,2.0,['NCT03899402'],MONDO_0005147,type 1 diabetes mellitus
+611,CD3E,CD3 epsilon subunit of T-cell receptor complex,OTELIXIZUMAB,Antibody,CHEMBL1743053,2.0,"['NCT01222078', 'NCT00451321']",MONDO_0005147,type 1 diabetes mellitus
+612,HMGCR,3-hydroxy-3-methylglutaryl-CoA reductase,SIMVASTATIN,Small molecule,CHEMBL1064,2.0,['NCT00441844'],MONDO_0005147,type 1 diabetes mellitus
+613,SSTR1,somatostatin receptor 1,SOMATOSTATIN,Protein,CHEMBL1823872,2.0,['NCT00786825'],MONDO_0005147,type 1 diabetes mellitus
+614,DPP4,dipeptidyl peptidase 4,SAXAGLIPTIN,Small molecule,CHEMBL385517,2.0,['NCT01782261'],MONDO_0005147,type 1 diabetes mellitus
+615,CD86,CD86 molecule,BELATACEPT,Protein,CHEMBL1742990,2.0,"['NCT00276250', 'NCT00468403']",MONDO_0005147,type 1 diabetes mellitus
+616,CXCR2,C-X-C motif chemokine receptor 2,LADARIXIN,Small molecule,CHEMBL189475,2.0,['NCT05368402'],MONDO_0005147,type 1 diabetes mellitus
+617,CXCR1,C-X-C motif chemokine receptor 1,LADARIXIN,Small molecule,CHEMBL189475,2.0,['NCT05368402'],MONDO_0005147,type 1 diabetes mellitus
+618,SSTR5,somatostatin receptor 5,SOMATOSTATIN,Protein,CHEMBL1823872,2.0,['NCT00786825'],MONDO_0005147,type 1 diabetes mellitus
+619,TRPV1,transient receptor potential cation channel subfamily V member 1,ACETAMINOPHEN,Small molecule,CHEMBL112,2.0,['NCT02408705'],MONDO_0005147,type 1 diabetes mellitus
+620,IL2RA,interleukin 2 receptor subunit alpha,ALDESLEUKIN,Protein,CHEMBL1201438,2.0,['NCT03782636'],MONDO_0005147,type 1 diabetes mellitus
+621,CD80,CD80 molecule,ABATACEPT,Protein,CHEMBL1201823,2.0,['NCT00276250'],MONDO_0005147,type 1 diabetes mellitus
+622,CACNA1C,calcium voltage-gated channel subunit alpha1 C,VERAPAMIL,Small molecule,CHEMBL6966,2.0,['NCT02372253'],MONDO_0005147,type 1 diabetes mellitus
+623,IL2RB,interleukin 2 receptor subunit beta,ALDESLEUKIN,Protein,CHEMBL1201438,2.0,['NCT01862120'],MONDO_0005147,type 1 diabetes mellitus
+624,INSR,insulin receptor,INSULIN ASPART,Protein,CHEMBL1201496,2.0,"['NCT00850161', 'NCT03335501']",MONDO_0005147,type 1 diabetes mellitus
+625,TNF,tumor necrosis factor,GOLIMUMAB,Antibody,CHEMBL1201833,2.0,['NCT02846545'],MONDO_0005147,type 1 diabetes mellitus
+626,SSTR3,somatostatin receptor 3,SOMATOSTATIN,Protein,CHEMBL1823872,2.0,['NCT00786825'],MONDO_0005147,type 1 diabetes mellitus
+627,PPIA,peptidylprolyl isomerase A,CYCLOSPORINE,Protein,CHEMBL160,2.0,['NCT00789308'],MONDO_0005147,type 1 diabetes mellitus
+628,JAK1,Janus kinase 1,ABROCITINIB,Small molecule,CHEMBL3655081,2.0,['NCT05743244'],MONDO_0005147,type 1 diabetes mellitus
+629,IL2RA,interleukin 2 receptor subunit alpha,BASILIXIMAB,Antibody,CHEMBL1201439,1.0,['NCT00798785'],MONDO_0005147,type 1 diabetes mellitus
+630,GLP1R,glucagon like peptide 1 receptor,LIXISENATIDE,Protein,CHEMBL2108336,1.0,['NCT01146678'],MONDO_0005147,type 1 diabetes mellitus
+631,CALCR,calcitonin receptor,PRAMLINTIDE ACETATE,Protein,CHEMBL3833353,1.0,"['NCT03512236', 'NCT01708044', 'NCT02500979']",MONDO_0005147,type 1 diabetes mellitus
+632,GCK,glucokinase,AZD-1656,Small molecule,CHEMBL3219124,1.0,['NCT00817505'],MONDO_0005147,type 1 diabetes mellitus
+633,IL1R1,interleukin 1 receptor type 1,ANAKINRA,Protein,CHEMBL1201570,1.0,"['NCT01346085', 'NCT00645840']",MONDO_0005147,type 1 diabetes mellitus
+634,CD86,CD86 molecule,BELATACEPT,Protein,CHEMBL1742990,1.0,['NCT00501709'],MONDO_0005147,type 1 diabetes mellitus
+635,INSR,insulin receptor,INSULIN LISPRO,Protein,CHEMBL1201538,1.0,"['NCT04501107', 'NCT02713841', 'NCT03449433', 'NCT03056456', 'NCT02739906', 'NCT03512236', 'NCT03903016', 'NCT04276207', 'NCT05262387', 'NCT03166124', 'NCT01981031', 'NCT02514954', 'NCT00652288', 'NCT01792323', 'NCT02528396', 'NCT03465878', 'NCT01811849', 'NCT03341299', 'NCT02470637', 'NCT04161976', 'NCT02273258', 'NCT02703324', 'NCT03916640', 'NCT01334151', 'NCT02603510', 'NCT02703350', 'NCT02344992', 'NCT03179332', 'NCT02152384', 'NCT05067270', 'NCT02562313', 'NCT03367390', 'NCT02029924', 'NCT03407118', 'NCT02213146']",MONDO_0005147,type 1 diabetes mellitus
+636,ELANE,"elastase, neutrophil expressed",.ALPHA.1-PROTEINASE INHIBITOR HUMAN,Protein,CHEMBL4297879,1.0,['NCT01183468'],MONDO_0005147,type 1 diabetes mellitus
+637,IL1R1,interleukin 1 receptor type 1,ANAKINRA,Protein,CHEMBL1201570,1.0,['NCT03182426'],MONDO_0005147,type 1 diabetes mellitus
+638,GCGR,glucagon receptor,GLUCAGON,Protein,CHEMBL266481,1.0,"['NCT01916265', 'NCT02625636', 'NCT03176524', 'NCT02910518', 'NCT00304538', 'NCT01640834']",MONDO_0005147,type 1 diabetes mellitus
+639,GCGR,glucagon receptor,VOLAGIDEMAB,Antibody,CHEMBL4298213,1.0,"['NCT02715193', 'NCT03919617', 'NCT04545411']",MONDO_0005147,type 1 diabetes mellitus
+640,FKBP1A,FKBP prolyl isomerase 1A,SIROLIMUS,Small molecule,CHEMBL413,1.0,"['NCT02821026', 'NCT01346085', 'NCT00525889']",MONDO_0005147,type 1 diabetes mellitus
+641,CA4,carbonic anhydrase 4,ACETAZOLAMIDE,Small molecule,CHEMBL20,1.0,['NCT05473364'],MONDO_0005147,type 1 diabetes mellitus
+642,GLP1R,glucagon like peptide 1 receptor,LIRAGLUTIDE,Protein,CHEMBL4084119,1.0,['NCT02109315'],MONDO_0005147,type 1 diabetes mellitus
+643,INSR,insulin receptor,INSULIN,Protein,CHEMBL1201631,1.0,"['NCT02932826', 'NCT03011021']",MONDO_0005147,type 1 diabetes mellitus
+644,TNF,tumor necrosis factor,ETANERCEPT,Protein,CHEMBL1201572,1.0,['NCT03182426'],MONDO_0005147,type 1 diabetes mellitus
+645,CD80,CD80 molecule,BELATACEPT,Protein,CHEMBL1742990,1.0,['NCT00501709'],MONDO_0005147,type 1 diabetes mellitus
+646,SLC5A2,solute carrier family 5 member 2,EMPAGLIFLOZIN,Small molecule,CHEMBL2107830,1.0,['NCT04201496'],MONDO_0005147,type 1 diabetes mellitus
+647,CA1,carbonic anhydrase 1,ACETAZOLAMIDE,Small molecule,CHEMBL20,1.0,['NCT05473364'],MONDO_0005147,type 1 diabetes mellitus
+648,CD52,CD52 molecule,ALEMTUZUMAB,Antibody,CHEMBL1201587,1.0,['NCT03182426'],MONDO_0005147,type 1 diabetes mellitus
+649,HMGCR,3-hydroxy-3-methylglutaryl-CoA reductase,ATORVASTATIN,Small molecule,CHEMBL1487,1.0,['NCT00974740'],MONDO_0005147,type 1 diabetes mellitus
+650,CXCR4,C-X-C motif chemokine receptor 4,PLERIXAFOR,Small molecule,CHEMBL18442,1.0,['NCT03182426'],MONDO_0005147,type 1 diabetes mellitus
+651,INSR,insulin receptor,INSULIN ASPART,Protein,CHEMBL1201496,1.0,"['NCT01464099', 'NCT03179332', 'NCT01469143', 'NCT02033239', 'NCT04660305', 'NCT01173926', 'NCT03436498', 'NCT01590836', 'NCT01526941', 'NCT01455142', 'NCT03959514', 'NCT01618188', 'NCT01868568', 'NCT02131246', 'NCT02328040', 'NCT03981627', 'NCT01536028', 'NCT02568280', 'NCT03202875', 'NCT01051102', 'NCT01121289', 'NCT01865305', 'NCT01138488', 'NCT01992588', 'NCT01275131', 'NCT02910518', 'NCT02003677', 'NCT01924637', 'NCT04655690', 'NCT00652288', 'NCT02612844', 'NCT03215498', 'NCT03407599', 'NCT01121276', 'NCT05262595', 'NCT01773798', 'NCT01174303', 'NCT02938572', 'NCT00993096', 'NCT03916601', 'NCT02269735', 'NCT01269606', 'NCT03449433', 'NCT01682902', 'NCT05184868', 'NCT02059174', 'NCT01399346', 'NCT00992537', 'NCT01524809', 'NCT02035371', 'NCT01934712', 'NCT01296438', 'NCT04237129']",MONDO_0005147,type 1 diabetes mellitus
+652,PGR,progesterone receptor,PROGESTERONE,Small molecule,CHEMBL103,1.0,['NCT01265017'],MONDO_0005147,type 1 diabetes mellitus
+653,FKBP1A,FKBP prolyl isomerase 1A,TACROLIMUS,Small molecule,CHEMBL269732,1.0,['NCT02821026'],MONDO_0005147,type 1 diabetes mellitus
+654,IMPDH1,inosine monophosphate dehydrogenase 1,MYCOPHENOLIC ACID,Small molecule,CHEMBL866,1.0,['NCT01346085'],MONDO_0005147,type 1 diabetes mellitus
+655,LEPR,leptin receptor,METRELEPTIN,Protein,CHEMBL2107857,1.0,['NCT01268644'],MONDO_0005147,type 1 diabetes mellitus
+656,CA2,carbonic anhydrase 2,ACETAZOLAMIDE,Small molecule,CHEMBL20,1.0,['NCT05473364'],MONDO_0005147,type 1 diabetes mellitus
+657,INSR,insulin receptor,INSULIN TREGOPIL,Protein,CHEMBL2108305,1.0,['NCT01035801'],MONDO_0005147,type 1 diabetes mellitus
+658,ELANE,"elastase, neutrophil expressed",.ALPHA.1-PROTEINASE INHIBITOR HUMAN,Protein,CHEMBL4297879,1.0,"['NCT01304537', 'NCT01319331']",MONDO_0005147,type 1 diabetes mellitus
+659,CD40LG,CD40 ligand,AT-1501,Unknown,CHEMBL4594460,1.0,['NCT05480657'],MONDO_0005147,type 1 diabetes mellitus
+660,MS4A1,membrane spanning 4-domains A1,RITUXIMAB,Antibody,CHEMBL1201576,1.0,['NCT00798785'],MONDO_0005147,type 1 diabetes mellitus
+661,NR3C1,nuclear receptor subfamily 3 group C member 1,HYDROCORTISONE,Small molecule,CHEMBL389621,1.0,['NCT01265017'],MONDO_0005147,type 1 diabetes mellitus
+662,CD2,CD2 molecule,SIPLIZUMAB,Antibody,CHEMBL2108742,1.0,['NCT05574335'],MONDO_0005147,type 1 diabetes mellitus
+663,VDR,vitamin D receptor,ERGOCALCIFEROL,Small molecule,CHEMBL1536,1.0,"['NCT00873925', 'NCT02352974']",MONDO_0005147,type 1 diabetes mellitus
+664,SLC5A2,solute carrier family 5 member 2,SOTAGLIFLOZIN,Small molecule,CHEMBL3039507,1.0,['NCT05696366'],MONDO_0005147,type 1 diabetes mellitus
+665,ESR1,estrogen receptor 1,ESTRADIOL,Small molecule,CHEMBL135,1.0,['NCT01265017'],MONDO_0005147,type 1 diabetes mellitus
+666,PTGIR,prostaglandin I2 receptor,TREPROSTINIL,Small molecule,CHEMBL1237119,1.0,['NCT05067270'],MONDO_0005147,type 1 diabetes mellitus
+667,GLP1R,glucagon like peptide 1 receptor,EXENATIDE,Protein,CHEMBL414357,1.0,['NCT01855490'],MONDO_0005147,type 1 diabetes mellitus
+668,INSR,insulin receptor,INSULIN,Protein,CHEMBL1201631,1.0,"['NCT00519623', 'NCT02739906', 'NCT01544881', 'NCT02500979', 'NCT01334151', 'NCT01159847', 'NCT02220296', 'NCT02485327', 'NCT02269735', 'NCT01536431', 'NCT02213146', 'NCT02620553', 'NCT00419718', 'NCT02328040', 'NCT01311076', 'NCT03512236', 'NCT02713841', 'NCT03723772', 'NCT02109029', 'NCT03766854', 'NCT01269606']",MONDO_0005147,type 1 diabetes mellitus
+669,IL12B,interleukin 12B,USTEKINUMAB,Antibody,CHEMBL1201835,1.0,['NCT02117765'],MONDO_0005147,type 1 diabetes mellitus
+670,CSF3R,colony stimulating factor 3 receptor,PEGFILGRASTIM,Protein,CHEMBL1201568,1.0,['NCT00662519'],MONDO_0005147,type 1 diabetes mellitus
+671,INSR,insulin receptor,INSULIN,Protein,CHEMBL1201631,1.0,"['NCT01201278', 'NCT01496339']",MONDO_0005147,type 1 diabetes mellitus
+672,CALCR,calcitonin receptor,PRAMLINTIDE,Protein,CHEMBL2103758,1.0,"['NCT03512236', 'NCT02500979', 'NCT01708044']",MONDO_0005147,type 1 diabetes mellitus
+673,TNF,tumor necrosis factor,GOLIMUMAB,Antibody,CHEMBL1201833,1.0,['NCT03298542'],MONDO_0005147,type 1 diabetes mellitus
+674,IMPDH1,inosine monophosphate dehydrogenase 1,MYCOPHENOLATE MOFETIL,Small molecule,CHEMBL1456,1.0,['NCT02821026'],MONDO_0005147,type 1 diabetes mellitus
+675,GCGR,glucagon receptor,ADOMEGLIVANT,Small molecule,CHEMBL3707351,1.0,['NCT01640834'],MONDO_0005147,type 1 diabetes mellitus
+676,INSR,insulin receptor,INSULIN LISPRO,Protein,CHEMBL1201538,1.0,['NCT05689424'],MONDO_0005147,type 1 diabetes mellitus
+677,INSR,insulin receptor,INSULIN SUSP ISOPHANE BEEF,Protein,CHEMBL1201545,1.0,"['NCT01542450', 'NCT02910518', 'NCT00760448']",MONDO_0005147,type 1 diabetes mellitus
+678,IL2RA,interleukin 2 receptor subunit alpha,ALDESLEUKIN,Protein,CHEMBL1201438,1.0,['NCT03243058'],MONDO_0005147,type 1 diabetes mellitus
+679,INSR,insulin receptor,INSULIN LISPRO,Protein,CHEMBL1201538,1.0,['NCT01035801'],MONDO_0005147,type 1 diabetes mellitus
+680,ADRB2,adrenoceptor beta 2,TERBUTALINE,Small molecule,CHEMBL1760,1.0,['NCT00607503'],MONDO_0005147,type 1 diabetes mellitus
+681,INSR,insulin receptor,INSULIN GLARGINE,Protein,CHEMBL1201497,1.0,"['NCT01030926', 'NCT00652288', 'NCT01771250', 'NCT01865292', 'NCT04236895', 'NCT01114542', 'NCT00961324', 'NCT02506647', 'NCT01002768', 'NCT02201199', 'NCT01053728', 'NCT01838083', 'NCT02059174', 'NCT02152384', 'NCT01357603', 'NCT01704417', 'NCT02211586', 'NCT02536859', 'NCT01349855', 'NCT01676233', 'NCT01784211', 'NCT00964418', 'NCT01195454', 'NCT01493115', 'NCT01497574', 'NCT03965013', 'NCT02220296', 'NCT01600950', 'NCT01868529', 'NCT01925989', 'NCT03766854', 'NCT01654380', 'NCT01146678', 'NCT01730014', 'NCT01769404']",MONDO_0005147,type 1 diabetes mellitus
+682,GABRA3,gamma-aminobutyric acid type A receptor subunit alpha3,ALPRAZOLAM,Small molecule,CHEMBL661,1.0,['NCT03635437'],MONDO_0005147,type 1 diabetes mellitus
+683,FKBP1A,FKBP prolyl isomerase 1A,TACROLIMUS,Small molecule,CHEMBL269732,1.0,['NCT00798785'],MONDO_0005147,type 1 diabetes mellitus
+684,INSR,insulin receptor,INSULIN DETEMIR,Protein,CHEMBL2104391,1.0,"['NCT00760448', 'NCT01542450', 'NCT01135927', 'NCT01497574', 'NCT00652288', 'NCT05134987']",MONDO_0005147,type 1 diabetes mellitus
+685,GLP1R,glucagon like peptide 1 receptor,LIRAGLUTIDE,Protein,CHEMBL4084119,1.0,"['NCT05794581', 'NCT03011021']",MONDO_0005147,type 1 diabetes mellitus
+686,IMPDH2,inosine monophosphate dehydrogenase 2,MYCOPHENOLATE MOFETIL,Small molecule,CHEMBL1456,1.0,['NCT02821026'],MONDO_0005147,type 1 diabetes mellitus
+687,GLP1R,glucagon like peptide 1 receptor,LIRAGLUTIDE,Protein,CHEMBL4084119,1.0,['NCT03182426'],MONDO_0005147,type 1 diabetes mellitus
+688,INSR,insulin receptor,INSULIN LISPRO,Protein,CHEMBL1201538,1.0,"['NCT05373199', 'NCT04972175']",MONDO_0005147,type 1 diabetes mellitus
+689,GABRA1,gamma-aminobutyric acid type A receptor subunit alpha1,ALPRAZOLAM,Small molecule,CHEMBL661,1.0,['NCT03635437'],MONDO_0005147,type 1 diabetes mellitus
+690,CA12,carbonic anhydrase 12,ACETAZOLAMIDE,Small molecule,CHEMBL20,1.0,['NCT05473364'],MONDO_0005147,type 1 diabetes mellitus
+691,INSR,insulin receptor,INSULIN PEGLISPRO,Protein,CHEMBL2108569,1.0,"['NCT01654380', 'NCT01769404', 'NCT01925989', 'NCT02109029', 'NCT01771250', 'NCT02152384', 'NCT01784211']",MONDO_0005147,type 1 diabetes mellitus
+692,GABRG3,gamma-aminobutyric acid type A receptor subunit gamma3,ALPRAZOLAM,Small molecule,CHEMBL661,1.0,['NCT03635437'],MONDO_0005147,type 1 diabetes mellitus
+693,INSR,insulin receptor,INSULIN LISPRO,Protein,CHEMBL1201538,1.0,"['NCT02623452', 'NCT02623478']",MONDO_0005147,type 1 diabetes mellitus
+694,INSR,insulin receptor,INSULIN GLARGINE,Protein,CHEMBL1201497,1.0,['NCT05373199'],MONDO_0005147,type 1 diabetes mellitus
+695,INSR,insulin receptor,INSULIN,Protein,CHEMBL1201631,1.0,"['NCT01285934', 'NCT02635243']",MONDO_0005147,type 1 diabetes mellitus
+696,GABRG2,gamma-aminobutyric acid type A receptor subunit gamma2,ALPRAZOLAM,Small molecule,CHEMBL661,1.0,['NCT03635437'],MONDO_0005147,type 1 diabetes mellitus
+697,ITGAL,integrin subunit alpha L,EFALIZUMAB,Antibody,CHEMBL1201575,1.0,['NCT00501709'],MONDO_0005147,type 1 diabetes mellitus
+698,CD3E,CD3 epsilon subunit of T-cell receptor complex,TEPLIZUMAB,Antibody,CHEMBL1743078,1.0,"['NCT00073255', 'NCT03751007']",MONDO_0005147,type 1 diabetes mellitus
+699,GCGR,glucagon receptor,GLUCAGON,Protein,CHEMBL266481,1.0,['NCT02635243'],MONDO_0005147,type 1 diabetes mellitus
+700,GLP1R,glucagon like peptide 1 receptor,LIRAGLUTIDE,Protein,CHEMBL4084119,1.0,['NCT01536665'],MONDO_0005147,type 1 diabetes mellitus
+701,CD3E,CD3 epsilon subunit of T-cell receptor complex,TEPLIZUMAB,Antibody,CHEMBL1743078,1.0,['NCT01189422'],MONDO_0005147,type 1 diabetes mellitus
+702,CD3E,CD3 epsilon subunit of T-cell receptor complex,OTELIXIZUMAB,Antibody,CHEMBL1743053,1.0,"['NCT00946257', 'NCT02000817']",MONDO_0005147,type 1 diabetes mellitus
+703,IMPDH2,inosine monophosphate dehydrogenase 2,MYCOPHENOLATE MOFETIL,Small molecule,CHEMBL1456,1.0,['NCT00798785'],MONDO_0005147,type 1 diabetes mellitus
+704,TNF,tumor necrosis factor,ETANERCEPT,Protein,CHEMBL1201572,1.0,"['NCT00730392', 'NCT02821026', 'NCT00888628']",MONDO_0005147,type 1 diabetes mellitus
+705,GABRA5,gamma-aminobutyric acid type A receptor subunit alpha5,ALPRAZOLAM,Small molecule,CHEMBL661,1.0,['NCT03635437'],MONDO_0005147,type 1 diabetes mellitus
+706,HMGCR,3-hydroxy-3-methylglutaryl-CoA reductase,ATORVASTATIN CALCIUM,Small molecule,CHEMBL393220,1.0,['NCT00974740'],MONDO_0005147,type 1 diabetes mellitus
+707,VDR,vitamin D receptor,CHOLECALCIFEROL,Small molecule,CHEMBL1042,1.0,['NCT00141986'],MONDO_0005147,type 1 diabetes mellitus
+708,IL2RA,interleukin 2 receptor subunit alpha,ALDESLEUKIN,Protein,CHEMBL1201438,1.0,"['NCT01353833', 'NCT02772679', 'NCT00525889', 'NCT02265809', 'NCT01827735']",MONDO_0005147,type 1 diabetes mellitus
+709,INSR,insulin receptor,INSULIN PORK,Protein,CHEMBL1201539,1.0,"['NCT02213146', 'NCT02500979']",MONDO_0005147,type 1 diabetes mellitus
+710,INSR,insulin receptor,INSULIN GLULISINE,Protein,CHEMBL1201613,1.0,"['NCT00368394', 'NCT00290043', 'NCT02910518', 'NCT00297583']",MONDO_0005147,type 1 diabetes mellitus
+711,GABRG1,gamma-aminobutyric acid type A receptor subunit gamma1,ALPRAZOLAM,Small molecule,CHEMBL661,1.0,['NCT03635437'],MONDO_0005147,type 1 diabetes mellitus
+712,INSR,insulin receptor,INSULIN DEGLUDEC,Protein,CHEMBL2107869,1.0,"['NCT01051102', 'NCT01590836', 'NCT01865305', 'NCT02536859', 'NCT01868529', 'NCT00993096', 'NCT01030926', 'NCT04569994', 'NCT01174303', 'NCT01865279', 'NCT00961324', 'NCT01773798', 'NCT01173926', 'NCT01868568', 'NCT01076634', 'NCT01002768', 'NCT01138488', 'NCT01865318', 'NCT00964418', 'NCT01455142', 'NCT00964964', 'NCT01114542', 'NCT01704417', 'NCT01865292', 'NCT01135927', 'NCT00992537']",MONDO_0005147,type 1 diabetes mellitus
+713,GCGR,glucagon receptor,GLUCAGON,Protein,CHEMBL266481,1.0,['NCT04992312'],MONDO_0005147,type 1 diabetes mellitus
+714,PPARG,peroxisome proliferator activated receptor gamma,PIOGLITAZONE,Small molecule,CHEMBL595,1.0,['NCT00545857'],MONDO_0005147,type 1 diabetes mellitus
+715,GCGR,glucagon receptor,VOLAGIDEMAB,Antibody,CHEMBL4298213,1.0,['NCT05696366'],MONDO_0005147,type 1 diabetes mellitus
+716,SLC5A2,solute carrier family 5 member 2,DAPAGLIFLOZIN,Small molecule,CHEMBL429910,1.0,"['NCT02582840', 'NCT02325206', 'NCT04545411']",MONDO_0005147,type 1 diabetes mellitus
+717,DPP4,dipeptidyl peptidase 4,SITAGLIPTIN,Small molecule,CHEMBL1422,1.0,"['NCT01159847', 'NCT00813228', 'NCT02328040']",MONDO_0005147,type 1 diabetes mellitus
+718,GCGR,glucagon receptor,GLUCAGON HYDROCHLORIDE,Protein,CHEMBL1201618,1.0,['NCT03176524'],MONDO_0005147,type 1 diabetes mellitus
+719,IMPDH1,inosine monophosphate dehydrogenase 1,MYCOPHENOLATE MOFETIL,Small molecule,CHEMBL1456,1.0,['NCT00798785'],MONDO_0005147,type 1 diabetes mellitus
+720,IL1B,interleukin 1 beta,RILONACEPT,Protein,CHEMBL1201830,1.0,['NCT00962026'],MONDO_0005147,type 1 diabetes mellitus
+721,INSR,insulin receptor,INSULIN LISPRO,Protein,CHEMBL1201538,1.0,['NCT01201278'],MONDO_0005147,type 1 diabetes mellitus
+722,GABRA2,gamma-aminobutyric acid type A receptor subunit alpha2,ALPRAZOLAM,Small molecule,CHEMBL661,1.0,['NCT03635437'],MONDO_0005147,type 1 diabetes mellitus
+723,TNF,tumor necrosis factor,ETANERCEPT,Protein,CHEMBL1201572,1.0,['NCT00784966'],MONDO_0005147,type 1 diabetes mellitus
+724,IL2RB,interleukin 2 receptor subunit beta,ALDESLEUKIN,Protein,CHEMBL1201438,1.0,['NCT03243058'],MONDO_0005147,type 1 diabetes mellitus
+725,IMPDH2,inosine monophosphate dehydrogenase 2,MYCOPHENOLIC ACID,Small molecule,CHEMBL866,1.0,['NCT01346085'],MONDO_0005147,type 1 diabetes mellitus
+726,IL2RB,interleukin 2 receptor subunit beta,ALDESLEUKIN,Protein,CHEMBL1201438,1.0,"['NCT01827735', 'NCT00525889', 'NCT02265809', 'NCT02772679', 'NCT01353833']",MONDO_0005147,type 1 diabetes mellitus
+727,INSR,insulin receptor,"INSULIN, ISOPHANE",Protein,CHEMBL2108964,1.0,['NCT01865279'],MONDO_0005147,type 1 diabetes mellitus
+728,CD52,CD52 molecule,ALEMTUZUMAB,Antibody,CHEMBL1201587,1.0,['NCT00214214'],MONDO_0005147,type 1 diabetes mellitus
+729,SLC5A2,solute carrier family 5 member 2,DAPAGLIFLOZIN,Small molecule,CHEMBL429910,1.0,['NCT03704818'],MONDO_0005147,type 1 diabetes mellitus
+730,SERPINC1,serpin family C member 1,HEPARIN SODIUM,Oligosaccharide,CHEMBL1201657,1.0,"['NCT02910518', 'NCT02687256']",MONDO_0005147,type 1 diabetes mellitus
+731,SLC5A1,solute carrier family 5 member 1,SOTAGLIFLOZIN,Small molecule,CHEMBL3039507,1.0,['NCT05696366'],MONDO_0005147,type 1 diabetes mellitus

@@ -1,0 +1,61 @@
+,approvedSymbol,approvedName,prefName,drugType,drugId,phase,ctIds,id,disease
+0,NDUFA13,NADH:ubiquinone oxidoreductase subunit A13,METFORMIN,Small molecule,CHEMBL1431,4.0,['NCT02432287'],GO_0007568,aging
+1,SNAP25,synaptosome associated protein 25,ONABOTULINUMTOXINA,Unknown,CHEMBL1201574,4.0,['NCT00434863'],GO_0007568,aging
+2,NDUFS8,NADH:ubiquinone oxidoreductase core subunit S8,METFORMIN,Small molecule,CHEMBL1431,4.0,['NCT02432287'],GO_0007568,aging
+3,NDUFA9,NADH:ubiquinone oxidoreductase subunit A9,METFORMIN,Small molecule,CHEMBL1431,4.0,['NCT02432287'],GO_0007568,aging
+4,NDUFS7,NADH:ubiquinone oxidoreductase core subunit S7,METFORMIN,Small molecule,CHEMBL1431,4.0,['NCT02432287'],GO_0007568,aging
+5,NDUFA3,NADH:ubiquinone oxidoreductase subunit A3,METFORMIN,Small molecule,CHEMBL1431,4.0,['NCT02432287'],GO_0007568,aging
+6,MT-ND1,mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 1,METFORMIN,Small molecule,CHEMBL1431,4.0,['NCT02432287'],GO_0007568,aging
+7,NDUFAF1,NADH:ubiquinone oxidoreductase complex assembly factor 1,METFORMIN,Small molecule,CHEMBL1431,4.0,['NCT02432287'],GO_0007568,aging
+8,NDUFA10,NADH:ubiquinone oxidoreductase subunit A10,METFORMIN,Small molecule,CHEMBL1431,4.0,['NCT02432287'],GO_0007568,aging
+9,NDUFB6,NADH:ubiquinone oxidoreductase subunit B6,METFORMIN,Small molecule,CHEMBL1431,4.0,['NCT02432287'],GO_0007568,aging
+10,NDUFA6,NADH:ubiquinone oxidoreductase subunit A6,METFORMIN,Small molecule,CHEMBL1431,4.0,['NCT02432287'],GO_0007568,aging
+11,SNAP25,synaptosome associated protein 25,INCOBOTULINUMTOXINA,Unknown,CHEMBL2108035,4.0,['NCT01583478'],GO_0007568,aging
+12,NDUFA2,NADH:ubiquinone oxidoreductase subunit A2,METFORMIN,Small molecule,CHEMBL1431,4.0,['NCT02432287'],GO_0007568,aging
+13,NDUFAF3,NADH:ubiquinone oxidoreductase complex assembly factor 3,METFORMIN,Small molecule,CHEMBL1431,4.0,['NCT02432287'],GO_0007568,aging
+14,NDUFB10,NADH:ubiquinone oxidoreductase subunit B10,METFORMIN,Small molecule,CHEMBL1431,4.0,['NCT02432287'],GO_0007568,aging
+15,SNAP25,synaptosome associated protein 25,DAXIBOTULINUMTOXINA,Unknown,CHEMBL3707359,4.0,[],GO_0007568,aging
+16,NDUFAF4,NADH:ubiquinone oxidoreductase complex assembly factor 4,METFORMIN,Small molecule,CHEMBL1431,4.0,['NCT02432287'],GO_0007568,aging
+17,GABRG2,gamma-aminobutyric acid type A receptor subunit gamma2,ZOLPIDEM,Small molecule,CHEMBL911,4.0,['NCT03657212'],GO_0007568,aging
+18,NDUFA8,NADH:ubiquinone oxidoreductase subunit A8,METFORMIN,Small molecule,CHEMBL1431,4.0,['NCT02432287'],GO_0007568,aging
+19,SNAP25,synaptosome associated protein 25,ONABOTULINUMTOXINA,Unknown,CHEMBL1201574,4.0,"['NCT01529788', 'NCT00856414']",GO_0007568,aging
+20,MT-ND4L,mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 4L,METFORMIN,Small molecule,CHEMBL1431,4.0,['NCT02432287'],GO_0007568,aging
+21,NDUFS4,NADH:ubiquinone oxidoreductase subunit S4,METFORMIN,Small molecule,CHEMBL1431,4.0,['NCT02432287'],GO_0007568,aging
+22,NDUFB8,NADH:ubiquinone oxidoreductase subunit B8,METFORMIN,Small molecule,CHEMBL1431,4.0,['NCT02432287'],GO_0007568,aging
+23,NDUFB11,NADH:ubiquinone oxidoreductase subunit B11,METFORMIN,Small molecule,CHEMBL1431,4.0,['NCT02432287'],GO_0007568,aging
+24,NDUFA4L2,NDUFA4 mitochondrial complex associated like 2,METFORMIN,Small molecule,CHEMBL1431,4.0,['NCT02432287'],GO_0007568,aging
+25,NDUFV1,NADH:ubiquinone oxidoreductase core subunit V1,METFORMIN,Small molecule,CHEMBL1431,4.0,['NCT02432287'],GO_0007568,aging
+26,MT-ND4,mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 4,METFORMIN,Small molecule,CHEMBL1431,4.0,['NCT02432287'],GO_0007568,aging
+27,NDUFAF2,NADH:ubiquinone oxidoreductase complex assembly factor 2,METFORMIN,Small molecule,CHEMBL1431,4.0,['NCT02432287'],GO_0007568,aging
+28,MT-ND2,mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 2,METFORMIN,Small molecule,CHEMBL1431,4.0,['NCT02432287'],GO_0007568,aging
+29,SNAP25,synaptosome associated protein 25,ONABOTULINUMTOXINA,Unknown,CHEMBL1201574,4.0,['NCT04240535'],GO_0007568,aging
+30,NDUFB4,NADH:ubiquinone oxidoreductase subunit B4,METFORMIN,Small molecule,CHEMBL1431,4.0,['NCT02432287'],GO_0007568,aging
+31,MT-ND3,mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 3,METFORMIN,Small molecule,CHEMBL1431,4.0,['NCT02432287'],GO_0007568,aging
+32,NDUFB7,NADH:ubiquinone oxidoreductase subunit B7,METFORMIN,Small molecule,CHEMBL1431,4.0,['NCT02432287'],GO_0007568,aging
+33,NDUFS2,NADH:ubiquinone oxidoreductase core subunit S2,METFORMIN,Small molecule,CHEMBL1431,4.0,['NCT02432287'],GO_0007568,aging
+34,NDUFA5,NADH:ubiquinone oxidoreductase subunit A5,METFORMIN,Small molecule,CHEMBL1431,4.0,['NCT02432287'],GO_0007568,aging
+35,NDUFA11,NADH:ubiquinone oxidoreductase subunit A11,METFORMIN,Small molecule,CHEMBL1431,4.0,['NCT02432287'],GO_0007568,aging
+36,NDUFA7,NADH:ubiquinone oxidoreductase subunit A7,METFORMIN,Small molecule,CHEMBL1431,4.0,['NCT02432287'],GO_0007568,aging
+37,NDUFB1,NADH:ubiquinone oxidoreductase subunit B1,METFORMIN,Small molecule,CHEMBL1431,4.0,['NCT02432287'],GO_0007568,aging
+38,SNAP25,synaptosome associated protein 25,PRABOTULINUMTOXIN A,Unknown,CHEMBL4297229,4.0,[],GO_0007568,aging
+39,GABRB1,gamma-aminobutyric acid type A receptor subunit beta1,ZOLPIDEM,Small molecule,CHEMBL911,4.0,['NCT03657212'],GO_0007568,aging
+40,NDUFA4,NDUFA4 mitochondrial complex associated,METFORMIN,Small molecule,CHEMBL1431,4.0,['NCT02432287'],GO_0007568,aging
+41,MT-ND6,mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 6,METFORMIN,Small molecule,CHEMBL1431,4.0,['NCT02432287'],GO_0007568,aging
+42,NDUFAB1,NADH:ubiquinone oxidoreductase subunit AB1,METFORMIN,Small molecule,CHEMBL1431,4.0,['NCT02432287'],GO_0007568,aging
+43,NDUFS3,NADH:ubiquinone oxidoreductase core subunit S3,METFORMIN,Small molecule,CHEMBL1431,4.0,['NCT02432287'],GO_0007568,aging
+44,NDUFV3,NADH:ubiquinone oxidoreductase subunit V3,METFORMIN,Small molecule,CHEMBL1431,4.0,['NCT02432287'],GO_0007568,aging
+45,NDUFB5,NADH:ubiquinone oxidoreductase subunit B5,METFORMIN,Small molecule,CHEMBL1431,4.0,['NCT02432287'],GO_0007568,aging
+46,NDUFC2,NADH:ubiquinone oxidoreductase subunit C2,METFORMIN,Small molecule,CHEMBL1431,4.0,['NCT02432287'],GO_0007568,aging
+47,GPD2,glycerol-3-phosphate dehydrogenase 2,METFORMIN,Small molecule,CHEMBL1431,4.0,['NCT02432287'],GO_0007568,aging
+48,NDUFA1,NADH:ubiquinone oxidoreductase subunit A1,METFORMIN,Small molecule,CHEMBL1431,4.0,['NCT02432287'],GO_0007568,aging
+49,NDUFS5,NADH:ubiquinone oxidoreductase subunit S5,METFORMIN,Small molecule,CHEMBL1431,4.0,['NCT02432287'],GO_0007568,aging
+50,NDUFS6,NADH:ubiquinone oxidoreductase subunit S6,METFORMIN,Small molecule,CHEMBL1431,4.0,['NCT02432287'],GO_0007568,aging
+51,NDUFB9,NADH:ubiquinone oxidoreductase subunit B9,METFORMIN,Small molecule,CHEMBL1431,4.0,['NCT02432287'],GO_0007568,aging
+52,NDUFA12,NADH:ubiquinone oxidoreductase subunit A12,METFORMIN,Small molecule,CHEMBL1431,4.0,['NCT02432287'],GO_0007568,aging
+53,MT-ND5,mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 5,METFORMIN,Small molecule,CHEMBL1431,4.0,['NCT02432287'],GO_0007568,aging
+54,NDUFC1,NADH:ubiquinone oxidoreductase subunit C1,METFORMIN,Small molecule,CHEMBL1431,4.0,['NCT02432287'],GO_0007568,aging
+55,NDUFB3,NADH:ubiquinone oxidoreductase subunit B3,METFORMIN,Small molecule,CHEMBL1431,4.0,['NCT02432287'],GO_0007568,aging
+56,NDUFB2,NADH:ubiquinone oxidoreductase subunit B2,METFORMIN,Small molecule,CHEMBL1431,4.0,['NCT02432287'],GO_0007568,aging
+57,NDUFS1,NADH:ubiquinone oxidoreductase core subunit S1,METFORMIN,Small molecule,CHEMBL1431,4.0,['NCT02432287'],GO_0007568,aging
+58,NDUFV2,NADH:ubiquinone oxidoreductase core subunit V2,METFORMIN,Small molecule,CHEMBL1431,4.0,['NCT02432287'],GO_0007568,aging
+59,SNAP25,synaptosome associated protein 25,ABOBOTULINUMTOXINA,Unknown,CHEMBL2108570,4.0,['NCT01529788'],GO_0007568,aging
