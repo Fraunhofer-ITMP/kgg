@@ -2,6 +2,7 @@
 
 """Utils files with all functions relevant to generation of KG."""
 import os
+import sys
 from IPython.display import Image
 import logging
 import pickle
@@ -26,6 +27,17 @@ import matplotlib.image as mpimg
 
 from IPython.display import display, HTML
 
+from IPython.display import Markdown, display
+
+import requests
+import json
+import pandas as pd
+import matplotlib.pyplot as plt
+import os
+from tqdm.auto import tqdm
+
+import pybel
+from pybel.io.jupyter import to_jupyter
 from IPython.display import Markdown, display
 
 logger = logging.getLogger("__name__")
@@ -599,6 +611,8 @@ def saveFiles(kgName, disease2protein, drugAdvEffect, final_kg, drug_df):
     
     path = path+kgName
     
+    original_path = sys.path[0]
+    
     os.makedirs(path,exist_ok=True)
     
     os.chdir(path)
@@ -625,6 +639,8 @@ def saveFiles(kgName, disease2protein, drugAdvEffect, final_kg, drug_df):
     
     #plot for namespace dist
     KG_namespace_plot(final_kg,kgName)
+    
+    os.chdir(original_path)
 
 def GetDiseaseSNPs(disease_id): 
     
@@ -779,7 +795,10 @@ def createKG():
     snp_dgnet = GetDiseaseSNPs(doid['id'][efo_id])  
     #print('A total of ' + str(len(snp_dgnet)) + ' SNPs have been identified from DisGeNET. Now adding relevant data')
     
-    if snp_dgnet:
+    # if snp_dgnet != None:
+        # kg = snp2gene_rel(snp_dgnet,kg)
+    
+    if not snp_dgnet.empty:
         kg = snp2gene_rel(snp_dgnet,kg)
     
     print('Your KG is now generated!','\n')
