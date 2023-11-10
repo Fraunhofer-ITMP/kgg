@@ -1,5 +1,5 @@
 <p align="center">
-  <img style="width: 300; height: 300px;" src="data/KGG.png">
+  <img style="width: 200; height: 200px;" src="data/KGG.png">
 </p>
 
 
