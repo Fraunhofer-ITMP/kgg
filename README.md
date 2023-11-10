@@ -1,3 +1,8 @@
+<p align="center">
+  <img style="width: 100; height: 100px;" src="data/KGG.png">
+</p>
+
+
 # kgg
 An automated workflow to create disease-specific Knowledge Graphs.
 
