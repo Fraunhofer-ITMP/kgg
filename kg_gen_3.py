@@ -214,11 +214,55 @@ def GetDiseaseAssociatedProteins(disease_id):
                 temp_list.append(temp)
     
     df = pd.DataFrame(temp_list)
+    df['disease_id'] = efo_id
     
     
-    print('We have identified ' + str(len(df)) + ' proteins (Swiss-Prot) associated with the disease. Following is a histogram that shows '
-         + 'distribution of proteins based on scores provided by OpenTargets. The scores are influenced by various factors '
-         + 'such as genetic associations, expression, mutations, known pathways, targeting drugs and so on.'+'\n')
+    # print('We have identified ' + str(len(df)) + ' proteins (Swiss-Prot) associated with the disease. Following is a histogram that shows '
+         # + 'distribution of proteins based on scores provided by OpenTargets. The scores are influenced by various factors '
+         # + 'such as genetic associations, expression, mutations, known pathways, targeting drugs and so on.'+'\n')
+    
+    # print('Displaying top 20 genes')
+    # df_display = df.head(20)
+    # display(HTML(df_display.to_html(index=False)))
+    # #print(df,'\n')
+    # #print('\n')
+    
+    # fig, ax = plt.subplots()
+    # ax.hist(df['Score'])
+    # ax.set_title('Distribution of proteins based on OpenTargets score')
+    # ax.set_xlabel('Score')
+    # ax.set_ylabel('No. of proteins')
+
+    # fig.tight_layout()
+    # plt.show()
+    
+    # print('\n')
+    
+    # time.sleep(0.05)
+    
+    # score = input('We recommend taking a threshold above 0.3 to exclude loosely associated proteins. ' + '\n' +'Please enter your desired threshold: ')
+    
+    # df = df.loc[df['Score'] >= float(score),:]
+    
+    # print('\n')
+    # print('Alright, we are good to go now. Your KG is now being generated! Sit back and relax!!')
+    
+    
+    # print('\n','Total no. of proteins: ',len(df))
+   
+    # #display(HTML(df.to_html(index=False)))
+    # print('\n',df)
+    #print('\n')
+    return(df)
+
+
+def GetDiseaseAssociatedProteinsPlot(df):
+
+    print('We have identified ' + str(len(df)) + ' proteins (Swiss-Prot) associated with the disease. Please note that the proteins identified may not be unique if you combined two or more diseases. Following is a histogram that shows ' + 'distribution of proteins based on scores provided by OpenTargets. The scores are influenced by various factors ' + 'such as genetic associations, expression, mutations, known pathways, targeting drugs and so on.'+'\n')
+    
+    print('A total of ' +str(len(list(set(df['UniProt'])))) + ' unique proteins have been identified.')
+    
+    print('\n')
     
     print('Displaying top 20 genes')
     df_display = df.head(20)
@@ -602,7 +646,7 @@ def GetViralProteins(query_disease):
         
         return(uprot_list)
 
-def saveFiles(kgName, disease2protein, drugAdvEffect, final_kg, drug_df):
+def saveFiles(kgName, disease2protein, drugAdvEffect, final_kg, drug_df,snp_df):
 
     print('Now let\'s save all the files that were created in the process.','\n')
     
@@ -625,6 +669,8 @@ def saveFiles(kgName, disease2protein, drugAdvEffect, final_kg, drug_df):
     drugAdvEffect.to_csv('adverseEffects.csv',sep=',')
     
     drug_df.to_csv('diseaseAssociatedDrugs.csv',sep=',')
+    
+    snp_df.to_csv('diseaseAssociatedSNPs.csv',sep=',')
     
     #to cytoscape compatible graphml 
     pybel.to_graphml(final_kg,kgName+'.graphml')
@@ -677,6 +723,7 @@ def GetDiseaseSNPs(disease_id):
         
             gda_response = gda_response.json()
             gda_response = pd.DataFrame(gda_response)
+            gda_response['disease_id'] = disease_id
             return(gda_response)
 
     if s:
@@ -732,7 +779,7 @@ def createKG():
     
     time.sleep(0.1)
     
-    efo_id = int(input('Please enter the index value of your disease of interest. Input: '))
+    efo_id = input('Please enter the index value of your disease of interest. Input: ')
     #print(efo_id)
     
     vir_prot = GetViralProteins(query)
@@ -751,28 +798,51 @@ def createKG():
     
     print('\n')
     
-    #print(doid['id'][efo_id])
+    temp_id = efo_id.split(' ')
+    #print(temp_id)
+    temp_id = [int(x) for x in temp_id]
+    #print(temp_id)
     
-    #df_dis2prot = GetDiseaseAssociatedProteins(efo_id)
+    drugs_df = pd.DataFrame()
+    dis2prot_df = pd.DataFrame()
+    dis2snp_df = pd.DataFrame()
     
-    df_dis2prot = GetDiseaseAssociatedProteins(doid['id'][efo_id])
+    for id in temp_id:
+    
+        chembl_list = GetDiseaseAssociatedDrugs(doid['id'][id],ct_phase)
+        drugs_df = pd.concat([drugs_df,chembl_list])
+        
+        prot_list = GetDiseaseAssociatedProteins(doid['id'][id])
+        dis2prot_df = pd.concat([dis2prot_df,prot_list])
+        
+        snp_dgnet = GetDiseaseSNPs(doid['id'][id]) 
+        dis2snp_df = pd.concat([dis2snp_df,snp_dgnet])
+        
+    
+    drugs_df = drugs_df.reset_index(drop=True)
+    dis2prot_df = dis2prot_df.reset_index(drop=True)
+    dis2snp_df = dis2snp_df.reset_index(drop=True)
+    
+    uprot_df = GetDiseaseAssociatedProteinsPlot(dis2prot_df)
+    
+    #df_dis2prot = GetDiseaseAssociatedProteins(doid['id'][efo_id])
     
     #chembl_list = GetDiseaseAssociatedDrugs(efo_id,ct_phase)
     
-    chembl_df = GetDiseaseAssociatedDrugs(doid['id'][efo_id],ct_phase)
+    #chembl_df = GetDiseaseAssociatedDrugs(doid['id'][efo_id],ct_phase)
        
     #create empty KG
     kg = pybel.BELGraph(name=kg_name, version="0.0.1")
     
-    uprot_ext = ExtractFromUniProt(df_dis2prot['UniProt'])
+    uprot_ext = ExtractFromUniProt(list(set(uprot_df['UniProt'])))
     
     if vir_prot:
         vir_uprot_ext = ExtractFromUniProt(vir_prot)
     
-    print('A total of ' + str(len(list(set(chembl_df['drugId'])))) + ' drugs have been identified. Now fetching relevant data')
+    print('A total of ' + str(len(list(set(drugs_df['drugId'])))) + ' drugs have been identified. Now fetching relevant data')
     
-    chembl2mech = RetMech(list(set(chembl_df['drugId'])))
-    chembl2act = RetAct(list(set(chembl_df['drugId'])))
+    chembl2mech = RetMech(list(set(drugs_df['drugId'])))
+    chembl2act = RetAct(list(set(drugs_df['drugId'])))
     
     prtn_as_chembl = Ret_chembl_protein(chembl2act) + Ret_chembl_protein(chembl2mech)
     prtn_as_chembl = set(prtn_as_chembl)
@@ -792,20 +862,20 @@ def createKG():
     kg = chem2act_rel(chembl2act, 'HGNC', kg)
     kg = gene2path_rel(chembl2uprot, 'HGNC', kg)
     
-    adv_effect = GetAdverseEvents(list(set(chembl_df['drugId'])))
+    adv_effect = GetAdverseEvents(list(set(drugs_df['drugId'])))
     kg = chembl2adverseEffect_rel(adv_effect,kg)
     
-    snp_dgnet = GetDiseaseSNPs(doid['id'][efo_id])  
+    #snp_dgnet = GetDiseaseSNPs(doid['id'][efo_id])  
     
     # if snp_dgnet != None:
         # kg = snp2gene_rel(snp_dgnet,kg)
     
-    if not snp_dgnet.empty:
-        kg = snp2gene_rel(snp_dgnet,kg)
+    if not dis2snp_df.empty:
+        kg = snp2gene_rel(dis2snp_df,kg)
     
     print('Your KG is now generated!','\n')
     
-    saveFiles(kg_name, df_dis2prot, adv_effect, kg, chembl_df)
+    saveFiles(kg_name, uprot_df, adv_effect, kg, drugs_df, dis2snp_df)
     
     return(kg)
     

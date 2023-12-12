@@ -352,8 +352,10 @@ def ExtractFromUniProt(uniprot_id) -> dict:
 
         id_copy = id
         mapped_uprot.append(id_copy)
-        i = 0
-        j = 0
+        
+        #counters for bf and bp
+        #i = 0
+        #j = 0
         k = 0
         id = {}
         id['Disease'] = {}
@@ -377,18 +379,18 @@ def ExtractFromUniProt(uniprot_id) -> dict:
 
             # look for functions
             if ' F:' in line:
-                if j < 5:
-                    fn = line.split(';')
-                    id['Function'].update({fn[2][3:]: fn[1][1:]})
-                    j += 1
+                #if j < 5:
+                fn = line.split(';')
+                id['Function'].update({fn[2][3:]: fn[1][1:]})
+                #j += 1
 
             # look for biological processes
-            if ' P:' in line:
-                if i < 5:
-                    bp = line.split(';')
-                    # bp returns list with GO ids and names
-                    id['BioProcess'].update({bp[2][3:]: bp[1][1:]})
-                    i += 1
+            if ' P:' in line and 'GO;' in line:
+                #if i < 5:
+                bp = line.split(';')
+                # bp returns list with GO ids and names
+                id['BioProcess'].update({bp[2][3:]: bp[1][1:]})
+                #i += 1
 
             if 'GN   Name' in line:
                 if k == 0:
