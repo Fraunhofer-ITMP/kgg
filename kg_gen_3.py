@@ -987,3 +987,80 @@ def lipinski_rule_of_5(df):
     return(df)
                                   
            
+def GetDrugWarnings(chem_list):
+    
+    api_response = pd.DataFrame()
+    
+    for chem in tqdm(chem_list, desc = 'Retrieving drug warnings for each drug'):
+        
+        chembl_id = chem
+        
+        try:
+        
+            #get total no. of adverse effects for a given drug
+            #count = getAdverseEffectCount(chembl_id)
+            
+            query_string = """
+                query DrugWarningsQuery($chemblId: String!) {
+                  drug(chemblId: $chemblId) {
+                    id
+                    drugWarnings {
+                      warningType
+                      toxicityClass
+                    }
+                  }
+                }
+
+            """
+
+            # Set variables object of arguments to be passed to endpoint
+            variables = {"chemblId": chembl_id}
+
+            # Set base URL of GraphQL API endpoint
+            base_url = "https://api.platform.opentargets.org/api/v4/graphql"
+
+            # Perform POST request and check status code of response
+            r = requests.post(base_url, json={"query": query_string, "variables": variables})
+            #r = requests.post(base_url, json={"query": query_string})
+            #print(r.status_code)
+
+            # Transform API response from JSON into Python dictionary and print in console
+            api_response_temp = json.loads(r.text)
+            
+            #return(api_response_temp)
+
+            api_response_temp = api_response_temp['data']['drug']['drugWarnings']
+            api_response_temp = pd.DataFrame(api_response_temp)
+            api_response_temp ['chembl_id'] = chembl_id
+
+            api_response = pd.concat([api_response,api_response_temp])
+            
+        except:
+            continue
+          
+    #remove rows with 'None' values in col 'toxicityClass'       
+    api_response = api_response[api_response.astype(str).ne('None').all(1)]    
+    api_response.reset_index(drop=True, inplace=True)
+    return(api_response)
+    
+def chembl2drugWarnings_rel(
+    chembl_drugWarnings_df,
+    graph: BELGraph
+) -> BELGraph:
+    """
+
+    :param chembl_adveff_df:
+    :param graph:
+    :return:
+    """
+
+    for i in range(len(chembl_drugWarnings_df)):
+
+        graph.add_association(
+            Abundance(namespace='ChEMBL', name= str(chembl_drugWarnings_df['chembl_id'][i])),
+            Pathology(namespace='DrugWarning', name= str(chembl_drugWarnings_df['toxicityClass'][i])),  # TODO: Fix namespace
+            citation="OpenTargets Platform",
+            evidence='DrugReactions'
+        )
+
+    return graph
