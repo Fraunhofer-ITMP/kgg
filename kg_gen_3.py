@@ -899,6 +899,8 @@ def createKG():
     # return(graph)
 
 def GetSmiles(drugs_df):
+
+    #chembl ids can be antibodies which have sequence instead of smiles
     
     drugs=drugs_df
     #drugs = pd.read_csv('data/kgs/metabolic diseases/t1dm/diseaseAssociatedDrugs.csv')
@@ -907,7 +909,7 @@ def GetSmiles(drugs_df):
     molecule = new_client.molecule
     temp_list = []
     
-    for item in tqdm(drugs_list):
+    for item in tqdm(drugs_list,desc='Getting SMILES for CHEMBL ids and generating descriptors'):
         
         try:
             #print(item)
@@ -947,18 +949,6 @@ def lipinski_rule_of_5(df):
         conditions = [MW <= 500, HBA <= 10, HBD <= 5, LogP <= 5]
         
         violation = conditions.count(False)
-    
-        #conditions.append(violation)
-        
-#         flag_list = []
-        
-#         for flag in conditions:
-#             if flag == True:
-#                 flag_list.append(0)
-#             else:
-#                 flag_list.append(1)
-        
-#         flag_list.append(violation)
                 
         pass_ro5 = conditions.count(True) >= 3
         
@@ -1064,3 +1054,298 @@ def chembl2drugWarnings_rel(
         )
 
     return graph
+    
+def getProtfromKG(mainGraph):
+
+    prot_list = []
+    for u, v, data in tqdm(mainGraph.edges(data=True),desc='Filtering Proteins/Genes'):
+        
+        if 'HGNC' in u.namespace:
+            if u.name not in prot_list:
+                prot_list.append(u.name)
+
+        if 'HGNC' in v.namespace:
+            if v.name not in prot_list:
+                prot_list.append(v.name)
+                
+    return(prot_list)
+    
+def getChemfromKG(mainGraph):
+
+    chem_list = []
+    for u, v, data in tqdm(mainGraph.edges(data=True),desc='Filtering Chemicals'):
+
+        if 'CHEMBL' in u.name:
+            print(u)
+            print(u.name)
+            print(u.namespace)
+            if u.name not in chem_list:
+                chem_list.append(u.name)
+
+        if 'CHEMBL' in v.name:
+            if v.name not in chem_list:
+                chem_list.append(v.name)
+                
+    return(chem_list)
+
+
+def ro5_filter(df):
+    
+    temp_df = []
+    
+    violation_counts_list = []
+    
+    pass_list = []
+    
+    for item in df['smiles']:
+    
+        molecule = Chem.MolFromSmiles(item) 
+
+#         Lipinski Ro5
+        
+#         Moleculer Weight <= 500
+#         LogP <= 5
+#         H-Bond Donor Count <= 5
+#         H-Bond Acceptor Count <= 10
+
+        molecular_weight = Descriptors.MolWt(molecule)
+
+        h_bond_acceptors = Descriptors.NOCount(molecule)
+
+        h_bond_donor = Descriptors.NHOHCount(molecule)
+
+        logp = Descriptors.MolLogP(molecule)
+        
+        conditions = [molecular_weight <= 500, h_bond_acceptors <= 10, h_bond_donor <= 5, logp <= 5]
+        
+        violation_counts = conditions.count(False)
+        
+        violation_counts_list.append(violation_counts)
+        
+        descriptors = [molecular_weight,h_bond_acceptors,h_bond_donor,logp]
+        
+        temp_df.append(descriptors)
+                
+        pass_ro5 = conditions.count(True) >= 3
+        
+        if pass_ro5 == True:
+            pass_list.append(0)
+        
+        else:
+            pass_list.append(1)
+            
+    
+    names = 'MW HBA HBD LogP'.split(' ')
+    temp_df = pd.DataFrame(temp_df, columns=names)
+    
+    
+    df['Violation(s)_ro5'] = violation_counts_list
+    df['Lipinski_ro5'] = pass_list
+    
+    df = pd.concat([df, temp_df], axis=1)
+    
+    return(df)
+    
+def ghose_filter(df):
+
+    temp_df = []
+    
+    pass_list = []
+    
+    for item in df['smiles']:
+    
+        molecule = Chem.MolFromSmiles(item) 
+
+        # ghose descriptors
+        #     Molecular weight between 160 and 480
+        #     LogP between -0.4 and +5.6
+        #     Atom count between 20 and 70
+        #     Molar refractivity between 40 and 130
+        
+        molar_refractivity = Chem.Crippen.MolMR(molecule)
+        
+        number_of_atoms = Chem.rdchem.Mol.GetNumAtoms(molecule)
+
+        molecular_weight = Descriptors.MolWt(molecule)
+
+        logp = Descriptors.MolLogP(molecule)
+        
+        conditions = [molecular_weight >= 160 and molecular_weight <= 480, 
+              number_of_atoms >= 20 and number_of_atoms <= 70, 
+              molar_refractivity >= 40 and molar_refractivity <= 130, 
+              logp >= -0.4 and logp <= 5.6]
+                
+        pass_ghose = conditions.count(True) == 4
+        
+        descriptors = [number_of_atoms,molar_refractivity]
+        
+        temp_df.append(descriptors)
+        
+        if pass_ghose == True:
+            pass_list.append(0)
+        
+        else:
+            pass_list.append(1)
+            
+    names = 'AtomNum MolRefractivity'.split(' ')
+    temp_df = pd.DataFrame(temp_df, columns=names)
+
+    df['Ghose'] = pass_list
+    
+    df = pd.concat([df, temp_df], axis=1)
+    
+    return(df)
+    
+def veber_filter(df):
+
+    temp_df = []
+    
+    pass_list = []
+    
+    for item in df['smiles']:
+    
+        molecule = Chem.MolFromSmiles(item) 
+
+#         Veber filter
+#         Rotatable bonds <= 10
+#         Topological polar surface area <= 140
+
+        topological_surface_area_mapping = Chem.QED.properties(molecule).PSA
+    
+        rotatable_bonds = Descriptors.NumRotatableBonds(molecule)
+
+        conditions = [rotatable_bonds <= 10, 
+                      topological_surface_area_mapping <= 140
+        ]
+                
+        pass_veber = conditions.count(True) == 2
+        
+        descriptors = [rotatable_bonds,topological_surface_area_mapping]
+        
+        temp_df.append(descriptors)
+        
+        if pass_veber == True:
+            pass_list.append(0)
+        
+        else:
+            pass_list.append(1)
+            
+    names = 'RotBond TPSA'.split(' ')
+    temp_df = pd.DataFrame(temp_df, columns=names)
+
+    df['Veber'] = pass_list
+    
+    df = pd.concat([df, temp_df], axis=1)
+    
+    return(df)
+    
+def reos_filter(df):
+    
+    temp_df = []
+    
+    pass_list = []
+    
+    for item in df['smiles']:
+    
+        molecule = Chem.MolFromSmiles(item) 
+
+# REOS:
+#     Molecular weight between 200 and 500
+#     LogP between -5.0 and +5.0
+#     H-bond donor count between 0 and 5
+#     H-bond acceptor count between 0 and 10
+#     Formal charge between -2 and +2
+#     Rotatable bond count between 0 and 8
+#     Heavy atom count between 15 and 50
+
+        molecular_weight = Descriptors.ExactMolWt(molecule)
+        logp = Descriptors.MolLogP(molecule)
+        h_bond_donor = Descriptors.NumHDonors(molecule)
+        h_bond_acceptors = Descriptors.NumHAcceptors(molecule)
+        rotatable_bonds = Descriptors.NumRotatableBonds(molecule)
+        formal_charge = Chem.rdmolops.GetFormalCharge(molecule)
+        heavy_atoms = Chem.rdchem.Mol.GetNumHeavyAtoms(molecule)
+        
+        #print(molecular_weight,logp,h_bond_donor,h_bond_acceptors,formal_charge,rotatable_bonds,heavy_atoms)
+        
+        conditions = [molecular_weight >= 200 and molecular_weight <= 500, 
+              logp >= -0.4 and logp <= 5.6,        
+              h_bond_donor >= 0 and h_bond_donor <= 5, 
+              h_bond_acceptors >= 0 and h_bond_acceptors <= 10,
+              formal_charge >= -2 and formal_charge <= 2,
+              rotatable_bonds >= 0 and rotatable_bonds <= 8,
+              heavy_atoms >= 15 and heavy_atoms <= 50]
+              
+        descriptors = [formal_charge,heavy_atoms]
+        
+        temp_df.append(descriptors)
+        
+        #print(conditions)
+        pass_reos = conditions.count(True) == 7
+        
+        if pass_reos == True:
+            pass_list.append(0)
+        
+        else:
+            pass_list.append(1)
+            
+    names = 'Charge HeavyAtom'.split(' ')
+    temp_df = pd.DataFrame(temp_df, columns=names)
+
+    df['REOS'] = pass_list
+    
+    df = pd.concat([df, temp_df], axis=1)
+    
+    return(df)
+    
+def qed_filter(df):
+    
+    temp_df = []
+    
+    pass_list = []
+    
+    for item in df['smiles']:
+    
+        molecule = Chem.MolFromSmiles(item) 
+
+# Drug-Like (QED):
+#     mass < 400
+#     ring count > 0
+#     rotatable bond count < 5
+#     h-bond donor count <= 5
+#     h-bond acceptor count <= 10
+#     logP < 5
+    
+        molecular_weight = Descriptors.ExactMolWt(molecule)
+        logp = Descriptors.MolLogP(molecule)
+        h_bond_donor = Descriptors.NumHDonors(molecule)
+        h_bond_acceptors = Descriptors.NumHAcceptors(molecule)
+        rotatable_bonds = Descriptors.NumRotatableBonds(molecule)
+        num_of_rings = Chem.rdMolDescriptors.CalcNumRings(molecule)
+      
+        #print(molecular_weight,logp,h_bond_donor,h_bond_acceptors,formal_charge,rotatable_bonds,heavy_atoms)
+        
+        conditions = [molecular_weight <= 400, 
+              logp <= 5,        
+              h_bond_donor <= 5, 
+              h_bond_acceptors <= 10,
+              num_of_rings > 0,
+              rotatable_bonds <= 5]
+              
+        #descriptors = [num_of_rings]
+        
+        temp_df.append(num_of_rings)
+        
+        #print(conditions)
+        pass_qed = conditions.count(True) == 6
+        
+        if pass_qed == True:
+            pass_list.append(0)
+        
+        else:
+            pass_list.append(1)
+
+    df['QED'] = pass_list
+    df['RingNum'] = temp_df
+    
+    return(df)
