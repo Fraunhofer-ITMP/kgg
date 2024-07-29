@@ -43,6 +43,9 @@ from IPython.display import Markdown, display
 from rdkit import Chem
 from rdkit.Chem import Descriptors
 
+from pandasgwas import get_variants
+from pandasgwas.get_variants import get_variants_by_efo_id
+
 logger = logging.getLogger("__name__")
 
 def searchDisease(name): 
@@ -646,7 +649,7 @@ def GetViralProteins(query_disease):
         
         return(uprot_list)
 
-def saveFiles(kgName, disease2protein, drugAdvEffect, final_kg, drug_df,snp_df):
+def saveFiles(kgName, disease2protein, drugAdvEffect, final_kg, drug_df,snp_df,uprot_dict):
 
     print('Now let\'s save all the files that were created in the process.','\n')
     
@@ -684,6 +687,11 @@ def saveFiles(kgName, disease2protein, drugAdvEffect, final_kg, drug_df,snp_df):
     filename = kgName + '.pkl'
     outfile = open(filename,'wb')
     pickle.dump(final_kg,outfile)
+    outfile.close()
+    
+    filename = kgName+ '_prot_dict' + '.pkl'
+    outfile = open(filename,'wb')
+    pickle.dump(uprot_dict,outfile)
     outfile.close()
     
     #plot for namespace dist
@@ -875,7 +883,7 @@ def createKG():
     
     print('Your KG is now generated!','\n')
     
-    saveFiles(kg_name, uprot_df, adv_effect, kg, drugs_df, dis2snp_df)
+    saveFiles(kg_name, uprot_df, adv_effect, kg, drugs_df, dis2snp_df,uprot_ext)
     
     return(kg)
     
@@ -1349,3 +1357,109 @@ def qed_filter(df):
     df['RingNum'] = temp_df
     
     return(df)
+    
+def prot2crossRefDB(prot_list):
+    
+    import requests
+    
+    final_list = []
+    
+    for prot in prot_list:
+        
+        print(prot)
+        temp_list = []
+        
+        temp_list.append(prot)
+        
+        files = {
+        'from': (None, 'Gene_Name'),
+        'to': (None, 'UniProtKB-Swiss-Prot'),
+        'ids': (None, prot),
+        'taxId': (None, '9606'),
+        }
+    
+        response = requests.post('https://rest.uniprot.org/idmapping/run', files=files)
+        
+        response = response.json()
+        
+        job_id = response['jobId']
+        
+#         try:
+#             output = get_id_mapping_results_link(job_id)
+            
+#         except: 
+#             output = get_id_mapping_results_link(job_id)
+        
+        API_URL = "https://rest.uniprot.org"
+        session = requests.Session()
+        url = f"{API_URL}/idmapping/details/{job_id}"
+        request = session.get(url)
+        check_response(request)
+        print(check_response)
+        print(request.json())
+
+        output= request.json()["redirectURL"]
+        
+
+        response = requests.get(output)
+        
+        response = response.json()
+        
+        if response['results']: 
+        
+        #print(response)
+        
+            uprot = response['results'][0]['to']['primaryAccession']
+
+            temp_list.append(uprot)
+
+            uniProtkbId = response['results'][0]['to']['uniProtkbId'] 
+            organism = response['results'][0]['to']['organism']['scientificName']
+
+            #get all crossRef DBs
+            crossRefs = response['results'][0]['to']['uniProtKBCrossReferences']
+
+            db_list = []
+            for item in crossRefs:
+
+                db_list.append(item['database'])
+
+
+            if 'OpenTargets' in db_list:
+                getIndex = db_list.index('OpenTargets')
+                temp_list.append(crossRefs[getIndex]['id'])
+
+            else:
+                temp_list.append('None')
+
+
+            if 'ChEMBL' in db_list:
+                getIndex = db_list.index('ChEMBL')
+                temp_list.append(crossRefs[getIndex]['id'])
+
+            else:
+                temp_list.append('None')
+
+
+            if 'HGNC' in db_list:
+                getIndex = db_list.index('HGNC')
+                temp_list.append(crossRefs[getIndex]['id'])
+
+            else:
+                temp_list.append('None')
+
+            temp_list.append(uniProtkbId)
+            temp_list.append(organism)
+
+            #print(temp_list)
+
+            final_list.append(temp_list)
+        
+        #print(final_list)
+        
+    cols = ['Protein','UniProt','ENSG','ChEMBL','HGNC','uniProtkbId','Organism']
+    
+    df= pd.DataFrame(final_list,columns=cols)             
+        
+    return(df)
+    
