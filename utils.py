@@ -12,7 +12,7 @@ import requests
 from chembl_webresource_client.http_errors import HttpBadRequest, HttpApplicationError
 from chembl_webresource_client.new_client import new_client
 from pybel import BELGraph
-from pybel.dsl import Protein, Abundance, Pathology, BiologicalProcess, Gene
+from pybel.dsl import Protein, Abundance, Pathology, BiologicalProcess, Gene, MicroRna, Population 
 from tqdm.auto import tqdm
 import time
 import seaborn as sns
@@ -68,6 +68,73 @@ def RetDrugInd(chemblIDs) -> dict:
         if v
     }
     return named_drugIndList
+    
+def RetAct_pchem_5(chemblIds) -> dict:
+    """Function to retrieve associated assays from ChEMBL
+
+    :param chemblIds:
+    :return:
+    """
+    GetAct = new_client.activity
+    getTar = new_client.target
+    ActList = []
+    filtered_list=['assay_chembl_id','assay_type','pchembl_value','target_chembl_id',
+                   'target_organism','bao_label','target_type']
+
+#     filtered_list = [
+#         'pchembl_value',
+#         'target_chembl_id',
+#         'target_type',
+#         'bao_label'
+#     ]
+
+    for chembl in tqdm(chemblIds, desc='Retrieving bioassays from ChEMBL'):
+    #for i in range(len(chemblIds)):
+        acts = GetAct.filter(
+            molecule_chembl_id=chembl,
+            pchembl_value__isnull=False,
+            assay_type_iregex='(B|F)',
+            target_organism='Homo sapiens'
+        ).only(filtered_list)
+        
+        #print(chemblIds[i])
+        data = []
+        #print(acts)
+        
+        for d in acts:
+
+            if float(d.get('pchembl_value')) <= 5:
+                continue
+                            
+            if (d.get('bao_label') != 'single protein format'):
+                continue
+                
+            tar = d.get('target_chembl_id')   
+            tar_dict = getTar.get(tar)
+            #print(tar_dict)
+            
+            try:
+                if tar_dict['target_type'] in ('CELL-LINE', 'UNCHECKED'):
+                    continue
+            except KeyError:
+                continue
+                
+
+            #uprot_id = d['target_components'][0]['accession']
+            #print(uprot_id)
+            #print(d)
+            data.append(d)
+
+        # acts = acts[:5]
+        ActList.append(list(data))
+
+    named_ActList = dict(zip(chemblIds, ActList))
+    named_ActList = {
+        k: v
+        for k, v in named_ActList.items()
+        if v
+    }
+    return named_ActList
 
 def RetAct(chemblIds) -> dict:
     """Function to retrieve associated assays from ChEMBL
@@ -304,10 +371,12 @@ def chembl2gene2path(
     for item in chem2geneList:
         sizeOfitem = len(chem2geneList[item])
         gene = chem2geneList[item][sizeOfitem - 1]['component_synonym']
+        #uniprot id is located in 2nd last pos
+        uprot = chem2geneList[item][-2]['accession']
         for jtem in ActList:
             for i in range(len(ActList[jtem])):
                 if item == ActList.get(jtem)[i]['target_chembl_id']:
-                    newkey = {'Protein': gene}
+                    newkey = {'Protein': gene,'Accession':uprot}
                     ActList[jtem][i].update(newkey)
 
     return ActList
@@ -413,7 +482,7 @@ def ExtractFromUniProt(uniprot_id) -> dict:
 
 def chem2moa_rel(
     named_mechList,
-    org,
+    org,otp_prots,
     graph: BELGraph
 ) -> BELGraph:
     """Method to create the monkeypox graph
@@ -443,7 +512,7 @@ def chem2moa_rel(
             if not info['target_chembl_id']:
                 continue
 
-            if 'Protein' in info:
+            if 'Protein' in info and info['Accession'] in otp_prots:
                 if info['action_type'] in pos:
                     graph.add_increases(
                         Abundance(namespace='ChEMBL', name=chembl_name),
@@ -451,7 +520,7 @@ def chem2moa_rel(
                         citation='ChEMBL database',
                         evidence='ChEMBL query'
                     )
-                if info['action_type'] in neg:
+                if info['action_type'] in neg and info['Accession'] in otp_prots:
                     graph.add_decreases(
                         Abundance(namespace='ChEMBL', name=chembl_name),
                         Protein(namespace=org, name=info['Protein']),
@@ -459,7 +528,7 @@ def chem2moa_rel(
                         evidence='ChEMBL query'
                     )
 
-                if info['action_type'] in misc:
+                if info['action_type'] in misc and info['Accession'] in otp_prots:
                     graph.add_association(
                         Abundance(namespace='ChEMBL', name=chembl_name),
                         Protein(namespace=org, name=info['Protein']),
@@ -501,7 +570,7 @@ def chem2dis_rel(
 
 def chem2act_rel(
     named_ActList,
-    org,
+    org,otp_prots,
     graph: BELGraph
 ) -> BELGraph:
     """Method to add bioassay edges to the KG.
@@ -514,7 +583,7 @@ def chem2act_rel(
     for chemical, chem_entries in tqdm(named_ActList.items(), desc='Adding bioassay edges to BEL'):
         for chem_data in chem_entries:
             if chem_data['target_chembl_id']:
-                if 'Protein' in chem_data:
+                if 'Protein' in chem_data and chem_data['Accession'] in otp_prots:
                     graph.add_association(
                         Abundance(namespace='ChEMBLAssay', name=chem_data['assay_chembl_id']),
                         Protein(namespace=org, name=chem_data['Protein']),
@@ -545,7 +614,7 @@ def chem2act_rel(
 
 def gene2path_rel(
     named_chem2geneList,
-    org,
+    org,otp_prots,
     graph
 ) -> BELGraph:
     """Method to add protein and reactome data to KG
@@ -558,17 +627,23 @@ def gene2path_rel(
     for item in named_chem2geneList:
         itemLen = len(named_chem2geneList[item]) - 1
         for j in range(itemLen - 1):
-            graph.add_association(
-                Protein(namespace=org, name=named_chem2geneList[item][itemLen]['component_synonym']),
-                BiologicalProcess(namespace='Reactome', name=named_chem2geneList[item][j]['xref_name']),
-                citation='ChEMBL database',
-                evidence='ChEMBL query',
-                annotation={
-                    'Reactome': 'https://reactome.org/content/detail/'+named_chem2geneList[item][j]['xref_id']
-                }
-            )
+            
+            #checks if uprot id is in otp_proteins
+            if named_chem2geneList[item][itemLen - 1]['accession'] in otp_prots:
+            
+                graph.add_association(
+                    Protein(namespace=org, name=named_chem2geneList[item][itemLen]['component_synonym']),
+                    BiologicalProcess(namespace='Reactome', name=named_chem2geneList[item][j]['xref_name']),
+                    citation='ChEMBL database',
+                    evidence='ChEMBL query',
+                    annotation={
+                        'Reactome': 'https://reactome.org/content/detail/'+named_chem2geneList[item][j]['xref_id']
+                    }
+                )
 
     return graph
+
+
 
 
 # def uniprot_rel(
@@ -810,7 +885,7 @@ def getNodeList(nodeName,graph):
     
 def chembl_annotation(graph):
     chemblids = getNodeList('ChEMBL',graph)
-    for item in chemblids:
+    for item in tqdm(chemblids,desc='Adding ChEMBL URLs'):
         nx.set_node_attributes(graph,{Abundance(namespace='ChEMBL',
                                                name=item):'https://www.ebi.ac.uk/chembl/compound_report_card/'+item},'ChEMBL')
     return graph
@@ -840,7 +915,6 @@ def chembl2rxn_rel(
         )
 
     return graph
-
 
 def cas2cid(cas):
     import re
@@ -879,7 +953,6 @@ def cid2chembl(cidList) -> list:
 
     return cid2chembl_list
   
-
 #function to create sub-graph  
 def filter_graph(mainGraph, vprotList):
     nsp_list = []
@@ -895,7 +968,6 @@ def filter_graph(mainGraph, vprotList):
     nsp_graph = mainGraph.subgraph(nsp_list)
     #nsp_graph = pybel.struct.mutation.induction_expansion.get_subgraph_by_second_neighbors(mpox_graph, nsp_list, filter_pathologies=False)
     return(nsp_graph)
-
     
 # def chembl2rxn_rel(itmpGraph):
     

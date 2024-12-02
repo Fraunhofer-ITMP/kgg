@@ -9,3 +9,9 @@ jupyter
 matplotlib
 pillow
 numpy
+rdkit
+venny4py
+tqdm
+pandasgwas
+animation
+
