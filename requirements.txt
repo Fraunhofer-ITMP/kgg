@@ -14,4 +14,5 @@ venny4py
 tqdm
 pandasgwas
 animation
+matplotlib_venn
 

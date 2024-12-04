@@ -1,0 +1,2231 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d2" for="edge" attr.name="bel" attr.type="string"/>
+<key id="d1" for="edge" attr.name="interaction" attr.type="string"/>
+<key id="d0" for="node" attr.name="function" attr.type="string"/>
+<graph edgedefault="directed"><node id="bp(GOMF:&quot;endopeptidase activity&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="p(HGNC:MMP8)">
+  <data key="d0">Protein</data>
+</node>
+<node id="bp(GOMF:&quot;metalloendopeptidase activity&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOMF:&quot;peptidase activity&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOMF:&quot;serine-type endopeptidase activity&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOMF:&quot;tumor necrosis factor binding&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOMF:&quot;zinc ion binding&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;cellular response to lipopolysaccharide&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;collagen catabolic process&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;endodermal cell differentiation&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;extracellular matrix disassembly&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;extracellular matrix organization&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;positive regulation of microglial cell activation&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;positive regulation of neuroinflammatory response&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;positive regulation of tumor necrosis factor production&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;positive regulation of tumor necrosis factor-mediated signaling pathway&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:proteolysis)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="p(HGNC:MMP7)">
+  <data key="d0">Protein</data>
+</node>
+<node id="bp(GOMF:&quot;metallopeptidase activity&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;membrane protein ectodomain proteolysis&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;membrane protein intracellular domain proteolysis&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;positive regulation of cell migration&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="p(HGNC:MMP1)">
+  <data key="d0">Protein</data>
+</node>
+<node id="bp(GOBP:&quot;cellular response to UV-A&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;positive regulation of protein-containing complex assembly&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;protein metabolic process&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOMF:&quot;calcium ion binding&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="p(HGNC:MMP13)">
+  <data key="d0">Protein</data>
+</node>
+<node id="bp(GOMF:&quot;collagen binding&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;bone mineralization&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;bone morphogenesis&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;endochondral ossification&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;growth plate cartilage development&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(GOBP:&quot;response to amyloid-beta&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(MOA:&quot;Matrix metalloproteinase 7 inhibitor&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="a(ChEMBL:CHEMBL1200699)">
+  <data key="d0">Abundance</data>
+</node>
+<node id="bp(MOA:&quot;Matrix metalloproteinase 8 inhibitor&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(MOA:&quot;Matrix metalloproteinase 13 inhibitor&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(MOA:&quot;Matrix metalloproteinase-1 inhibitor&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(MOA:&quot;Bacterial 70S ribosome inhibitor&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="p(HGNC:rpsB)">
+  <data key="d0">Protein</data>
+</node>
+<node id="p(HGNC:SIGMAR1)">
+  <data key="d0">Protein</data>
+</node>
+<node id="a(ChEMBLAssay:CHEMBL4303094)">
+  <data key="d0">Abundance</data>
+</node>
+<node id="a(ChEMBL:CHEMBL1535)">
+  <data key="d0">Abundance</data>
+</node>
+<node id="p(HGNC:TMEM97)">
+  <data key="d0">Protein</data>
+</node>
+<node id="a(ChEMBLAssay:CHEMBL4303093)">
+  <data key="d0">Abundance</data>
+</node>
+<node id="p(HGNC:TLR7)">
+  <data key="d0">Protein</data>
+</node>
+<node id="a(ChEMBLAssay:CHEMBL4814524)">
+  <data key="d0">Abundance</data>
+</node>
+<node id="bp(Reactome:&quot;Collagen degradation.&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(Reactome:&quot;Degradation of the extracellular matrix.&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(Reactome:&quot;Activation of Matrix Metalloproteinases.&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(Reactome:&quot;Assembly of collagen fibrils and other multimeric structures.&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(Reactome:&quot;RUNX2 regulates genes involved in cell migration.&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(Reactome:&quot;Basigin interactions.&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(Reactome:&quot;Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs).&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(Reactome:&quot;Interleukin-4 and Interleukin-13 signaling.&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(Reactome:&quot;Trafficking and processing of endosomal TLR.&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(Reactome:&quot;Toll Like Receptor 7/8 (TLR7/8) Cascade.&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(Reactome:&quot;Potential therapeutics for SARS.&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(Reactome:&quot;SARS-CoV-1 activates/modulates innate immune responses.&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(Reactome:&quot;SARS-CoV-2 activates/modulates innate and adaptive immune responses.&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(Reactome:&quot;TRAF6 mediated IRF7 activation in TLR7/8 or 9 signaling.&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(Reactome:&quot;TRAF6 mediated induction of NFkB and MAP kinases upon TLR7/8 or 9 activation.&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(Reactome:&quot;MyD88 dependent cascade initiated on endosome.&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(Reactome:&quot;Neutrophil degranulation.&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="bp(Reactome:&quot;Extra-nuclear estrogen signaling.&quot;)">
+  <data key="d0">BiologicalProcess</data>
+</node>
+<node id="path(SideEffect:&quot;drug hypersensitivity&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;jarisch-herxheimer reaction&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;oesophageal ulcer&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;gastrointestinal mucosal necrosis&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;pancreatitis acute&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;gastrointestinal injury&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;photosensitivity reaction&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:vomiting)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:rash)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;cholangitis sclerosing&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:oesophagitis)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;intracranial pressure increased&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;drug-induced liver injury&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;injection site pain&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:fall)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;rheumatoid arthritis&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;drug intolerance&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:synovitis)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;joint swelling&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;treatment failure&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;therapeutic product effect decreased&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:pemphigus)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:arthropathy)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;systemic lupus erythematosus&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;hand deformity&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:pain)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;abdominal discomfort&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:arthralgia)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:glossodynia)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;condition aggravated&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:alopecia)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;c-reactive protein abnormal&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;anti-cyclic citrullinated peptide antibody positive&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;rheumatoid factor positive&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:swelling)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;red blood cell sedimentation rate abnormal&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;peripheral swelling&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;loss of personal independence in daily activities&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;hepatic enzyme increased&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:wound)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;therapeutic product effect incomplete&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;red blood cell sedimentation rate increased&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;c-reactive protein increased&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;musculoskeletal stiffness&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:pericarditis)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:infection)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;mobility decreased&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;helicobacter infection&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;duodenal ulcer perforation&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:hypersensitivity)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:fatigue)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;sleep disorder due to general medical condition, insomnia type&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:discomfort)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;muscle injury&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;gastrointestinal disorder&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;blood iron abnormal&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;irritable bowel syndrome&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;infusion related reaction&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;retinal toxicity&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;ill-defined disorder&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;knee arthroplasty&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:folliculitis)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;electrocardiogram qt prolonged&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:arthritis)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:retinopathy)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;bone erosion&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:sinusitis)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;hip arthroplasty&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:inflammation)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:fibromyalgia)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;herpes zoster&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;musculoskeletal pain&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:stomatitis)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;rheumatoid nodule&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:sciatica)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;impaired work ability&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;psoriatic arthropathy&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;impaired healing&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;drug tolerance decreased&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:osteoporosis)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:osteoarthritis)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;lower respiratory tract infection&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:nausea)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:blister)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:disability)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;rheumatoid factor negative&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;pneumonia viral&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:covid-19)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:nasopharyngitis)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;human antichimeric antibody positive&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;granuloma skin&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:tenosynovitis)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;drug effective for unapproved indication&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;therapy non-responder&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:maculopathy)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;joint stiffness&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:panniculitis)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;premature baby&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;pain in extremity&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;blood parathyroid hormone decreased&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;joint range of motion decreased&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;body height below normal&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;apparent death&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:diverticulitis)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;joint laxity&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;blood cholesterol increased&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:hepatitis)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;wheelchair user&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;therapeutic response decreased&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;pulmonary fibrosis&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:&quot;breast cancer stage iii&quot;)">
+  <data key="d0">Pathology</data>
+</node>
+<node id="path(SideEffect:presbyacusis)">
+  <data key="d0">Pathology</data>
+</node>
+<edge source="bp(GOMF:&quot;endopeptidase activity&quot;)" target="p(HGNC:MMP8)" id="0f0f516fcf18956f8063b7c878338db6">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"endopeptidase activity") association p(HGNC:MMP8)</data>
+</edge>
+<edge source="bp(GOMF:&quot;endopeptidase activity&quot;)" target="p(HGNC:MMP7)" id="77742b865dd826e50953c4c622749129">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"endopeptidase activity") association p(HGNC:MMP7)</data>
+</edge>
+<edge source="bp(GOMF:&quot;endopeptidase activity&quot;)" target="p(HGNC:MMP1)" id="11b04c57decfcc4603a0c5a22695c4e4">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"endopeptidase activity") association p(HGNC:MMP1)</data>
+</edge>
+<edge source="bp(GOMF:&quot;endopeptidase activity&quot;)" target="p(HGNC:MMP13)" id="5375e3d47c0bc34870557ec012098d01">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"endopeptidase activity") association p(HGNC:MMP13)</data>
+</edge>
+<edge source="p(HGNC:MMP8)" target="bp(GOMF:&quot;endopeptidase activity&quot;)" id="50fc43d603f5000082d5d4400111c520">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP8) association bp(GOMF:"endopeptidase activity")</data>
+</edge>
+<edge source="p(HGNC:MMP8)" target="bp(GOMF:&quot;metalloendopeptidase activity&quot;)" id="b64f98a0f1545994611ff670b0717021">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP8) association bp(GOMF:"metalloendopeptidase activity")</data>
+</edge>
+<edge source="p(HGNC:MMP8)" target="bp(GOMF:&quot;peptidase activity&quot;)" id="3dd357a7733b3ccde5ac2f5338cdc822">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP8) association bp(GOMF:"peptidase activity")</data>
+</edge>
+<edge source="p(HGNC:MMP8)" target="bp(GOMF:&quot;serine-type endopeptidase activity&quot;)" id="fae4ceb767928fbab3bd61ca88c155c2">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP8) association bp(GOMF:"serine-type endopeptidase activity")</data>
+</edge>
+<edge source="p(HGNC:MMP8)" target="bp(GOMF:&quot;tumor necrosis factor binding&quot;)" id="7c2f5ac9626566444e3c5f1f54581b3d">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP8) association bp(GOMF:"tumor necrosis factor binding")</data>
+</edge>
+<edge source="p(HGNC:MMP8)" target="bp(GOMF:&quot;zinc ion binding&quot;)" id="0101a1851cf294777288c705caee7736">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP8) association bp(GOMF:"zinc ion binding")</data>
+</edge>
+<edge source="p(HGNC:MMP8)" target="bp(GOBP:&quot;cellular response to lipopolysaccharide&quot;)" id="7115c93abeb3fcdd3b9d48b20f4a76b5">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP8) association bp(GOBP:"cellular response to lipopolysaccharide")</data>
+</edge>
+<edge source="p(HGNC:MMP8)" target="bp(GOBP:&quot;collagen catabolic process&quot;)" id="6767d5c18dba2f6230eb334e24949d00">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP8) association bp(GOBP:"collagen catabolic process")</data>
+</edge>
+<edge source="p(HGNC:MMP8)" target="bp(GOBP:&quot;endodermal cell differentiation&quot;)" id="c931f71261eee2258d8e85bbc428cb84">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP8) association bp(GOBP:"endodermal cell differentiation")</data>
+</edge>
+<edge source="p(HGNC:MMP8)" target="bp(GOBP:&quot;extracellular matrix disassembly&quot;)" id="bffe871856c4714ec403adfdc1500953">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP8) association bp(GOBP:"extracellular matrix disassembly")</data>
+</edge>
+<edge source="p(HGNC:MMP8)" target="bp(GOBP:&quot;extracellular matrix organization&quot;)" id="d0e5c600dc55f1e44ddc7a0e8ba55d2f">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP8) association bp(GOBP:"extracellular matrix organization")</data>
+</edge>
+<edge source="p(HGNC:MMP8)" target="bp(GOBP:&quot;positive regulation of microglial cell activation&quot;)" id="c50d09cfa2f2e5ebb84da1e39d0cb8cd">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP8) association bp(GOBP:"positive regulation of microglial cell activation")</data>
+</edge>
+<edge source="p(HGNC:MMP8)" target="bp(GOBP:&quot;positive regulation of neuroinflammatory response&quot;)" id="c0abd985216016bea9ecb41e60178543">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP8) association bp(GOBP:"positive regulation of neuroinflammatory response")</data>
+</edge>
+<edge source="p(HGNC:MMP8)" target="bp(GOBP:&quot;positive regulation of tumor necrosis factor production&quot;)" id="8bf598149debb0d3a65b8adaee2b297c">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP8) association bp(GOBP:"positive regulation of tumor necrosis factor production")</data>
+</edge>
+<edge source="p(HGNC:MMP8)" target="bp(GOBP:&quot;positive regulation of tumor necrosis factor-mediated signaling pathway&quot;)" id="0be8d44658752a401f708664bfb4446b">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP8) association bp(GOBP:"positive regulation of tumor necrosis factor-mediated signaling pathway")</data>
+</edge>
+<edge source="p(HGNC:MMP8)" target="bp(GOBP:proteolysis)" id="34de730cff4344e9c5f515ba14ecec8c">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP8) association bp(GOBP:proteolysis)</data>
+</edge>
+<edge source="p(HGNC:MMP8)" target="bp(Reactome:&quot;Collagen degradation.&quot;)" id="e129a58b258384bb76bff89c6987685b">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP8) association bp(Reactome:"Collagen degradation.")</data>
+</edge>
+<edge source="p(HGNC:MMP8)" target="bp(Reactome:&quot;Degradation of the extracellular matrix.&quot;)" id="7787f0d8fea04749c8a46e895b52394d">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP8) association bp(Reactome:"Degradation of the extracellular matrix.")</data>
+</edge>
+<edge source="p(HGNC:MMP8)" target="bp(Reactome:&quot;Activation of Matrix Metalloproteinases.&quot;)" id="5248f23721a49409d2d6dfce780d1be7">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP8) association bp(Reactome:"Activation of Matrix Metalloproteinases.")</data>
+</edge>
+<edge source="p(HGNC:MMP8)" target="bp(Reactome:&quot;Neutrophil degranulation.&quot;)" id="6eae68850f79b570db10b6b038fc95da">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP8) association bp(Reactome:"Neutrophil degranulation.")</data>
+</edge>
+<edge source="bp(GOMF:&quot;metalloendopeptidase activity&quot;)" target="p(HGNC:MMP8)" id="65ac80ed75f8fe1f498690d4493eb70f">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"metalloendopeptidase activity") association p(HGNC:MMP8)</data>
+</edge>
+<edge source="bp(GOMF:&quot;metalloendopeptidase activity&quot;)" target="p(HGNC:MMP7)" id="c51fcb1b192101e7b5e39a42358d9d35">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"metalloendopeptidase activity") association p(HGNC:MMP7)</data>
+</edge>
+<edge source="bp(GOMF:&quot;metalloendopeptidase activity&quot;)" target="p(HGNC:MMP1)" id="7e88227b9477c16ffb94764ff7c31fc2">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"metalloendopeptidase activity") association p(HGNC:MMP1)</data>
+</edge>
+<edge source="bp(GOMF:&quot;metalloendopeptidase activity&quot;)" target="p(HGNC:MMP13)" id="257a27fb0e620d0137ab7a667319fd3b">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"metalloendopeptidase activity") association p(HGNC:MMP13)</data>
+</edge>
+<edge source="bp(GOMF:&quot;peptidase activity&quot;)" target="p(HGNC:MMP8)" id="766f08923d95ac30295b3915d0add270">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"peptidase activity") association p(HGNC:MMP8)</data>
+</edge>
+<edge source="bp(GOMF:&quot;peptidase activity&quot;)" target="p(HGNC:MMP1)" id="9abe775fe3d7bf39bb17f51ac43afad7">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"peptidase activity") association p(HGNC:MMP1)</data>
+</edge>
+<edge source="bp(GOMF:&quot;serine-type endopeptidase activity&quot;)" target="p(HGNC:MMP8)" id="c0983aa326d956bb1436413790504c28">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"serine-type endopeptidase activity") association p(HGNC:MMP8)</data>
+</edge>
+<edge source="bp(GOMF:&quot;serine-type endopeptidase activity&quot;)" target="p(HGNC:MMP7)" id="1b05387b3953a1e738a96fd3603e721c">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"serine-type endopeptidase activity") association p(HGNC:MMP7)</data>
+</edge>
+<edge source="bp(GOMF:&quot;serine-type endopeptidase activity&quot;)" target="p(HGNC:MMP1)" id="e85dd4a5f46879b3fe30ef46181f2a9d">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"serine-type endopeptidase activity") association p(HGNC:MMP1)</data>
+</edge>
+<edge source="bp(GOMF:&quot;serine-type endopeptidase activity&quot;)" target="p(HGNC:MMP13)" id="1760bad46224e9e6cb62518118b750b6">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"serine-type endopeptidase activity") association p(HGNC:MMP13)</data>
+</edge>
+<edge source="bp(GOMF:&quot;tumor necrosis factor binding&quot;)" target="p(HGNC:MMP8)" id="e7d5d172e4f4347661c581bf9f54e246">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"tumor necrosis factor binding") association p(HGNC:MMP8)</data>
+</edge>
+<edge source="bp(GOMF:&quot;zinc ion binding&quot;)" target="p(HGNC:MMP8)" id="c48487a304e7a1dad773b1bea662e1c9">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"zinc ion binding") association p(HGNC:MMP8)</data>
+</edge>
+<edge source="bp(GOMF:&quot;zinc ion binding&quot;)" target="p(HGNC:MMP7)" id="71df67d42ce3e234e2713ff53a151e21">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"zinc ion binding") association p(HGNC:MMP7)</data>
+</edge>
+<edge source="bp(GOMF:&quot;zinc ion binding&quot;)" target="p(HGNC:MMP1)" id="e37c382a9628d788eaa076483928ac4b">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"zinc ion binding") association p(HGNC:MMP1)</data>
+</edge>
+<edge source="bp(GOMF:&quot;zinc ion binding&quot;)" target="p(HGNC:MMP13)" id="acc94570a52d4c6a8a7ac569f81b4cc6">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"zinc ion binding") association p(HGNC:MMP13)</data>
+</edge>
+<edge source="bp(GOBP:&quot;cellular response to lipopolysaccharide&quot;)" target="p(HGNC:MMP8)" id="439d8ac9d8967761f6e4a9499fb9cf13">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"cellular response to lipopolysaccharide") association p(HGNC:MMP8)</data>
+</edge>
+<edge source="bp(GOBP:&quot;collagen catabolic process&quot;)" target="p(HGNC:MMP8)" id="ce7f4824323c19149e38cfaa3c822c0b">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"collagen catabolic process") association p(HGNC:MMP8)</data>
+</edge>
+<edge source="bp(GOBP:&quot;collagen catabolic process&quot;)" target="p(HGNC:MMP7)" id="d571c9f83acf69a0eea7b6818e22754d">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"collagen catabolic process") association p(HGNC:MMP7)</data>
+</edge>
+<edge source="bp(GOBP:&quot;collagen catabolic process&quot;)" target="p(HGNC:MMP1)" id="f7f595d29ab8135299efe651bb3e3a6b">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"collagen catabolic process") association p(HGNC:MMP1)</data>
+</edge>
+<edge source="bp(GOBP:&quot;collagen catabolic process&quot;)" target="p(HGNC:MMP13)" id="1072d0dd416dec12f533f6ca0aea0f01">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"collagen catabolic process") association p(HGNC:MMP13)</data>
+</edge>
+<edge source="bp(GOBP:&quot;endodermal cell differentiation&quot;)" target="p(HGNC:MMP8)" id="ff151331acceb183324f64d67e493e21">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"endodermal cell differentiation") association p(HGNC:MMP8)</data>
+</edge>
+<edge source="bp(GOBP:&quot;extracellular matrix disassembly&quot;)" target="p(HGNC:MMP8)" id="5b8f0919f031c15a501a0254c55646db">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"extracellular matrix disassembly") association p(HGNC:MMP8)</data>
+</edge>
+<edge source="bp(GOBP:&quot;extracellular matrix disassembly&quot;)" target="p(HGNC:MMP7)" id="544ef5ea8f4127b495736f9ff8644724">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"extracellular matrix disassembly") association p(HGNC:MMP7)</data>
+</edge>
+<edge source="bp(GOBP:&quot;extracellular matrix disassembly&quot;)" target="p(HGNC:MMP1)" id="d55d1a7ba88fbb50923cb26026aa3f79">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"extracellular matrix disassembly") association p(HGNC:MMP1)</data>
+</edge>
+<edge source="bp(GOBP:&quot;extracellular matrix disassembly&quot;)" target="p(HGNC:MMP13)" id="0388b4ef4f24f3a072d9d4c797eb98e1">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"extracellular matrix disassembly") association p(HGNC:MMP13)</data>
+</edge>
+<edge source="bp(GOBP:&quot;extracellular matrix organization&quot;)" target="p(HGNC:MMP8)" id="f15343b8707e59447ec99c346271630b">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"extracellular matrix organization") association p(HGNC:MMP8)</data>
+</edge>
+<edge source="bp(GOBP:&quot;extracellular matrix organization&quot;)" target="p(HGNC:MMP7)" id="afe1842ab6ca0264975c677cc59feb1e">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"extracellular matrix organization") association p(HGNC:MMP7)</data>
+</edge>
+<edge source="bp(GOBP:&quot;extracellular matrix organization&quot;)" target="p(HGNC:MMP1)" id="0a4a3d8a0a04a48e76da15bcf673f3f6">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"extracellular matrix organization") association p(HGNC:MMP1)</data>
+</edge>
+<edge source="bp(GOBP:&quot;extracellular matrix organization&quot;)" target="p(HGNC:MMP13)" id="8654e11ddc6df62cf47deb8f0197c270">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"extracellular matrix organization") association p(HGNC:MMP13)</data>
+</edge>
+<edge source="bp(GOBP:&quot;positive regulation of microglial cell activation&quot;)" target="p(HGNC:MMP8)" id="599fa173ce72db122db1b3cccd1e4618">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"positive regulation of microglial cell activation") association p(HGNC:MMP8)</data>
+</edge>
+<edge source="bp(GOBP:&quot;positive regulation of neuroinflammatory response&quot;)" target="p(HGNC:MMP8)" id="fe206dbaa5f43f36a9e2eabee240e222">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"positive regulation of neuroinflammatory response") association p(HGNC:MMP8)</data>
+</edge>
+<edge source="bp(GOBP:&quot;positive regulation of tumor necrosis factor production&quot;)" target="p(HGNC:MMP8)" id="1635dc66368b471333dce6895ead77b6">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"positive regulation of tumor necrosis factor production") association p(HGNC:MMP8)</data>
+</edge>
+<edge source="bp(GOBP:&quot;positive regulation of tumor necrosis factor-mediated signaling pathway&quot;)" target="p(HGNC:MMP8)" id="b7894d8eb83611f9318927f235cade9c">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"positive regulation of tumor necrosis factor-mediated signaling pathway") association p(HGNC:MMP8)</data>
+</edge>
+<edge source="bp(GOBP:proteolysis)" target="p(HGNC:MMP8)" id="242d17eaf09100e8e51acafe733a9676">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:proteolysis) association p(HGNC:MMP8)</data>
+</edge>
+<edge source="bp(GOBP:proteolysis)" target="p(HGNC:MMP7)" id="3570d6337272d10ff67a10c6c5d12cc9">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:proteolysis) association p(HGNC:MMP7)</data>
+</edge>
+<edge source="bp(GOBP:proteolysis)" target="p(HGNC:MMP1)" id="96b85ec9a724b2b764045f4750b367b3">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:proteolysis) association p(HGNC:MMP1)</data>
+</edge>
+<edge source="bp(GOBP:proteolysis)" target="p(HGNC:MMP13)" id="c66ab328a9bbd98e1fb7ff7ef6e7265e">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:proteolysis) association p(HGNC:MMP13)</data>
+</edge>
+<edge source="p(HGNC:MMP7)" target="bp(GOMF:&quot;endopeptidase activity&quot;)" id="4e0850630328e857e6db48609ea454c5">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP7) association bp(GOMF:"endopeptidase activity")</data>
+</edge>
+<edge source="p(HGNC:MMP7)" target="bp(GOMF:&quot;metalloendopeptidase activity&quot;)" id="81be3b6bdfabb2978308e8a2116d1636">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP7) association bp(GOMF:"metalloendopeptidase activity")</data>
+</edge>
+<edge source="p(HGNC:MMP7)" target="bp(GOMF:&quot;metallopeptidase activity&quot;)" id="6c5742d7b4216b03685872bef6b6e54a">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP7) association bp(GOMF:"metallopeptidase activity")</data>
+</edge>
+<edge source="p(HGNC:MMP7)" target="bp(GOMF:&quot;serine-type endopeptidase activity&quot;)" id="0e9368389bbe21d03de6224a3595afca">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP7) association bp(GOMF:"serine-type endopeptidase activity")</data>
+</edge>
+<edge source="p(HGNC:MMP7)" target="bp(GOMF:&quot;zinc ion binding&quot;)" id="b45e79abd0cefc27cbbad72a7489e34c">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP7) association bp(GOMF:"zinc ion binding")</data>
+</edge>
+<edge source="p(HGNC:MMP7)" target="bp(GOBP:&quot;collagen catabolic process&quot;)" id="a59dbefaa7328f99c21cdc63daf0dfe7">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP7) association bp(GOBP:"collagen catabolic process")</data>
+</edge>
+<edge source="p(HGNC:MMP7)" target="bp(GOBP:&quot;extracellular matrix disassembly&quot;)" id="4283eabfbd0e196b374ab0e2b8a3617c">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP7) association bp(GOBP:"extracellular matrix disassembly")</data>
+</edge>
+<edge source="p(HGNC:MMP7)" target="bp(GOBP:&quot;extracellular matrix organization&quot;)" id="066e7c1dc56f3043a11005c70a6197c2">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP7) association bp(GOBP:"extracellular matrix organization")</data>
+</edge>
+<edge source="p(HGNC:MMP7)" target="bp(GOBP:&quot;membrane protein ectodomain proteolysis&quot;)" id="5eb320ad68d70983ddc11cf68aa15f8f">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP7) association bp(GOBP:"membrane protein ectodomain proteolysis")</data>
+</edge>
+<edge source="p(HGNC:MMP7)" target="bp(GOBP:&quot;membrane protein intracellular domain proteolysis&quot;)" id="b9668d2d33193decfd95ea615f755136">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP7) association bp(GOBP:"membrane protein intracellular domain proteolysis")</data>
+</edge>
+<edge source="p(HGNC:MMP7)" target="bp(GOBP:&quot;positive regulation of cell migration&quot;)" id="49580d4e2942eff67794ae07cba8fd2e">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP7) association bp(GOBP:"positive regulation of cell migration")</data>
+</edge>
+<edge source="p(HGNC:MMP7)" target="bp(GOBP:proteolysis)" id="e927409ae2710adb2421fd93353a32ed">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP7) association bp(GOBP:proteolysis)</data>
+</edge>
+<edge source="p(HGNC:MMP7)" target="bp(Reactome:&quot;Collagen degradation.&quot;)" id="6e1c7611114480fde7e2cd0a7f46f9c0">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP7) association bp(Reactome:"Collagen degradation.")</data>
+</edge>
+<edge source="p(HGNC:MMP7)" target="bp(Reactome:&quot;Degradation of the extracellular matrix.&quot;)" id="17f856e19130cb1d724cbc43eb454152">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP7) association bp(Reactome:"Degradation of the extracellular matrix.")</data>
+</edge>
+<edge source="p(HGNC:MMP7)" target="bp(Reactome:&quot;Activation of Matrix Metalloproteinases.&quot;)" id="5d90f4d159a8fcc601a6c7f106719bdb">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP7) association bp(Reactome:"Activation of Matrix Metalloproteinases.")</data>
+</edge>
+<edge source="p(HGNC:MMP7)" target="bp(Reactome:&quot;Assembly of collagen fibrils and other multimeric structures.&quot;)" id="104ede8aee8171a75d977830cef87574">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP7) association bp(Reactome:"Assembly of collagen fibrils and other multimeric structures.")</data>
+</edge>
+<edge source="p(HGNC:MMP7)" target="bp(Reactome:&quot;Extra-nuclear estrogen signaling.&quot;)" id="3cebedf376b08c39606b5418fa5d310b">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP7) association bp(Reactome:"Extra-nuclear estrogen signaling.")</data>
+</edge>
+<edge source="bp(GOMF:&quot;metallopeptidase activity&quot;)" target="p(HGNC:MMP7)" id="f8e382515b3e99578f77f467f08494e9">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"metallopeptidase activity") association p(HGNC:MMP7)</data>
+</edge>
+<edge source="bp(GOBP:&quot;membrane protein ectodomain proteolysis&quot;)" target="p(HGNC:MMP7)" id="f1b5e3d0baac432870276b29511bbb95">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"membrane protein ectodomain proteolysis") association p(HGNC:MMP7)</data>
+</edge>
+<edge source="bp(GOBP:&quot;membrane protein intracellular domain proteolysis&quot;)" target="p(HGNC:MMP7)" id="34fa85cbb69695c1717124c147e285f3">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"membrane protein intracellular domain proteolysis") association p(HGNC:MMP7)</data>
+</edge>
+<edge source="bp(GOBP:&quot;positive regulation of cell migration&quot;)" target="p(HGNC:MMP7)" id="375b935adc8f92382bafde859323ac84">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"positive regulation of cell migration") association p(HGNC:MMP7)</data>
+</edge>
+<edge source="p(HGNC:MMP1)" target="bp(GOMF:&quot;endopeptidase activity&quot;)" id="1af068b2eee1b86a352241267f18e85f">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP1) association bp(GOMF:"endopeptidase activity")</data>
+</edge>
+<edge source="p(HGNC:MMP1)" target="bp(GOMF:&quot;metalloendopeptidase activity&quot;)" id="6610666944d566d286e87a95c733c0c0">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP1) association bp(GOMF:"metalloendopeptidase activity")</data>
+</edge>
+<edge source="p(HGNC:MMP1)" target="bp(GOMF:&quot;peptidase activity&quot;)" id="95a2fc918f2a936561bc3726456351d7">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP1) association bp(GOMF:"peptidase activity")</data>
+</edge>
+<edge source="p(HGNC:MMP1)" target="bp(GOMF:&quot;serine-type endopeptidase activity&quot;)" id="f4af11ad99cef35478d985a6cd295f5a">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP1) association bp(GOMF:"serine-type endopeptidase activity")</data>
+</edge>
+<edge source="p(HGNC:MMP1)" target="bp(GOMF:&quot;zinc ion binding&quot;)" id="1343744f7f9250cf9f2a8f9ca2887fc9">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP1) association bp(GOMF:"zinc ion binding")</data>
+</edge>
+<edge source="p(HGNC:MMP1)" target="bp(GOBP:&quot;cellular response to UV-A&quot;)" id="4bc3c67ef41c6031910d8310fcb71c9a">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP1) association bp(GOBP:"cellular response to UV-A")</data>
+</edge>
+<edge source="p(HGNC:MMP1)" target="bp(GOBP:&quot;collagen catabolic process&quot;)" id="99a04806e8e104461f5e1c5ebc8b6f27">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP1) association bp(GOBP:"collagen catabolic process")</data>
+</edge>
+<edge source="p(HGNC:MMP1)" target="bp(GOBP:&quot;extracellular matrix disassembly&quot;)" id="b2f15bcff9e840eb917d3424bd080793">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP1) association bp(GOBP:"extracellular matrix disassembly")</data>
+</edge>
+<edge source="p(HGNC:MMP1)" target="bp(GOBP:&quot;extracellular matrix organization&quot;)" id="ac0152ef9901d0dce5ae790125f6c561">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP1) association bp(GOBP:"extracellular matrix organization")</data>
+</edge>
+<edge source="p(HGNC:MMP1)" target="bp(GOBP:&quot;positive regulation of protein-containing complex assembly&quot;)" id="8ff9b26004dfd5c5c9a8e0941c83a424">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP1) association bp(GOBP:"positive regulation of protein-containing complex assembly")</data>
+</edge>
+<edge source="p(HGNC:MMP1)" target="bp(GOBP:&quot;protein metabolic process&quot;)" id="e9fab2d03e327bb1818c33026cc8acc7">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP1) association bp(GOBP:"protein metabolic process")</data>
+</edge>
+<edge source="p(HGNC:MMP1)" target="bp(GOBP:proteolysis)" id="47ee2addbb38530aee040fc1e185f282">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP1) association bp(GOBP:proteolysis)</data>
+</edge>
+<edge source="p(HGNC:MMP1)" target="bp(Reactome:&quot;Collagen degradation.&quot;)" id="34f87171292d2fc75af071315e87cc0f">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP1) association bp(Reactome:"Collagen degradation.")</data>
+</edge>
+<edge source="p(HGNC:MMP1)" target="bp(Reactome:&quot;Degradation of the extracellular matrix.&quot;)" id="b8dff3324dfddcea69fedef7afa47e86">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP1) association bp(Reactome:"Degradation of the extracellular matrix.")</data>
+</edge>
+<edge source="p(HGNC:MMP1)" target="bp(Reactome:&quot;Activation of Matrix Metalloproteinases.&quot;)" id="62e86c288b493fcb887c90ad7be0f9b0">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP1) association bp(Reactome:"Activation of Matrix Metalloproteinases.")</data>
+</edge>
+<edge source="p(HGNC:MMP1)" target="bp(Reactome:&quot;Basigin interactions.&quot;)" id="ef72c5fe7c9d556b795c3ba37f720614">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP1) association bp(Reactome:"Basigin interactions.")</data>
+</edge>
+<edge source="p(HGNC:MMP1)" target="bp(Reactome:&quot;Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs).&quot;)" id="4df56040447b98f5a2f2d67158ccf11f">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP1) association bp(Reactome:"Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs).")</data>
+</edge>
+<edge source="p(HGNC:MMP1)" target="bp(Reactome:&quot;Interleukin-4 and Interleukin-13 signaling.&quot;)" id="87f80521c53d5c814169e855f6209e61">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP1) association bp(Reactome:"Interleukin-4 and Interleukin-13 signaling.")</data>
+</edge>
+<edge source="bp(GOBP:&quot;cellular response to UV-A&quot;)" target="p(HGNC:MMP1)" id="4d3b9de623e89c21d78724d80fedd04a">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"cellular response to UV-A") association p(HGNC:MMP1)</data>
+</edge>
+<edge source="bp(GOBP:&quot;positive regulation of protein-containing complex assembly&quot;)" target="p(HGNC:MMP1)" id="20b0e9ce018a5b63094b7d8df65ebc73">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"positive regulation of protein-containing complex assembly") association p(HGNC:MMP1)</data>
+</edge>
+<edge source="bp(GOBP:&quot;protein metabolic process&quot;)" target="p(HGNC:MMP1)" id="0bb1430f6ce4117dfebacc2db21faef6">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"protein metabolic process") association p(HGNC:MMP1)</data>
+</edge>
+<edge source="bp(GOMF:&quot;calcium ion binding&quot;)" target="p(HGNC:MMP13)" id="d1c67d4f4f208f8aea78b1648fa059cd">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"calcium ion binding") association p(HGNC:MMP13)</data>
+</edge>
+<edge source="p(HGNC:MMP13)" target="bp(GOMF:&quot;calcium ion binding&quot;)" id="a92f65cde4ccdcdc7eec77944ace8b0c">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP13) association bp(GOMF:"calcium ion binding")</data>
+</edge>
+<edge source="p(HGNC:MMP13)" target="bp(GOMF:&quot;collagen binding&quot;)" id="2674f6b707f70217c8f67529f679494f">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP13) association bp(GOMF:"collagen binding")</data>
+</edge>
+<edge source="p(HGNC:MMP13)" target="bp(GOMF:&quot;endopeptidase activity&quot;)" id="4281210ae5dff5673eb24385e7d70dc8">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP13) association bp(GOMF:"endopeptidase activity")</data>
+</edge>
+<edge source="p(HGNC:MMP13)" target="bp(GOMF:&quot;metalloendopeptidase activity&quot;)" id="63f8d79c425185255a579484a0fa7882">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP13) association bp(GOMF:"metalloendopeptidase activity")</data>
+</edge>
+<edge source="p(HGNC:MMP13)" target="bp(GOMF:&quot;serine-type endopeptidase activity&quot;)" id="1594a7b9f253151d24363169cab68963">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP13) association bp(GOMF:"serine-type endopeptidase activity")</data>
+</edge>
+<edge source="p(HGNC:MMP13)" target="bp(GOMF:&quot;zinc ion binding&quot;)" id="54cebb64cf8ccb1e510d95fc58b0b3b9">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP13) association bp(GOMF:"zinc ion binding")</data>
+</edge>
+<edge source="p(HGNC:MMP13)" target="bp(GOBP:&quot;bone mineralization&quot;)" id="a41d4da7e073708fa11b3f85a46d8749">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP13) association bp(GOBP:"bone mineralization")</data>
+</edge>
+<edge source="p(HGNC:MMP13)" target="bp(GOBP:&quot;bone morphogenesis&quot;)" id="4496e8d88980019767d35115b7394410">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP13) association bp(GOBP:"bone morphogenesis")</data>
+</edge>
+<edge source="p(HGNC:MMP13)" target="bp(GOBP:&quot;collagen catabolic process&quot;)" id="b9271fb959e945b98f3822269f1a76c8">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP13) association bp(GOBP:"collagen catabolic process")</data>
+</edge>
+<edge source="p(HGNC:MMP13)" target="bp(GOBP:&quot;endochondral ossification&quot;)" id="88ffa29723893a6ca766b9f46ee82f4e">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP13) association bp(GOBP:"endochondral ossification")</data>
+</edge>
+<edge source="p(HGNC:MMP13)" target="bp(GOBP:&quot;extracellular matrix disassembly&quot;)" id="e85e0e8b75031eac72369117baadf672">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP13) association bp(GOBP:"extracellular matrix disassembly")</data>
+</edge>
+<edge source="p(HGNC:MMP13)" target="bp(GOBP:&quot;extracellular matrix organization&quot;)" id="5b4d1a791ead64c14e16e5e4e9f72559">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP13) association bp(GOBP:"extracellular matrix organization")</data>
+</edge>
+<edge source="p(HGNC:MMP13)" target="bp(GOBP:&quot;growth plate cartilage development&quot;)" id="699992a368d6b7091eb3252a42a45fa5">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP13) association bp(GOBP:"growth plate cartilage development")</data>
+</edge>
+<edge source="p(HGNC:MMP13)" target="bp(GOBP:proteolysis)" id="5fb91a1d7f4441dec409f0ff997e148d">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP13) association bp(GOBP:proteolysis)</data>
+</edge>
+<edge source="p(HGNC:MMP13)" target="bp(GOBP:&quot;response to amyloid-beta&quot;)" id="fb8c69e87f664bb75fc6e61003437b58">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP13) association bp(GOBP:"response to amyloid-beta")</data>
+</edge>
+<edge source="p(HGNC:MMP13)" target="bp(Reactome:&quot;Collagen degradation.&quot;)" id="4c850c5d4ca6ae06298577daf207a39f">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP13) association bp(Reactome:"Collagen degradation.")</data>
+</edge>
+<edge source="p(HGNC:MMP13)" target="bp(Reactome:&quot;Degradation of the extracellular matrix.&quot;)" id="2ac425b6a5066ca7078da167cbf9e47c">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP13) association bp(Reactome:"Degradation of the extracellular matrix.")</data>
+</edge>
+<edge source="p(HGNC:MMP13)" target="bp(Reactome:&quot;Activation of Matrix Metalloproteinases.&quot;)" id="9b539b558facceb958d365877232bc29">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP13) association bp(Reactome:"Activation of Matrix Metalloproteinases.")</data>
+</edge>
+<edge source="p(HGNC:MMP13)" target="bp(Reactome:&quot;Assembly of collagen fibrils and other multimeric structures.&quot;)" id="f08bbc6a9f9294976f183479961c628d">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP13) association bp(Reactome:"Assembly of collagen fibrils and other multimeric structures.")</data>
+</edge>
+<edge source="p(HGNC:MMP13)" target="bp(Reactome:&quot;RUNX2 regulates genes involved in cell migration.&quot;)" id="4ebf9635bd213160a1645be15ee0edb1">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:MMP13) association bp(Reactome:"RUNX2 regulates genes involved in cell migration.")</data>
+</edge>
+<edge source="bp(GOMF:&quot;collagen binding&quot;)" target="p(HGNC:MMP13)" id="b8a3f97e3260e81c7f146a1776537c33">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOMF:"collagen binding") association p(HGNC:MMP13)</data>
+</edge>
+<edge source="bp(GOBP:&quot;bone mineralization&quot;)" target="p(HGNC:MMP13)" id="5be8c9daa3a4d4286fba6aeb08e95f1a">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"bone mineralization") association p(HGNC:MMP13)</data>
+</edge>
+<edge source="bp(GOBP:&quot;bone morphogenesis&quot;)" target="p(HGNC:MMP13)" id="4c7e7dc01911e9aa58c688709f73328a">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"bone morphogenesis") association p(HGNC:MMP13)</data>
+</edge>
+<edge source="bp(GOBP:&quot;endochondral ossification&quot;)" target="p(HGNC:MMP13)" id="b9c7b17bc215d47ecc06746640738e40">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"endochondral ossification") association p(HGNC:MMP13)</data>
+</edge>
+<edge source="bp(GOBP:&quot;growth plate cartilage development&quot;)" target="p(HGNC:MMP13)" id="7044f8432768e44826f47eca80af9b7b">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"growth plate cartilage development") association p(HGNC:MMP13)</data>
+</edge>
+<edge source="bp(GOBP:&quot;response to amyloid-beta&quot;)" target="p(HGNC:MMP13)" id="6b4bd50403711b27d86222f85870b6de">
+  <data key="d1">association</data>
+  <data key="d2">bp(GOBP:"response to amyloid-beta") association p(HGNC:MMP13)</data>
+</edge>
+<edge source="bp(MOA:&quot;Matrix metalloproteinase 7 inhibitor&quot;)" target="a(ChEMBL:CHEMBL1200699)" id="70b370fd590a92e902cf6fe5b8f089d0">
+  <data key="d1">association</data>
+  <data key="d2">bp(MOA:"Matrix metalloproteinase 7 inhibitor") association a(ChEMBL:CHEMBL1200699)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1200699)" target="bp(MOA:&quot;Matrix metalloproteinase 7 inhibitor&quot;)" id="e52007e85f6c31fef44c7c63ff10b5cc">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1200699) association bp(MOA:"Matrix metalloproteinase 7 inhibitor")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1200699)" target="p(HGNC:MMP7)" id="d401f2f8189a2931241241652c9101ed">
+  <data key="d1">decreases</data>
+  <data key="d2">a(ChEMBL:CHEMBL1200699) decreases p(HGNC:MMP7)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1200699)" target="bp(MOA:&quot;Matrix metalloproteinase 8 inhibitor&quot;)" id="64e1f19454cfb038b209385dc2160732">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1200699) association bp(MOA:"Matrix metalloproteinase 8 inhibitor")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1200699)" target="p(HGNC:MMP8)" id="d4cb0c48f2fa30c1e0378a1d2b45d28e">
+  <data key="d1">decreases</data>
+  <data key="d2">a(ChEMBL:CHEMBL1200699) decreases p(HGNC:MMP8)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1200699)" target="bp(MOA:&quot;Matrix metalloproteinase 13 inhibitor&quot;)" id="c121e5d99a03c8b25e3f980768ff3d66">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1200699) association bp(MOA:"Matrix metalloproteinase 13 inhibitor")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1200699)" target="p(HGNC:MMP13)" id="b5871c4ee8d8762145e43dfde890f9f7">
+  <data key="d1">decreases</data>
+  <data key="d2">a(ChEMBL:CHEMBL1200699) decreases p(HGNC:MMP13)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1200699)" target="bp(MOA:&quot;Matrix metalloproteinase-1 inhibitor&quot;)" id="55c01daf1bf0d1a0d81d64b293f7c4c3">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1200699) association bp(MOA:"Matrix metalloproteinase-1 inhibitor")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1200699)" target="p(HGNC:MMP1)" id="39f76a37b81caf61b2ab7e143e950e4b">
+  <data key="d1">decreases</data>
+  <data key="d2">a(ChEMBL:CHEMBL1200699) decreases p(HGNC:MMP1)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1200699)" target="bp(MOA:&quot;Bacterial 70S ribosome inhibitor&quot;)" id="63181ca568c6b30ac5752dd659688280">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1200699) association bp(MOA:"Bacterial 70S ribosome inhibitor")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1200699)" target="p(HGNC:rpsB)" id="827d4a3ac41a8296a97da59cb46c80f5">
+  <data key="d1">decreases</data>
+  <data key="d2">a(ChEMBL:CHEMBL1200699) decreases p(HGNC:rpsB)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1200699)" target="path(SideEffect:&quot;drug hypersensitivity&quot;)" id="2ea55f08078bf93f6c278db234d78b3f">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1200699) association path(SideEffect:"drug hypersensitivity")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1200699)" target="path(SideEffect:&quot;jarisch-herxheimer reaction&quot;)" id="98e31e99d49f2fd9141ba7ed4de73e05">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1200699) association path(SideEffect:"jarisch-herxheimer reaction")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1200699)" target="path(SideEffect:&quot;oesophageal ulcer&quot;)" id="0070a32f8531c4934a222402f7541464">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1200699) association path(SideEffect:"oesophageal ulcer")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1200699)" target="path(SideEffect:&quot;gastrointestinal mucosal necrosis&quot;)" id="f81e9a1fd787f22ed38dd8569df1d183">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1200699) association path(SideEffect:"gastrointestinal mucosal necrosis")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1200699)" target="path(SideEffect:&quot;pancreatitis acute&quot;)" id="f8f60d37614900700883a8314b07393d">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1200699) association path(SideEffect:"pancreatitis acute")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1200699)" target="path(SideEffect:&quot;gastrointestinal injury&quot;)" id="0147bcc678373cbe23d1ac09697ce14a">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1200699) association path(SideEffect:"gastrointestinal injury")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1200699)" target="path(SideEffect:&quot;photosensitivity reaction&quot;)" id="2bd5d5867362627865be29ed1d46c84f">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1200699) association path(SideEffect:"photosensitivity reaction")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1200699)" target="path(SideEffect:vomiting)" id="0e0f8145f4eafaefaaa5dc869f41256a">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1200699) association path(SideEffect:vomiting)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1200699)" target="path(SideEffect:rash)" id="4ca8a4010eff735a43f1d10ee54f4e16">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1200699) association path(SideEffect:rash)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1200699)" target="path(SideEffect:&quot;cholangitis sclerosing&quot;)" id="0b7bc751162c01744af72b7e1bda2aa8">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1200699) association path(SideEffect:"cholangitis sclerosing")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1200699)" target="path(SideEffect:oesophagitis)" id="6f0f4443ed3cec7f79b407ff9fbbadca">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1200699) association path(SideEffect:oesophagitis)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1200699)" target="path(SideEffect:&quot;intracranial pressure increased&quot;)" id="35ad036cdd5291baf91a91ca0f4f9cc1">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1200699) association path(SideEffect:"intracranial pressure increased")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1200699)" target="path(SideEffect:&quot;drug-induced liver injury&quot;)" id="3635fc7ce0937530462e7aebb225a85a">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1200699) association path(SideEffect:"drug-induced liver injury")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1200699)" target="path(SideEffect:&quot;injection site pain&quot;)" id="1c08eee66de2bc6aea1dab44e304676a">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1200699) association path(SideEffect:"injection site pain")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1200699)" target="path(SideEffect:fall)" id="8a77970fdcc53555b244f977aacc2d05">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1200699) association path(SideEffect:fall)</data>
+</edge>
+<edge source="bp(MOA:&quot;Matrix metalloproteinase 8 inhibitor&quot;)" target="a(ChEMBL:CHEMBL1200699)" id="8df73ce57748c9fd2dadb4f244fc0a9d">
+  <data key="d1">association</data>
+  <data key="d2">bp(MOA:"Matrix metalloproteinase 8 inhibitor") association a(ChEMBL:CHEMBL1200699)</data>
+</edge>
+<edge source="bp(MOA:&quot;Matrix metalloproteinase 13 inhibitor&quot;)" target="a(ChEMBL:CHEMBL1200699)" id="4824868c3324b5d1405c660628c8c192">
+  <data key="d1">association</data>
+  <data key="d2">bp(MOA:"Matrix metalloproteinase 13 inhibitor") association a(ChEMBL:CHEMBL1200699)</data>
+</edge>
+<edge source="bp(MOA:&quot;Matrix metalloproteinase-1 inhibitor&quot;)" target="a(ChEMBL:CHEMBL1200699)" id="8d35156aa5c70641ca10c569bbd2d139">
+  <data key="d1">association</data>
+  <data key="d2">bp(MOA:"Matrix metalloproteinase-1 inhibitor") association a(ChEMBL:CHEMBL1200699)</data>
+</edge>
+<edge source="bp(MOA:&quot;Bacterial 70S ribosome inhibitor&quot;)" target="a(ChEMBL:CHEMBL1200699)" id="9cfe58ce066420febb2f8816120ece4b">
+  <data key="d1">association</data>
+  <data key="d2">bp(MOA:"Bacterial 70S ribosome inhibitor") association a(ChEMBL:CHEMBL1200699)</data>
+</edge>
+<edge source="p(HGNC:SIGMAR1)" target="a(ChEMBLAssay:CHEMBL4303094)" id="94c157482af4af14cfe3ae1443e84716">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:SIGMAR1) association a(ChEMBLAssay:CHEMBL4303094)</data>
+</edge>
+<edge source="p(HGNC:SIGMAR1)" target="bp(Reactome:&quot;Potential therapeutics for SARS.&quot;)" id="aae4311d5e348eb42782d2eee76090f0">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:SIGMAR1) association bp(Reactome:"Potential therapeutics for SARS.")</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL4303094)" target="p(HGNC:SIGMAR1)" id="74eaf971fdd0c737f29cd6d67cf03ebb">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL4303094) association p(HGNC:SIGMAR1)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL4303094)" target="a(ChEMBL:CHEMBL1535)" id="3b60a813530cf7a20cbe6db40b3fd2a6">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL4303094) association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="a(ChEMBLAssay:CHEMBL4303094)" id="7b35772c2926006b652219772168f710">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association a(ChEMBLAssay:CHEMBL4303094)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="a(ChEMBLAssay:CHEMBL4303093)" id="c8cb909b0601048240c3757ea38be24e">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association a(ChEMBLAssay:CHEMBL4303093)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="a(ChEMBLAssay:CHEMBL4814524)" id="c0d0f9fd6e9af52f717031c5ce9ea8f0">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association a(ChEMBLAssay:CHEMBL4814524)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;rheumatoid arthritis&quot;)" id="e0a9e9370e6e09888fc9935bcd6063ec">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"rheumatoid arthritis")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;drug intolerance&quot;)" id="b4ad0c36820e403d9e22261b384ac8f8">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"drug intolerance")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:synovitis)" id="84208d803e4cc061d981f4574cebc6c1">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:synovitis)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;joint swelling&quot;)" id="da746b3df109af2ff2b1405c5748f4b1">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"joint swelling")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;treatment failure&quot;)" id="17bc50bf141c2125d573aafc4d9ab12e">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"treatment failure")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;therapeutic product effect decreased&quot;)" id="20c4d20905401cffcda4ad333f9b980d">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"therapeutic product effect decreased")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:pemphigus)" id="c3e85b7e48677a51b842c64aa415d2c9">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:pemphigus)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:arthropathy)" id="3c3d84d44c20ad5612c00eb5b580290a">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:arthropathy)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;systemic lupus erythematosus&quot;)" id="0c54ebe95334ab1487a9b16db56a6060">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"systemic lupus erythematosus")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;hand deformity&quot;)" id="1170b9b04b31316c7d815ed3a07f161e">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"hand deformity")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:pain)" id="5de9155e1a6f98b9089ea401efd02881">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:pain)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;abdominal discomfort&quot;)" id="ec94603bb811fa3a9b2923130caf38e1">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"abdominal discomfort")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:arthralgia)" id="99458ceb7a185577ca9a323946d841e4">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:arthralgia)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:glossodynia)" id="72f1554ddb451c4774da06c9d2a1496b">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:glossodynia)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;condition aggravated&quot;)" id="4c63c9a00140aaa96835affaaa6ce5cf">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"condition aggravated")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:alopecia)" id="52850df4cd6ebca72473e72c5c9f8639">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:alopecia)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;c-reactive protein abnormal&quot;)" id="788fe95d3ffc4b4b87940e8b5a8d5a87">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"c-reactive protein abnormal")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;anti-cyclic citrullinated peptide antibody positive&quot;)" id="93802a8cbfdebb99b4a56e1282c07b1b">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"anti-cyclic citrullinated peptide antibody positive")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;rheumatoid factor positive&quot;)" id="0c5f198e586e8c2694c1161555af2738">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"rheumatoid factor positive")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:swelling)" id="2d42d14a904397c6c1a2044894636a97">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:swelling)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;red blood cell sedimentation rate abnormal&quot;)" id="56b3944ebd65e58b81289cce46728a8f">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"red blood cell sedimentation rate abnormal")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;peripheral swelling&quot;)" id="1945d9cc82bd0365d933b063cad70e2d">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"peripheral swelling")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;loss of personal independence in daily activities&quot;)" id="beee9d3b3b4357d58fcd457d1c7bb655">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"loss of personal independence in daily activities")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;hepatic enzyme increased&quot;)" id="3575f3283f8f918414a38ae47253752e">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"hepatic enzyme increased")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:wound)" id="8056d3de4538043aa039e23cb7f7ea08">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:wound)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;therapeutic product effect incomplete&quot;)" id="5f2e181a57e490933ac94c6f053f7e3b">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"therapeutic product effect incomplete")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;red blood cell sedimentation rate increased&quot;)" id="13490997929332128d4904e37213e286">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"red blood cell sedimentation rate increased")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;drug hypersensitivity&quot;)" id="2c2f7d47a058a08e9c97f06c69526dac">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"drug hypersensitivity")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:rash)" id="cf665e1c19004b03fb474575528f3883">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:rash)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;c-reactive protein increased&quot;)" id="35396b3da4bf0bd280833a50fbfdb200">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"c-reactive protein increased")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;musculoskeletal stiffness&quot;)" id="8396fa652ab550cc4a0edfc8a50baf19">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"musculoskeletal stiffness")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:pericarditis)" id="5ba881c41a614f0e62a0ade2e37eb324">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:pericarditis)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:infection)" id="aa43bbee76790f4833752e0d55535c4a">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:infection)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;mobility decreased&quot;)" id="a0279e5c044b7741999f3407611b502a">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"mobility decreased")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;helicobacter infection&quot;)" id="b7ed2baea51104f1de09aee76da8650f">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"helicobacter infection")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;duodenal ulcer perforation&quot;)" id="117e42629016d7b445c6164241c738ae">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"duodenal ulcer perforation")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:hypersensitivity)" id="c134cdc76bd3758ae05d0d1654114563">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:hypersensitivity)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:fatigue)" id="f46383d176fbed03276fad649f63b4cf">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:fatigue)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;sleep disorder due to general medical condition, insomnia type&quot;)" id="914e77abebdc5d52da56a627db31abab">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"sleep disorder due to general medical condition, insomnia type")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:discomfort)" id="b5b7e2a81457fa8adda2eb4f42d36a1f">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:discomfort)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;muscle injury&quot;)" id="cc9c3ca03c1b34422743edc65ce06761">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"muscle injury")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;gastrointestinal disorder&quot;)" id="e42df46a27b2b5ab7540507f251d40ae">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"gastrointestinal disorder")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;blood iron abnormal&quot;)" id="08d09b922b1854ea18c1a2bcb1daf2a1">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"blood iron abnormal")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;irritable bowel syndrome&quot;)" id="b10b7ed0970f2f0cb70ddffc4b6f653e">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"irritable bowel syndrome")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;infusion related reaction&quot;)" id="4850fd84e968aa9f00d89e168e447bc5">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"infusion related reaction")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;retinal toxicity&quot;)" id="4d4cc898621967ff121b7d08f250348b">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"retinal toxicity")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;ill-defined disorder&quot;)" id="3b3fe7a6360e15a93c907a018e506447">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"ill-defined disorder")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;knee arthroplasty&quot;)" id="4426888337fb21edd21d313c713936be">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"knee arthroplasty")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:folliculitis)" id="f16ff9c22c7e82ae09449c23ec5053e9">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:folliculitis)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;electrocardiogram qt prolonged&quot;)" id="b402e5bdd486dea3c1a941e73f72adfc">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"electrocardiogram qt prolonged")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:arthritis)" id="f6fe9fe8fe2cf3f6b64072c426f40702">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:arthritis)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:retinopathy)" id="c3f4d9ab8dcb28404935e3df230dbc76">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:retinopathy)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;bone erosion&quot;)" id="5415ffc07d3d2b5609e6e9cf073d9cda">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"bone erosion")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:sinusitis)" id="5a692d05c0c2b50bb5f467024dddb819">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:sinusitis)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;hip arthroplasty&quot;)" id="082dbf4b65607ad1948da269523beff5">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"hip arthroplasty")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:inflammation)" id="28b39be45e5b8a3b415ce1ed3119cb4d">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:inflammation)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:fibromyalgia)" id="26b029ed2294b34afd02a6bf7f53210f">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:fibromyalgia)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;herpes zoster&quot;)" id="5514392d58fce1ba52955f9e32d9c271">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"herpes zoster")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;musculoskeletal pain&quot;)" id="bac791e960d693ddada9731d1807960c">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"musculoskeletal pain")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:stomatitis)" id="7cc147116e2aac723103e682039b1af0">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:stomatitis)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;rheumatoid nodule&quot;)" id="a9b09eb8ae440abeffda5b2f0f7ddd92">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"rheumatoid nodule")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:sciatica)" id="5bcac39e8adb9680fe04e30a94b78ba4">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:sciatica)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;impaired work ability&quot;)" id="397f361adfdf6a68e52327ec173c073e">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"impaired work ability")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;psoriatic arthropathy&quot;)" id="38b2165617da20b7647e1d5e360f549b">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"psoriatic arthropathy")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;impaired healing&quot;)" id="a0f0864edb5fab787de05fa315377558">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"impaired healing")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;drug tolerance decreased&quot;)" id="634f9504d70eff27d8614f6290481335">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"drug tolerance decreased")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:osteoporosis)" id="230ad29ef6366e2321c47e5320bceba7">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:osteoporosis)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:osteoarthritis)" id="cc60d8d0a596f3ce3d48e1c3a5e6a3fd">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:osteoarthritis)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;lower respiratory tract infection&quot;)" id="90ce901a20481457f86cf3b0b5fa1815">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"lower respiratory tract infection")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:nausea)" id="86f2a5a96602645fe382260aa90c2753">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:nausea)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:blister)" id="944a792e0227c56eeabdedaa074211d4">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:blister)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:disability)" id="c957e69e2315d4161d8ba9f4fb471c47">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:disability)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;rheumatoid factor negative&quot;)" id="93a4f4119291825f2e69d6721508ca20">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"rheumatoid factor negative")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;pneumonia viral&quot;)" id="0bc2807036ff05bcf1c215a1b813fb38">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"pneumonia viral")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:covid-19)" id="0a388eb568e4605545b723783a76e99f">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:covid-19)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:nasopharyngitis)" id="95a7ae0429eba8c5dbaf902cc85fceaa">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:nasopharyngitis)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;human antichimeric antibody positive&quot;)" id="9eb2ff65e473e2440d15edb5862d8d61">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"human antichimeric antibody positive")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;granuloma skin&quot;)" id="9d06b298075ce32171906ebfecba3aaf">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"granuloma skin")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:tenosynovitis)" id="26fad1b9ffed42cc72c58244f0c23a0f">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:tenosynovitis)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;drug effective for unapproved indication&quot;)" id="c50b11c3108f5d191544431c8f18346f">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"drug effective for unapproved indication")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;therapy non-responder&quot;)" id="50950f350fa29482b742a828d47f56e7">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"therapy non-responder")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:maculopathy)" id="5d43584f3e2e5f74de0ae281485d1f60">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:maculopathy)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;joint stiffness&quot;)" id="b3e598df0d01952a8e9764b845f1be6f">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"joint stiffness")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:panniculitis)" id="e67bc397727e0b58d3f738903d11c98c">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:panniculitis)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;premature baby&quot;)" id="dc5ca166971b9282ecfe231fb230c4b3">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"premature baby")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;pain in extremity&quot;)" id="04ea5bafb0ac7862d55f699e2d4951b7">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"pain in extremity")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;blood parathyroid hormone decreased&quot;)" id="c3d513a01911757496677c826fd15cda">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"blood parathyroid hormone decreased")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;joint range of motion decreased&quot;)" id="602f5e76aca94fdbd94aa9e153956c45">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"joint range of motion decreased")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;body height below normal&quot;)" id="080c3eb223ce30664e5ac45575b71d0a">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"body height below normal")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;apparent death&quot;)" id="55a51ae2f7d7a0daf02fcbdae86380c4">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"apparent death")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:diverticulitis)" id="a6a91a020b0ed4f499b555a7191fe586">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:diverticulitis)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;joint laxity&quot;)" id="74bb51beda0e2a9bd6c896fdc64b67ce">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"joint laxity")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;blood cholesterol increased&quot;)" id="955ccfbe8018b2363a61494e162ffaff">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"blood cholesterol increased")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:hepatitis)" id="776baa140b35b0d643074c0fa4f965d3">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:hepatitis)</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;wheelchair user&quot;)" id="c72143844658f159bff1a25d5b52d3c1">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"wheelchair user")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;therapeutic response decreased&quot;)" id="4901f395cd6ee5cfb788bbef6b6061da">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"therapeutic response decreased")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;pulmonary fibrosis&quot;)" id="6e7c7c0813a2e10cab870ef64a39ace4">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"pulmonary fibrosis")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:&quot;breast cancer stage iii&quot;)" id="eb9f94ec25639337ffd1641d9b40bd26">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:"breast cancer stage iii")</data>
+</edge>
+<edge source="a(ChEMBL:CHEMBL1535)" target="path(SideEffect:presbyacusis)" id="f99bf2696cb03fb142a36bb426bf85cb">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBL:CHEMBL1535) association path(SideEffect:presbyacusis)</data>
+</edge>
+<edge source="p(HGNC:TMEM97)" target="a(ChEMBLAssay:CHEMBL4303093)" id="d98ed7321baa2cb1b9f3c0a0e077732d">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:TMEM97) association a(ChEMBLAssay:CHEMBL4303093)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL4303093)" target="p(HGNC:TMEM97)" id="210360a963faf447b5d23604b629dff0">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL4303093) association p(HGNC:TMEM97)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL4303093)" target="a(ChEMBL:CHEMBL1535)" id="2eb8f53170890d8c93bfddab9beeeca0">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL4303093) association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="p(HGNC:TLR7)" target="a(ChEMBLAssay:CHEMBL4814524)" id="eda243c6031d83413ea7f3b3bcb3f581">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:TLR7) association a(ChEMBLAssay:CHEMBL4814524)</data>
+</edge>
+<edge source="p(HGNC:TLR7)" target="bp(Reactome:&quot;Trafficking and processing of endosomal TLR.&quot;)" id="5964d49af7fb734f059e19f3ae39bfba">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:TLR7) association bp(Reactome:"Trafficking and processing of endosomal TLR.")</data>
+</edge>
+<edge source="p(HGNC:TLR7)" target="bp(Reactome:&quot;Toll Like Receptor 7/8 (TLR7/8) Cascade.&quot;)" id="5314412e31f8937a41c40609cdf2a547">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:TLR7) association bp(Reactome:"Toll Like Receptor 7/8 (TLR7/8) Cascade.")</data>
+</edge>
+<edge source="p(HGNC:TLR7)" target="bp(Reactome:&quot;Potential therapeutics for SARS.&quot;)" id="0759bf1cc503d55364889772d1da79a4">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:TLR7) association bp(Reactome:"Potential therapeutics for SARS.")</data>
+</edge>
+<edge source="p(HGNC:TLR7)" target="bp(Reactome:&quot;SARS-CoV-1 activates/modulates innate immune responses.&quot;)" id="7456073be72db6b5983e7d0c7f794c87">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:TLR7) association bp(Reactome:"SARS-CoV-1 activates/modulates innate immune responses.")</data>
+</edge>
+<edge source="p(HGNC:TLR7)" target="bp(Reactome:&quot;SARS-CoV-2 activates/modulates innate and adaptive immune responses.&quot;)" id="f0fbbe9d8fb9a00423a91c82b7e08999">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:TLR7) association bp(Reactome:"SARS-CoV-2 activates/modulates innate and adaptive immune responses.")</data>
+</edge>
+<edge source="p(HGNC:TLR7)" target="bp(Reactome:&quot;TRAF6 mediated IRF7 activation in TLR7/8 or 9 signaling.&quot;)" id="dc39fcc854aa09719f685b8fef715ea1">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:TLR7) association bp(Reactome:"TRAF6 mediated IRF7 activation in TLR7/8 or 9 signaling.")</data>
+</edge>
+<edge source="p(HGNC:TLR7)" target="bp(Reactome:&quot;TRAF6 mediated induction of NFkB and MAP kinases upon TLR7/8 or 9 activation.&quot;)" id="d27a58cbd10e6d71102693a10f8d5abd">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:TLR7) association bp(Reactome:"TRAF6 mediated induction of NFkB and MAP kinases upon TLR7/8 or 9 activation.")</data>
+</edge>
+<edge source="p(HGNC:TLR7)" target="bp(Reactome:&quot;MyD88 dependent cascade initiated on endosome.&quot;)" id="8114dfbd43bff96cc74ee406fad696a7">
+  <data key="d1">association</data>
+  <data key="d2">p(HGNC:TLR7) association bp(Reactome:"MyD88 dependent cascade initiated on endosome.")</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL4814524)" target="p(HGNC:TLR7)" id="c734a3de5ea66845733fb7d1da8a58cc">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL4814524) association p(HGNC:TLR7)</data>
+</edge>
+<edge source="a(ChEMBLAssay:CHEMBL4814524)" target="a(ChEMBL:CHEMBL1535)" id="033bcef774cfed2a13e1ca68274ed5c0">
+  <data key="d1">association</data>
+  <data key="d2">a(ChEMBLAssay:CHEMBL4814524) association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="bp(Reactome:&quot;Collagen degradation.&quot;)" target="p(HGNC:MMP13)" id="ddae07e332d1eed9f87aa05506d5c2b5">
+  <data key="d1">association</data>
+  <data key="d2">bp(Reactome:"Collagen degradation.") association p(HGNC:MMP13)</data>
+</edge>
+<edge source="bp(Reactome:&quot;Collagen degradation.&quot;)" target="p(HGNC:MMP1)" id="0559457be38f25e914d2895e83d242e1">
+  <data key="d1">association</data>
+  <data key="d2">bp(Reactome:"Collagen degradation.") association p(HGNC:MMP1)</data>
+</edge>
+<edge source="bp(Reactome:&quot;Collagen degradation.&quot;)" target="p(HGNC:MMP8)" id="68e9b23f44488cf89f29894c79fedaf1">
+  <data key="d1">association</data>
+  <data key="d2">bp(Reactome:"Collagen degradation.") association p(HGNC:MMP8)</data>
+</edge>
+<edge source="bp(Reactome:&quot;Collagen degradation.&quot;)" target="p(HGNC:MMP7)" id="af1b4512f97b4849f4df842f8fd261e0">
+  <data key="d1">association</data>
+  <data key="d2">bp(Reactome:"Collagen degradation.") association p(HGNC:MMP7)</data>
+</edge>
+<edge source="bp(Reactome:&quot;Degradation of the extracellular matrix.&quot;)" target="p(HGNC:MMP13)" id="6760bd54b2563ab9770d7d883da15a23">
+  <data key="d1">association</data>
+  <data key="d2">bp(Reactome:"Degradation of the extracellular matrix.") association p(HGNC:MMP13)</data>
+</edge>
+<edge source="bp(Reactome:&quot;Degradation of the extracellular matrix.&quot;)" target="p(HGNC:MMP1)" id="a2c222464fb68a6939bc06959c67bc44">
+  <data key="d1">association</data>
+  <data key="d2">bp(Reactome:"Degradation of the extracellular matrix.") association p(HGNC:MMP1)</data>
+</edge>
+<edge source="bp(Reactome:&quot;Degradation of the extracellular matrix.&quot;)" target="p(HGNC:MMP8)" id="870e9249958325c8a3a800ab099864aa">
+  <data key="d1">association</data>
+  <data key="d2">bp(Reactome:"Degradation of the extracellular matrix.") association p(HGNC:MMP8)</data>
+</edge>
+<edge source="bp(Reactome:&quot;Degradation of the extracellular matrix.&quot;)" target="p(HGNC:MMP7)" id="7f1ce5107e7ff3b59aa3bbecce48f3b5">
+  <data key="d1">association</data>
+  <data key="d2">bp(Reactome:"Degradation of the extracellular matrix.") association p(HGNC:MMP7)</data>
+</edge>
+<edge source="bp(Reactome:&quot;Activation of Matrix Metalloproteinases.&quot;)" target="p(HGNC:MMP13)" id="fea7d0d36f3f67c2be604713933c5914">
+  <data key="d1">association</data>
+  <data key="d2">bp(Reactome:"Activation of Matrix Metalloproteinases.") association p(HGNC:MMP13)</data>
+</edge>
+<edge source="bp(Reactome:&quot;Activation of Matrix Metalloproteinases.&quot;)" target="p(HGNC:MMP1)" id="9c8f764c0295b3ae1c662187e0137965">
+  <data key="d1">association</data>
+  <data key="d2">bp(Reactome:"Activation of Matrix Metalloproteinases.") association p(HGNC:MMP1)</data>
+</edge>
+<edge source="bp(Reactome:&quot;Activation of Matrix Metalloproteinases.&quot;)" target="p(HGNC:MMP8)" id="ee7ee26ab4e7aae18a923bcf2dd4dc1c">
+  <data key="d1">association</data>
+  <data key="d2">bp(Reactome:"Activation of Matrix Metalloproteinases.") association p(HGNC:MMP8)</data>
+</edge>
+<edge source="bp(Reactome:&quot;Activation of Matrix Metalloproteinases.&quot;)" target="p(HGNC:MMP7)" id="6cb67510d76201d2faf340feefa9f716">
+  <data key="d1">association</data>
+  <data key="d2">bp(Reactome:"Activation of Matrix Metalloproteinases.") association p(HGNC:MMP7)</data>
+</edge>
+<edge source="bp(Reactome:&quot;Assembly of collagen fibrils and other multimeric structures.&quot;)" target="p(HGNC:MMP13)" id="de60c380110cc78ae863a298f297d6e0">
+  <data key="d1">association</data>
+  <data key="d2">bp(Reactome:"Assembly of collagen fibrils and other multimeric structures.") association p(HGNC:MMP13)</data>
+</edge>
+<edge source="bp(Reactome:&quot;Assembly of collagen fibrils and other multimeric structures.&quot;)" target="p(HGNC:MMP7)" id="b26d6d6c9e3f1ef63df540b1a5911a23">
+  <data key="d1">association</data>
+  <data key="d2">bp(Reactome:"Assembly of collagen fibrils and other multimeric structures.") association p(HGNC:MMP7)</data>
+</edge>
+<edge source="bp(Reactome:&quot;RUNX2 regulates genes involved in cell migration.&quot;)" target="p(HGNC:MMP13)" id="98dd78e9c14fe98ffebe940c6a91db17">
+  <data key="d1">association</data>
+  <data key="d2">bp(Reactome:"RUNX2 regulates genes involved in cell migration.") association p(HGNC:MMP13)</data>
+</edge>
+<edge source="bp(Reactome:&quot;Basigin interactions.&quot;)" target="p(HGNC:MMP1)" id="729676229e13c5251d23dcfffd6f87e6">
+  <data key="d1">association</data>
+  <data key="d2">bp(Reactome:"Basigin interactions.") association p(HGNC:MMP1)</data>
+</edge>
+<edge source="bp(Reactome:&quot;Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs).&quot;)" target="p(HGNC:MMP1)" id="dba18966d95f2163f541fbf118e41f93">
+  <data key="d1">association</data>
+  <data key="d2">bp(Reactome:"Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs).") association p(HGNC:MMP1)</data>
+</edge>
+<edge source="bp(Reactome:&quot;Interleukin-4 and Interleukin-13 signaling.&quot;)" target="p(HGNC:MMP1)" id="21cf3c715d98a4b437e690a7cc3f945d">
+  <data key="d1">association</data>
+  <data key="d2">bp(Reactome:"Interleukin-4 and Interleukin-13 signaling.") association p(HGNC:MMP1)</data>
+</edge>
+<edge source="bp(Reactome:&quot;Trafficking and processing of endosomal TLR.&quot;)" target="p(HGNC:TLR7)" id="9803dcabb5d39d6e977115eeb191717e">
+  <data key="d1">association</data>
+  <data key="d2">bp(Reactome:"Trafficking and processing of endosomal TLR.") association p(HGNC:TLR7)</data>
+</edge>
+<edge source="bp(Reactome:&quot;Toll Like Receptor 7/8 (TLR7/8) Cascade.&quot;)" target="p(HGNC:TLR7)" id="3d3d4bde82b8845f015841aaecfaafdd">
+  <data key="d1">association</data>
+  <data key="d2">bp(Reactome:"Toll Like Receptor 7/8 (TLR7/8) Cascade.") association p(HGNC:TLR7)</data>
+</edge>
+<edge source="bp(Reactome:&quot;Potential therapeutics for SARS.&quot;)" target="p(HGNC:TLR7)" id="fdbf4a5d077bbcfadb55eace59f25417">
+  <data key="d1">association</data>
+  <data key="d2">bp(Reactome:"Potential therapeutics for SARS.") association p(HGNC:TLR7)</data>
+</edge>
+<edge source="bp(Reactome:&quot;Potential therapeutics for SARS.&quot;)" target="p(HGNC:SIGMAR1)" id="d4b8262c94a858d235ef7f058439ceae">
+  <data key="d1">association</data>
+  <data key="d2">bp(Reactome:"Potential therapeutics for SARS.") association p(HGNC:SIGMAR1)</data>
+</edge>
+<edge source="bp(Reactome:&quot;SARS-CoV-1 activates/modulates innate immune responses.&quot;)" target="p(HGNC:TLR7)" id="cc115d84e3c74279149d2f078c0773dc">
+  <data key="d1">association</data>
+  <data key="d2">bp(Reactome:"SARS-CoV-1 activates/modulates innate immune responses.") association p(HGNC:TLR7)</data>
+</edge>
+<edge source="bp(Reactome:&quot;SARS-CoV-2 activates/modulates innate and adaptive immune responses.&quot;)" target="p(HGNC:TLR7)" id="206e682604be1af999929013952f5892">
+  <data key="d1">association</data>
+  <data key="d2">bp(Reactome:"SARS-CoV-2 activates/modulates innate and adaptive immune responses.") association p(HGNC:TLR7)</data>
+</edge>
+<edge source="bp(Reactome:&quot;TRAF6 mediated IRF7 activation in TLR7/8 or 9 signaling.&quot;)" target="p(HGNC:TLR7)" id="e2f58afe04478761385e217151f20c59">
+  <data key="d1">association</data>
+  <data key="d2">bp(Reactome:"TRAF6 mediated IRF7 activation in TLR7/8 or 9 signaling.") association p(HGNC:TLR7)</data>
+</edge>
+<edge source="bp(Reactome:&quot;TRAF6 mediated induction of NFkB and MAP kinases upon TLR7/8 or 9 activation.&quot;)" target="p(HGNC:TLR7)" id="fabed8f68d129c7338ea6af8f1e80bdc">
+  <data key="d1">association</data>
+  <data key="d2">bp(Reactome:"TRAF6 mediated induction of NFkB and MAP kinases upon TLR7/8 or 9 activation.") association p(HGNC:TLR7)</data>
+</edge>
+<edge source="bp(Reactome:&quot;MyD88 dependent cascade initiated on endosome.&quot;)" target="p(HGNC:TLR7)" id="e976be28a11dd2dfc05c49bde063795f">
+  <data key="d1">association</data>
+  <data key="d2">bp(Reactome:"MyD88 dependent cascade initiated on endosome.") association p(HGNC:TLR7)</data>
+</edge>
+<edge source="bp(Reactome:&quot;Neutrophil degranulation.&quot;)" target="p(HGNC:MMP8)" id="2771669823b393dc5f1d9da989d76887">
+  <data key="d1">association</data>
+  <data key="d2">bp(Reactome:"Neutrophil degranulation.") association p(HGNC:MMP8)</data>
+</edge>
+<edge source="bp(Reactome:&quot;Extra-nuclear estrogen signaling.&quot;)" target="p(HGNC:MMP7)" id="0d2902933d66ce35d4adff763c427488">
+  <data key="d1">association</data>
+  <data key="d2">bp(Reactome:"Extra-nuclear estrogen signaling.") association p(HGNC:MMP7)</data>
+</edge>
+<edge source="path(SideEffect:&quot;drug hypersensitivity&quot;)" target="a(ChEMBL:CHEMBL1200699)" id="fab7c0f664d68591f05acc4492528fff">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"drug hypersensitivity") association a(ChEMBL:CHEMBL1200699)</data>
+</edge>
+<edge source="path(SideEffect:&quot;drug hypersensitivity&quot;)" target="a(ChEMBL:CHEMBL1535)" id="a1246c94792528087c7e183f35c5961f">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"drug hypersensitivity") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;jarisch-herxheimer reaction&quot;)" target="a(ChEMBL:CHEMBL1200699)" id="2b6143c5a65e24c699941dc7f25450b8">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"jarisch-herxheimer reaction") association a(ChEMBL:CHEMBL1200699)</data>
+</edge>
+<edge source="path(SideEffect:&quot;oesophageal ulcer&quot;)" target="a(ChEMBL:CHEMBL1200699)" id="d072a6a98140c7325c33773de845958b">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"oesophageal ulcer") association a(ChEMBL:CHEMBL1200699)</data>
+</edge>
+<edge source="path(SideEffect:&quot;gastrointestinal mucosal necrosis&quot;)" target="a(ChEMBL:CHEMBL1200699)" id="151b42ddffe30f3b6e6ce220c718f857">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"gastrointestinal mucosal necrosis") association a(ChEMBL:CHEMBL1200699)</data>
+</edge>
+<edge source="path(SideEffect:&quot;pancreatitis acute&quot;)" target="a(ChEMBL:CHEMBL1200699)" id="a8d9bd86b0bab81a9580806dcea8777f">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"pancreatitis acute") association a(ChEMBL:CHEMBL1200699)</data>
+</edge>
+<edge source="path(SideEffect:&quot;gastrointestinal injury&quot;)" target="a(ChEMBL:CHEMBL1200699)" id="ecf38ecc28e938e4c2771323a5c0fbc6">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"gastrointestinal injury") association a(ChEMBL:CHEMBL1200699)</data>
+</edge>
+<edge source="path(SideEffect:&quot;photosensitivity reaction&quot;)" target="a(ChEMBL:CHEMBL1200699)" id="ecbad783606f1b8139087136045a9668">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"photosensitivity reaction") association a(ChEMBL:CHEMBL1200699)</data>
+</edge>
+<edge source="path(SideEffect:vomiting)" target="a(ChEMBL:CHEMBL1200699)" id="0c28ee0febcdc3ee00c55694e9827ed0">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:vomiting) association a(ChEMBL:CHEMBL1200699)</data>
+</edge>
+<edge source="path(SideEffect:rash)" target="a(ChEMBL:CHEMBL1200699)" id="04ac1b0ab5daf7dc065401440520bdd9">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:rash) association a(ChEMBL:CHEMBL1200699)</data>
+</edge>
+<edge source="path(SideEffect:rash)" target="a(ChEMBL:CHEMBL1535)" id="1aa8d1a50c218623f0afc0358cc01a29">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:rash) association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;cholangitis sclerosing&quot;)" target="a(ChEMBL:CHEMBL1200699)" id="a978eda71274f24760e67945ab80eafe">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"cholangitis sclerosing") association a(ChEMBL:CHEMBL1200699)</data>
+</edge>
+<edge source="path(SideEffect:oesophagitis)" target="a(ChEMBL:CHEMBL1200699)" id="8b90182da5f2ecc6704dbf58372c39b3">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:oesophagitis) association a(ChEMBL:CHEMBL1200699)</data>
+</edge>
+<edge source="path(SideEffect:&quot;intracranial pressure increased&quot;)" target="a(ChEMBL:CHEMBL1200699)" id="70e58f1f0b9891a61efead7e94e55e29">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"intracranial pressure increased") association a(ChEMBL:CHEMBL1200699)</data>
+</edge>
+<edge source="path(SideEffect:&quot;drug-induced liver injury&quot;)" target="a(ChEMBL:CHEMBL1200699)" id="73b5fcba7417fd1c8ef60626734ebe33">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"drug-induced liver injury") association a(ChEMBL:CHEMBL1200699)</data>
+</edge>
+<edge source="path(SideEffect:&quot;injection site pain&quot;)" target="a(ChEMBL:CHEMBL1200699)" id="c77d1a46f84be892c8188cff4e4aca74">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"injection site pain") association a(ChEMBL:CHEMBL1200699)</data>
+</edge>
+<edge source="path(SideEffect:fall)" target="a(ChEMBL:CHEMBL1200699)" id="9b8c3eb5b8312f410022a87e01f544c6">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:fall) association a(ChEMBL:CHEMBL1200699)</data>
+</edge>
+<edge source="path(SideEffect:&quot;rheumatoid arthritis&quot;)" target="a(ChEMBL:CHEMBL1535)" id="1b74d9d6a449e34f9e391a7a1b963d8b">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"rheumatoid arthritis") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;drug intolerance&quot;)" target="a(ChEMBL:CHEMBL1535)" id="31726d74ffff607f4d0c8dab92d33e97">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"drug intolerance") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:synovitis)" target="a(ChEMBL:CHEMBL1535)" id="62e162b3b3a724f4a0a23e0545492a4f">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:synovitis) association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;joint swelling&quot;)" target="a(ChEMBL:CHEMBL1535)" id="86e2c9ea37827e94bce3e9d1939bc139">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"joint swelling") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;treatment failure&quot;)" target="a(ChEMBL:CHEMBL1535)" id="1c1ae21e82029e7ebc91b7ea306ba29f">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"treatment failure") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;therapeutic product effect decreased&quot;)" target="a(ChEMBL:CHEMBL1535)" id="d16b0729940e4054058050891482a141">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"therapeutic product effect decreased") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:pemphigus)" target="a(ChEMBL:CHEMBL1535)" id="ebd5f162f6d7c6341763a40a87d9268b">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:pemphigus) association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:arthropathy)" target="a(ChEMBL:CHEMBL1535)" id="6e8f0db91cb41bced10613da1ff131e3">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:arthropathy) association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;systemic lupus erythematosus&quot;)" target="a(ChEMBL:CHEMBL1535)" id="63037aa20814e2bf1166cb399c6e55dd">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"systemic lupus erythematosus") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;hand deformity&quot;)" target="a(ChEMBL:CHEMBL1535)" id="1241270718e81f49437f02a66a2b7ea7">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"hand deformity") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:pain)" target="a(ChEMBL:CHEMBL1535)" id="a76d594b4c63ec48bf47e6d8a9d095ab">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:pain) association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;abdominal discomfort&quot;)" target="a(ChEMBL:CHEMBL1535)" id="6222aab25ad15b0feab94b410a40f3a6">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"abdominal discomfort") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:arthralgia)" target="a(ChEMBL:CHEMBL1535)" id="4e0d4c28a1cf363596e44de10597e49d">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:arthralgia) association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:glossodynia)" target="a(ChEMBL:CHEMBL1535)" id="727264f08edad9069d14582f34946f12">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:glossodynia) association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;condition aggravated&quot;)" target="a(ChEMBL:CHEMBL1535)" id="b220db7e45bdebda174d2ed82b557dc5">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"condition aggravated") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:alopecia)" target="a(ChEMBL:CHEMBL1535)" id="bbec3572fbe2d7e6d69badeeace9895e">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:alopecia) association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;c-reactive protein abnormal&quot;)" target="a(ChEMBL:CHEMBL1535)" id="91c545cf75df78574d253f2ef5e47053">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"c-reactive protein abnormal") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;anti-cyclic citrullinated peptide antibody positive&quot;)" target="a(ChEMBL:CHEMBL1535)" id="0b5299b3fae55770dbba247289900928">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"anti-cyclic citrullinated peptide antibody positive") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;rheumatoid factor positive&quot;)" target="a(ChEMBL:CHEMBL1535)" id="4eac89ad537feb18253533107d356a76">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"rheumatoid factor positive") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:swelling)" target="a(ChEMBL:CHEMBL1535)" id="4b4079f8652802edd86fe9e4a351aea9">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:swelling) association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;red blood cell sedimentation rate abnormal&quot;)" target="a(ChEMBL:CHEMBL1535)" id="95e93000cc02b92b4e3a99a05057f9bf">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"red blood cell sedimentation rate abnormal") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;peripheral swelling&quot;)" target="a(ChEMBL:CHEMBL1535)" id="84ed348d1e98a69b3a20cf28a30540e8">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"peripheral swelling") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;loss of personal independence in daily activities&quot;)" target="a(ChEMBL:CHEMBL1535)" id="5dcc886f1d665e299b0763c297397f3b">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"loss of personal independence in daily activities") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;hepatic enzyme increased&quot;)" target="a(ChEMBL:CHEMBL1535)" id="832c2d5e7249ce61ec7551a19deb31f8">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"hepatic enzyme increased") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:wound)" target="a(ChEMBL:CHEMBL1535)" id="af205eed48a82a352304a05c8332820e">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:wound) association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;therapeutic product effect incomplete&quot;)" target="a(ChEMBL:CHEMBL1535)" id="151af5e807eaf033efa48c2d5c2e3078">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"therapeutic product effect incomplete") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;red blood cell sedimentation rate increased&quot;)" target="a(ChEMBL:CHEMBL1535)" id="3da8dc961de013be1c42c1f39e710995">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"red blood cell sedimentation rate increased") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;c-reactive protein increased&quot;)" target="a(ChEMBL:CHEMBL1535)" id="a98a53307fa441116e2cc7160ad94233">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"c-reactive protein increased") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;musculoskeletal stiffness&quot;)" target="a(ChEMBL:CHEMBL1535)" id="6bd573f580285ff15f200fc4bf28f271">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"musculoskeletal stiffness") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:pericarditis)" target="a(ChEMBL:CHEMBL1535)" id="bab42c52b7e58ad1de0f0de3811c5c34">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:pericarditis) association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:infection)" target="a(ChEMBL:CHEMBL1535)" id="2f5af50706d3d0a4ae366dd9a36eee11">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:infection) association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;mobility decreased&quot;)" target="a(ChEMBL:CHEMBL1535)" id="b803a4035319f071ebcc8229b0956f77">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"mobility decreased") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;helicobacter infection&quot;)" target="a(ChEMBL:CHEMBL1535)" id="289d3573b28b63dc49fd3a9fb6ed95b4">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"helicobacter infection") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;duodenal ulcer perforation&quot;)" target="a(ChEMBL:CHEMBL1535)" id="43784bf7fc431917196c2565d5e6a2de">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"duodenal ulcer perforation") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:hypersensitivity)" target="a(ChEMBL:CHEMBL1535)" id="bf22552ba07b9bbee783d7227559ce4f">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:hypersensitivity) association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:fatigue)" target="a(ChEMBL:CHEMBL1535)" id="73f465168d76cc6009a69131e9449cc8">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:fatigue) association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;sleep disorder due to general medical condition, insomnia type&quot;)" target="a(ChEMBL:CHEMBL1535)" id="353dd555b992f0799f5795a632f7914b">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"sleep disorder due to general medical condition, insomnia type") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:discomfort)" target="a(ChEMBL:CHEMBL1535)" id="5453aa0ed0dc4fdd758d8387e68e3120">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:discomfort) association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;muscle injury&quot;)" target="a(ChEMBL:CHEMBL1535)" id="1a61efcf4298ddb8183e685a77aa7376">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"muscle injury") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;gastrointestinal disorder&quot;)" target="a(ChEMBL:CHEMBL1535)" id="92ef2a88ae84111a5970cd58be59f1d0">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"gastrointestinal disorder") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;blood iron abnormal&quot;)" target="a(ChEMBL:CHEMBL1535)" id="81521524bbbeb232efe8995ab0946b04">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"blood iron abnormal") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;irritable bowel syndrome&quot;)" target="a(ChEMBL:CHEMBL1535)" id="2c0b66f1f1e560a0dd574eb31f784c24">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"irritable bowel syndrome") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;infusion related reaction&quot;)" target="a(ChEMBL:CHEMBL1535)" id="c09987b82dfa0752f840dd2902da7ea4">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"infusion related reaction") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;retinal toxicity&quot;)" target="a(ChEMBL:CHEMBL1535)" id="1397821239a45d8a75a67d6b9d863aa0">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"retinal toxicity") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;ill-defined disorder&quot;)" target="a(ChEMBL:CHEMBL1535)" id="c2b72e91efc419b566fd1dbec2f4773e">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"ill-defined disorder") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;knee arthroplasty&quot;)" target="a(ChEMBL:CHEMBL1535)" id="a13903943dec12ec0a7c9832b5da0864">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"knee arthroplasty") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:folliculitis)" target="a(ChEMBL:CHEMBL1535)" id="30661a81391a5201ec899c4367ddedb5">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:folliculitis) association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;electrocardiogram qt prolonged&quot;)" target="a(ChEMBL:CHEMBL1535)" id="881a3575fffa20c3338cebb0f892189f">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"electrocardiogram qt prolonged") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:arthritis)" target="a(ChEMBL:CHEMBL1535)" id="f1f85c60d2a075c6ab1d9dc5436152a0">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:arthritis) association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:retinopathy)" target="a(ChEMBL:CHEMBL1535)" id="31abd030fe25e53703d454db4beb94e1">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:retinopathy) association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;bone erosion&quot;)" target="a(ChEMBL:CHEMBL1535)" id="82b916b2a769bc318fa54ad81cd5d9d7">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"bone erosion") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:sinusitis)" target="a(ChEMBL:CHEMBL1535)" id="650a72dd8846882730c4e5f69923c5cc">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:sinusitis) association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;hip arthroplasty&quot;)" target="a(ChEMBL:CHEMBL1535)" id="d289cb9b6c877df3745f76e088a92159">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"hip arthroplasty") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:inflammation)" target="a(ChEMBL:CHEMBL1535)" id="73b23f8962841e7d4976c0bdb67c3c2f">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:inflammation) association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:fibromyalgia)" target="a(ChEMBL:CHEMBL1535)" id="d1b475eb4bc2815ac796d640918e33a4">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:fibromyalgia) association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;herpes zoster&quot;)" target="a(ChEMBL:CHEMBL1535)" id="af99a2159af5be8e0acf044fb59189e1">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"herpes zoster") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;musculoskeletal pain&quot;)" target="a(ChEMBL:CHEMBL1535)" id="3d5a783a35b9a18bad22fe882ef6e050">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"musculoskeletal pain") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:stomatitis)" target="a(ChEMBL:CHEMBL1535)" id="167cbd4c81642a396236add7730342bd">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:stomatitis) association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;rheumatoid nodule&quot;)" target="a(ChEMBL:CHEMBL1535)" id="f1f12857ee09a08c61ac13be37837549">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"rheumatoid nodule") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:sciatica)" target="a(ChEMBL:CHEMBL1535)" id="874e573ec0485a882163a07950cbbe5e">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:sciatica) association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;impaired work ability&quot;)" target="a(ChEMBL:CHEMBL1535)" id="901ee6d2dfae9029b79bc55d604b8e8b">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"impaired work ability") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;psoriatic arthropathy&quot;)" target="a(ChEMBL:CHEMBL1535)" id="79be37dc908ea2e3813f96d0761c614e">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"psoriatic arthropathy") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;impaired healing&quot;)" target="a(ChEMBL:CHEMBL1535)" id="70a45193db9be2c3111bb113db3d8277">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"impaired healing") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;drug tolerance decreased&quot;)" target="a(ChEMBL:CHEMBL1535)" id="397bb23100dafe9c3c962367b2f92bac">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"drug tolerance decreased") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:osteoporosis)" target="a(ChEMBL:CHEMBL1535)" id="8137a98ad56fa143a3418a5480156dbd">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:osteoporosis) association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:osteoarthritis)" target="a(ChEMBL:CHEMBL1535)" id="f000c8bee5f8a0cad0ff7905aad93b85">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:osteoarthritis) association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;lower respiratory tract infection&quot;)" target="a(ChEMBL:CHEMBL1535)" id="7d33385f77f59a05c1862eff00e5d6ad">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"lower respiratory tract infection") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:nausea)" target="a(ChEMBL:CHEMBL1535)" id="fe3e18f6a24795b28af4e8d0c527a6d6">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:nausea) association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:blister)" target="a(ChEMBL:CHEMBL1535)" id="79662f96314f263c7dd3229b55f6c798">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:blister) association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:disability)" target="a(ChEMBL:CHEMBL1535)" id="797d236f82fd8f199ca8eff7acff47cd">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:disability) association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;rheumatoid factor negative&quot;)" target="a(ChEMBL:CHEMBL1535)" id="65f4c41f2bb1ca9bb3a5b514b620d073">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"rheumatoid factor negative") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;pneumonia viral&quot;)" target="a(ChEMBL:CHEMBL1535)" id="edcb0cdab2e69b43ed8ca84003264bfc">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"pneumonia viral") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:covid-19)" target="a(ChEMBL:CHEMBL1535)" id="8c7d767dd2b06ab3544cec9229912208">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:covid-19) association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:nasopharyngitis)" target="a(ChEMBL:CHEMBL1535)" id="cce584c25c0ae026094144810bf9feeb">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:nasopharyngitis) association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;human antichimeric antibody positive&quot;)" target="a(ChEMBL:CHEMBL1535)" id="11077d71dc7fce060a4ad6bc789af0c2">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"human antichimeric antibody positive") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;granuloma skin&quot;)" target="a(ChEMBL:CHEMBL1535)" id="22d29b39453e5d778dbb3fdaaeb9b742">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"granuloma skin") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:tenosynovitis)" target="a(ChEMBL:CHEMBL1535)" id="a81dfbf53789622b6c13c32909035753">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:tenosynovitis) association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;drug effective for unapproved indication&quot;)" target="a(ChEMBL:CHEMBL1535)" id="ff16a387eb3813705fb62020bdf0e91b">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"drug effective for unapproved indication") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;therapy non-responder&quot;)" target="a(ChEMBL:CHEMBL1535)" id="b9b67d63e46a463f0f5b6207871f8d6c">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"therapy non-responder") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:maculopathy)" target="a(ChEMBL:CHEMBL1535)" id="16894845bd05e9ba1c87ecf9a33d001f">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:maculopathy) association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;joint stiffness&quot;)" target="a(ChEMBL:CHEMBL1535)" id="35d0fb9555829d112176231972269a17">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"joint stiffness") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:panniculitis)" target="a(ChEMBL:CHEMBL1535)" id="01dac30f4e18c30fbdc3ed959e4cea89">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:panniculitis) association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;premature baby&quot;)" target="a(ChEMBL:CHEMBL1535)" id="25e1b27693c125152d1508e6c9fadbe2">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"premature baby") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;pain in extremity&quot;)" target="a(ChEMBL:CHEMBL1535)" id="1c19dbe2cc19d8ecda96dea92e9f84b4">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"pain in extremity") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;blood parathyroid hormone decreased&quot;)" target="a(ChEMBL:CHEMBL1535)" id="752b53e933985168b1cb86fe42b8050a">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"blood parathyroid hormone decreased") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;joint range of motion decreased&quot;)" target="a(ChEMBL:CHEMBL1535)" id="93f4f4a4f68bd5f7c4a2ad5246627652">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"joint range of motion decreased") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;body height below normal&quot;)" target="a(ChEMBL:CHEMBL1535)" id="aa09f9a0c1e8d35c476e63a6d9b7c42f">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"body height below normal") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;apparent death&quot;)" target="a(ChEMBL:CHEMBL1535)" id="c9e6a2a03b85c67ed5d999422edf5ee9">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"apparent death") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:diverticulitis)" target="a(ChEMBL:CHEMBL1535)" id="282ce89ab78f09276b0f1afb3473b254">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:diverticulitis) association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;joint laxity&quot;)" target="a(ChEMBL:CHEMBL1535)" id="d873f84cab343602563e066b1f54014d">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"joint laxity") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;blood cholesterol increased&quot;)" target="a(ChEMBL:CHEMBL1535)" id="814454f016d7d5fd3378cdd5274aa88e">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"blood cholesterol increased") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:hepatitis)" target="a(ChEMBL:CHEMBL1535)" id="2c3e9228ece7737c3329b7903042b5ca">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:hepatitis) association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;wheelchair user&quot;)" target="a(ChEMBL:CHEMBL1535)" id="d5aa28f1d22fa02674f2f608ea81c8d0">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"wheelchair user") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;therapeutic response decreased&quot;)" target="a(ChEMBL:CHEMBL1535)" id="550864aaad804cff5e9004013694a98d">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"therapeutic response decreased") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;pulmonary fibrosis&quot;)" target="a(ChEMBL:CHEMBL1535)" id="f1ad0b9be2e4f2abf50a41985d91c9fa">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"pulmonary fibrosis") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:&quot;breast cancer stage iii&quot;)" target="a(ChEMBL:CHEMBL1535)" id="52c3005553930a609697cc4bd4616789">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:"breast cancer stage iii") association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+<edge source="path(SideEffect:presbyacusis)" target="a(ChEMBL:CHEMBL1535)" id="3ac6660356096639400467cfed347773">
+  <data key="d1">association</data>
+  <data key="d2">path(SideEffect:presbyacusis) association a(ChEMBL:CHEMBL1535)</data>
+</edge>
+</graph></graphml>

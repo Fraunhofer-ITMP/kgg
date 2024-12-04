@@ -1,0 +1,11 @@
+,approvedSymbol,approvedName,prefName,drugType,drugId,phase,ctIds,id,disease
+0,MMP13,matrix metallopeptidase 13,DOXYCYCLINE,Small molecule,CHEMBL1200699,4,"['NCT01207739', 'NCT01368341', 'NCT01518192']",MONDO_0025294,tick-borne infectious disease
+1,MMP8,matrix metallopeptidase 8,DOXYCYCLINE ANHYDROUS,Small molecule,CHEMBL1433,4,"['NCT01518192', 'NCT01207739', 'NCT01368341']",MONDO_0025294,tick-borne infectious disease
+2,TLR9,toll like receptor 9,HYDROXYCHLOROQUINE,Small molecule,CHEMBL1535,4,['NCT01207739'],MONDO_0025294,tick-borne infectious disease
+3,MMP13,matrix metallopeptidase 13,DOXYCYCLINE ANHYDROUS,Small molecule,CHEMBL1433,4,"['NCT01368341', 'NCT01518192', 'NCT01207739']",MONDO_0025294,tick-borne infectious disease
+4,MMP8,matrix metallopeptidase 8,DOXYCYCLINE,Small molecule,CHEMBL1200699,4,"['NCT01518192', 'NCT01368341', 'NCT01207739']",MONDO_0025294,tick-borne infectious disease
+5,MMP7,matrix metallopeptidase 7,DOXYCYCLINE,Small molecule,CHEMBL1200699,4,"['NCT01518192', 'NCT01368341', 'NCT01207739']",MONDO_0025294,tick-borne infectious disease
+6,MMP1,matrix metallopeptidase 1,DOXYCYCLINE,Small molecule,CHEMBL1200699,4,"['NCT01207739', 'NCT01518192', 'NCT01368341']",MONDO_0025294,tick-borne infectious disease
+7,MMP1,matrix metallopeptidase 1,DOXYCYCLINE ANHYDROUS,Small molecule,CHEMBL1433,4,"['NCT01207739', 'NCT01518192', 'NCT01368341']",MONDO_0025294,tick-borne infectious disease
+8,MMP7,matrix metallopeptidase 7,DOXYCYCLINE ANHYDROUS,Small molecule,CHEMBL1433,4,"['NCT01518192', 'NCT01207739', 'NCT01368341']",MONDO_0025294,tick-borne infectious disease
+9,TLR7,toll like receptor 7,HYDROXYCHLOROQUINE,Small molecule,CHEMBL1535,4,['NCT01207739'],MONDO_0025294,tick-borne infectious disease

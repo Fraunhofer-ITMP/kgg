@@ -1,0 +1,298 @@
+,approvedSymbol,approvedName,prefName,drugType,drugId,phase,ctIds,id,disease
+0,TNF,tumor necrosis factor,INFLIXIMAB,Antibody,CHEMBL1201581,4.0,"['NCT05280405', 'NCT04982172']",EFO_0003767,inflammatory bowel disease
+1,SCN9A,sodium voltage-gated channel alpha subunit 9,LIDOCAINE,Small molecule,CHEMBL79,4.0,['NCT05238506'],EFO_0003767,inflammatory bowel disease
+2,PTGS1,prostaglandin-endoperoxide synthase 1,SULFASALAZINE,Small molecule,CHEMBL421,4.0,[],EFO_0003767,inflammatory bowel disease
+3,PPAT,phosphoribosyl pyrophosphate amidotransferase,MERCAPTOPURINE,Small molecule,CHEMBL1425,4.0,['NCT02852694'],EFO_0003767,inflammatory bowel disease
+4,ITGB7,integrin subunit beta 7,VEDOLIZUMAB,Antibody,CHEMBL1743087,4.0,[],EFO_0003767,inflammatory bowel disease
+5,MMP8,matrix metallopeptidase 8,DOXYCYCLINE ANHYDROUS,Small molecule,CHEMBL1433,4.0,['NCT02033408'],EFO_0003767,inflammatory bowel disease
+6,NR3C1,nuclear receptor subfamily 3 group C member 1,BUDESONIDE,Small molecule,CHEMBL1370,4.0,[],EFO_0003767,inflammatory bowel disease
+7,TNF,tumor necrosis factor,CERTOLIZUMAB PEGOL,Antibody,CHEMBL1201831,4.0,"['NCT02597829', 'NCT01024647']",EFO_0003767,inflammatory bowel disease
+8,MMP7,matrix metallopeptidase 7,DOXYCYCLINE ANHYDROUS,Small molecule,CHEMBL1433,4.0,['NCT02345733'],EFO_0003767,inflammatory bowel disease
+9,TNF,tumor necrosis factor,GOLIMUMAB,Antibody,CHEMBL1201833,4.0,['NCT04156984'],EFO_0003767,inflammatory bowel disease
+10,TNF,tumor necrosis factor,CERTOLIZUMAB PEGOL,Antibody,CHEMBL1201831,4.0,['NCT01696942'],EFO_0003767,inflammatory bowel disease
+11,NR3C1,nuclear receptor subfamily 3 group C member 1,PREDNISONE,Small molecule,CHEMBL635,4.0,[],EFO_0003767,inflammatory bowel disease
+12,MMP7,matrix metallopeptidase 7,DOXYCYCLINE,Small molecule,CHEMBL1200699,4.0,['NCT02033408'],EFO_0003767,inflammatory bowel disease
+13,ITGA4,integrin subunit alpha 4,VEDOLIZUMAB,Antibody,CHEMBL1743087,4.0,"['NCT03679546', 'NCT05481619', 'NCT04006080']",EFO_0003767,inflammatory bowel disease
+14,TNF,tumor necrosis factor,ADALIMUMAB,Antibody,CHEMBL1201580,4.0,['NCT01960426'],EFO_0003767,inflammatory bowel disease
+15,GABRG2,gamma-aminobutyric acid type A receptor subunit gamma2,MIDAZOLAM,Small molecule,CHEMBL655,4.0,['NCT02760615'],EFO_0003767,inflammatory bowel disease
+16,PTGS2,prostaglandin-endoperoxide synthase 2,MESALAMINE,Small molecule,CHEMBL704,4.0,[],EFO_0003767,inflammatory bowel disease
+17,PPAT,phosphoribosyl pyrophosphate amidotransferase,AZATHIOPRINE,Small molecule,CHEMBL1542,4.0,"['NCT00546546', 'NCT00554710', 'NCT02177071']",EFO_0003767,inflammatory bowel disease
+18,NR3C1,nuclear receptor subfamily 3 group C member 1,BETAMETHASONE SODIUM PHOSPHATE,Small molecule,CHEMBL1200762,4.0,[],EFO_0003767,inflammatory bowel disease
+19,PTGS2,prostaglandin-endoperoxide synthase 2,MESALAMINE,Small molecule,CHEMBL704,4.0,['NCT00167882'],EFO_0003767,inflammatory bowel disease
+20,CHRM1,cholinergic receptor muscarinic 1,GLYCOPYRRONIUM,Small molecule,CHEMBL1201335,4.0,['NCT05256901'],EFO_0003767,inflammatory bowel disease
+21,PTGS1,prostaglandin-endoperoxide synthase 1,MESALAMINE,Small molecule,CHEMBL704,4.0,[],EFO_0003767,inflammatory bowel disease
+22,TNF,tumor necrosis factor,INFLIXIMAB,Antibody,CHEMBL1201581,4.0,[],EFO_0003767,inflammatory bowel disease
+23,PPAT,phosphoribosyl pyrophosphate amidotransferase,AZATHIOPRINE,Small molecule,CHEMBL1542,4.0,['NCT02425852'],EFO_0003767,inflammatory bowel disease
+24,GABRQ,gamma-aminobutyric acid type A receptor subunit theta,PROPOFOL,Small molecule,CHEMBL526,4.0,['NCT01934088'],EFO_0003767,inflammatory bowel disease
+25,PTGS1,prostaglandin-endoperoxide synthase 1,MESALAMINE,Small molecule,CHEMBL704,4.0,['NCT00167882'],EFO_0003767,inflammatory bowel disease
+26,GABRG1,gamma-aminobutyric acid type A receptor subunit gamma1,PROPOFOL,Small molecule,CHEMBL526,4.0,['NCT01934088'],EFO_0003767,inflammatory bowel disease
+27,TNF,tumor necrosis factor,INFLIXIMAB,Antibody,CHEMBL1201581,4.0,['NCT04835506'],EFO_0003767,inflammatory bowel disease
+28,GABRG2,gamma-aminobutyric acid type A receptor subunit gamma2,MIDAZOLAM,Small molecule,CHEMBL655,4.0,['NCT01934088'],EFO_0003767,inflammatory bowel disease
+29,MMP1,matrix metallopeptidase 1,DOXYCYCLINE ANHYDROUS,Small molecule,CHEMBL1433,4.0,['NCT02033408'],EFO_0003767,inflammatory bowel disease
+30,TNF,tumor necrosis factor,INFLIXIMAB,Antibody,CHEMBL1201581,4.0,"['NCT00752622', 'NCT01880307', 'NCT01960426']",EFO_0003767,inflammatory bowel disease
+31,ALOX5,arachidonate 5-lipoxygenase,SULFASALAZINE,Small molecule,CHEMBL421,4.0,[],EFO_0003767,inflammatory bowel disease
+32,PPAT,phosphoribosyl pyrophosphate amidotransferase,MERCAPTOPURINE,Small molecule,CHEMBL1200751,4.0,['NCT02852694'],EFO_0003767,inflammatory bowel disease
+33,NR3C1,nuclear receptor subfamily 3 group C member 1,PREDNISONE,Small molecule,CHEMBL635,4.0,"['NCT01941589', 'NCT02921555']",EFO_0003767,inflammatory bowel disease
+34,TNF,tumor necrosis factor,ADALIMUMAB,Antibody,CHEMBL1201580,4.0,"['NCT04646187', 'NCT03917303']",EFO_0003767,inflammatory bowel disease
+35,PPARG,peroxisome proliferator activated receptor gamma,MESALAMINE,Small molecule,CHEMBL704,4.0,['NCT04133194'],EFO_0003767,inflammatory bowel disease
+36,ATP4A,ATPase H+/K+ transporting subunit alpha,OMEPRAZOLE,Small molecule,CHEMBL1503,4.0,['NCT00640809'],EFO_0003767,inflammatory bowel disease
+37,S1PR1,sphingosine-1-phosphate receptor 1,OZANIMOD,Small molecule,CHEMBL3707247,4.0,['NCT05369832'],EFO_0003767,inflammatory bowel disease
+38,PTGS2,prostaglandin-endoperoxide synthase 2,MESALAMINE,Small molecule,CHEMBL704,4.0,"['NCT01536535', 'NCT00167882', 'NCT01201122', 'NCT00446849', 'NCT01124149', 'NCT00652145']",EFO_0003767,inflammatory bowel disease
+39,GABRG1,gamma-aminobutyric acid type A receptor subunit gamma1,MIDAZOLAM,Small molecule,CHEMBL655,4.0,['NCT02760615'],EFO_0003767,inflammatory bowel disease
+40,NR3C1,nuclear receptor subfamily 3 group C member 1,DEXAMETHASONE PHOSPHORIC ACID,Small molecule,CHEMBL1201302,4.0,[],EFO_0003767,inflammatory bowel disease
+41,ITGA4,integrin subunit alpha 4,NATALIZUMAB,Antibody,CHEMBL1201607,4.0,[],EFO_0003767,inflammatory bowel disease
+42,MMP13,matrix metallopeptidase 13,DOXYCYCLINE,Small molecule,CHEMBL1200699,4.0,['NCT02033408'],EFO_0003767,inflammatory bowel disease
+43,PPARG,peroxisome proliferator activated receptor gamma,MESALAMINE,Small molecule,CHEMBL704,4.0,['NCT03261206'],EFO_0003767,inflammatory bowel disease
+44,PTGS2,prostaglandin-endoperoxide synthase 2,BALSALAZIDE,Small molecule,CHEMBL1201346,4.0,[],EFO_0003767,inflammatory bowel disease
+45,GABRA3,gamma-aminobutyric acid type A receptor subunit alpha3,MIDAZOLAM,Small molecule,CHEMBL655,4.0,['NCT02760615'],EFO_0003767,inflammatory bowel disease
+46,JAK3,Janus kinase 3,TOFACITINIB,Small molecule,CHEMBL221959,4.0,['NCT03281304'],EFO_0003767,inflammatory bowel disease
+47,PPAT,phosphoribosyl pyrophosphate amidotransferase,AZATHIOPRINE SODIUM,Small molecule,CHEMBL1200400,4.0,['NCT01752790'],EFO_0003767,inflammatory bowel disease
+48,SCN3A,sodium voltage-gated channel alpha subunit 3,LIDOCAINE,Small molecule,CHEMBL79,4.0,['NCT05238506'],EFO_0003767,inflammatory bowel disease
+49,MMP13,matrix metallopeptidase 13,DOXYCYCLINE,Small molecule,CHEMBL1200699,4.0,['NCT02345733'],EFO_0003767,inflammatory bowel disease
+50,ALOX5,arachidonate 5-lipoxygenase,OLSALAZINE,Small molecule,CHEMBL425,4.0,[],EFO_0003767,inflammatory bowel disease
+51,OPRM1,opioid receptor mu 1,FENTANYL,Small molecule,CHEMBL596,4.0,['NCT01934088'],EFO_0003767,inflammatory bowel disease
+52,NR3C1,nuclear receptor subfamily 3 group C member 1,METHYLPREDNISOLONE,Small molecule,CHEMBL650,4.0,['NCT00554710'],EFO_0003767,inflammatory bowel disease
+53,NR3C1,nuclear receptor subfamily 3 group C member 1,HYDROCORTISONE CYPIONATE,Small molecule,CHEMBL1549,4.0,['NCT01941589'],EFO_0003767,inflammatory bowel disease
+54,GABRA5,gamma-aminobutyric acid type A receptor subunit alpha5,MIDAZOLAM,Small molecule,CHEMBL655,4.0,['NCT01934088'],EFO_0003767,inflammatory bowel disease
+55,TNF,tumor necrosis factor,CERTOLIZUMAB PEGOL,Antibody,CHEMBL1201831,4.0,[],EFO_0003767,inflammatory bowel disease
+56,PTGS2,prostaglandin-endoperoxide synthase 2,OLSALAZINE,Small molecule,CHEMBL425,4.0,[],EFO_0003767,inflammatory bowel disease
+57,FKBP1A,FKBP prolyl isomerase 1A,TACROLIMUS,Small molecule,CHEMBL269732,4.0,['NCT01418131'],EFO_0003767,inflammatory bowel disease
+58,ADORA2B,adenosine A2b receptor,CAFFEINE,Small molecule,CHEMBL113,4.0,['NCT02760615'],EFO_0003767,inflammatory bowel disease
+59,GABRA5,gamma-aminobutyric acid type A receptor subunit alpha5,PROPOFOL,Small molecule,CHEMBL526,4.0,['NCT01934088'],EFO_0003767,inflammatory bowel disease
+60,PPARG,peroxisome proliferator activated receptor gamma,BALSALAZIDE,Small molecule,CHEMBL1201346,4.0,[],EFO_0003767,inflammatory bowel disease
+61,ALOX5,arachidonate 5-lipoxygenase,MESALAMINE,Small molecule,CHEMBL704,4.0,['NCT03261206'],EFO_0003767,inflammatory bowel disease
+62,SIGMAR1,sigma non-opioid intracellular receptor 1,DEXTROMETHORPHAN,Small molecule,CHEMBL52440,4.0,['NCT02760615'],EFO_0003767,inflammatory bowel disease
+63,ITGA4,integrin subunit alpha 4,VEDOLIZUMAB,Antibody,CHEMBL1743087,4.0,"['NCT03237260', 'NCT02760615']",EFO_0003767,inflammatory bowel disease
+64,GABRG2,gamma-aminobutyric acid type A receptor subunit gamma2,MIDAZOLAM,Small molecule,CHEMBL655,4.0,['NCT02760615'],EFO_0003767,inflammatory bowel disease
+65,GRIN2A,glutamate ionotropic receptor NMDA type subunit 2A,DEXTROMETHORPHAN,Small molecule,CHEMBL52440,4.0,['NCT02760615'],EFO_0003767,inflammatory bowel disease
+66,TNF,tumor necrosis factor,ADALIMUMAB,Antibody,CHEMBL1201580,4.0,['NCT03059849'],EFO_0003767,inflammatory bowel disease
+67,PTGS2,prostaglandin-endoperoxide synthase 2,BALSALAZIDE DISODIUM,Small molecule,CHEMBL1200760,4.0,[],EFO_0003767,inflammatory bowel disease
+68,MMP13,matrix metallopeptidase 13,DOXYCYCLINE ANHYDROUS,Small molecule,CHEMBL1433,4.0,['NCT02033408'],EFO_0003767,inflammatory bowel disease
+69,ADORA2A,adenosine A2a receptor,CAFFEINE,Small molecule,CHEMBL113,4.0,['NCT02760615'],EFO_0003767,inflammatory bowel disease
+70,PTGS2,prostaglandin-endoperoxide synthase 2,CELECOXIB,Small molecule,CHEMBL118,4.0,['NCT00640809'],EFO_0003767,inflammatory bowel disease
+71,ITGA4,integrin subunit alpha 4,NATALIZUMAB,Antibody,CHEMBL1201607,4.0,['NCT00801125'],EFO_0003767,inflammatory bowel disease
+72,TNF,tumor necrosis factor,INFLIXIMAB,Antibody,CHEMBL1201581,4.0,"['NCT05043870', 'NCT04646187', 'NCT05072782', 'NCT00606346']",EFO_0003767,inflammatory bowel disease
+73,ALOX5,arachidonate 5-lipoxygenase,MESALAMINE,Small molecule,CHEMBL704,4.0,['NCT04133194'],EFO_0003767,inflammatory bowel disease
+74,TNF,tumor necrosis factor,INFLIXIMAB,Antibody,CHEMBL1201581,4.0,"['NCT05813860', 'NCT05552287', 'NCT05906576']",EFO_0003767,inflammatory bowel disease
+75,NR3C1,nuclear receptor subfamily 3 group C member 1,BUDESONIDE,Small molecule,CHEMBL1370,4.0,['NCT00554710'],EFO_0003767,inflammatory bowel disease
+76,ALOX5,arachidonate 5-lipoxygenase,BALSALAZIDE DISODIUM,Small molecule,CHEMBL1200760,4.0,[],EFO_0003767,inflammatory bowel disease
+77,GABRA2,gamma-aminobutyric acid type A receptor subunit alpha2,MIDAZOLAM,Small molecule,CHEMBL655,4.0,['NCT02760615'],EFO_0003767,inflammatory bowel disease
+78,GABRA2,gamma-aminobutyric acid type A receptor subunit alpha2,MIDAZOLAM,Small molecule,CHEMBL655,4.0,['NCT02760615'],EFO_0003767,inflammatory bowel disease
+79,GABRA1,gamma-aminobutyric acid type A receptor subunit alpha1,PROPOFOL,Small molecule,CHEMBL526,4.0,['NCT01934088'],EFO_0003767,inflammatory bowel disease
+80,NR3C1,nuclear receptor subfamily 3 group C member 1,HYDROCORTISONE,Small molecule,CHEMBL389621,4.0,[],EFO_0003767,inflammatory bowel disease
+81,ALOX5,arachidonate 5-lipoxygenase,OLSALAZINE SODIUM,Small molecule,CHEMBL1201013,4.0,[],EFO_0003767,inflammatory bowel disease
+82,PTGS2,prostaglandin-endoperoxide synthase 2,MESALAMINE,Small molecule,CHEMBL704,4.0,[],EFO_0003767,inflammatory bowel disease
+83,GABRG3,gamma-aminobutyric acid type A receptor subunit gamma3,PROPOFOL,Small molecule,CHEMBL526,4.0,['NCT01934088'],EFO_0003767,inflammatory bowel disease
+84,NR3C1,nuclear receptor subfamily 3 group C member 1,METHYLPREDNISOLONE,Small molecule,CHEMBL650,4.0,['NCT01752790'],EFO_0003767,inflammatory bowel disease
+85,TNF,tumor necrosis factor,INFLIXIMAB,Antibody,CHEMBL1201581,4.0,"['NCT00554710', 'NCT02994836', 'NCT01181765', 'NCT00688636', 'NCT01346826', 'NCT02177071', 'NCT01442025', 'NCT01817426']",EFO_0003767,inflammatory bowel disease
+86,NR3C1,nuclear receptor subfamily 3 group C member 1,PREDNISONE,Small molecule,CHEMBL635,4.0,"['NCT03833596', 'NCT02324699']",EFO_0003767,inflammatory bowel disease
+87,NR3C1,nuclear receptor subfamily 3 group C member 1,PREDNISOLONE,Small molecule,CHEMBL131,4.0,['NCT02425852'],EFO_0003767,inflammatory bowel disease
+88,GABRA4,gamma-aminobutyric acid type A receptor subunit alpha4,PROPOFOL,Small molecule,CHEMBL526,4.0,['NCT01934088'],EFO_0003767,inflammatory bowel disease
+89,TNF,tumor necrosis factor,ADALIMUMAB,Antibody,CHEMBL1201580,4.0,"['NCT04183608', 'NCT04646187']",EFO_0003767,inflammatory bowel disease
+90,MMP13,matrix metallopeptidase 13,DOXYCYCLINE ANHYDROUS,Small molecule,CHEMBL1433,4.0,['NCT02033408'],EFO_0003767,inflammatory bowel disease
+91,TYK2,tyrosine kinase 2,UPADACITINIB,Small molecule,CHEMBL3622821,4.0,['NCT05867329'],EFO_0003767,inflammatory bowel disease
+92,PPAT,phosphoribosyl pyrophosphate amidotransferase,MERCAPTOPURINE,Small molecule,CHEMBL1200751,4.0,['NCT02177071'],EFO_0003767,inflammatory bowel disease
+93,NR3C1,nuclear receptor subfamily 3 group C member 1,METHYLPREDNISOLONE,Small molecule,CHEMBL650,4.0,[],EFO_0003767,inflammatory bowel disease
+94,PDE4D,phosphodiesterase 4D,ROFLUMILAST,Small molecule,CHEMBL193240,4.0,['NCT05684484'],EFO_0003767,inflammatory bowel disease
+95,SCN10A,sodium voltage-gated channel alpha subunit 10,LIDOCAINE,Small molecule,CHEMBL79,4.0,['NCT05238506'],EFO_0003767,inflammatory bowel disease
+96,PTGS1,prostaglandin-endoperoxide synthase 1,BALSALAZIDE,Small molecule,CHEMBL1201346,4.0,[],EFO_0003767,inflammatory bowel disease
+97,NR3C1,nuclear receptor subfamily 3 group C member 1,DEXAMETHASONE SODIUM PHOSPHATE,Small molecule,CHEMBL2021430,4.0,[],EFO_0003767,inflammatory bowel disease
+98,JAK2,Janus kinase 2,TOFACITINIB,Small molecule,CHEMBL221959,4.0,['NCT03281304'],EFO_0003767,inflammatory bowel disease
+99,AGTR1,angiotensin II receptor type 1,LOSARTAN,Small molecule,CHEMBL191,4.0,['NCT02760615'],EFO_0003767,inflammatory bowel disease
+100,TNF,tumor necrosis factor,GOLIMUMAB,Antibody,CHEMBL1201833,4.0,"['NCT03124121', 'NCT02155335', 'NCT02425865', 'NCT02092285']",EFO_0003767,inflammatory bowel disease
+101,PPARG,peroxisome proliferator activated receptor gamma,MESALAMINE,Small molecule,CHEMBL704,4.0,"['NCT00652145', 'NCT01201122', 'NCT00167882', 'NCT01124149', 'NCT01536535', 'NCT00446849']",EFO_0003767,inflammatory bowel disease
+102,ITGB7,integrin subunit beta 7,VEDOLIZUMAB,Antibody,CHEMBL1743087,4.0,"['NCT03237260', 'NCT02760615']",EFO_0003767,inflammatory bowel disease
+103,SIGMAR1,sigma non-opioid intracellular receptor 1,DEXTROMETHORPHAN,Small molecule,CHEMBL52440,4.0,['NCT02760615'],EFO_0003767,inflammatory bowel disease
+104,GABRA3,gamma-aminobutyric acid type A receptor subunit alpha3,PROPOFOL,Small molecule,CHEMBL526,4.0,['NCT01934088'],EFO_0003767,inflammatory bowel disease
+105,PTGS2,prostaglandin-endoperoxide synthase 2,MESALAMINE,Small molecule,CHEMBL704,4.0,['NCT05205603'],EFO_0003767,inflammatory bowel disease
+106,PPARG,peroxisome proliferator activated receptor gamma,MESALAMINE,Small molecule,CHEMBL704,4.0,['NCT00167882'],EFO_0003767,inflammatory bowel disease
+107,PDE4C,phosphodiesterase 4C,ROFLUMILAST,Small molecule,CHEMBL193240,4.0,['NCT05684484'],EFO_0003767,inflammatory bowel disease
+108,PTGS1,prostaglandin-endoperoxide synthase 1,MESALAMINE,Small molecule,CHEMBL704,4.0,['NCT01696942'],EFO_0003767,inflammatory bowel disease
+109,PTGS2,prostaglandin-endoperoxide synthase 2,SULFASALAZINE,Small molecule,CHEMBL421,4.0,[],EFO_0003767,inflammatory bowel disease
+110,ITGB7,integrin subunit beta 7,VEDOLIZUMAB,Antibody,CHEMBL1743087,4.0,"['NCT02768532', 'NCT02324699']",EFO_0003767,inflammatory bowel disease
+111,GABRG3,gamma-aminobutyric acid type A receptor subunit gamma3,MIDAZOLAM,Small molecule,CHEMBL655,4.0,['NCT01934088'],EFO_0003767,inflammatory bowel disease
+112,ITGB7,integrin subunit beta 7,VEDOLIZUMAB,Antibody,CHEMBL1743087,4.0,['NCT03142321'],EFO_0003767,inflammatory bowel disease
+113,GRIN2A,glutamate ionotropic receptor NMDA type subunit 2A,DEXTROMETHORPHAN,Small molecule,CHEMBL52440,4.0,['NCT02760615'],EFO_0003767,inflammatory bowel disease
+114,IL12B,interleukin 12B,USTEKINUMAB,Antibody,CHEMBL1201835,4.0,"['NCT04496063', 'NCT05029921', 'NCT04629196']",EFO_0003767,inflammatory bowel disease
+115,OPRM1,opioid receptor mu 1,MORPHINE,Small molecule,CHEMBL70,4.0,['NCT00477061'],EFO_0003767,inflammatory bowel disease
+116,ADORA2B,adenosine A2b receptor,CAFFEINE,Small molecule,CHEMBL113,4.0,['NCT02760615'],EFO_0003767,inflammatory bowel disease
+117,PPARG,peroxisome proliferator activated receptor gamma,MESALAMINE,Small molecule,CHEMBL704,4.0,[],EFO_0003767,inflammatory bowel disease
+118,ITGA4,integrin subunit alpha 4,VEDOLIZUMAB,Antibody,CHEMBL1743087,4.0,['NCT03142321'],EFO_0003767,inflammatory bowel disease
+119,TNF,tumor necrosis factor,ADALIMUMAB,Antibody,CHEMBL1201580,4.0,"['NCT02256462', 'NCT02994836', 'NCT00517296', 'NCT02148718', 'NCT02764762']",EFO_0003767,inflammatory bowel disease
+120,MMP7,matrix metallopeptidase 7,DOXYCYCLINE,Small molecule,CHEMBL1200699,4.0,['NCT02033408'],EFO_0003767,inflammatory bowel disease
+121,ALOX5,arachidonate 5-lipoxygenase,MESALAMINE,Small molecule,CHEMBL704,4.0,[],EFO_0003767,inflammatory bowel disease
+122,ITGA4,integrin subunit alpha 4,VEDOLIZUMAB,Antibody,CHEMBL1743087,4.0,['NCT05205603'],EFO_0003767,inflammatory bowel disease
+123,GABRB3,gamma-aminobutyric acid type A receptor subunit beta3,PROPOFOL,Small molecule,CHEMBL526,4.0,['NCT01934088'],EFO_0003767,inflammatory bowel disease
+124,MMP7,matrix metallopeptidase 7,DOXYCYCLINE,Small molecule,CHEMBL1200699,4.0,['NCT02345733'],EFO_0003767,inflammatory bowel disease
+125,PTGS1,prostaglandin-endoperoxide synthase 1,IBUPROFEN,Small molecule,CHEMBL521,4.0,['NCT00640809'],EFO_0003767,inflammatory bowel disease
+126,NR3C1,nuclear receptor subfamily 3 group C member 1,HYDROCORTISONE SODIUM SUCCINATE,Small molecule,CHEMBL1200495,4.0,['NCT03110198'],EFO_0003767,inflammatory bowel disease
+127,DHFR,dihydrofolate reductase,METHOTREXATE,Small molecule,CHEMBL34259,4.0,['NCT05072782'],EFO_0003767,inflammatory bowel disease
+128,ITGA4,integrin subunit alpha 4,VEDOLIZUMAB,Antibody,CHEMBL1743087,4.0,"['NCT02768532', 'NCT02324699']",EFO_0003767,inflammatory bowel disease
+129,GABRG3,gamma-aminobutyric acid type A receptor subunit gamma3,MIDAZOLAM,Small molecule,CHEMBL655,4.0,['NCT02760615'],EFO_0003767,inflammatory bowel disease
+130,NR3C1,nuclear receptor subfamily 3 group C member 1,HYDROCORTISONE,Small molecule,CHEMBL389621,4.0,"['NCT02425852', 'NCT01941589']",EFO_0003767,inflammatory bowel disease
+131,IL12B,interleukin 12B,USTEKINUMAB,Antibody,CHEMBL1201835,4.0,['NCT05861167'],EFO_0003767,inflammatory bowel disease
+132,PPARG,peroxisome proliferator activated receptor gamma,ROSIGLITAZONE,Small molecule,CHEMBL121,4.0,['NCT00567593'],EFO_0003767,inflammatory bowel disease
+133,PPARG,peroxisome proliferator activated receptor gamma,OLSALAZINE SODIUM,Small molecule,CHEMBL1201013,4.0,[],EFO_0003767,inflammatory bowel disease
+134,SCN1A,sodium voltage-gated channel alpha subunit 1,LIDOCAINE,Small molecule,CHEMBL79,4.0,['NCT05238506'],EFO_0003767,inflammatory bowel disease
+135,PPAT,phosphoribosyl pyrophosphate amidotransferase,AZATHIOPRINE,Small molecule,CHEMBL1542,4.0,['NCT02517684'],EFO_0003767,inflammatory bowel disease
+136,ALOX5,arachidonate 5-lipoxygenase,MESALAMINE,Small molecule,CHEMBL704,4.0,['NCT05205603'],EFO_0003767,inflammatory bowel disease
+137,TNF,tumor necrosis factor,INFLIXIMAB,Antibody,CHEMBL1201581,4.0,"['NCT04999228', 'NCT00606346', 'NCT04646187', 'NCT03679546', 'NCT03937609']",EFO_0003767,inflammatory bowel disease
+138,AGTR1,angiotensin II receptor type 1,LOSARTAN,Small molecule,CHEMBL191,4.0,['NCT02760615'],EFO_0003767,inflammatory bowel disease
+139,DHFR,dihydrofolate reductase,METHOTREXATE,Small molecule,CHEMBL34259,4.0,"['NCT02177071', 'NCT02269358', 'NCT00546546', 'NCT02764762']",EFO_0003767,inflammatory bowel disease
+140,TNF,tumor necrosis factor,ADALIMUMAB,Antibody,CHEMBL1201580,4.0,['NCT02852694'],EFO_0003767,inflammatory bowel disease
+141,MMP8,matrix metallopeptidase 8,DOXYCYCLINE,Small molecule,CHEMBL1200699,4.0,['NCT02033408'],EFO_0003767,inflammatory bowel disease
+142,MMP13,matrix metallopeptidase 13,DOXYCYCLINE,Small molecule,CHEMBL1200699,4.0,['NCT02033408'],EFO_0003767,inflammatory bowel disease
+143,PTGS2,prostaglandin-endoperoxide synthase 2,MESALAMINE,Small molecule,CHEMBL704,4.0,['NCT01696942'],EFO_0003767,inflammatory bowel disease
+144,ITGA4,integrin subunit alpha 4,NATALIZUMAB,Antibody,CHEMBL1201607,4.0,['NCT00280956'],EFO_0003767,inflammatory bowel disease
+145,SCN4A,sodium voltage-gated channel alpha subunit 4,LIDOCAINE,Small molecule,CHEMBL79,4.0,['NCT05238506'],EFO_0003767,inflammatory bowel disease
+146,NR3C1,nuclear receptor subfamily 3 group C member 1,METHYLPREDNISOLONE,Small molecule,CHEMBL650,4.0,[],EFO_0003767,inflammatory bowel disease
+147,NR3C1,nuclear receptor subfamily 3 group C member 1,METHYLPREDNISOLONE,Small molecule,CHEMBL650,4.0,"['NCT02921555', 'NCT01941589']",EFO_0003767,inflammatory bowel disease
+148,JAK2,Janus kinase 2,UPADACITINIB,Small molecule,CHEMBL3622821,4.0,['NCT05867329'],EFO_0003767,inflammatory bowel disease
+149,TNF,tumor necrosis factor,ADALIMUMAB,Antibody,CHEMBL1201580,4.0,[],EFO_0003767,inflammatory bowel disease
+150,PTGS1,prostaglandin-endoperoxide synthase 1,MESALAMINE,Small molecule,CHEMBL704,4.0,['NCT05205603'],EFO_0003767,inflammatory bowel disease
+151,NR3C1,nuclear receptor subfamily 3 group C member 1,METHYLPREDNISOLONE,Small molecule,CHEMBL650,4.0,['NCT05867329'],EFO_0003767,inflammatory bowel disease
+152,PPARG,peroxisome proliferator activated receptor gamma,MESALAMINE,Small molecule,CHEMBL704,4.0,['NCT03110198'],EFO_0003767,inflammatory bowel disease
+153,NR3C1,nuclear receptor subfamily 3 group C member 1,HYDROCORTISONE HEMISUCCINATE,Small molecule,CHEMBL977,4.0,['NCT03110198'],EFO_0003767,inflammatory bowel disease
+154,CHRM3,cholinergic receptor muscarinic 3,GLYCOPYRROLATE,Small molecule,CHEMBL1201027,4.0,['NCT05256901'],EFO_0003767,inflammatory bowel disease
+155,NR3C1,nuclear receptor subfamily 3 group C member 1,PREDNISONE,Small molecule,CHEMBL635,4.0,['NCT01981889'],EFO_0003767,inflammatory bowel disease
+156,ALOX5,arachidonate 5-lipoxygenase,BALSALAZIDE,Small molecule,CHEMBL1201346,4.0,[],EFO_0003767,inflammatory bowel disease
+157,NR3C1,nuclear receptor subfamily 3 group C member 1,PREDNISOLONE,Small molecule,CHEMBL131,4.0,['NCT01880307'],EFO_0003767,inflammatory bowel disease
+158,NR3C1,nuclear receptor subfamily 3 group C member 1,BETAMETHASONE PHOSPHORIC ACID,Small molecule,CHEMBL1201207,4.0,[],EFO_0003767,inflammatory bowel disease
+159,SCN5A,sodium voltage-gated channel alpha subunit 5,LIDOCAINE,Small molecule,CHEMBL79,4.0,['NCT05238506'],EFO_0003767,inflammatory bowel disease
+160,ATP4A,ATPase H+/K+ transporting subunit alpha,OMEPRAZOLE,Small molecule,CHEMBL1503,4.0,['NCT02760615'],EFO_0003767,inflammatory bowel disease
+161,PPARG,peroxisome proliferator activated receptor gamma,MESALAMINE,Small molecule,CHEMBL704,4.0,[],EFO_0003767,inflammatory bowel disease
+162,TNF,tumor necrosis factor,ADALIMUMAB,Antibody,CHEMBL1201580,4.0,['NCT03059849'],EFO_0003767,inflammatory bowel disease
+163,NR3C1,nuclear receptor subfamily 3 group C member 1,HYDROCORTISONE PROBUTATE,Small molecule,CHEMBL1200953,4.0,[],EFO_0003767,inflammatory bowel disease
+164,MMP1,matrix metallopeptidase 1,DOXYCYCLINE ANHYDROUS,Small molecule,CHEMBL1433,4.0,['NCT02345733'],EFO_0003767,inflammatory bowel disease
+165,SCN2A,sodium voltage-gated channel alpha subunit 2,LIDOCAINE,Small molecule,CHEMBL79,4.0,['NCT05238506'],EFO_0003767,inflammatory bowel disease
+166,PPAT,phosphoribosyl pyrophosphate amidotransferase,MERCAPTOPURINE,Small molecule,CHEMBL1425,4.0,['NCT02177071'],EFO_0003767,inflammatory bowel disease
+167,SCN7A,sodium voltage-gated channel alpha subunit 7,LIDOCAINE,Small molecule,CHEMBL79,4.0,['NCT05238506'],EFO_0003767,inflammatory bowel disease
+168,MMP7,matrix metallopeptidase 7,DOXYCYCLINE ANHYDROUS,Small molecule,CHEMBL1433,4.0,['NCT02033408'],EFO_0003767,inflammatory bowel disease
+169,PPARG,peroxisome proliferator activated receptor gamma,BALSALAZIDE DISODIUM,Small molecule,CHEMBL1200760,4.0,[],EFO_0003767,inflammatory bowel disease
+170,GABRA1,gamma-aminobutyric acid type A receptor subunit alpha1,MIDAZOLAM,Small molecule,CHEMBL655,4.0,['NCT02760615'],EFO_0003767,inflammatory bowel disease
+171,FKBP1A,FKBP prolyl isomerase 1A,SIROLIMUS,Small molecule,CHEMBL413,4.0,['NCT02675153'],EFO_0003767,inflammatory bowel disease
+172,TNF,tumor necrosis factor,INFLIXIMAB,Antibody,CHEMBL1201581,4.0,['NCT04530877'],EFO_0003767,inflammatory bowel disease
+173,TNF,tumor necrosis factor,INFLIXIMAB,Antibody,CHEMBL1201581,4.0,['NCT02566889'],EFO_0003767,inflammatory bowel disease
+174,PTGS2,prostaglandin-endoperoxide synthase 2,MESALAMINE,Small molecule,CHEMBL704,4.0,['NCT03110198'],EFO_0003767,inflammatory bowel disease
+175,GABRG2,gamma-aminobutyric acid type A receptor subunit gamma2,PROPOFOL,Small molecule,CHEMBL526,4.0,['NCT01934088'],EFO_0003767,inflammatory bowel disease
+176,PTGS2,prostaglandin-endoperoxide synthase 2,OLSALAZINE SODIUM,Small molecule,CHEMBL1201013,4.0,[],EFO_0003767,inflammatory bowel disease
+177,NR3C1,nuclear receptor subfamily 3 group C member 1,DEXAMETHASONE SODIUM PHOSPHATE,Small molecule,CHEMBL2021430,4.0,[],EFO_0003767,inflammatory bowel disease
+178,MMP1,matrix metallopeptidase 1,DOXYCYCLINE,Small molecule,CHEMBL1200699,4.0,['NCT02345733'],EFO_0003767,inflammatory bowel disease
+179,PTGS1,prostaglandin-endoperoxide synthase 1,MESALAMINE,Small molecule,CHEMBL704,4.0,"['NCT00167882', 'NCT01124149', 'NCT00446849', 'NCT00652145', 'NCT01201122', 'NCT01536535']",EFO_0003767,inflammatory bowel disease
+180,ALOX5,arachidonate 5-lipoxygenase,MESALAMINE,Small molecule,CHEMBL704,4.0,['NCT00167882'],EFO_0003767,inflammatory bowel disease
+181,NR3C1,nuclear receptor subfamily 3 group C member 1,BUDESONIDE,Small molecule,CHEMBL1370,4.0,['NCT04314375'],EFO_0003767,inflammatory bowel disease
+182,ACHE,acetylcholinesterase (Yt blood group),NEOSTIGMINE,Small molecule,CHEMBL278020,4.0,['NCT05256901'],EFO_0003767,inflammatory bowel disease
+183,ATP4A,ATPase H+/K+ transporting subunit alpha,OMEPRAZOLE,Small molecule,CHEMBL1503,4.0,['NCT02760615'],EFO_0003767,inflammatory bowel disease
+184,ITGB7,integrin subunit beta 7,VEDOLIZUMAB,Antibody,CHEMBL1743087,4.0,"['NCT03679546', 'NCT05481619', 'NCT04006080']",EFO_0003767,inflammatory bowel disease
+185,PPAT,phosphoribosyl pyrophosphate amidotransferase,AZATHIOPRINE,Small molecule,CHEMBL1542,4.0,['NCT01752790'],EFO_0003767,inflammatory bowel disease
+186,TNF,tumor necrosis factor,INFLIXIMAB,Antibody,CHEMBL1201581,4.0,[],EFO_0003767,inflammatory bowel disease
+187,JAK1,Janus kinase 1,UPADACITINIB,Small molecule,CHEMBL3622821,4.0,['NCT05867329'],EFO_0003767,inflammatory bowel disease
+188,NR3C1,nuclear receptor subfamily 3 group C member 1,PREDNISOLONE,Small molecule,CHEMBL131,4.0,['NCT02517684'],EFO_0003767,inflammatory bowel disease
+189,TNF,tumor necrosis factor,GOLIMUMAB,Antibody,CHEMBL1201833,4.0,[],EFO_0003767,inflammatory bowel disease
+190,ADORA1,adenosine A1 receptor,CAFFEINE,Small molecule,CHEMBL113,4.0,['NCT02760615'],EFO_0003767,inflammatory bowel disease
+191,PTGS1,prostaglandin-endoperoxide synthase 1,MESALAMINE,Small molecule,CHEMBL704,4.0,['NCT04133194'],EFO_0003767,inflammatory bowel disease
+192,GABRA3,gamma-aminobutyric acid type A receptor subunit alpha3,MIDAZOLAM,Small molecule,CHEMBL655,4.0,['NCT01934088'],EFO_0003767,inflammatory bowel disease
+193,ITGB7,integrin subunit beta 7,VEDOLIZUMAB,Antibody,CHEMBL1743087,4.0,"['NCT02764762', 'NCT02743806', 'NCT02559713', 'NCT02630966', 'NCT02646683']",EFO_0003767,inflammatory bowel disease
+194,ITGA4,integrin subunit alpha 4,VEDOLIZUMAB,Antibody,CHEMBL1743087,4.0,"['NCT03029143', 'NCT02743806', 'NCT02646657', 'NCT02559713']",EFO_0003767,inflammatory bowel disease
+195,NR3C1,nuclear receptor subfamily 3 group C member 1,DEXAMETHASONE PHOSPHORIC ACID,Small molecule,CHEMBL1201302,4.0,[],EFO_0003767,inflammatory bowel disease
+196,ALOX5,arachidonate 5-lipoxygenase,MESALAMINE,Small molecule,CHEMBL704,4.0,[],EFO_0003767,inflammatory bowel disease
+197,DHFR,dihydrofolate reductase,METHOTREXATE,Small molecule,CHEMBL34259,4.0,['NCT01802593'],EFO_0003767,inflammatory bowel disease
+198,GABRA3,gamma-aminobutyric acid type A receptor subunit alpha3,MIDAZOLAM,Small molecule,CHEMBL655,4.0,['NCT02760615'],EFO_0003767,inflammatory bowel disease
+199,PGA5,pepsinogen A5,SUCRALFATE,Unknown,CHEMBL2367706,4.0,['NCT01613534'],EFO_0003767,inflammatory bowel disease
+200,PTGS2,prostaglandin-endoperoxide synthase 2,IBUPROFEN,Small molecule,CHEMBL521,4.0,['NCT00640809'],EFO_0003767,inflammatory bowel disease
+201,ITGB7,integrin subunit beta 7,VEDOLIZUMAB,Antibody,CHEMBL1743087,4.0,"['NCT02760615', 'NCT02820493']",EFO_0003767,inflammatory bowel disease
+202,PDE4B,phosphodiesterase 4B,ROFLUMILAST,Small molecule,CHEMBL193240,4.0,['NCT05684484'],EFO_0003767,inflammatory bowel disease
+203,NR3C1,nuclear receptor subfamily 3 group C member 1,PREDNISOLONE,Small molecule,CHEMBL131,4.0,[],EFO_0003767,inflammatory bowel disease
+204,TNF,tumor necrosis factor,INFLIXIMAB,Antibody,CHEMBL1201581,4.0,"['NCT02452151', 'NCT03151525']",EFO_0003767,inflammatory bowel disease
+205,ADORA3,adenosine A3 receptor,CAFFEINE,Small molecule,CHEMBL113,4.0,['NCT02760615'],EFO_0003767,inflammatory bowel disease
+206,GABRA2,gamma-aminobutyric acid type A receptor subunit alpha2,MIDAZOLAM,Small molecule,CHEMBL655,4.0,['NCT01934088'],EFO_0003767,inflammatory bowel disease
+207,ALOX5,arachidonate 5-lipoxygenase,MESALAMINE,Small molecule,CHEMBL704,4.0,['NCT03110198'],EFO_0003767,inflammatory bowel disease
+208,ITGB7,integrin subunit beta 7,VEDOLIZUMAB,Antibody,CHEMBL1743087,4.0,"['NCT02559713', 'NCT02646657', 'NCT02743806', 'NCT03029143']",EFO_0003767,inflammatory bowel disease
+209,MMP8,matrix metallopeptidase 8,DOXYCYCLINE,Small molecule,CHEMBL1200699,4.0,['NCT02033408'],EFO_0003767,inflammatory bowel disease
+210,NR3C1,nuclear receptor subfamily 3 group C member 1,DEXAMETHASONE,Small molecule,CHEMBL384467,4.0,[],EFO_0003767,inflammatory bowel disease
+211,NR3C1,nuclear receptor subfamily 3 group C member 1,PREDNISONE,Small molecule,CHEMBL635,4.0,[],EFO_0003767,inflammatory bowel disease
+212,GABRG1,gamma-aminobutyric acid type A receptor subunit gamma1,MIDAZOLAM,Small molecule,CHEMBL655,4.0,['NCT02760615'],EFO_0003767,inflammatory bowel disease
+213,TNF,tumor necrosis factor,INFLIXIMAB,Antibody,CHEMBL1201581,4.0,['NCT01960426'],EFO_0003767,inflammatory bowel disease
+214,TNF,tumor necrosis factor,INFLIXIMAB,Antibody,CHEMBL1201581,4.0,['NCT02517684'],EFO_0003767,inflammatory bowel disease
+215,PTGS1,prostaglandin-endoperoxide synthase 1,MESALAMINE,Small molecule,CHEMBL704,4.0,['NCT03261206'],EFO_0003767,inflammatory bowel disease
+216,TNF,tumor necrosis factor,INFLIXIMAB,Antibody,CHEMBL1201581,4.0,['NCT05205603'],EFO_0003767,inflammatory bowel disease
+217,VDR,vitamin D receptor,ERGOCALCIFEROL,Small molecule,CHEMBL1536,4.0,"['NCT01792388', 'NCT02010762']",EFO_0003767,inflammatory bowel disease
+218,MMP1,matrix metallopeptidase 1,DOXYCYCLINE,Small molecule,CHEMBL1200699,4.0,['NCT02033408'],EFO_0003767,inflammatory bowel disease
+219,SCN8A,sodium voltage-gated channel alpha subunit 8,LIDOCAINE,Small molecule,CHEMBL79,4.0,['NCT05238506'],EFO_0003767,inflammatory bowel disease
+220,PPARG,peroxisome proliferator activated receptor gamma,OLSALAZINE,Small molecule,CHEMBL425,4.0,[],EFO_0003767,inflammatory bowel disease
+221,ALOX5,arachidonate 5-lipoxygenase,MESALAMINE,Small molecule,CHEMBL704,4.0,['NCT01696942'],EFO_0003767,inflammatory bowel disease
+222,ITGA4,integrin subunit alpha 4,VEDOLIZUMAB,Antibody,CHEMBL1743087,4.0,"['NCT02646683', 'NCT02764762', 'NCT02630966', 'NCT02559713', 'NCT02743806']",EFO_0003767,inflammatory bowel disease
+223,TNF,tumor necrosis factor,INFLIXIMAB,Antibody,CHEMBL1201581,4.0,"['NCT02453776', 'NCT05340764']",EFO_0003767,inflammatory bowel disease
+224,ITGB7,integrin subunit beta 7,VEDOLIZUMAB,Antibody,CHEMBL1743087,4.0,[],EFO_0003767,inflammatory bowel disease
+225,PPIA,peptidylprolyl isomerase A,CYCLOSPORINE,Protein,CHEMBL160,4.0,['NCT05867329'],EFO_0003767,inflammatory bowel disease
+226,TNF,tumor necrosis factor,INFLIXIMAB,Antibody,CHEMBL1201581,4.0,"['NCT02770040', 'NCT01346826', 'NCT02425852', 'NCT02994836', 'NCT00542152', 'NCT01408810']",EFO_0003767,inflammatory bowel disease
+227,VDR,vitamin D receptor,CHOLECALCIFEROL,Small molecule,CHEMBL1042,4.0,['NCT01369667'],EFO_0003767,inflammatory bowel disease
+228,PPAT,phosphoribosyl pyrophosphate amidotransferase,AZATHIOPRINE,Small molecule,CHEMBL1542,4.0,['NCT02281799'],EFO_0003767,inflammatory bowel disease
+229,TNF,tumor necrosis factor,ADALIMUMAB,Antibody,CHEMBL1201580,4.0,['NCT01960426'],EFO_0003767,inflammatory bowel disease
+230,PTGS1,prostaglandin-endoperoxide synthase 1,OLSALAZINE,Small molecule,CHEMBL425,4.0,[],EFO_0003767,inflammatory bowel disease
+231,PPIA,peptidylprolyl isomerase A,CYCLOSPORINE,Protein,CHEMBL160,4.0,['NCT00542152'],EFO_0003767,inflammatory bowel disease
+232,GABRP,gamma-aminobutyric acid type A receptor subunit pi,PROPOFOL,Small molecule,CHEMBL526,4.0,['NCT01934088'],EFO_0003767,inflammatory bowel disease
+233,GABRA5,gamma-aminobutyric acid type A receptor subunit alpha5,MIDAZOLAM,Small molecule,CHEMBL655,4.0,['NCT02760615'],EFO_0003767,inflammatory bowel disease
+234,ITGB7,integrin subunit beta 7,VEDOLIZUMAB,Antibody,CHEMBL1743087,4.0,['NCT05205603'],EFO_0003767,inflammatory bowel disease
+235,VDR,vitamin D receptor,CHOLECALCIFEROL,Small molecule,CHEMBL1042,4.0,['NCT00672763'],EFO_0003767,inflammatory bowel disease
+236,ADORA3,adenosine A3 receptor,CAFFEINE,Small molecule,CHEMBL113,4.0,['NCT02760615'],EFO_0003767,inflammatory bowel disease
+237,PPAT,phosphoribosyl pyrophosphate amidotransferase,AZATHIOPRINE,Small molecule,CHEMBL1542,4.0,['NCT05813860'],EFO_0003767,inflammatory bowel disease
+238,TNF,tumor necrosis factor,GOLIMUMAB,Antibody,CHEMBL1201833,4.0,['NCT02412085'],EFO_0003767,inflammatory bowel disease
+239,TYK2,tyrosine kinase 2,TOFACITINIB,Small molecule,CHEMBL221959,4.0,['NCT03281304'],EFO_0003767,inflammatory bowel disease
+240,ADORA1,adenosine A1 receptor,CAFFEINE,Small molecule,CHEMBL113,4.0,['NCT02760615'],EFO_0003767,inflammatory bowel disease
+241,GABRG1,gamma-aminobutyric acid type A receptor subunit gamma1,MIDAZOLAM,Small molecule,CHEMBL655,4.0,['NCT01934088'],EFO_0003767,inflammatory bowel disease
+242,PTGS1,prostaglandin-endoperoxide synthase 1,MESALAMINE,Small molecule,CHEMBL704,4.0,['NCT03110198'],EFO_0003767,inflammatory bowel disease
+243,NR3C1,nuclear receptor subfamily 3 group C member 1,HYDROCORTISONE,Small molecule,CHEMBL389621,4.0,[],EFO_0003767,inflammatory bowel disease
+244,GABRG3,gamma-aminobutyric acid type A receptor subunit gamma3,MIDAZOLAM,Small molecule,CHEMBL655,4.0,['NCT02760615'],EFO_0003767,inflammatory bowel disease
+245,MMP1,matrix metallopeptidase 1,DOXYCYCLINE,Small molecule,CHEMBL1200699,4.0,['NCT02033408'],EFO_0003767,inflammatory bowel disease
+246,NR3C1,nuclear receptor subfamily 3 group C member 1,BETAMETHASONE ACETATE,Small molecule,CHEMBL1200538,4.0,[],EFO_0003767,inflammatory bowel disease
+247,MMP8,matrix metallopeptidase 8,DOXYCYCLINE,Small molecule,CHEMBL1200699,4.0,['NCT02345733'],EFO_0003767,inflammatory bowel disease
+248,PDE4A,phosphodiesterase 4A,ROFLUMILAST,Small molecule,CHEMBL193240,4.0,['NCT05684484'],EFO_0003767,inflammatory bowel disease
+249,NR3C1,nuclear receptor subfamily 3 group C member 1,PREDNISONE,Small molecule,CHEMBL635,4.0,['NCT05867329'],EFO_0003767,inflammatory bowel disease
+250,MMP8,matrix metallopeptidase 8,DOXYCYCLINE ANHYDROUS,Small molecule,CHEMBL1433,4.0,['NCT02033408'],EFO_0003767,inflammatory bowel disease
+251,JAK1,Janus kinase 1,TOFACITINIB,Small molecule,CHEMBL221959,4.0,['NCT03281304'],EFO_0003767,inflammatory bowel disease
+252,CHRM1,cholinergic receptor muscarinic 1,GLYCOPYRROLATE,Small molecule,CHEMBL1201027,4.0,['NCT05256901'],EFO_0003767,inflammatory bowel disease
+253,GABRA6,gamma-aminobutyric acid type A receptor subunit alpha6,PROPOFOL,Small molecule,CHEMBL526,4.0,['NCT01934088'],EFO_0003767,inflammatory bowel disease
+254,PTGS2,prostaglandin-endoperoxide synthase 2,MESALAMINE,Small molecule,CHEMBL704,4.0,['NCT04133194'],EFO_0003767,inflammatory bowel disease
+255,IL12B,interleukin 12B,USTEKINUMAB,Antibody,CHEMBL1201835,4.0,[],EFO_0003767,inflammatory bowel disease
+256,TNF,tumor necrosis factor,ADALIMUMAB,Antibody,CHEMBL1201580,4.0,['NCT02994836'],EFO_0003767,inflammatory bowel disease
+257,PPAT,phosphoribosyl pyrophosphate amidotransferase,AZATHIOPRINE,Small molecule,CHEMBL1542,4.0,"['NCT01880307', 'NCT01802593']",EFO_0003767,inflammatory bowel disease
+258,PTGS1,prostaglandin-endoperoxide synthase 1,BALSALAZIDE DISODIUM,Small molecule,CHEMBL1200760,4.0,[],EFO_0003767,inflammatory bowel disease
+259,PTGS2,prostaglandin-endoperoxide synthase 2,MESALAMINE,Small molecule,CHEMBL704,4.0,['NCT03261206'],EFO_0003767,inflammatory bowel disease
+260,GABRA1,gamma-aminobutyric acid type A receptor subunit alpha1,MIDAZOLAM,Small molecule,CHEMBL655,4.0,['NCT02760615'],EFO_0003767,inflammatory bowel disease
+261,PTGS1,prostaglandin-endoperoxide synthase 1,MESALAMINE,Small molecule,CHEMBL704,4.0,[],EFO_0003767,inflammatory bowel disease
+262,ITGA4,integrin subunit alpha 4,VEDOLIZUMAB,Antibody,CHEMBL1743087,4.0,[],EFO_0003767,inflammatory bowel disease
+263,ITGA4,integrin subunit alpha 4,VEDOLIZUMAB,Antibody,CHEMBL1743087,4.0,"['NCT02820493', 'NCT02760615']",EFO_0003767,inflammatory bowel disease
+264,MMP13,matrix metallopeptidase 13,DOXYCYCLINE ANHYDROUS,Small molecule,CHEMBL1433,4.0,['NCT02345733'],EFO_0003767,inflammatory bowel disease
+265,PTGS2,prostaglandin-endoperoxide synthase 2,CELECOXIB,Small molecule,CHEMBL118,4.0,['NCT00177866'],EFO_0003767,inflammatory bowel disease
+266,GABRA1,gamma-aminobutyric acid type A receptor subunit alpha1,MIDAZOLAM,Small molecule,CHEMBL655,4.0,['NCT01934088'],EFO_0003767,inflammatory bowel disease
+267,NR3C1,nuclear receptor subfamily 3 group C member 1,PREDNISOLONE,Small molecule,CHEMBL131,4.0,"['NCT00265772', 'NCT00609752']",EFO_0003767,inflammatory bowel disease
+268,GABRA2,gamma-aminobutyric acid type A receptor subunit alpha2,PROPOFOL,Small molecule,CHEMBL526,4.0,['NCT01934088'],EFO_0003767,inflammatory bowel disease
+269,GABRA5,gamma-aminobutyric acid type A receptor subunit alpha5,MIDAZOLAM,Small molecule,CHEMBL655,4.0,['NCT02760615'],EFO_0003767,inflammatory bowel disease
+270,MMP7,matrix metallopeptidase 7,DOXYCYCLINE ANHYDROUS,Small molecule,CHEMBL1433,4.0,['NCT02033408'],EFO_0003767,inflammatory bowel disease
+271,PTGS1,prostaglandin-endoperoxide synthase 1,OLSALAZINE SODIUM,Small molecule,CHEMBL1201013,4.0,[],EFO_0003767,inflammatory bowel disease
+272,NR3C1,nuclear receptor subfamily 3 group C member 1,PREDNISOLONE,Small molecule,CHEMBL131,4.0,[],EFO_0003767,inflammatory bowel disease
+273,NR3C1,nuclear receptor subfamily 3 group C member 1,DEXAMETHASONE,Small molecule,CHEMBL384467,4.0,[],EFO_0003767,inflammatory bowel disease
+274,ADORA2A,adenosine A2a receptor,CAFFEINE,Small molecule,CHEMBL113,4.0,['NCT02760615'],EFO_0003767,inflammatory bowel disease
+275,PPAT,phosphoribosyl pyrophosphate amidotransferase,AZATHIOPRINE,Small molecule,CHEMBL1542,4.0,['NCT03151525'],EFO_0003767,inflammatory bowel disease
+276,GABRB1,gamma-aminobutyric acid type A receptor subunit beta1,PROPOFOL,Small molecule,CHEMBL526,4.0,['NCT01934088'],EFO_0003767,inflammatory bowel disease
+277,SCN4A,sodium voltage-gated channel alpha subunit 4,BUPIVACAINE,Small molecule,CHEMBL1098,4.0,['NCT03481517'],EFO_0003767,inflammatory bowel disease
+278,SCN11A,sodium voltage-gated channel alpha subunit 11,LIDOCAINE,Small molecule,CHEMBL79,4.0,['NCT05238506'],EFO_0003767,inflammatory bowel disease
+279,TNF,tumor necrosis factor,INFLIXIMAB,Antibody,CHEMBL1201581,4.0,['NCT02452151'],EFO_0003767,inflammatory bowel disease
+280,GABRE,gamma-aminobutyric acid type A receptor subunit epsilon,PROPOFOL,Small molecule,CHEMBL526,4.0,['NCT01934088'],EFO_0003767,inflammatory bowel disease
+281,CHRM3,cholinergic receptor muscarinic 3,GLYCOPYRRONIUM,Small molecule,CHEMBL1201335,4.0,['NCT05256901'],EFO_0003767,inflammatory bowel disease
+282,TNF,tumor necrosis factor,ADALIMUMAB,Antibody,CHEMBL1201580,4.0,['NCT03306446'],EFO_0003767,inflammatory bowel disease
+283,MMP8,matrix metallopeptidase 8,DOXYCYCLINE ANHYDROUS,Small molecule,CHEMBL1433,4.0,['NCT02345733'],EFO_0003767,inflammatory bowel disease
+284,PPAT,phosphoribosyl pyrophosphate amidotransferase,AZATHIOPRINE,Small molecule,CHEMBL1542,4.0,['NCT02579733'],EFO_0003767,inflammatory bowel disease
+285,ITGA4,integrin subunit alpha 4,VEDOLIZUMAB,Antibody,CHEMBL1743087,4.0,[],EFO_0003767,inflammatory bowel disease
+286,PPARG,peroxisome proliferator activated receptor gamma,MESALAMINE,Small molecule,CHEMBL704,4.0,['NCT05205603'],EFO_0003767,inflammatory bowel disease
+287,PPAT,phosphoribosyl pyrophosphate amidotransferase,AZATHIOPRINE,Small molecule,CHEMBL1542,4.0,"['NCT02852694', 'NCT02675153']",EFO_0003767,inflammatory bowel disease
+288,DHFR,dihydrofolate reductase,METHOTREXATE,Small molecule,CHEMBL34259,4.0,['NCT02852694'],EFO_0003767,inflammatory bowel disease
+289,MMP1,matrix metallopeptidase 1,DOXYCYCLINE ANHYDROUS,Small molecule,CHEMBL1433,4.0,['NCT02033408'],EFO_0003767,inflammatory bowel disease
+290,JAK3,Janus kinase 3,UPADACITINIB,Small molecule,CHEMBL3622821,4.0,['NCT05867329'],EFO_0003767,inflammatory bowel disease
+291,NR3C1,nuclear receptor subfamily 3 group C member 1,BUDESONIDE,Small molecule,CHEMBL1370,4.0,[],EFO_0003767,inflammatory bowel disease
+292,PPARG,peroxisome proliferator activated receptor gamma,MESALAMINE,Small molecule,CHEMBL704,4.0,['NCT01696942'],EFO_0003767,inflammatory bowel disease
+293,TNF,tumor necrosis factor,GOLIMUMAB,Antibody,CHEMBL1201833,4.0,['NCT02687724'],EFO_0003767,inflammatory bowel disease
+294,ALOX5,arachidonate 5-lipoxygenase,MESALAMINE,Small molecule,CHEMBL704,4.0,"['NCT00652145', 'NCT00446849', 'NCT01124149', 'NCT01201122', 'NCT00167882', 'NCT01536535']",EFO_0003767,inflammatory bowel disease
+295,GABRB2,gamma-aminobutyric acid type A receptor subunit beta2,PROPOFOL,Small molecule,CHEMBL526,4.0,['NCT01934088'],EFO_0003767,inflammatory bowel disease
+296,GABRD,gamma-aminobutyric acid type A receptor subunit delta,PROPOFOL,Small molecule,CHEMBL526,4.0,['NCT01934088'],EFO_0003767,inflammatory bowel disease
