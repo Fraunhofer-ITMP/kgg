@@ -745,8 +745,8 @@ def GetViralProteins(query_disease):
 def saveFiles(kgName, disease2protein, drugAdvEffect, final_kg, drug_df,snp_df,uprot_dict):
 
     print('Now let\'s save all the files that were created in the process.','\n')
-    
-    print('Please enter the location (e.g. \'C:\\Users\\rkarki\\Documents\\kg\\\' ) where KG files should be stored. A folder will be created automatically.','\n')
+
+    print('Please enter the location where KG files should be stored. A folder will be created automatically. For local folders, use this example: C:\\Users\\rkarki\\Documents\\kg\\. For servers like mybinder or EGI notebook, use this example: /home/jovyan/kgg/data/kgs/test/','\n')
     
     time.sleep(0.2)
     

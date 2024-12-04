@@ -16,4 +16,5 @@ pandasgwas
 animation
 matplotlib_venn
 plotly
+kaleido
 
