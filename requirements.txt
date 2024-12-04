@@ -15,4 +15,5 @@ tqdm
 pandasgwas
 animation
 matplotlib_venn
+plotly
 
