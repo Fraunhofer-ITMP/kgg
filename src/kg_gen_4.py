@@ -647,7 +647,8 @@ def chembl2adverseEffect_rel(
 def GetViralProteins(query_disease):
     
     # file downloaded from https://www.genome.jp/ftp/db/virushostdb Dated: 12/09/2023
-    virus = pd.read_csv('https://raw.githubusercontent.com/Fraunhofer-ITMP/kgg/main/data/virushostdb.csv')
+    #virus = pd.read_csv('https://raw.githubusercontent.com/Fraunhofer-ITMP/kgg/main/data/misc/virushostdb.csv')
+    virus = pd.read_csv('../data/misc/virushostdb.csv')
     
     cols = ['virus tax id','virus name','DISEASE','host tax id']
     virus = virus[cols]
