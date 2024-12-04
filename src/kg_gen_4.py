@@ -754,9 +754,11 @@ def saveFiles(kgName, disease2protein, drugAdvEffect, final_kg, drug_df,snp_df,u
     
     path = path+kgName
     
-    original_path = sys.path[0]
+    #original_path = sys.path[0]
+    original_path = os.getcwd()
     
     os.makedirs(path,exist_ok=True)
+    #print(original_path)
     
     os.chdir(path)
     
