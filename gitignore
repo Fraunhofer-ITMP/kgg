@@ -893,6 +893,7 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 .idea/
+.ipynb_checkpoints/
 
 # PyPi file
 .pypirc
