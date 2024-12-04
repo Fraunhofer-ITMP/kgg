@@ -1,7 +1,6 @@
 <p align="center">
-  <img style="width: 200; height: 200px;" src="data/KGG.png">
+  <img style="width: 200; height: 200px;" src="data/misc/KGG.png">
 </p>
-
 
 # Knowledge Graph Generator
 An automated workflow to create disease-specific Knowledge Graphs.
