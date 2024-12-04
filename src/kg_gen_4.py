@@ -117,7 +117,7 @@ def GetImage():
     import requests
     import matplotlib.pyplot as plt
 
-    img = "https://github.com/Fraunhofer-ITMP/kgg/blob/main/data/KGG.png?raw=true"
+    img = "https://github.com/Fraunhofer-ITMP/kgg/blob/main/data/misc/KGG.png?raw=true"
     response = requests.get(img, stream=True)
     img = Image.open(response.raw)
     
