@@ -11,3 +11,13 @@ The Knowledge Graph Generator (KGG) workflow allows users to create KGs represen
 
 ![KG workflow](https://github.com/Fraunhofer-ITMP/kgg/blob/main/data/manuscript%20figures%20and%20files/Figure%201.png)
 
+# Software requirements
+
+Operating system(s): Windows/Linux/Mac
+
+Programming language: Python
+
+Other requirements: Python 3.9.1 or higher
+
+License: MIT license
+
