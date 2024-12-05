@@ -17,4 +17,5 @@ animation
 matplotlib_venn
 plotly
 kaleido
+xlsxwriter
 
