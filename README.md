@@ -9,9 +9,14 @@ The Knowledge Graph Generator (KGG) workflow allows users to create KGs represen
 
 # Workflow
 
+The workflow is divided into 3 main phases as shown below:
+
 ![KGGworkflow](https://github.com/Fraunhofer-ITMP/kgg/blob/main/data/manuscript%20figures%20and%20files/Figure%201.png)
 
 # KGG schema
+
+The workflow can capture upto 10 types of entities and 11 types of relationships with entity specifics annotations.
+
 ![KGGschema](https://github.com/Fraunhofer-ITMP/kgg/blob/main/data/misc/kggSchema.png)
 
 # Usage guidelines
