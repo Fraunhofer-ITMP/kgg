@@ -9,10 +9,10 @@ The Knowledge Graph Generator (KGG) workflow allows users to create KGs represen
 
 # Workflow
 
-![KG workflow](https://github.com/Fraunhofer-ITMP/kgg/blob/main/data/manuscript%20figures%20and%20files/Figure%201.png)
+![KGGworkflow](https://github.com/Fraunhofer-ITMP/kgg/blob/main/data/manuscript%20figures%20and%20files/Figure%201.png)
 
 # KGG schema
-![KGschema](https://github.com/Fraunhofer-ITMP/kgg/blob/main/data/misc/kgg_schema.png)
+![KGGschema](https://github.com/Fraunhofer-ITMP/kgg/blob/main/data/misc/kggSchema.png)
 
 # Software requirements
 
