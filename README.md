@@ -14,13 +14,68 @@ The Knowledge Graph Generator (KGG) workflow allows users to create KGs represen
 # KGG schema
 ![KGGschema](https://github.com/Fraunhofer-ITMP/kgg/blob/main/data/misc/kggSchema.png)
 
-# Software requirements
+# Usage guidelines
 
-Operating system(s): Windows/Linux/Mac
+### Method 1: Dashboard version
+#### *No pre-installations required, recommended for non-programmers* ####
+This deployment (beta-version) of KGG is available at [SciLifeLab Serve](https://fraunhofer-itmp-ds-toolkit.serve.scilifelab.se/KG_Generator) and ***does not require installation*** of python and relevant packages. Please select the "KG Generator" tab and follow the step-wise process to generate disease-specific KGs.
 
-Programming language: Python
+### Method 2: Local setup 
+#### *Pre-installations required, intended for researchers with advanced programming skills* ####
 
-Other requirements: Python 3.9.1 or higher
+#### Software requirements
 
-License: MIT license
+    Operating system(s): Windows/Linux/Mac
+    
+    Programming language: Python 3.9.1 or higher
+    
+    Other requirements: Pre-installed Jupyter Notebook (tested and stable version: 6.4.11)
+    
+    License: MIT license
 
+#### Cloning the repository and setting up environment
+
+    git clone https://github.com/Fraunhofer-ITMP/kgg.git
+    cd kgg
+    conda create --name=kgg python=3.9
+    conda activate kgg
+    pip install -r requirements.txt
+
+#### Quickstart
+*Note: Please ensure that the **kgg** environment is activated.*
+
+1. Import required packages and dependencies. Do the following in Jupyter Notebook: 
+
+
+    from utils import *
+    from kg_gen_4 import *
+    
+2. Execute the `createKG` function which encapsulates multiple operations necessary for constructing a KG. It is a user-input driven multi-step workflow. Saving files and plots is possible at the end. 
+
+
+    kg = createKG()
+
+3. Get summary of KG once files are saved.
+
+
+    kg.summarize
+
+4. Visualize a sub-graph of random 250 edges. 
+
+    *Note: Please avoid visualizing entire KG in Jupyter Notebook. Only specific tools such as neo4j and cytoscape can handle large KGs.*
+
+    
+    to_jupyter(pybel.struct.mutation.induction.get_random_subgraph(kg))
+
+5. For analysis and evaluation of KGs, please refer to [pybel](https://pybel.readthedocs.io/en/latest/index.html) and [PyKEEN](https://github.com/pykeen/pykeen) documentations. 
+
+#### Manuscript Results
+
+The results included in the KGG manuscript are generated from the final KG files with `.pkl` format. Their usage in each of results are provided as indiviual jupyter notebook files in `src` folder.
+1. [Comparison of AD-COVID19 KGs](https://github.com/Fraunhofer-ITMP/kgg/blob/main/src/Comparison%20of%20AD-COVID19%20KGs.ipynb)  
+2. [Comparison of Depression KGs.ipynb](https://github.com/Fraunhofer-ITMP/kgg/blob/main/src/Comparison%20of%20Depression%20KGs.ipynb)
+3. [Comparison of Parkinson KGs.ipynb](https://github.com/Fraunhofer-ITMP/kgg/blob/main/src/Comparison%20of%20Parkinson%20KGs.ipynb)
+
+####  List of important and useful functions
+
+    To be added soon
