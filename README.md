@@ -46,17 +46,14 @@ This deployment (beta-version) of KGG is available at [SciLifeLab Serve](https:/
 
 1. Import required packages and dependencies. Do the following in Jupyter Notebook: 
 
-
     from utils import *
     from kg_gen_4 import *
     
 2. Execute the `createKG` function which encapsulates multiple operations necessary for constructing a KG. It is a user-input driven multi-step workflow. Saving files and plots is possible at the end. 
 
-
     kg = createKG()
 
 3. Get summary of KG once files are saved.
-
 
     kg.summarize
 
@@ -64,7 +61,6 @@ This deployment (beta-version) of KGG is available at [SciLifeLab Serve](https:/
 
     *Note: Please avoid visualizing entire KG in Jupyter Notebook. Only specific tools such as neo4j and cytoscape can handle large KGs.*
 
-    
     to_jupyter(pybel.struct.mutation.induction.get_random_subgraph(kg))
 
 5. For analysis and evaluation of KGs, please refer to [pybel](https://pybel.readthedocs.io/en/latest/index.html) and [PyKEEN](https://github.com/pykeen/pykeen) documentations. 
