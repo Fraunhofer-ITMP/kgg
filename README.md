@@ -15,7 +15,7 @@ The workflow is divided into 3 main phases as shown below:
 
 # KGG schema
 
-The workflow can capture upto 10 types of entities and 11 types of relationships with entity specifics annotations.
+The workflow can capture upto 10 types of entities and 11 types of relationships with entity specific annotations.
 
 ![KGGschema](https://github.com/Fraunhofer-ITMP/kgg/blob/main/data/misc/kggSchema.png)
 
@@ -26,7 +26,7 @@ The workflow can capture upto 10 types of entities and 11 types of relationships
 This deployment (beta-version) of KGG is available at [SciLifeLab Serve](https://fraunhofer-itmp-ds-toolkit.serve.scilifelab.se/KG_Generator) and ***does not require installation*** of python and relevant packages. Please select the "KG Generator" tab and follow the step-wise process to generate disease-specific KGs.
 
 ### Method 2: Local setup 
-#### *Pre-installations required, intended for researchers with advanced programming skills* ####
+#### *Pre-installations required, intended for users with advanced programming skills* ####
 
 #### Software requirements
 
@@ -75,8 +75,8 @@ This deployment (beta-version) of KGG is available at [SciLifeLab Serve](https:/
 
 The results included in the KGG manuscript are generated from the final KG files with `.pkl` format. Their usage in each of results are provided as indiviual jupyter notebook files in `src` folder.
 1. [Comparison of AD-COVID19 KGs](https://github.com/Fraunhofer-ITMP/kgg/blob/main/src/Comparison%20of%20AD-COVID19%20KGs.ipynb)  
-2. [Comparison of Depression KGs.ipynb](https://github.com/Fraunhofer-ITMP/kgg/blob/main/src/Comparison%20of%20Depression%20KGs.ipynb)
-3. [Comparison of Parkinson KGs.ipynb](https://github.com/Fraunhofer-ITMP/kgg/blob/main/src/Comparison%20of%20Parkinson%20KGs.ipynb)
+2. [Comparison of Depression KGs](https://github.com/Fraunhofer-ITMP/kgg/blob/main/src/Comparison%20of%20Depression%20KGs.ipynb)
+3. [Comparison of Parkinson KGs](https://github.com/Fraunhofer-ITMP/kgg/blob/main/src/Comparison%20of%20Parkinson%20KGs.ipynb)
 
 ####  List of important and useful functions
 
