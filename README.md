@@ -80,4 +80,15 @@ The results included in the KGG manuscript are generated from the final KG files
 
 ####  List of important and useful functions
 
-    To be added soon
+
+1. Retrieve mechanism of action for drugs/chemicals
+
+*Input: A list ChEMBL identifiers :::: Output: A dictionary of mechanism of actions and target proteins*
+
+    RetMech(chembl_ids)
+
+2. Map proteins represented as ChEMBL identifiers with UniProt identifiers and approved names
+
+*Input: A list ChEMBL identifiers :::: Output: A dictionary of mechanism of actions and target proteins*
+    
+    chembl2uniprot(chembl_ids)
