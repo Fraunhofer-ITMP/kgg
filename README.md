@@ -19,6 +19,12 @@ The workflow can capture upto 10 types of entities and 11 types of relationships
 
 ![KGGschema](https://github.com/Fraunhofer-ITMP/kgg/blob/main/data/misc/kggSchema.png)
 
+# KGG demo
+
+A demo of generating a KG is shown below.
+
+![KGG_demo](https://github.com/Fraunhofer-ITMP/kgg/blob/main/data/misc/kgg_gif.gif)
+
 # Usage guidelines
 
 ### Method 1: Dashboard version
@@ -34,7 +40,7 @@ This deployment (beta-version) of KGG is available at [SciLifeLab Serve](https:/
     
     Programming language: Python 3.9.1 or higher
     
-    Other requirements: Pre-installed Jupyter Notebook (tested and stable version: 6.4.11)
+    Other requirements: Pre-installed Visual Studio Code (version 1.100.2, tested and stable) 
     
     License: MIT license
 
@@ -49,7 +55,7 @@ This deployment (beta-version) of KGG is available at [SciLifeLab Serve](https:/
 #### Quickstart
 *Note: Please ensure that the **kgg** environment is activated.*
 
-#### 1. Import required packages and dependencies. Do the following in Jupyter Notebook: 
+#### 1. Import required packages and dependencies. Do the following in VS Code: 
 
     from utils import *
     from kg_gen_4 import *
@@ -64,7 +70,7 @@ This deployment (beta-version) of KGG is available at [SciLifeLab Serve](https:/
 
 #### 4. Visualize a sub-graph of random 250 edges. 
 
-*Note: Please avoid visualizing entire KG in Jupyter Notebook. Only specific tools such as neo4j and cytoscape can handle large KGs.*
+*Note: Please avoid visualizing entire KG in IPython Notebook. Only specific tools such as neo4j and cytoscape can handle large KGs.*
 
     
     to_jupyter(pybel.struct.mutation.induction.get_random_subgraph(kg))
@@ -73,7 +79,7 @@ This deployment (beta-version) of KGG is available at [SciLifeLab Serve](https:/
 
 #### Manuscript Results
 
-The results included in the KGG manuscript are generated from the final KG files with `.pkl` format. Their usage in each of results are provided as indiviual jupyter notebook files in `src` folder.
+The results included in the KGG manuscript are generated from the final KG files with `.pkl` format. Their usage in each of results are provided as indiviual IPython Notebook files in `src` folder.
 1. [Comparison of AD-COVID19 KGs](https://github.com/Fraunhofer-ITMP/kgg/blob/main/src/Comparison%20of%20AD-COVID19%20KGs.ipynb)  
 2. [Comparison of Depression KGs](https://github.com/Fraunhofer-ITMP/kgg/blob/main/src/Comparison%20of%20Depression%20KGs.ipynb)
 3. [Comparison of Parkinson KGs](https://github.com/Fraunhofer-ITMP/kgg/blob/main/src/Comparison%20of%20Parkinson%20KGs.ipynb)
@@ -83,12 +89,58 @@ The results included in the KGG manuscript are generated from the final KG files
 
 1. Retrieve mechanism of action for drugs/chemicals
 
-*Input: A list ChEMBL identifiers :::: Output: A dictionary of mechanism of actions and target proteins*
+*Input: A list of ChEMBL identifiers :::: Output: A dictionary of mechanism of actions and target proteins*
 
     RetMech(chembl_ids)
+    
+2. Retrieve active assays (biological/functional, pChEMBL > 6) and target proteins for drugs/chemicals
 
-2. Map proteins represented as ChEMBL identifiers with UniProt identifiers and approved names
+*Input: A list of ChEMBL identifiers :::: Output: A dictionary*
+    
+    RetAct(chembl_ids) 
 
-*Input: A list ChEMBL identifiers :::: Output: A dictionary of mechanism of actions and target proteins*
+3. Map proteins represented as ChEMBL identifiers with UniProt identifiers and approved names
+
+*Input: A list ChEMBL identifiers :::: Output: A dictionary of Uniprot ids and HGNC names*
     
     chembl2uniprot(chembl_ids)
+
+4. Retrieve biological process, molecular functions and pathways for proteins
+
+*Input: A list UniProt identifiers :::: Output: A dictionary*
+    
+    ExtractFromUniProt(uniprot_ids)
+    
+5. Get SMILES for drugs/chemicals
+
+*Input: A list ChEMBL identifiers :::: Output: A dataframe of canonical SMILES*
+    
+    GetSmiles(chembl_ids)
+
+6. Perform druglikeness assessment (Lipinski ro5, Ghose, Veber, REOS and QED properties) of drugs/chemicals
+   
+*Input: A dataframe from GetSmiles :::: Output: A dataframe with various physicochemical properties and flags for druglikeness*
+    
+    calculate_filters(dataframe,chembl_id_colname)
+
+7. Convert CAS ids to CIDs (i.e. PubChem compound identifiers)
+
+*Input: A list CAS ids :::: Output: A list of CIDs*
+    
+    cas2cid(cas_ids)
+
+8. Convert CIDs to ChEMBL identifiers
+
+*Input: A list CIDs  :::: Output: A list of ChEMBL ids*
+    
+    cid2chembl(cid_ids)
+
+9. Create sub-graph
+
+*Input: A list of desired entities i.e., protein, drug, etc.  :::: Output: A sub-graph with input entities and their 1st neighbors*
+    
+    filter_graph(mainGraph,list_of_entities)
+
+
+
+  
