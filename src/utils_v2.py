@@ -1160,6 +1160,134 @@ def filter_graph(mainGraph, vprotList):
     nsp_graph = mainGraph.subgraph(nsp_list)
     #nsp_graph = pybel.struct.mutation.induction_expansion.get_subgraph_by_second_neighbors(mpox_graph, nsp_list, filter_pathologies=False)
     return(nsp_graph)
+
+
+def getDrugsforProteins_count(ensg):
+    
+    #get_id = protein
+
+    query_string = """
+            
+        query KnownDrugsQuery(
+          $ensgId: String!
+          $cursor: String
+          $freeTextQuery: String
+          $size: Int = 10
+        ) {
+          target(ensemblId: $ensgId) {
+            id
+            knownDrugs(cursor: $cursor, freeTextQuery: $freeTextQuery, size: $size) {
+              count
+              }
+            }
+        }
+
+    """
+
+    # Set variables object of arguments to be passed to endpoint
+    variables = {"ensgId": ensg}
+
+    # Set base URL of GraphQL API endpoint
+    base_url = "https://api.platform.opentargets.org/api/v4/graphql"
+
+    # Perform POST request and check status code of response
+    r = requests.post(base_url, json={"query": query_string, "variables": variables})
+
+    # Transform API response from JSON into Python dictionary and print in console
+    api_response = json.loads(r.text)
+    
+    
+    #get the count value from api_repsonse dict 
+    api_response = api_response['data']['target']['knownDrugs']['count']
+    return(api_response)
+
+
+def getDrugsforProteins(prot_list):
+
+    api_response = pd.DataFrame()
+        
+    df = pd.read_csv('../data/misc/DruggableProtein_annotation_OT.csv')
+    
+    mapping_dict_id_symbol = {}
+    for k,v in df[['approvedSymbol','ENSG']].values:
+        mapping_dict_id_symbol.update({k:v})
+    
+    #print(prot)
+    #print(mapping_dict_id_symbol[prot])
+    
+    for prot in tqdm(prot_list):
+        
+        #print(prot)
+        #print(mapping_dict_id_symbol[prot])
+        
+        try:
+            count = getDrugsforProteins_count(mapping_dict_id_symbol[prot])
+
+            query_string = """
+
+                query KnownDrugsQuery(
+                  $ensgId: String!
+                  $cursor: String
+                  $freeTextQuery: String
+                  $size: Int!
+                ) {
+                  target(ensemblId: $ensgId) {
+                    id
+                    knownDrugs(cursor: $cursor, freeTextQuery: $freeTextQuery, size: $size) {
+                      count
+                      cursor
+                      rows {
+                        phase
+                        status
+                        disease {
+                          id
+                          name
+                        }
+                        drug {
+                          id
+                          name
+                        }
+                      }
+                    }
+                  }
+                }
+
+
+            """
+
+            # Set variables object of arguments to be passed to endpoint
+            variables = {"ensgId": mapping_dict_id_symbol[prot], "size": count}
+
+            # Set base URL of GraphQL API endpoint
+            base_url = "https://api.platform.opentargets.org/api/v4/graphql"
+
+            # Perform POST request and check status code of response
+            r = requests.post(base_url, json={"query": query_string, "variables": variables})
+            #r = requests.post(base_url, json={"query": query_string})
+            #print(r.status_code)
+
+            # Transform API response from JSON into Python dictionary and print in console
+            api_response_temp = json.loads(r.text)
+            api_response_temp = api_response_temp['data']['target']['knownDrugs']['rows']
+            #return(api_response_temp)
+            
+            api_response_temp=pd.json_normalize(api_response_temp)
+            #return(df)
+            api_response_temp['Protein'] = prot
+            
+            #api_response_temp = pd.DataFrame(api_response_temp)
+            
+            
+            api_response = pd.concat([api_response,api_response_temp])
+
+
+        except:
+            continue
+
+    api_response.reset_index(drop=True, inplace=True)
+    return(api_response)
+    
+        
     
 # def chembl2rxn_rel(itmpGraph):
     
