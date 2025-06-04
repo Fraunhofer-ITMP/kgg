@@ -57,8 +57,8 @@ This deployment (beta-version) of KGG is available at [SciLifeLab Serve](https:/
 
 #### 1. Import required packages and dependencies. Do the following in VS Code: 
 
-    from utils import *
-    from kg_gen_4 import *
+    from utils_v2 import *
+    from kg_gen_5 import *
     
 #### 2. Execute the `createKG` function which encapsulates multiple operations necessary for constructing a KG. It is a user-input driven multi-step workflow. Saving files and plots is possible at the end. 
 
