@@ -17,6 +17,8 @@ from tqdm.auto import tqdm
 import time
 import seaborn as sns
 import pybel
+import json
+
 
 logger = logging.getLogger("__name__")
 
@@ -444,7 +446,7 @@ def ExtractFromUniProt(uniprot_id) -> dict:
             # extract reactome ids and names
             if 'Reactome;' in line:
                 ract = line.split(';')
-                id['Reactome'].update({ract[2][1:-2]: ract[1][1:]})
+                id['Reactome'].update({ract[2][1:-1]: ract[1][1:]}) #previously was ract[2][1:-2]
 
             # look for functions
             if ' F:' in line:
@@ -502,9 +504,10 @@ def chem2moa_rel(
 
     for chembl_name, chembl_entries in tqdm(named_mechList.items(), desc='Populating Chemical-MoA edges'):
         for info in chembl_entries:
-            graph.add_association(
+            graph.add_qualified_edge(
                 Abundance(namespace='ChEMBL', name=chembl_name),
                 BiologicalProcess(namespace='MOA', name=info['mechanism_of_action']),
+                relation='hasMechanismOfAction',
                 citation='ChEMBL database',
                 evidence='ChEMBL query'
             )
@@ -529,9 +532,10 @@ def chem2moa_rel(
                     )
 
                 if info['action_type'] in misc and info['Accession'] in otp_prots:
-                    graph.add_association(
+                    graph.add_qualified_edge(
                         Abundance(namespace='ChEMBL', name=chembl_name),
                         Protein(namespace=org, name=info['Protein']),
+                        relation='targets',
                         citation='ChEMBL database',
                         evidence='ChEMBL query'
                     )
@@ -559,9 +563,10 @@ def chem2dis_rel(
     """
     for chembl_id, drug_entries in tqdm(named_drugIndList.items(), desc='Populating Drug-Indication edges'):
         for drug_data in drug_entries:
-            graph.add_association(
+            graph.add_qualified_edge(
                 Abundance(namespace='ChEMBL', name=chembl_id),
                 Pathology(namespace='Disease', name=drug_data['mesh_heading']),
+                relation='isUsedIn',
                 citation='ChEMBL database',
                 evidence='ChEMBL query'
             )
@@ -584,9 +589,10 @@ def chem2act_rel(
         for chem_data in chem_entries:
             if chem_data['target_chembl_id']:
                 if 'Protein' in chem_data and chem_data['Accession'] in otp_prots:
-                    graph.add_association(
+                    graph.add_qualified_edge(
                         Abundance(namespace='ChEMBLAssay', name=chem_data['assay_chembl_id']),
                         Protein(namespace=org, name=chem_data['Protein']),
+                        relation='hasTarget',
                         citation='ChEMBL database',
                         evidence='ChEMBL query'
                     )
@@ -598,9 +604,10 @@ def chem2act_rel(
                         # evidence='ChEMBL query'
                     # )
 
-            graph.add_association(
+            graph.add_qualified_edge(
                 Abundance(namespace='ChEMBL', name=chemical),
                 Abundance(namespace='ChEMBLAssay', name=chem_data['assay_chembl_id']),
+                relation='hasAssay',
                 citation='ChEMBL database',
                 evidence='ChEMBL query',
                 annotation={
@@ -631,9 +638,10 @@ def gene2path_rel(
             #checks if uprot id is in otp_proteins
             if named_chem2geneList[item][itemLen - 1]['accession'] in otp_prots:
             
-                graph.add_association(
+                graph.add_qualified_edge(
                     Protein(namespace=org, name=named_chem2geneList[item][itemLen]['component_synonym']),
                     BiologicalProcess(namespace='Reactome', name=named_chem2geneList[item][j]['xref_name']),
+                    relation='hasPathway',
                     citation='ChEMBL database',
                     evidence='ChEMBL query',
                     annotation={
@@ -694,7 +702,7 @@ def gene2path_rel(
                 # )
 
     # return graph
-    
+
 def uniprot_rel(
     named_uprotList,
     org,
@@ -710,38 +718,68 @@ def uniprot_rel(
     for item in tqdm(named_uprotList,desc='Populating Uniprot edges'):
         fun = list(named_uprotList[item]['Function'].keys())
         bp = list(named_uprotList[item]['BioProcess'].keys())
+        pathway = list(named_uprotList[item]['Reactome'].keys())
         for f in fun:
             if str(named_uprotList[item]['Gene']) != 'nan' and not isinstance(named_uprotList[item]['Gene'], dict):
-                graph.add_association(
+                graph.add_qualified_edge(
                     Protein(namespace=org, name=named_uprotList[item]['Gene']),
                     BiologicalProcess(namespace='GOMF', name=f),
+                    relation='hasMolecularFunction',
                     citation='UniProt database',
                     evidence='UniProt query'
                 )
             else:
-                graph.add_association(
+                graph.add_qualified_edge(
                     Protein(namespace=org, name=item),
                     BiologicalProcess(namespace='GOMF', name=f),
+                    relation='hasMolecularFunction',
                     citation='UniProt database',
                     evidence='UniProt query'
                 )
 
         for b in bp:
             if str(named_uprotList[item]['Gene']) != 'nan' and not isinstance(named_uprotList[item]['Gene'], dict):
-                graph.add_association(
+                graph.add_qualified_edge(
                     Protein(namespace=org, name=named_uprotList[item]['Gene']),
                     BiologicalProcess(namespace='GOBP', name=b),
+                    relation='hasBiologicalProcess',
                     citation='UniProt database',
                     evidence='UniProt query'
                 )
             else:
-                graph.add_association(
+                graph.add_qualified_edge(
                     Protein(namespace=org, name=item),
                     BiologicalProcess(namespace='GOBP', name=b),
+                    relation='hasBiologicalProcess',
                     citation='UniProt database',
                     evidence='UniProt query'
                 )
                
+        
+        for path in pathway:
+                
+                
+            if str(named_uprotList[item]['Gene']) != 'nan' and not isinstance(named_uprotList[item]['Gene'], dict):
+                #print('added')
+                graph.add_qualified_edge(
+                    Protein(namespace=org, name=named_uprotList[item]['Gene']),
+                    BiologicalProcess(namespace='Reactome', name=path),
+                    relation='hasPathway',
+                    citation='UniProt database',
+                    evidence='UniProt query',
+                    annotation = {
+                        'Reactome':f"https://reactome.org/content/detail/{named_uprotList[item]['Reactome'][path]}"
+                    }
+                )
+            else:
+                graph.add_qualified_edge(
+                    Protein(namespace=org, name=item),
+                    BiologicalProcess(namespace='Reactome', name=path),
+                    relation='hasPathway',
+                    citation='UniProt database',
+                    evidence='UniProt query',
+                    annotation = {'Reactome':f"https://reactome.org/content/detail/{named_uprotList[item]['Reactome'][path]}"}
+                )
         
         if str(named_uprotList[item]['Gene']) != 'nan' and not isinstance(named_uprotList[item]['Gene'], dict):
             nx.set_node_attributes(graph,{Protein(namespace=org, name=named_uprotList[item]['Gene']):'https://3dbionotes.cnb.csic.es/?queryId='+item},'3Dbio')
@@ -754,7 +792,6 @@ def uniprot_rel(
             nx.set_node_attributes(graph,{Protein(namespace=org, name=item):'https://www.uniprot.org/uniprotkb/'+item},'UniProt')
         
     return graph
-
 
 def _get_target_data(
     protein_list: list,
@@ -889,6 +926,161 @@ def chembl_annotation(graph):
         nx.set_node_attributes(graph,{Abundance(namespace='ChEMBL',
                                                name=item):'https://www.ebi.ac.uk/chembl/compound_report_card/'+item},'ChEMBL')
     return graph
+    
+
+def chembl_name_annotation(graph, drugs_df):
+    # create a dict {'Metformin':'CHEMBL1431'} for adding node attributes
+    drugName_chembl_dict = {}
+    for v, k in drugs_df[['prefName', 'drugId']].values:
+        # print(k,v)
+        drugName_chembl_dict.update({k: v})
+
+    molecule = new_client.molecule
+
+    # get all chemicals/drugs from kg
+    chemblids = getNodeList('ChEMBL', graph)
+
+    for chem in tqdm(chemblids, desc='Adding preferred names and trade names'):
+
+        #print(chem)
+
+        trade_names = []
+
+        # fetch prefName and synonym from chembl
+        getNames = molecule.filter(molecule_chembl_id=chem).only(['pref_name', 'molecule_synonyms'])
+
+        # get preferred name #not preferred because it can be empty sometimes
+        # pref_name = getNames[0]['pref_name']
+
+        # get preferred name of a drug from openTarget diseaseAssociatedDrug file #always has a preferredName
+        nx.set_node_attributes(graph, {Abundance(namespace='ChEMBL', name=chem): drugName_chembl_dict[chem]},
+                               'PreferredName')
+
+        # get trade names and append to a list
+        try:
+            for item in getNames[0]['molecule_synonyms']:
+                if item['syn_type'] == 'TRADE_NAME':
+                    trade_names.append(item['molecule_synonym'])
+
+            nx.set_node_attributes(graph, {Abundance(namespace='ChEMBL', name=chem): trade_names}, 'TradeName')
+
+        except:
+            continue
+
+    return graph
+
+# def chembl_name_annotation(graph):
+    
+    # molecule = new_client.molecule
+    
+    # #get all chemicals/drugs from kg
+    # chemblids = getNodeList('ChEMBL',graph)
+
+    # for chem in tqdm(chemblids,desc='Adding preferred names and trade names'):
+        
+        # trade_names= []
+        
+        # #fetch prefName and synonym from chembl
+        # getNames = molecule.filter(molecule_chembl_id=chem).only(['pref_name','molecule_synonyms'])
+        
+        # #get preferred name
+        # pref_name = getNames[0]['pref_name']
+        
+        # #get trade names and append to a list
+        # for item in getNames[0]['molecule_synonyms']:
+            # if item['syn_type'] == 'TRADE_NAME':
+                # trade_names.append(item['molecule_synonym'])
+                
+        # nx.set_node_attributes(graph,{Abundance(namespace='ChEMBL', name=chem):pref_name},'PreferredName')
+
+        # nx.set_node_attributes(graph,{Abundance(namespace='ChEMBL',
+                                               # name=chem):trade_names},'TradeName')
+    # return graph
+    
+def getGeneOntolgyNodes(nodeName,graph):
+    #import pybel
+    node_list = []
+    for node in graph.nodes():
+        if isinstance(node,pybel.dsl.BiologicalProcess):
+            #print(node)
+            if node.namespace == nodeName:
+                node_list.append(node.name)
+    return(node_list)
+    
+def gene_ontology_annotation(graph,uprotDict):
+    
+    gobp_dict = {}
+    gomf_dict = {}
+    
+    #create a merged dict of {bioprocess: bp_id} for mapping
+    for prot in uprotDict:
+        gobp_dict.update(uprotDict[prot]['BioProcess'])
+        
+    for prot in uprotDict:
+        gomf_dict.update(uprotDict[prot]['Function'])
+        
+    
+    #extract bps and mfs from kg
+    bp_kg = getGeneOntolgyNodes('GOBP',graph)
+    mf_kg = getGeneOntolgyNodes('GOMF',graph)
+    
+    for item in tqdm(bp_kg,desc='adding biological process annotations'):
+        
+        gobp_id = gobp_dict[item]
+        #print(gobp_id)
+        #print('https://www.ebi.ac.uk/QuickGO/term/'+gobp_id)
+        nx.set_node_attributes(graph,{BiologicalProcess(namespace='GOBP', name=item):'https://www.ebi.ac.uk/QuickGO/term/'+gobp_id},'QuickGO')
+        nx.set_node_attributes(graph,{BiologicalProcess(namespace='GOBP', name=item):gobp_id},'Gene Ontology identifier')
+    
+    for item in tqdm(mf_kg,desc='adding molecular function annotations'):
+        
+        gomf_id = gomf_dict[item]
+        #print(gobp_id)
+        #print('https://www.ebi.ac.uk/QuickGO/term/'+gobp_id)
+        nx.set_node_attributes(graph,{BiologicalProcess(namespace='GOMF', name=item):'https://www.ebi.ac.uk/QuickGO/term/'+gomf_id},'QuickGO')
+        nx.set_node_attributes(graph,{BiologicalProcess(namespace='GOMF', name=item):gomf_id},'Gene Ontology identifier')
+        
+    return(graph)
+    
+#Method 2, using OT dump i.e paraquet files
+# function can directly use druggability.to_csv file created above. Much faster
+
+def protein_annotation_druggability(graph):
+    
+    df = pd.read_csv('../data/misc/DruggableProtein_annotation_OT.csv')
+    
+    #print(df.head(5))
+                                      
+    protein_list = []
+    for node in graph.nodes():
+        if isinstance(node,pybel.dsl.Protein):
+            if node.namespace == 'HGNC':
+                protein_list.append(node.name)
+                
+    mapping_dict_id_symbol = {}
+    for k,v in df[['approvedSymbol','ENSG']].values:
+        mapping_dict_id_symbol.update({k:v})
+        
+    mapping_dict_prot_drugability = {}
+    for k,v in df[['approvedSymbol','Druggable Family']].values:
+        mapping_dict_prot_drugability.update({k:v})
+        
+    for protein in tqdm(protein_list,desc='Adding druggability annotation'):
+        
+        #print(protein)
+        
+        if protein in mapping_dict_id_symbol.keys():
+                     
+            nx.set_node_attributes(graph,{Protein(namespace="HGNC",name=protein):f"https://platform.opentargets.org/target/{mapping_dict_id_symbol[protein]}"},'OpenTargets')
+            nx.set_node_attributes(graph,{Protein(namespace="HGNC",name=protein):mapping_dict_prot_drugability[protein]},'Druggability')
+          
+        else: 
+            
+            #print(protein)
+            nx.set_node_attributes(graph,{Protein(namespace="HGNC",name=protein):'No'},'Druggability')
+          
+    return(graph)
+    
 
 def chembl2rxn_rel(
     chemblid_list,
@@ -907,9 +1099,10 @@ def chembl2rxn_rel(
     chembl_id_rxn = rxn_df[rxn_df['chembl_id'].isin(chemblid_list)]
     chembl_id_rxn = chembl_id_rxn.reset_index(drop=True)
     for i in range(len(chembl_id_rxn)):
-        graph.add_association(
+        graph.add_qualified_edge(
             Abundance(namespace='ChEMBL', name=chembl_id_rxn['chembl_id'][i]),
-            Pathology(namespace='SideEffect', name=chembl_id_rxn['event'][i]),  # TODO: Fix namespace
+            Pathology(namespace='SideEffect', name=chembl_id_rxn['event'][i]),  
+            relation='hasSideEffect',
             citation="OpenTargets Platform",
             evidence='DrugReactions'
         )
@@ -969,6 +1162,134 @@ def filter_graph(mainGraph, vprotList):
     nsp_graph = mainGraph.subgraph(nsp_list)
     #nsp_graph = pybel.struct.mutation.induction_expansion.get_subgraph_by_second_neighbors(mpox_graph, nsp_list, filter_pathologies=False)
     return(nsp_graph)
+
+
+def getDrugsforProteins_count(ensg):
+    
+    #get_id = protein
+
+    query_string = """
+            
+        query KnownDrugsQuery(
+          $ensgId: String!
+          $cursor: String
+          $freeTextQuery: String
+          $size: Int = 10
+        ) {
+          target(ensemblId: $ensgId) {
+            id
+            knownDrugs(cursor: $cursor, freeTextQuery: $freeTextQuery, size: $size) {
+              count
+              }
+            }
+        }
+
+    """
+
+    # Set variables object of arguments to be passed to endpoint
+    variables = {"ensgId": ensg}
+
+    # Set base URL of GraphQL API endpoint
+    base_url = "https://api.platform.opentargets.org/api/v4/graphql"
+
+    # Perform POST request and check status code of response
+    r = requests.post(base_url, json={"query": query_string, "variables": variables})
+
+    # Transform API response from JSON into Python dictionary and print in console
+    api_response = json.loads(r.text)
+    
+    
+    #get the count value from api_repsonse dict 
+    api_response = api_response['data']['target']['knownDrugs']['count']
+    return(api_response)
+
+
+def getDrugsforProteins(prot_list):
+
+    api_response = pd.DataFrame()
+        
+    df = pd.read_csv('../data/misc/DruggableProtein_annotation_OT.csv')
+    
+    mapping_dict_id_symbol = {}
+    for k,v in df[['approvedSymbol','ENSG']].values:
+        mapping_dict_id_symbol.update({k:v})
+    
+    #print(prot)
+    #print(mapping_dict_id_symbol[prot])
+    
+    for prot in tqdm(prot_list):
+        
+        #print(prot)
+        #print(mapping_dict_id_symbol[prot])
+        
+        try:
+            count = getDrugsforProteins_count(mapping_dict_id_symbol[prot])
+
+            query_string = """
+
+                query KnownDrugsQuery(
+                  $ensgId: String!
+                  $cursor: String
+                  $freeTextQuery: String
+                  $size: Int!
+                ) {
+                  target(ensemblId: $ensgId) {
+                    id
+                    knownDrugs(cursor: $cursor, freeTextQuery: $freeTextQuery, size: $size) {
+                      count
+                      cursor
+                      rows {
+                        phase
+                        status
+                        disease {
+                          id
+                          name
+                        }
+                        drug {
+                          id
+                          name
+                        }
+                      }
+                    }
+                  }
+                }
+
+
+            """
+
+            # Set variables object of arguments to be passed to endpoint
+            variables = {"ensgId": mapping_dict_id_symbol[prot], "size": count}
+
+            # Set base URL of GraphQL API endpoint
+            base_url = "https://api.platform.opentargets.org/api/v4/graphql"
+
+            # Perform POST request and check status code of response
+            r = requests.post(base_url, json={"query": query_string, "variables": variables})
+            #r = requests.post(base_url, json={"query": query_string})
+            #print(r.status_code)
+
+            # Transform API response from JSON into Python dictionary and print in console
+            api_response_temp = json.loads(r.text)
+            api_response_temp = api_response_temp['data']['target']['knownDrugs']['rows']
+            #return(api_response_temp)
+            
+            api_response_temp=pd.json_normalize(api_response_temp)
+            #return(df)
+            api_response_temp['Protein'] = prot
+            
+            #api_response_temp = pd.DataFrame(api_response_temp)
+            
+            
+            api_response = pd.concat([api_response,api_response_temp])
+
+
+        except:
+            continue
+
+    api_response.reset_index(drop=True, inplace=True)
+    return(api_response)
+    
+        
     
 # def chembl2rxn_rel(itmpGraph):
     
@@ -1315,3 +1636,83 @@ def filter_graph(mainGraph, vprotList):
                 # actionType_list.append(chem2mech[item][i]['action_type'])
                 
 # actionType_list
+
+
+
+# def chem2moa_rel(named_mechList, org, graph: BELGraph) -> BELGraph:
+    # """Method to create the graph"""
+    # pos = ["POSITIVE ALLOSTERIC MODULATOR", "AGONIST", "ACTIVATOR", "PARTIAL AGONIST"]
+    # neg = ["INHIBITOR", "NEGATIVE ALLOSTERIC MODULATOR", "ANTAGONIST", "BLOCKER"]
+    # misc = [
+        # "MODULATOR",
+        # "DISRUPTING AGENT",
+        # "SUBSTRATE",
+        # "OPENER",
+        # "SEQUESTERING AGENT",
+    # ]
+
+    # for chembl_name, chembl_entries in named_mechList.items():
+        # for info in chembl_entries:
+            # graph.add_association(
+                # Abundance(namespace="ChEMBL", name=chembl_name),
+                # BiologicalProcess(namespace="MOA", name=info["mechanism_of_action"]),
+                # citation="ChEMBL database",
+                # evidence="ChEMBL query",
+            # )
+
+            # if not info["target_chembl_id"]:
+                # continue
+
+            # if "Protein" in info:
+                # if info["action_type"] in pos:
+                    # graph.add_increases(
+                        # Abundance(namespace="ChEMBL", name=chembl_name),
+                        # Protein(namespace=org, name=info["Protein"]),
+                        # citation="ChEMBL database",
+                        # evidence="ChEMBL query",
+                    # )
+                # if info["action_type"] in neg:
+                    # graph.add_decreases(
+                        # Abundance(namespace="ChEMBL", name=chembl_name),
+                        # Protein(namespace=org, name=info["Protein"]),
+                        # citation="ChEMBL database",
+                        # evidence="ChEMBL query",
+                    # )
+
+                # if info["action_type"] in misc:
+                    # graph.add_association(
+                        # Abundance(namespace="ChEMBL", name=chembl_name),
+                        # Protein(namespace=org, name=info["Protein"]),
+                        # citation="ChEMBL database",
+                        # evidence="ChEMBL query",
+                    # )
+
+    # return graph
+    
+# def chem2act_rel(named_ActList, org, graph: BELGraph) -> BELGraph:
+    # """Method to add bioassay edges to the KG."""
+    # for chemical, chem_entries in named_ActList.items():
+        # for chem_data in chem_entries:
+            # if chem_data["target_chembl_id"]:
+                # if "Protein" in chem_data:
+                    # graph.add_association(
+                        # Abundance(
+                            # namespace="ChEMBLAssay", name=chem_data["assay_chembl_id"]
+                        # ),
+                        # Protein(namespace=org, name=chem_data["Protein"]),
+                        # citation="ChEMBL database",
+                        # evidence="ChEMBL query",
+                    # )
+
+            # graph.add_association(
+                # Abundance(namespace="ChEMBL", name=chemical),
+                # Abundance(namespace="ChEMBLAssay", name=chem_data["assay_chembl_id"]),
+                # citation="ChEMBL database",
+                # evidence="ChEMBL query",
+                # annotation={
+                    # "assayType": chem_data["assay_type"],
+                    # "pChEMBL": chem_data["pchembl_value"],
+                # },
+            # )
+
+    # return graph
