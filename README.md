@@ -29,7 +29,7 @@ A demo of generating a KG is shown below.
 
 ### Method 1: Dashboard version
 #### *No pre-installations required, recommended for non-programmers* ####
-This deployment (beta-version) of KGG is available at [SciLifeLab Serve](https://fraunhofer-itmp-ds-toolkit.serve.scilifelab.se/KG_Generator) and ***does not require installation*** of python and relevant packages. Please select the "KG Generator" tab and follow the step-wise process to generate disease-specific KGs.
+This deployment (beta-version) of KGG is available at [SciLifeLab Serve](https://fraunhofer-itmp-ds-toolkit.serve.scilifelab.se/KGG) and ***does not require installation*** of python and relevant packages. Please select the "KG Generator" tab and follow the step-wise process to generate disease-specific KGs.
 
 ### Method 2: Local setup 
 #### *Pre-installations required, intended for users with advanced programming skills* ####
