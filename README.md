@@ -140,7 +140,3 @@ The results included in the KGG manuscript are generated from the final KG files
 *Input: A list of desired entities i.e., protein, drug, etc.  :::: Output: A sub-graph with input entities and their 1st neighbors*
     
     filter_graph(mainGraph,list_of_entities)
-
-
-
-  
