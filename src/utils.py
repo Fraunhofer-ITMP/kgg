@@ -817,9 +817,9 @@ def _get_target_data(
                 pchembl_val = i['pchembl_value']
 
                 if float(pchembl_val) < 6:
-                    tmp['activity'] = 'inhibitor'
+                    tmp['activity'] = 'active'
                 else:
-                    tmp['activity'] = 'activator'
+                    tmp['activity'] = 'inactive'
 
                 tmp.update({
                     'protein_symbol': protein,
@@ -920,11 +920,11 @@ def cas2cid(cas):
     import re
     cid_clean = []
     #cid = [pcp.get_compounds(id,'name') for id in cas]
-    for id in cas:
-        print(id)
+    for id in tqdm(cas):
+        #print(id)
         #retrieves cid for given cas 
         cid = pcp.get_compounds(id,'name')
-        print(cid)
+        #print(cid)
         #strip unwanted strings to get cid 
         filter_cid = re.findall('\((.+?)\)',str(cid))
         #print(filter_cid[0])
@@ -949,6 +949,7 @@ def cid2chembl(cidList) -> list:
 
         for synonym in c.synonyms:
             if synonym.startswith('CHEMBL'):
+                print(synonym)
                 cid2chembl_list.append(synonym)
 
     return cid2chembl_list
