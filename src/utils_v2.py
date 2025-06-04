@@ -17,6 +17,8 @@ from tqdm.auto import tqdm
 import time
 import seaborn as sns
 import pybel
+import json
+
 
 logger = logging.getLogger("__name__")
 
