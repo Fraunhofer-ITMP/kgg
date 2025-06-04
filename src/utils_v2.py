@@ -700,7 +700,7 @@ def gene2path_rel(
                 # )
 
     # return graph
-    
+
 def uniprot_rel(
     named_uprotList,
     org,
@@ -754,6 +754,31 @@ def uniprot_rel(
                 )
                
         
+        for path in pathway:
+                
+                
+            if str(named_uprotList[item]['Gene']) != 'nan' and not isinstance(named_uprotList[item]['Gene'], dict):
+                #print('added')
+                graph.add_qualified_edge(
+                    Protein(namespace=org, name=named_uprotList[item]['Gene']),
+                    BiologicalProcess(namespace='Reactome', name=path),
+                    relation='hasPathway',
+                    citation='UniProt database',
+                    evidence='UniProt query',
+                    annotation = {
+                        'Reactome':f"https://reactome.org/content/detail/{named_uprotList[item]['Reactome'][path]}"
+                    }
+                )
+            else:
+                graph.add_qualified_edge(
+                    Protein(namespace=org, name=item),
+                    BiologicalProcess(namespace='Reactome', name=path),
+                    relation='hasPathway',
+                    citation='UniProt database',
+                    evidence='UniProt query',
+                    annotation = {'Reactome':f"https://reactome.org/content/detail/{named_uprotList[item]['Reactome'][path]}"}
+                )
+        
         if str(named_uprotList[item]['Gene']) != 'nan' and not isinstance(named_uprotList[item]['Gene'], dict):
             nx.set_node_attributes(graph,{Protein(namespace=org, name=named_uprotList[item]['Gene']):'https://3dbionotes.cnb.csic.es/?queryId='+item},'3Dbio')
             
@@ -765,7 +790,6 @@ def uniprot_rel(
             nx.set_node_attributes(graph,{Protein(namespace=org, name=item):'https://www.uniprot.org/uniprotkb/'+item},'UniProt')
         
     return graph
-
 
 def _get_target_data(
     protein_list: list,
