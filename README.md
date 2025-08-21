@@ -21,7 +21,7 @@ The workflow can capture upto 10 types of entities and 11 types of relationships
 
 # KGG demo
 
-A demo of generating a KG is shown below.
+A demo of generating a KG is shown below. (Alternatively, you can also watch a [demonstrative video](https://github.com/Fraunhofer-ITMP/kgg/blob/main/How_to_KGG.mp4) on How-To-KGG)
 
 ![KGG_demo](https://github.com/Fraunhofer-ITMP/kgg/blob/main/data/misc/kgg_gif.gif)
 
