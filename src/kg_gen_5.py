@@ -39,6 +39,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import os
 from tqdm.auto import tqdm
+import re
 
 import pybel
 from pybel.io.jupyter import to_jupyter
@@ -57,6 +58,126 @@ import plotly.graph_objects as go
 import plotly.express as px
 
 logger = logging.getLogger("__name__")
+
+OPENTARGETS_GRAPHQL_URL = "https://api.platform.opentargets.org/api/v4/graphql"
+def _opentargets_query(query_string, variables):
+    response = requests.post(
+        OPENTARGETS_GRAPHQL_URL,
+        json={"query": query_string, "variables": variables},
+        timeout=60,
+    )
+    response.raise_for_status()
+
+    try:
+        payload = response.json()
+    except ValueError as exc:
+        raise ValueError("Open Targets returned a non-JSON response.") from exc
+
+    errors = payload.get("errors") or []
+    if errors:
+        message = "; ".join(
+            error.get("message", "Unknown Open Targets GraphQL error")
+            for error in errors
+        )
+        raise ValueError(message or "Open Targets GraphQL query failed")
+
+    data = payload.get("data")
+    if data is None:
+        raise ValueError("Open Targets GraphQL response did not include data")
+
+    return data
+
+
+def opentargets_graphql_query(query_string, variables=None):
+    return _opentargets_query(query_string, variables or {})
+
+
+def _clinical_stage_to_phase(value):
+    if value is None:
+        return None
+
+    stage = str(value).strip().upper()
+    if not stage:
+        return None
+
+    if "APPROVED" in stage:
+        return 4
+
+    matches = [int(match) for match in re.findall(r"PHASE[_ ]?(\d)", stage)]
+    if not matches:
+        return None
+
+    return max(matches)
+
+
+def _extract_report_ids(clinical_reports):
+    report_ids = []
+    for report in clinical_reports or []:
+        report_id = report.get("id")
+        if report_id:
+            report_ids.append(report_id)
+    return report_ids
+
+
+def _normalize_disease_candidate_rows(disease_id, disease_name, rows):
+    normalized_rows = []
+    for row in rows or []:
+        drug = row.get("drug") or {}
+        drug_id = drug.get("id")
+        if not drug_id:
+            continue
+        normalized_rows.append(
+            {
+                "approvedSymbol": None,
+                "approvedName": None,
+                "prefName": drug.get("name"),
+                "drugType": drug.get("drugType"),
+                "drugId": drug_id,
+                "phase": _clinical_stage_to_phase(row.get("maxClinicalStage")),
+                "ctIds": _extract_report_ids(row.get("clinicalReports")),
+                "status": row.get("maxClinicalStage"),
+                "id": disease_id,
+                "disease": disease_name,
+            }
+        )
+    return normalized_rows
+
+
+def get_disease_drugs_dataframe(efo_id):
+    query_string = """
+        query ClinicalCandidatesFromDisease($my_efo_id: String!){
+          disease(efoId: $my_efo_id){
+            id
+            name
+            drugAndClinicalCandidates{
+              count
+              rows{
+                id
+                maxClinicalStage
+                drug{
+                  id
+                  name
+                  drugType
+                }
+                clinicalReports{
+                  id
+                }
+              }
+            }
+          }
+        }
+    """
+
+    payload = _opentargets_query(query_string, {"my_efo_id": efo_id})
+    disease_payload = payload.get("disease") or {}
+    rows = (disease_payload.get("drugAndClinicalCandidates") or {}).get("rows") or []
+    normalized_rows = _normalize_disease_candidate_rows(
+        disease_id=efo_id,
+        disease_name=disease_payload.get("name"),
+        rows=rows,
+    )
+
+    return pd.DataFrame(normalized_rows), disease_payload.get("name")
 
 def searchDisease(name):
     
@@ -81,15 +202,9 @@ def searchDisease(name):
     # Set base URL of GraphQL API endpoint
     base_url = "https://api.platform.opentargets.org/api/v4/graphql"
 
-    # Perform POST request and check status code of response
-    r = requests.post(base_url, json={"query": query_string, "variables": variables})
-    #print(r.status_code)
+    api_response = opentargets_graphql_query(query_string, variables)
 
-    # Transform API response from JSON into Python dictionary and print in console
-    api_response = json.loads(r.text)
-    #print(api_response)
-
-    df = pd.DataFrame(api_response['data']['search']['hits'])
+    df = pd.DataFrame(api_response['search']['hits'])
     
     if not df.empty:
         df = df.drop(columns=['entity', 'description'])
@@ -270,15 +385,9 @@ def GetDiseaseAssociatedProteins(disease_id,index_counter=0,merged_list= []):
     # Set base URL of GraphQL API endpoint
     base_url = "https://api.platform.opentargets.org/api/v4/graphql"
 
-    # Perform POST request and check status code of response
-    r = requests.post(base_url, json={"query": query_string, "variables": variables})
-    #r = requests.post(base_url, json={"query": query_string})
-    #print(r.status_code)
-
-    # Transform API response from JSON into Python dictionary and print in console
-    api_response = json.loads(r.text)
+    api_response = opentargets_graphql_query(query_string, variables)
     
-    result = api_response['data']['disease']['associatedTargets']['rows']
+    result = api_response['disease']['associatedTargets']['rows']
     #print(len(result))
     
     merged_list.extend(result)
@@ -357,37 +466,21 @@ def GetDiseaseAssociatedProteinsPlot(df):
 def getDrugCount(disease_id):
     
     efo_id = disease_id
-
     query_string = """
-        query associatedTargets($my_efo_id: String!){
+        query ClinicalCandidatesFromDisease($my_efo_id: String!){
           disease(efoId: $my_efo_id){
             id
             name
-            knownDrugs{
-                uniqueTargets
-                uniqueDrugs
+            drugAndClinicalCandidates{
                 count
             }
           }
         }
 
     """
-
-    # Set variables object of arguments to be passed to endpoint
     variables = {"my_efo_id": efo_id}
-
-    # Set base URL of GraphQL API endpoint
-    base_url = "https://api.platform.opentargets.org/api/v4/graphql"
-
-    # Perform POST request and check status code of response
-    r = requests.post(base_url, json={"query": query_string, "variables": variables})
-
-    # Transform API response from JSON into Python dictionary and print in console
-    api_response = json.loads(r.text)
-    
-    #get the count value from api_repsonse dict 
-    api_response = api_response['data']['disease']['knownDrugs']['count']
-    return(api_response)
+    data = _opentargets_query(query_string, variables)
+    return (((data.get("disease") or {}).get("drugAndClinicalCandidates")) or {}).get("count", 0)
 
 #key_gen_3 version    
 # wheel = ('-', '/', '|', '\\')
@@ -459,63 +552,16 @@ def GetDiseaseAssociatedDrugs(disease_id,CT_phase):
 
     efo_id = disease_id
     size = getDrugCount(efo_id)
+    if size > 10000:
+        return None
 
-    query_string = """
-        query associatedTargets($my_efo_id: String!, $my_size: Int){
-          disease(efoId: $my_efo_id){
-            id
-            name
-            knownDrugs(size:$my_size){
-                uniqueTargets
-                uniqueDrugs
-                count
-                rows{
-                    approvedSymbol
-                    approvedName
-                    prefName
-                    drugType
-                    drugId
-                    phase
-                    ctIds
-                }
-
-            }
-          }
-        }
-
-    """
-
-    #replace $efo_id with value from efo_id
-    #query_string = query_string.replace("$efo_id",f'"{efo_id}"')
-    #query_string = query_string.replace("$efo_id",f'"{efo_id}"')
-
-    # Set variables object of arguments to be passed to endpoint
-    variables = {"my_efo_id": efo_id, "my_size": size}
-
-    # Set base URL of GraphQL API endpoint
-    base_url = "https://api.platform.opentargets.org/api/v4/graphql"
-
-    # Perform POST request and check status code of response
-    r = requests.post(base_url, json={"query": query_string, "variables": variables})
-    #r = requests.post(base_url, json={"query": query_string})
-    #print(r.status_code)
-
-    # Transform API response from JSON into Python dictionary and print in console
-    api_response = json.loads(r.text)
-
-    df = pd.DataFrame(api_response['data']['disease']['knownDrugs']['rows'])
-    
-    #df = df.loc[df['phase'] >= int(CT_phase),:]
-    
+    df, _ = get_disease_drugs_dataframe(efo_id)
     if not df.empty:
-        df = df.loc[df['phase'] >= int(CT_phase),:]
-        df['id'] = efo_id
-        df['disease'] = api_response['data']['disease']['name']
-        #print('Your dataframe is ready')
+        df["phase"] = pd.to_numeric(df["phase"], errors="coerce")
+        df = df.loc[df["phase"].fillna(-1) >= int(CT_phase), :]
         return(df)
-    
-    else:
-        print('No drugs found in clinical trials')
+
+    return None
         
         
 # def KG_namespace_plot(final_kg,kg_name):
@@ -588,14 +634,9 @@ def getAdverseEffectCount(chembl_id):
     # Set base URL of GraphQL API endpoint
     base_url = "https://api.platform.opentargets.org/api/v4/graphql"
 
-    # Perform POST request and check status code of response
-    r = requests.post(base_url, json={"query": query_string, "variables": variables})
-
-    # Transform API response from JSON into Python dictionary and print in console
-    api_response = json.loads(r.text)
+    api_response = opentargets_graphql_query(query_string, variables)
     
-    #get the count value from api_repsonse dict 
-    api_response = api_response['data']['drug']['adverseEvents']['count']
+    api_response = api_response['drug']['adverseEvents']['count']
     return(api_response)
     
 def GetAdverseEvents(chem_list):
@@ -644,15 +685,9 @@ def GetAdverseEvents(chem_list):
             # Set base URL of GraphQL API endpoint
             base_url = "https://api.platform.opentargets.org/api/v4/graphql"
 
-            # Perform POST request and check status code of response
-            r = requests.post(base_url, json={"query": query_string, "variables": variables})
-            #r = requests.post(base_url, json={"query": query_string})
-            #print(r.status_code)
+            api_response_temp = opentargets_graphql_query(query_string, variables)
 
-            # Transform API response from JSON into Python dictionary and print in console
-            api_response_temp = json.loads(r.text)
-
-            api_response_temp = api_response_temp['data']['drug']['adverseEvents']['rows']
+            api_response_temp = api_response_temp['drug']['adverseEvents']['rows']
             api_response_temp = pd.DataFrame(api_response_temp)
             api_response_temp ['chembl_id'] = chembl_id
 
@@ -1155,17 +1190,9 @@ def GetDrugWarnings(chem_list):
             # Set base URL of GraphQL API endpoint
             base_url = "https://api.platform.opentargets.org/api/v4/graphql"
 
-            # Perform POST request and check status code of response
-            r = requests.post(base_url, json={"query": query_string, "variables": variables})
-            #r = requests.post(base_url, json={"query": query_string})
-            #print(r.status_code)
+            api_response_temp = opentargets_graphql_query(query_string, variables)
 
-            # Transform API response from JSON into Python dictionary and print in console
-            api_response_temp = json.loads(r.text)
-            
-            #return(api_response_temp)
-
-            api_response_temp = api_response_temp['data']['drug']['drugWarnings']
+            api_response_temp = api_response_temp['drug']['drugWarnings']
             api_response_temp = pd.DataFrame(api_response_temp)
             api_response_temp ['chembl_id'] = chembl_id
 
